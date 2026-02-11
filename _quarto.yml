@@ -3,20 +3,25 @@ project:
   output-dir: docs
 
 website:
-  title: "quantigeo.github.io"
-  navbar:
-    left:
+  title: "Quantitative Geographie: Mobile Gesellschaft"
+  sidebar:
+    style: docked
+    search: true
+    contents:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Intro
+      - 01_basics.qmd
+      - 02_data_manipulation.qmd
+      - 03_sequenzanalyse.qmd
+      - 04_mapping.qmd
 
 format:
   html:
     theme:
-      - cosmo
+      - zephyr
       - brand
     css: styles.css
+    logo: images/logo.jpg
     toc: true
-
 
 
