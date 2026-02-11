@@ -1,0 +1,101 @@
+---
+title: "Skript 1 - R/RStudio Basics"
+---
+
+### 1.1. Was ist R?
+
+R ist eine kostenlose Open-Source-Programmiersprache, die für Datenanalyse, Statistik und Visualisierung entwickelt wurde.
+
+### 1.2. Was ist RStudio?
+
+RStudio ist eine integrierte Entwicklungsumgebung (IDE) für R, die eine benutzerfreundliche Oberfläche zum Schreiben von Code, Verwalten von Dateien, Visualisieren von Daten und effizienten Organisieren von Projekten bietet.
+
+### 1.3. Wie ist RStudio aufgebaut?
+
+*--\> "4 Quadranten"*
+
+![](images/Screenshot%202026-02-02%20104553.png)
+
+### 1.4. Objekte und Zuweisung
+
+R ist eine objektorientierte Sprache. Alles ist ein Objekt. Eine Zahl, eine Tabelle, ein Diagramm – alles Objekte. Objekte werden mit dem Zuweisungsoperator \<- erstellt.
+
+Mit `Strg + Enter` können wir Code-Zeilen in der Console ausführen.
+
+```{r}
+# Erstelle ein Objekt "x" 
+x <- 10 
+# Rechne mit dem Objekt 
+x + 5
+```
+
+### 1.5. Vektoren
+
+Ein Vektor ist eine Liste von Dingen. Verwende c() (kombinieren), um eine Liste zu erstellen.
+
+```{r}
+my_ages <- c(25,24,30,50) 
+my_names <- c("Sandra", "Paul", "Jonas")
+```
+
+Bei der Berechnung eines Vektors wird dies für jedes Element gleichzeitig durchgeführt.
+
+```{r}
+my_ages + 2
+```
+
+### 1.6. Datentypen
+
+R muss wissen, um welche Art von Daten es sich handelt. Mathematische Berechnungen mit einem Wort führen zu einem Error.
+
+![](images/Screenshot%202026-02-02%20110217.png)
+
+```{r}
+class(my_ages) 
+class(my_names) 
+# my_names + 5
+```
+
+### 1.7. Dataframes
+
+Dies ist die" Excel-Tabelle" von R. Ein Datenrahmen ist zweidimensional: Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % der Datenanalysen statt.
+
+![](images/Screenshot%202026-02-02%20111438.png)
+
+```{r}
+df <- data.frame(id = c(1,2,3,4,5),   
+                 name = c("A", "B", "C", "D", "E"),   
+                 score = c(90, 75, 80, 84, 95) )
+```
+
+Der Dollarzeichen-Operator \$ wird verwendet, um eine einzelne Spalte aus einem Datenrahmen auszuwählen. "df\$score" bedeutet also: „Gehe zum Datenrahmen „df“ UND wähle die Spalte „score“ aus.
+
+Mit der Funktion `mean()` können wir Mittelwerte von Vektoren berechnen.
+
+```{r}
+df$score 
+mean(df$score)
+```
+
+Benutze str() um eine Zusammenfassung des dataframes auszugeben.
+
+```{r}
+str(df)
+```
+
+### 1.8. Packages
+
+Packages sind Tools (oder kleine "Software") die in R für bestimmte Anwendungen geschrieben worden sind. Zum Beispiel wird das Package "ggplot" häufig für Visualisierungen verwendet. Das wichtigste Package-Bundle ist "tidyverse".
+
+Generell können wir Pakete mit `install.packages()` installieren. Um ein bereits installiertes Paket zu laden und in unserem Skript verwenden zu können benutzen wir `library()`.
+
+```{r}
+#install.packages("tidyverse") 
+library(tidyverse)
+```
+
+Das Tidyverse ist eine Sammlung aufeinander abgestimmter R-Pakete, die eine einheitliche und leicht verständliche Grammatik zum Importieren, Aufräumen, Transformieren und Visualisieren von Daten bereitstellen (im Gegensatz zu base-R).
+
+Bei Error "Kein package namens..." -\> vergessen das Package mit `library()` zu laden.
+
+Beispiele für wichtige und häufig verwendete Packages aus dem Tidyverse-Bundle sind `ggplot` (Visualisierung) `dplyr` (Data Manipulation, filter, select, summarize), `tidyr` (data reshaping) oder `readr` (schneller daten import)

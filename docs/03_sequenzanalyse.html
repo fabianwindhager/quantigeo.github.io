@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Skript 3 - Sequenzanalyse – quantigeo.github.io</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">quantigeo.github.io</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#was-ist-sequenzanalyse" id="toc-was-ist-sequenzanalyse" class="nav-link active" data-scroll-target="#was-ist-sequenzanalyse">3.1. Was ist Sequenzanalyse?</a></li>
+  <li><a href="#was-ist-eine-sequenz" id="toc-was-ist-eine-sequenz" class="nav-link" data-scroll-target="#was-ist-eine-sequenz">3.2. Was ist eine Sequenz?</a></li>
+  <li><a href="#kategorisierung-von-bevölkerungsveränderungsraten" id="toc-kategorisierung-von-bevölkerungsveränderungsraten" class="nav-link" data-scroll-target="#kategorisierung-von-bevölkerungsveränderungsraten">3.3. Kategorisierung von Bevölkerungsveränderungsraten</a></li>
+  <li><a href="#berechnung-von-distanzmaßen-mit-optimal-matching" id="toc-berechnung-von-distanzmaßen-mit-optimal-matching" class="nav-link" data-scroll-target="#berechnung-von-distanzmaßen-mit-optimal-matching">3.4. Berechnung von Distanzmaßen mit Optimal Matching</a></li>
+  <li><a href="#clustering" id="toc-clustering" class="nav-link" data-scroll-target="#clustering">3.5. Clustering</a></li>
+  <li><a href="#bonus-dynamic-hamming-distance" id="toc-bonus-dynamic-hamming-distance" class="nav-link" data-scroll-target="#bonus-dynamic-hamming-distance">3.6. Bonus: Dynamic Hamming Distance</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Skript 3 - Sequenzanalyse</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="was-ist-sequenzanalyse" class="level3">
+<h3 class="anchored" data-anchor-id="was-ist-sequenzanalyse">3.1. Was ist Sequenzanalyse?</h3>
+<p>Die <strong>Sequenzanalyse</strong> ist eine Methode zur Untersuchung von Abfolgen <strong>kategorialer</strong> Zustände über die Zeit. Im Unterschied zu klassischen statistischen Ansätzen betrachtet sie nicht nur, <strong>welche Ereignisse auftreten</strong>, sondern auch <strong>in welcher Reihenfolge und Dauer</strong> sie stattfinden. Dadurch lassen sich typische <strong>Verlaufsformen</strong> – etwa von Bildungs-, Erwerbs- oder Mobilitätsbiographien – sichtbar machen und miteinander vergleichen. Ebenfalls können kategorisierte Bevölkerungsveränderungen zwischen statistischen Einheiten verglichen werden.</p>
+<p>Typische Fragestellungen, bei denen eine Sequenzanalyse sinnvoll sein kann:</p>
+<p>Welche typischen Verlaufsformen lassen sich in den Daten erkennen, und wie unterscheiden sich diese zwischen statistischen Einheiten? Können darin typische Verlaufsmuster erkannt werden?</p>
+</section>
+<section id="was-ist-eine-sequenz" class="level3">
+<h3 class="anchored" data-anchor-id="was-ist-eine-sequenz">3.2. Was ist eine Sequenz?</h3>
+<p>Eine <strong>Sequenz</strong> ist eine geordnete Folge von Zuständen oder Ereignissen, die eine Einheit (z. B. eine Person oder Gemeinde) über mehrere Zeitpunkte hinweg durchläuft.</p>
+<p><img src="images/Screenshot 2026-02-03 163841.png" class="img-fluid" width="486"></p>
+<p>In diesem Beispiel wären x1, x3, x4 Zustände. Die statistische Einheit (observation) durchläuft diese Zustände im Zeitverlauf.</p>
+</section>
+<section id="kategorisierung-von-bevölkerungsveränderungsraten" class="level3">
+<h3 class="anchored" data-anchor-id="kategorisierung-von-bevölkerungsveränderungsraten">3.3. Kategorisierung von Bevölkerungsveränderungsraten</h3>
+<p>Ziel in diesem Skript-Abschnitt ist es, die Bevölkerungsveränderungsraten auf Gemeindeebene zu kategorisieren und deren Ablauf mittels einer Sequenzanalyse zu vergleichen.</p>
+<p>Wir berechnen zunächst erneut die jährliche Bevölkerungsveränderungsrate, diesmal für jede Gemeinde. Da die Raten auf Gemeindebene sehr stark fluktuieren können (zB. Eröffnung eines Pflegeheimes) verwenden wir einen <strong>rollenden Mittelwert</strong> als “smoothing” Technik.</p>
+<p>Die Tabelle wird nach Gemeinde und Jahr sortiert, und mit <code>rollapply()</code> wird für jede Gemeinde ein <strong>3-Jahres-Rolling Mean</strong> der Bevölkerungsraten berechnet (<code>rate_roll3</code>), wobei die Mittelwerte jeweils die aktuellen und zwei vorhergehenden Jahre umfassen (<code>align = "right"</code>). Am Ende werden noch fehlende Werte entfernt und die Daten wieder entgruppiert, sodass die rollenden Mittelwerte bereit für die Kategorisierung sind.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>seq_dta <span class="ot">&lt;-</span> dta <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(gemnr) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">pop_diff =</span> pop <span class="sc">-</span> <span class="fu">lag</span>(pop),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">pop_rate =</span> (pop_diff <span class="sc">/</span> <span class="fu">lag</span>(pop)) <span class="sc">*</span> <span class="dv">100</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(jahr, gemnr, pop_rate, bld) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(zoo)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attache Paket: 'zoo'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Die folgenden Objekte sind maskiert von 'package:base':
+
+    as.Date, as.Date.numeric</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>seq_dta <span class="ot">&lt;-</span> seq_dta <span class="sc">%&gt;%</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(gemnr, jahr) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(gemnr) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rate_roll3 =</span> <span class="fu">rollapply</span>(pop_rate,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>                                <span class="at">width =</span> <span class="dv">3</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>                                <span class="at">FUN =</span> mean,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>                                <span class="at">fill =</span> <span class="cn">NA</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>                                <span class="at">align =</span> <span class="st">"right"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Der Code teilt die zuvor berechneten <strong>3-Jahres-Rolling Means der Bevölkerungsraten</strong> (<code>rate_roll3</code>) in <strong>vier Kategorien</strong> ein. Mit <code>ntile(..., 4)</code> werden die Werte in <strong>Quartile</strong> unterteilt, sodass jede Kategorie etwa ein Viertel der Daten enthält. Anschließend werden die numerischen Quartile in <strong>lesbare Labels</strong> umgewandelt (<code>stark negativ</code> bis <code>stark positiv</code>), sodass die Ergebnisse leichter interpretierbar und für Visualisierungen nutzbar sind.</p>
+<p>Mit <code>table(seq_dta$rate_quartile)</code> wird schließlich die <strong>Häufigkeitsverteilung der Kategorien</strong> angezeigt, sodass man schnell sehen kann, wie viele Beobachtungen in jede Gruppe fallen.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(seq_dta<span class="sc">$</span>rate_roll3)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-16.1922  -0.3777   0.2104   0.2639   0.8357  14.0328 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>seq_dta <span class="ot">&lt;-</span> seq_dta <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rate_quartile =</span> <span class="fu">ntile</span>(rate_roll3, <span class="dv">4</span>),</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">rate_quartile =</span> <span class="fu">factor</span>(rate_quartile,</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>           <span class="at">levels =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"stark negativ"</span>, <span class="st">"negativ"</span>, <span class="st">"positiv"</span>, <span class="st">"stark positiv"</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>         ))</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(seq_dta<span class="sc">$</span>rate_quartile)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+stark negativ       negativ       positiv stark positiv 
+        10042         10042         10041         10041 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>seq <span class="ot">&lt;-</span> seq_dta <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">id_cols =</span> <span class="fu">c</span>(gemnr, bld),</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>              <span class="at">names_from =</span> jahr,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>              <span class="at">values_from =</span> rate_quartile)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>seq <span class="ot">&lt;-</span> <span class="fu">left_join</span>(seq, typ, <span class="at">by =</span> <span class="st">"gemnr"</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>Wert[<span class="fu">is.na</span>(seq<span class="sc">$</span>Wert)] <span class="ot">&lt;-</span> <span class="st">"101"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Der folgende Code erstellt eine <strong>Sequenzanalyse</strong> für die Spalten 3 bis 21 im Datensatz <code>seq</code>, die beispielsweise jährliche Veränderungen oder Ratings abbilden. Zunächst werden die Zustände der Sequenzen definiert: <code>seq.scode</code> kodiert sie intern als <code>"HG"</code>, <code>"G"</code>, <code>"D"</code> und <code>"HD"</code>, während <code>seq.alphabet</code> und <code>seq.labels</code> für die <strong>lesbaren Bezeichnungen</strong> sorgen („stark positiv“ bis „stark negativ“). Mit <code>seqdef()</code> werden die Daten als Sequenzen vorbereitet, inklusive Farben für die Visualisierung (<code>seq.cpal1</code>), sodass jeder Zustand konsistent dargestellt wird.</p>
+<p>Anschließend erlaubt der Code eine <strong>erste Exploration der Sequenzen</strong>: <code>seqstatl()</code> zeigt die Häufigkeit der Zustände über die Zeit, <code>print()</code> und <code>summary()</code> geben Übersicht über die Sequenzen einzelner Gemeinden und deren statistische Zusammenfassung, und <code>seqlegend()</code> erzeugt eine <strong>Legende</strong>, die die Farben den Zuständen zuordnet. So können Studierende schnell sehen, wie sich Zustände über die Zeit verteilen und Muster in den Sequenzen erkennen.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqstatl</span>(seq[, <span class="dv">3</span><span class="sc">:</span><span class="dv">21</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "negativ"       "positiv"       "stark negativ" "stark positiv"</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>seq.alphabet <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"stark positiv"</span>, <span class="st">"positiv"</span>, <span class="st">"negativ"</span>, <span class="st">"stark negativ"</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>seq.labels <span class="ot">&lt;-</span> seq.alphabet</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>seq.scode <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"HG"</span>, <span class="st">"G"</span>, <span class="st">"D"</span>, <span class="st">"HD"</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>seq.cpal1<span class="ot">=</span> <span class="fu">c</span>(<span class="st">"#d7191c"</span>,<span class="st">"#fec980"</span>, <span class="st">"#c7e6db"</span>, <span class="st">"#2c7bb6"</span>) </span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>seq.df <span class="ot">&lt;-</span> <span class="fu">seqdef</span> (seq, <span class="at">var=</span> <span class="dv">3</span><span class="sc">:</span><span class="dv">21</span>, </span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>                  <span class="at">states=</span>seq.scode, </span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>                  <span class="at">labels=</span>seq.labels, </span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>                  <span class="at">alphabet=</span>seq.alphabet, </span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>                  <span class="at">cpal =</span> seq.cpal1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] state coding:</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>       [alphabet]    [label]  [long label] </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>     1  stark positiv HG       stark positiv</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>     2  positiv       G        positiv</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>     3  negativ       D        negativ</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>     4  stark negativ HD       stark negativ</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] 2114 sequences in the data set</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] min/max sequence length: 19/19</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(seq.df[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, ], <span class="at">format=</span><span class="st">"SPS"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  Sequence                                                                          
+1 (HG,19)                                                                           
+2 (HG,3)-(G,1)-(HG,3)-(G,2)-(HG,1)-(G,1)-(D,1)-(HD,1)-(D,1)-(G,1)-(HG,2)-(G,1)-(D,1)
+3 (G,3)-(HG,5)-(G,2)-(D,2)-(G,2)-(D,1)-(HD,2)-(D,1)-(HG,1)                          
+4 (HG,3)-(G,2)-(D,2)-(G,3)-(D,1)-(G,1)-(HG,3)-(G,3)-(D,1)                           
+5 (D,1)-(G,3)-(D,1)-(HG,7)-(G,1)-(D,1)-(G,2)-(HG,1)-(G,1)-(D,1)                     </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(seq.df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [&gt;] sequence object created with TraMineR version 2.2-8 
+ [&gt;] 2114 sequences in the data set, 2072 unique 
+ [&gt;] min/max sequence length: 19/19
+ [&gt;] alphabet (state labels):  
+     1=HG (stark positiv)
+     2=G (positiv)
+     3=D (negativ)
+     4=HD (stark negativ)
+ [&gt;] dimensionality of the sequence space: 57 
+ [&gt;] colors: 1=#d7191c 2=#fec980 3=#c7e6db 4=#2c7bb6 </code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqlegend</span>(seq.df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> seq<span class="sc">$</span>Wert, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>Wert, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-4.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>Wert, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-5.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="berechnung-von-distanzmaßen-mit-optimal-matching" class="level3">
+<h3 class="anchored" data-anchor-id="berechnung-von-distanzmaßen-mit-optimal-matching">3.4. Berechnung von Distanzmaßen mit Optimal Matching</h3>
+<p><strong>Optimal Matching (OM)</strong> ist eine Methode der <strong>Sequenzanalyse</strong>, die die <strong>Ähnlichkeit zwischen zeitlich geordneten Ereignisfolgen</strong> misst.</p>
+<p>Konkret vergleicht OM zwei Sequenzen, indem es die <strong>minimale „Bearbeitungskosten“-Summe</strong> berechnet, die nötig ist, um die eine Sequenz in die andere zu überführen. Dabei werden drei Arten von Operationen erlaubt:</p>
+<ol type="1">
+<li><p><strong>Insertion</strong> – Einfügen eines Zustands</p></li>
+<li><p><strong>Deletion</strong> – Löschen eines Zustans</p></li>
+<li><p><strong>Substitution</strong> – Ersetzen eines Zustands durch einen anderen</p></li>
+</ol>
+<p>Jede Operation wird mit einer <strong>Kostenfunktion</strong> versehen, sodass Sequenzen, die ähnlich verlaufen, <strong>geringere Gesamtkosten</strong> haben. Die resultierende Distanzmatrix kann anschließend für <strong>Clusteranalysen</strong>, <strong>Multidimensionale Skalierung (MDS)</strong> oder <strong>Visualisierung von Sequenzmustern</strong> verwendet werden.</p>
+<p><strong>OM quantifiziert, wie „nah“ zwei zeitliche Abläufe beieinanderliegen</strong>, und erlaubt so die Analyse von typischen Mustern und Abweichungen in Sequenzdaten.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>costs <span class="ot">&lt;-</span> <span class="fu">seqcost</span>(seq.df, <span class="at">method =</span> <span class="st">"INDELSLOG"</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>dist.om <span class="ot">&lt;-</span> <span class="fu">seqdist</span>(seq.df, <span class="at">method =</span> <span class="st">"OM"</span>, <span class="at">indel =</span> costs<span class="sc">$</span>indel, <span class="at">sm =</span> costs<span class="sc">$</span>sm)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] 2114 sequences with 4 distinct states</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] checking 'sm' (size and triangle inequality)</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] 2072 distinct  sequences </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] min/max sequence lengths: 19/19</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] computing distances using the OM metric</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] elapsed time: 2.93 secs</code></pre>
+</div>
+</div>
+</section>
+<section id="clustering" class="level3">
+<h3 class="anchored" data-anchor-id="clustering">3.5. Clustering</h3>
+<p><strong>Clustering</strong> ist ein Verfahren, bei dem Beobachtungen in Gruppen (Cluster) eingeteilt werden, sodass die Objekte <strong>innerhalb eines Clusters möglichst ähnlich</strong> und <strong>zwischen Clustern möglichst unterschiedlich</strong> sind.</p>
+<p><strong>Ward’s Methode</strong> ist eine spezielle Form des <strong>hierarchischen Clustering</strong>. Sie arbeitet nach dem Prinzip, dass in jedem Schritt die beiden Cluster zusammengeführt werden, deren <strong>Zusammenfassung die geringste Zunahme der Gesamtsumme der quadrierten Abweichungen (Within-Cluster-Variance)</strong> verursacht. Anders gesagt: Ward sucht immer die Kombination, die die <strong>homogensten Gruppen</strong> erzeugt.</p>
+<p>Tendenziell erzeugt dieser Clustering-Algorithmus <strong>ähnlich große und kompakte Cluster</strong>, was die Interpretation von Gruppenmustern erleichtert.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>wardcluster_OM <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">as.dist</span>(dist.om), <span class="at">method =</span> <span class="st">"ward.D"</span>)</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">6</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>groups.om <span class="ot">&lt;-</span> <span class="fu">cutree</span>(wardcluster_OM, <span class="at">k =</span> k)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> groups.om, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> groups.om, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-8-2.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> groups.om, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-8-3.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="bonus-dynamic-hamming-distance" class="level3">
+<h3 class="anchored" data-anchor-id="bonus-dynamic-hamming-distance">3.6. Bonus: Dynamic Hamming Distance</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co">#?seqdist</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>costs <span class="ot">&lt;-</span> <span class="fu">seqcost</span>(seq.df, <span class="at">method =</span> <span class="st">"INDELSLOG"</span>)</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>dist.dhd <span class="ot">&lt;-</span> <span class="fu">seqdist</span>(seq.df, <span class="at">method =</span> <span class="st">"DHD"</span>, <span class="at">indel =</span> costs<span class="sc">$</span>indel)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] 2114 sequences with 4 distinct states</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] creating a 'sm' with the costs derived from the transition rates</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] creating time varying substitution-cost matrix using transition rates ...</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] computing time varying transition probabilities for states HG/G/D/HD ...</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] 2072 distinct  sequences </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] min/max sequence lengths: 19/19</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] computing distances using the DHD metric</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code> [&gt;] elapsed time: 0.19 secs</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>wardcluster_DHD <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">as.dist</span>(dist.dhd), <span class="at">method =</span> <span class="st">"ward.D"</span>)</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">6</span></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>groups.dhd <span class="ot">&lt;-</span> <span class="fu">cutree</span>(wardcluster_DHD, <span class="at">k =</span> k)</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> groups.dhd, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> groups.dhd, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-9-2.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> groups.dhd, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-9-3.png" class="img-fluid figure-img" width="1152"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>cluster.om <span class="ot">&lt;-</span> <span class="fu">factor</span>(groups.om)</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>cluster.dhd <span class="ot">&lt;-</span> <span class="fu">factor</span>(groups.dhd)</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(seq, <span class="st">"data/Sequenzdaten.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

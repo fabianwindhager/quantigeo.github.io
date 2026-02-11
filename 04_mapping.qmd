@@ -1,0 +1,86 @@
+---
+title: "Skript 4 - Spatial Data Frames & Mapping"
+editor: visual
+---
+
+Mit dem Paket "`sf`" ("Spatial Features") kann R auch als Geoinformationssystem verwendet werden. Das Paket "mapview" ermöglicht das einfache Erstellen von interaktiven Karten. Wir installieren beide Pakete mit `install.packages()` und laden sie mit `library()`
+
+```{r}
+#| include: false
+#install.packages(c("sf", "mapview")) 
+library(sf) 
+library(mapview) 
+library(sf) 
+library(mapview)
+library(tidyverse) 
+
+seq <- read.csv("data/Sequenzdaten.csv", row.names = 1)
+```
+
+Um Karten zu erstellen müssen wir unserem Dataframe räumliche Informationen hinzufügen. Die Statistik Austria stellt zu diesem Zweck in ihrem STATatlas die regionale Gliederung Österreichs in Form von .shp files zur Verfügung.
+
+Ein Shapefile ist ein älteres, sehr verbreitetes Dateiformat, mit dem man Kartenobjekte wie Punkte, Linien und Flächen samt ihren Daten speichert. Es besteht aus mehreren zusammengehörigen Dateien (z. B. .shp, .shx, .dbf), die gemeinsam in einem Ordner liegen müssen, und wird von den meisten GIS‑Programmen unterstützt.
+
+```{r}
+shp <- read_sf("data/OGDEXT_GEM_1_STATISTIK_AUSTRIA_20250101/STATISTIK_AUSTRIA_GEM_20250101.shp")   
+head(shp) # in der Spalte geometry sind die Koordinaten (Punkte, Polygone, Linien) für jede Gemeinde in Österreich gespeichert
+```
+
+```{r}
+#| fig-width: 12
+#| fig-height: 10
+shp$g_id <- as.integer(shp$g_id)
+map <- left_join(seq, shp, by = c("gemnr" = "g_id")) %>% 
+  st_as_sf()
+
+map$Wert <- as.factor(map$Wert)
+map$cluster.dhd <- as.factor(map$cluster.dhd)
+
+## Recoding map$Wert into map$typ
+map$typ <- map$Wert %>%
+  fct_recode(
+    "Urbane Großzentren" = "101",
+    "Urbane Mittelzentren" = "102",
+    "Urbane Kleinzentren" = "103",
+    "Regionale Zentren, zentral" = "210",
+    "Regionale Zentren, intermediär" = "220",
+    "Ländlicher Raum im Umland von Zentren, zentral" = "310",
+    "Ländlicher Raum im Umland von Zentren, intermediär" = "320",
+    "Ländlicher Raum im Umland von Zentren, peripher" = "330",
+    "Ländlicher Raum, zentral" = "410",
+    "Ländlicher Raum, intermediär" = "420",
+    "Ländlicher Raum, peripher" = "430"
+  )
+
+library(patchwork)
+map_cluster <- ggplot(data = map) +
+  geom_sf(aes(fill = cluster.dhd))+
+  scale_fill_brewer(palette = "Accent")+
+  theme_classic()
+
+map_typ <- ggplot(data = map) +
+  geom_sf(aes(fill = typ), color = NA) +
+  scale_fill_manual(
+    values = c(
+      "Urbane Großzentren" = "#b35e6b",
+      "Urbane Mittelzentren" = "#d67169",
+      "Urbane Kleinzentren" = "#e08f81",
+      "Regionale Zentren, zentral" = "#eeaf58",
+      "Regionale Zentren, intermediär" = "#f5ca82",
+      "Ländlicher Raum im Umland von Zentren, zentral" = "#fdf453",
+      "Ländlicher Raum im Umland von Zentren, intermediär" = "#fefabb",
+      "Ländlicher Raum im Umland von Zentren, peripher" = "#eeec85",
+      "Ländlicher Raum, zentral" = "#c2d38c",
+      "Ländlicher Raum, intermediär" = "#84b870",
+      "Ländlicher Raum, peripher" = "#789d6e"
+    )
+  ) +
+  theme_classic()
+
+map_typ / map_cluster
+
+```
+
+```{r}
+#mapview(map, zcol = "cluster.dhd")
+```

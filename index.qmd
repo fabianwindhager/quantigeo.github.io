@@ -1,11 +1,16 @@
 ---
-title: "quantigeo.github.io"
+title: "Quantitative Geographie: Mobile Gesellschaft"
 ---
 
-This is a Quarto website.
+# Willkommen zum Kurs “Quantitative Geographie” (Universität Innsbruck SoSe 2026).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Auf dieser Website finden sie das Kursmaterial zu den R-Inhalten.
 
-```{r}
+### Literatur:
+
+Wickham, H., Cetinkaya-Rundel, M., & Grolemund, G. (2023). R for Data Science : import, tidy, transform, visualize, and model data (2nd edition). O’Reilly Media, Incorporated.
+
+Liao, T. F., Bolano, D., Brzinsky-Fay, C., Cornwell, B., Fasang, A. E., Helske, S., Piccarreta, R., Raab, M., Ritschard, G., Struffolino, E., & Studer, M. (2022). Sequence analysis: Its past, present, and future. Social Science Research, 107, 102772. https://doi.org/10.1016/j.ssresearch.2022.102772
+
+Gabadinho, A., Ritschard, G., Müller, N. S., & Studer, M. (2011). Analyzing and Visualizing State Sequences in R with TraMineR. Journal of Statistical Software, 40(4). https://doi.org/10.18637/jss.v040.i04{r}
 1 + 1
-```
