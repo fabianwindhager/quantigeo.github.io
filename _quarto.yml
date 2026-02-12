@@ -4,7 +4,6 @@ project:
 
 website:
   title: "Quantitative Geographie: Mobile Gesellschaft"
-  favicon: images/logo.jpg
   sidebar:
     style: docked
     search: true
@@ -24,5 +23,5 @@ format:
     css: styles.css
     logo: images/logo.jpg
     toc: true
-    page-layout: article
+
 
