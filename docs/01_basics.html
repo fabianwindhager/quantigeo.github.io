@@ -259,7 +259,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="datentypen" class="level3">
 <h3 class="anchored" data-anchor-id="datentypen">1.6. Datentypen</h3>
 <p>R muss wissen, um welche Art von Daten es sich handelt. Mathematische Berechnungen mit einem Wort führen zu einem Error.</p>
-<p><img src="images/Screenshot 2026-02-02 110217.png" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Typ</th>
+<th>Beschreibung</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Numeric (dbl)</td>
+<td>Nummer mit Dezimalstellen</td>
+<td><em>1.5; 200</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Integer (int)</td>
+<td>Ganze Zahlen</td>
+<td><em>5</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Character (chr)</td>
+<td>Text. Immer in “”</td>
+<td><em>“Hello”</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Logical (lgl)</td>
+<td>TRUE or FALSE. Boolean</td>
+<td><em>TRUE, FALSE</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Factor (fct)</td>
+<td>Kategorien (Nominal/Ordinal)</td>
+<td><em>“High”, “Low”</em></td>
+</tr>
+</tbody>
+</table>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(my_ages) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -275,7 +310,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="dataframes" class="level3">
 <h3 class="anchored" data-anchor-id="dataframes">1.7. Dataframes</h3>
 <p>Dies ist die” Excel-Tabelle” von R. Ein Datenrahmen ist zweidimensional: Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % der Datenanalysen statt.</p>
-<p><img src="images/Screenshot 2026-02-02 111438.png" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">id</th>
+<th style="text-align: center;">name</th>
+<th style="text-align: center;">score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">“A”</td>
+<td style="text-align: center;">90</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">“B”</td>
+<td style="text-align: center;">75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">“C”</td>
+<td style="text-align: center;">80</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">“D”</td>
+<td style="text-align: center;">84</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">“E”</td>
+<td style="text-align: center;">95</td>
+</tr>
+</tbody>
+</table>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">id =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>),   </span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>, <span class="st">"D"</span>, <span class="st">"E"</span>),   </span>

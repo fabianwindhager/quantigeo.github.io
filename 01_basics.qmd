@@ -48,7 +48,13 @@ my_ages + 2
 
 R muss wissen, um welche Art von Daten es sich handelt. Mathematische Berechnungen mit einem Wort führen zu einem Error.
 
-![](images/Screenshot%202026-02-02%20110217.png)
+| Typ             | Beschreibung                 | Beispiel        |
+|:----------------|------------------------------|-----------------|
+| Numeric (dbl)   | Nummer mit Dezimalstellen    | *1.5; 200*      |
+| Integer (int)   | Ganze Zahlen                 | *5*             |
+| Character (chr) | Text. Immer in ""            | *"Hello"*       |
+| Logical (lgl)   | TRUE or FALSE. Boolean       | *TRUE, FALSE*   |
+| Factor (fct)    | Kategorien (Nominal/Ordinal) | *"High", "Low"* |
 
 ```{r}
 class(my_ages) 
@@ -60,7 +66,13 @@ class(my_names)
 
 Dies ist die" Excel-Tabelle" von R. Ein Datenrahmen ist zweidimensional: Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % der Datenanalysen statt.
 
-![](images/Screenshot%202026-02-02%20111438.png)
+| id  | name | score |
+|:---:|:----:|:-----:|
+|  1  | "A"  |  90   |
+|  2  | "B"  |  75   |
+|  3  | "C"  |  80   |
+|  4  | "D"  |  84   |
+|  5  | "E"  |  95   |
 
 ```{r}
 df <- data.frame(id = c(1,2,3,4,5),   
