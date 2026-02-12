@@ -84,7 +84,3 @@ map_typ <- ggplot(data = map) +
 map_typ / map_cluster
 
 ```
-
-```{r}
-#mapview(map, zcol = "cluster.dhd")
-```

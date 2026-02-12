@@ -4,6 +4,11 @@ project:
 
 website:
   title: "Quantitative Geographie: Mobile Gesellschaft"
+  navbar: 
+    tools:
+    - icon: github
+    - text: Source Code
+      href: https://github.com/fabianwindhager/quantigeo.github.io
   sidebar:
     style: docked
     search: true
