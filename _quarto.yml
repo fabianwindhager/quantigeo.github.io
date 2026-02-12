@@ -23,5 +23,5 @@ format:
     css: styles.css
     logo: images/logo.jpg
     toc: true
-
+    page-layout: article
 

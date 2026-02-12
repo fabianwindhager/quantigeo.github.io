@@ -6,7 +6,7 @@ title: "Quantitative Geographie: Mobile Gesellschaft"
 
 Auf dieser Website finden sie das Kursmaterial zu den R-Inhalten.
 
-### Literatur:
+### Literatur
 
 Wickham, H., Cetinkaya-Rundel, M., & Grolemund, G. (2023). R for Data Science : import, tidy, transform, visualize, and model data (2nd edition). O’Reilly Media, Incorporated.
 

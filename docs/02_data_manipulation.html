@@ -327,7 +327,40 @@ window.Quarto = {
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>pop_2002 <span class="ot">&lt;-</span> pop <span class="sc">%&gt;%</span> </span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(jahr <span class="sc">==</span> <span class="dv">2002</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p><img src="images/Screenshot 2026-02-02 134848.png" class="img-fluid"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 68%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Logical Operators</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>==</code></td>
+<td><em>ist gleich</em> (Beachte das doppelte Gleichheitszeichen!)</td>
+</tr>
+<tr class="even">
+<td><code>!=</code></td>
+<td><em>ist ungleich</em></td>
+</tr>
+<tr class="odd">
+<td><code>&amp;</code></td>
+<td><em>UND</em> (Beide/Alle Bedingungen müssen erfüllt sein)</td>
+</tr>
+<tr class="even">
+<td><code>|</code></td>
+<td><em>ODER</em> (Mindestens eine Bedingung muss erfüllt sein)</td>
+</tr>
+<tr class="odd">
+<td><code>%in%</code></td>
+<td>Wert befindet sich <em>in einer</em> Liste</td>
+</tr>
+</tbody>
+</table>
 <p>Mit <code>select()</code> behält man nur bestimmte Spalten bei. Nützlich, um Datensätze mit vielen Spalten zu bereinigen.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>kennz <span class="ot">&lt;-</span> pop_2002 <span class="sc">%&gt;%</span> </span>
@@ -575,7 +608,7 @@ argument.</code></pre>
 <h3 class="anchored" data-anchor-id="tidy-data">2.8. Tidy-Data</h3>
 <p>Das <strong>Long-Format</strong> (oder “Tidy Data”) ist ein Datenformat, bei dem jede Variable eine Spalte, jede Beobachtung eine Zeile und jede Einheit eine Tabelle bildet, sodass Daten klar strukturiert und einfach analysierbar sind.</p>
 <p>Im <strong>Wide-Format</strong> hat jede Variable eigene Spalten, oft mit mehreren Messzeitpunkten pro Spalte, während im <strong>Long-Format</strong> jede Zeile eine einzelne Beobachtung enthält und Messzeitpunkte oder Kategorien in einer eigenen Spalte stehen.</p>
-<p><img src="images/5ea0e495-873a-4de3-8dc8-4e51cc1b804a.png" class="img-fluid"></p>
+<p><img src="images/5ea0e495-873a-4de3-8dc8-4e51cc1b804a.png" class="img-fluid" width="750"></p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>bld_dta_long <span class="ot">&lt;-</span> bld_dta <span class="sc">%&gt;%</span> </span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>()</span>

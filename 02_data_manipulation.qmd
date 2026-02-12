@@ -60,7 +60,13 @@ pop_2002 <- pop %>%
   filter(jahr == 2002)
 ```
 
-![](images/Screenshot%202026-02-02%20134848.png)
+| Logical Operators |                                                         |
+|-------------------|-----------------------------------------|
+| `==`              | *ist gleich* (Beachte das doppelte Gleichheitszeichen!) |
+| `!=`              | *ist ungleich*                                          |
+| `&`               | *UND* (Beide/Alle Bedingungen müssen erfüllt sein)      |
+| `|`               | *ODER* (Mindestens eine Bedingung muss erfüllt sein)    |
+| `%in%`            | Wert befindet sich *in einer* Liste                     |
 
 Mit `select()` behält man nur bestimmte Spalten bei. Nützlich, um Datensätze mit vielen Spalten zu bereinigen.
 
@@ -270,7 +276,7 @@ Das **Long-Format** (oder "Tidy Data") ist ein Datenformat, bei dem jede Variabl
 
 Im **Wide-Format** hat jede Variable eigene Spalten, oft mit mehreren Messzeitpunkten pro Spalte, während im **Long-Format** jede Zeile eine einzelne Beobachtung enthält und Messzeitpunkte oder Kategorien in einer eigenen Spalte stehen.
 
-![](images/5ea0e495-873a-4de3-8dc8-4e51cc1b804a.png)
+![](images/5ea0e495-873a-4de3-8dc8-4e51cc1b804a.png){width="750"}
 
 ```{r}
 bld_dta_long <- bld_dta %>% 

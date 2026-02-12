@@ -21,6 +21,10 @@ Um Karten zu erstellen müssen wir unserem Dataframe räumliche Informationen hi
 
 Ein Shapefile ist ein älteres, sehr verbreitetes Dateiformat, mit dem man Kartenobjekte wie Punkte, Linien und Flächen samt ihren Daten speichert. Es besteht aus mehreren zusammengehörigen Dateien (z. B. .shp, .shx, .dbf), die gemeinsam in einem Ordner liegen müssen, und wird von den meisten GIS‑Programmen unterstützt.
 
+Wir nutzen das Package sf um Geodaten einzulesen -\> `read_sf()`
+
+Nach dem Import erhalten wir Informationen zur Kartenprojektion, dem Geoemtrietyp und dem betreffenden Kartenausschnitt.
+
 ```{r}
 shp <- read_sf("data/OGDEXT_GEM_1_STATISTIK_AUSTRIA_20250101/STATISTIK_AUSTRIA_GEM_20250101.shp")   
 head(shp) # in der Spalte geometry sind die Koordinaten (Punkte, Polygone, Linien) für jede Gemeinde in Österreich gespeichert
