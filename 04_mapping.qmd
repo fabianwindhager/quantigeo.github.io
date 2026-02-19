@@ -1,5 +1,5 @@
 ---
-title: "Skript 4 - Spatial Data Frames & Mapping"
+title: "Skript 4 - Räumliche Daten & Kartographie"
 editor: visual
 ---
 

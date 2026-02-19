@@ -1,5 +1,5 @@
 ---
-title: "Skript 2 - Daten import, manipulation & plotten"
+title: "Skript 2 - Daten Import, Manipulation & Diagramme"
 ---
 
 ### 2.1. Daten importieren
