@@ -61,7 +61,7 @@ pop_2002 <- pop %>%
 ```
 
 | Logical Operators |                                                         |
-|-------------------|-----------------------------------------|
+|-------------------|---------------------------------------------------------|
 | `==`              | *ist gleich* (Beachte das doppelte Gleichheitszeichen!) |
 | `!=`              | *ist ungleich*                                          |
 | `&`               | *UND* (Beide/Alle Bedingungen müssen erfüllt sein)      |
