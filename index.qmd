@@ -12,5 +12,4 @@ Wickham, H., Cetinkaya-Rundel, M., & Grolemund, G. (2023). R for Data Science 
 
 Liao, T. F., Bolano, D., Brzinsky-Fay, C., Cornwell, B., Fasang, A. E., Helske, S., Piccarreta, R., Raab, M., Ritschard, G., Struffolino, E., & Studer, M. (2022). Sequence analysis: Its past, present, and future. Social Science Research, 107, 102772. https://doi.org/10.1016/j.ssresearch.2022.102772
 
-Gabadinho, A., Ritschard, G., Müller, N. S., & Studer, M. (2011). Analyzing and Visualizing State Sequences in R with TraMineR. Journal of Statistical Software, 40(4). https://doi.org/10.18637/jss.v040.i04{r}
-1 + 1
+Gabadinho, A., Ritschard, G., Müller, N. S., & Studer, M. (2011). Analyzing and Visualizing State Sequences in R with TraMineR. Journal of Statistical Software, 40(4). https://doi.org/10.18637/jss.v040.i04{r} 1 + 1

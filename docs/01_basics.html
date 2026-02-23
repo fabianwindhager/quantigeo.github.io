@@ -229,8 +229,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="objekte-und-zuweisung" class="level3">
 <h3 class="anchored" data-anchor-id="objekte-und-zuweisung">1.4. Objekte und Zuweisung</h3>
-<p>R ist eine objektorientierte Sprache. Alles ist ein Objekt. Eine Zahl, eine Tabelle, ein Diagramm – alles Objekte. Objekte werden mit dem Zuweisungsoperator &lt;- erstellt.</p>
+<p>R ist eine objektorientierte Sprache. Alles ist ein Objekt. Eine Zahl, eine Tabelle, ein Diagramm – alles Objekte. Objekte werden mit dem Zuweisungsoperator <code>&lt;-</code> erstellt.</p>
 <p>Mit <code>Strg + Enter</code> können wir Code-Zeilen in der Console ausführen.</p>
+<p>Text, der hinter einem <code>#</code>-Zeichen steht, wird dabei nicht ausgeführt. Dies ist praktisch, um Skripte zu kommentieren und einzelne Code-Zeilen zu aktivieren/deaktivieren.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Erstelle ein Objekt "x" </span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span> </span>
@@ -243,7 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="vektoren" class="level3">
 <h3 class="anchored" data-anchor-id="vektoren">1.5. Vektoren</h3>
-<p>Ein Vektor ist eine Liste von Dingen. Verwende c() (kombinieren), um eine Liste zu erstellen.</p>
+<p>Ein Vektor ist eine Liste von Dingen. Verwende <code>c()</code> (kombinieren), um eine Liste zu erstellen.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>my_ages <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">25</span>,<span class="dv">24</span>,<span class="dv">30</span>,<span class="dv">50</span>) </span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>my_names <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Sandra"</span>, <span class="st">"Paul"</span>, <span class="st">"Jonas"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -258,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="datentypen" class="level3">
 <h3 class="anchored" data-anchor-id="datentypen">1.6. Datentypen</h3>
-<p>R muss wissen, um welche Art von Daten es sich handelt. Mathematische Berechnungen mit einem Wort führen zu einem Error.</p>
+<p>R muss wissen, um welche Art von Daten es sich handelt. Zum Beispiel können nur mit numerischen Variablen (double, integer) Mathematische Berechnungen durchgeführt werden. Mit einer Character-Variable führen Berechnungen zu einem Error.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">

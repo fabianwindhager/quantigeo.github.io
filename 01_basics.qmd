@@ -18,9 +18,11 @@ RStudio ist eine integrierte Entwicklungsumgebung (IDE) für R, die eine benutze
 
 ### 1.4. Objekte und Zuweisung
 
-R ist eine objektorientierte Sprache. Alles ist ein Objekt. Eine Zahl, eine Tabelle, ein Diagramm – alles Objekte. Objekte werden mit dem Zuweisungsoperator \<- erstellt.
+R ist eine objektorientierte Sprache. Alles ist ein Objekt. Eine Zahl, eine Tabelle, ein Diagramm – alles Objekte. Objekte werden mit dem Zuweisungsoperator `<-` erstellt.
 
 Mit `Strg + Enter` können wir Code-Zeilen in der Console ausführen.
+
+Text, der hinter einem `#`-Zeichen steht, wird dabei nicht ausgeführt. Dies ist praktisch, um Skripte zu kommentieren und einzelne Code-Zeilen zu aktivieren/deaktivieren.
 
 ```{r}
 # Erstelle ein Objekt "x" 
@@ -31,7 +33,7 @@ x + 5
 
 ### 1.5. Vektoren
 
-Ein Vektor ist eine Liste von Dingen. Verwende c() (kombinieren), um eine Liste zu erstellen.
+Ein Vektor ist eine Liste von Dingen. Verwende `c()` (kombinieren), um eine Liste zu erstellen.
 
 ```{r}
 my_ages <- c(25,24,30,50) 
@@ -46,7 +48,7 @@ my_ages + 2
 
 ### 1.6. Datentypen
 
-R muss wissen, um welche Art von Daten es sich handelt. Mathematische Berechnungen mit einem Wort führen zu einem Error.
+R muss wissen, um welche Art von Daten es sich handelt. Zum Beispiel können nur mit numerischen Variablen (double, integer) Mathematische Berechnungen durchgeführt werden. Mit einer Character-Variable führen Berechnungen zu einem Error.
 
 | Typ             | Beschreibung                 | Beispiel        |
 |:----------------|------------------------------|-----------------|
