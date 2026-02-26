@@ -1,0 +1,233 @@
+---
+title: "Skript 3 - Regionsprofil"
+---
+
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+```{r}
+
+
+pop_tirol <- read.csv("data/Bevölkerungsdaten.csv") %>% 
+  filter(str_sub(gemnr, 1, 1) == "7")
+pop_tirol_yearmean <- read.csv2("data/Bevölkerung_Jahresdurchschnitt_Tirol.csv")
+moves <- read.csv2("data/Wanderungsdaten2.csv")
+
+
+
+```
+
+```{r}
+dta2 <- left_join(pop_tirol, moves, by = c("jahr", "gemnr")) %>% 
+  drop_na()
+
+all <- dta2 %>% 
+  group_by(jahr) %>% 
+  summarise(pop_tot = sum(pop),
+            bi_zu = sum(bi_zu),
+            bi_weg = sum(bi_weg),
+            au_zu = sum(au_zu),
+            au_weg = sum(au_weg)) %>% 
+  ungroup()
+
+all <- all %>% 
+    mutate(bi_saldo = bi_zu - bi_weg,
+         au_saldo = au_zu - au_weg,
+         mig_saldo = bi_saldo + au_saldo,
+         pop_diff = pop_tot - lag(pop_tot),
+         pop_rate = (pop_diff / lag(pop_tot)) * 100,
+         index = pop_tot / pop_tot[jahr == 2002] * 100,
+         bi_rate = (bi_saldo / pop_tot) * 1000,
+         au_rate = (au_saldo / pop_tot) * 1000,
+         mig_rate = (mig_saldo / pop_tot) * 1000,
+         nat_change = (pop_tot - lag(pop_tot) - lag(mig_saldo)),
+         nat_change_rate = (nat_change / pop_tot) * 1000) %>% 
+  ungroup()
+
+
+```
+
+```{r}
+dta <- left_join(pop_tirol_yearmean, moves, by = c("jahr", "gemnr")) %>% 
+  drop_na()
+
+length(unique(dta$gemnr))
+
+```
+
+### 2.9. Raumtypologien
+
+Die Urban-Rural-Typologie der Statistik Austria ist eine räumliche Klassifikation, die Gemeinden bzw. Regionen anhand von Kriterien wie Bevölkerungsdichte, strukturellen Merkmalen und Erreichbarkeit in städtische, intermediäre und ländliche Raumtypen einteilt, um statistische Analysen zu ermöglichen.
+
+Die Urban-Rural Typologie der Statistik Austria kann im STATAtlas heruntergeladen werden: [https://www.statistik.at/atlas/?mapid=topo_regionale_gliederung_oesterreich](#0)
+
+```{r}
+typ <- read.csv2("data/003_gliederungen_nach_städtischen_und_ländlichen_gebieten(1).csv")  
+head(typ)
+
+dta <- left_join(dta, typ, by = "gemnr") %>% 
+  drop_na()
+
+```
+
+### 3.2. Index Bevölkerungsentwicklung nach Raumtyp
+
+```{r}
+## Recoding typ_dta$Wert into typ_dta$Wert_rec
+dta$Wert_2 <- dta$Wert %>%
+  as.character() %>%
+  fct_recode(
+    "Städte" = "101",
+    "Städte" = "103",
+    "Suburbaner Raum" = "210",
+    "Suburbaner Raum" = "220",
+    "Regionalzentren" = "310",
+    "Regionalzentren" = "330",
+    "Ländlicher Raum" = "410",
+    "Ländlicher Raum" = "420",
+    "Ländlicher Raum" = "430"
+  )
+
+typ_dta <- dta %>% 
+  group_by(Wert, jahr) %>% 
+  summarize(yearmean_pop = sum(yearmean_pop),
+            bi_zu = sum(bi_zu),
+            bi_weg = sum(bi_weg),
+            au_zu = sum(au_zu),
+            au_weg = sum(au_weg)) %>% 
+  ungroup()
+
+typ_dta <- typ_dta %>%
+  group_by(Wert) %>% 
+  mutate(bi_saldo = bi_zu - bi_weg,
+         au_saldo = au_zu - au_weg,
+         mig_saldo = bi_saldo + au_saldo,
+         pop_diff = yearmean_pop - lag(yearmean_pop),
+         pop_rate = (pop_diff / lag(yearmean_pop)) * 100,
+         index = yearmean_pop / yearmean_pop[jahr == 2002] * 100,
+         bi_rate = (bi_saldo / yearmean_pop) * 1000,
+         au_rate = (au_saldo / yearmean_pop) * 1000,
+         mig_rate = (mig_saldo / yearmean_pop) * 1000,
+         nat_change = (yearmean_pop - lag(yearmean_pop) - mig_saldo),
+         nat_change_rate = (nat_change / yearmean_pop) * 1000) %>% 
+  ungroup()
+
+
+
+gemnr_dta <- dta %>% 
+  group_by(gemnr, jahr) %>% 
+  summarize(yearmean_pop = sum(yearmean_pop),
+            bi_zu = sum(bi_zu),
+            bi_weg = sum(bi_weg),
+            au_zu = sum(au_zu),
+            au_weg = sum(au_weg)) %>% 
+  filter(gemnr != 70812) %>% 
+  ungroup()
+
+gemnr_dta <- gemnr_dta %>%
+  group_by(gemnr) %>% 
+  mutate(bi_saldo = bi_zu - bi_weg,
+         au_saldo = au_zu - au_weg,
+         mig_saldo = bi_saldo + au_saldo,
+         pop_diff = yearmean_pop - lag(yearmean_pop),
+         pop_rate = (pop_diff / lag(yearmean_pop)) * 100,
+         index = yearmean_pop / yearmean_pop[jahr == 2002] * 100,
+         bi_rate = (bi_saldo / yearmean_pop) * 1000,
+         au_rate = (au_saldo / yearmean_pop) * 1000,
+         mig_rate = (mig_saldo / yearmean_pop) * 1000,
+         nat_change = (yearmean_pop - lag(yearmean_pop) - mig_saldo),
+         nat_change_rate = (nat_change / yearmean_pop) * 1000) %>% 
+  ungroup()
+
+```
+
+```{r}
+ggplot(typ_dta, aes(x = as.factor(jahr), y = index, color = as.factor(Wert), group = as.factor(Wert))) +
+  geom_line(size = 1.2) +
+  geom_point() +
+  geom_hline(yintercept = 100, col = "black", linetype = "dashed", size = 1)+
+  scale_color_manual(
+    values = c("101" = "#b35e6b",
+               "103" = "#e08f81",
+               "210" = "#eeaf58",
+               "220" = "#f5ca82",
+               "310" = "#fdf453",
+               "330" = "#eeec85",
+               "410" = "#c2d38c",
+               "420" = "#84b870",
+               "430" = "#789d6e") ,  # assign colors to levels
+    labels = c("Urbane Großzentren", 
+               "Urbane Kleinzentren",
+               "Regionale Zentren, zentral",
+               "Regionale Zentren, intermediär",
+               "Ländlicher Raum im Umland von Zentren, zentral",
+               "Ländlicher Raum im Umland von Zentren, peripher",
+               "Ländlicher Raum, zentral",
+               "Ländlicher Raum, intermediär",
+               "Ländlicher Raum, peripher")
+  )+
+  labs(y = "Bevölkerungsindex (2002=100)",
+       x = NULL,
+       color = NULL,
+       title = "Bevölkerungsentwicklung nach Gemeindetyp") +
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.direction = "horizontal",
+        plot.title = element_text(hjust = 0.5))
+```
+
+```{r}
+ggplot(typ_dta, aes(x = as.factor(jahr), y = index, color = as.factor(Wert), group = as.factor(Wert))) +
+  geom_line(size = 1.2) +
+  geom_point() +
+  geom_hline(yintercept = 100, col = "black", linetype = "dashed", size = 1)+
+  scale_color_manual(
+    values = c("Städte" = "#b35e6b",
+               "Suburbaner Raum" = "#f5ca82",
+               "Regionalzentren" = "#fdf453",
+               "Ländlicher Raum" = "#84b870"))+
+  labs(y = "Bevölkerungsindex (2002=100)",
+       x = NULL,
+       color = NULL,
+       title = "Bevölkerungsentwicklung nach Gemeindetyp") +
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.direction = "horizontal",
+        plot.title = element_text(hjust = 0.5))
+```
+
+```{r}
+rates_df <- typ_dta %>% 
+  select(jahr, Wert, bi_rate, au_rate, nat_change_rate) %>% 
+  pivot_longer(cols = c(bi_rate, au_rate, nat_change_rate),
+               names_to = "rate_type",
+               values_to = "rate")  
+```
+
+```{r}
+## Recoding rates_df$Wert into rates_df$Wert_name
+rates_df$Wert_name <- rates_df$Wert %>%
+  as.character() %>%
+  fct_recode(
+    "Urbane Großzentren" = "101",
+    "Urbane Kleinzentren" = "103",
+    "Regionale Zentren, zentral" = "210",
+    "Regionale Zentren, intermediär" = "220",
+    "Ländlicher Raum im Umland von Zentren, zentral" = "310",
+    "Ländlicher Raum im Umland von Zentren, peripher" = "330",
+    "Ländlicher Raum, zentral" = "410",
+    "Ländlicher Raum, intermediär" = "420",
+    "Ländlicher Raum, peripher" = "430"
+  )
+
+ggplot(rates_df, aes(x = jahr, y = rate, fill = rate_type))+
+  geom_area(position = "dodge")+
+  facet_wrap(Wert_name~.)+
+  theme_bw()
+```

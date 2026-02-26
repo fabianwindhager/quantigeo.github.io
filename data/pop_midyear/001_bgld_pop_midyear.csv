@@ -1,0 +1,3934 @@
+jahr;gemnr;n
+2002;Eisenstadt <10101>;11662,875
+2002;Rust <10201>;1732,75
+2002;Breitenbrunn am Neusiedler See <10301>;1725,5
+2002;Donnerskirchen <10302>;1642
+2002;Großhöflein <10303>;1814,625
+2002;Hornstein <10304>;2627
+2002;Klingenbach <10305>;1175,5
+2002;Leithaprodersdorf <10306>;1178
+2002;Mörbisch am See <10307>;2315,875
+2002;Müllendorf <10308>;1257,25
+2002;Neufeld an der Leitha <10309>;2966,25
+2002;Oggau am Neusiedler See <10310>;1783,125
+2002;Oslip <10311>;1314,625
+2002;Purbach am Neusiedler See <10312>;2562,375
+2002;Sankt Margarethen im Burgenland <10313>;2767,75
+2002;Schützen am Gebirge <10314>;1379
+2002;Siegendorf <10315>;2705,375
+2002;Steinbrunn <10316>;1894,625
+2002;Trausdorf an der Wulka <10317>;1752,5
+2002;Wimpassing an der Leitha <10318>;1128
+2002;Wulkaprodersdorf <10319>;1892,75
+2002;Loretto <10320>;368,25
+2002;Stotzing <10321>;776,875
+2002;Zillingtal <10322>;870,875
+2002;Zagersdorf <10323>;911,5
+2002;Bocksdorf <10401>;787
+2002;Burgauberg-Neudauberg <10402>;1322,625
+2002;Eberau <10403>;1003,75
+2002;Gerersdorf-Sulz <10404>;1046,125
+2002;Güssing <10405>;3849,875
+2002;Güttenbach <10406>;1002,5
+2002;Heiligenbrunn <10407>;935,375
+2002;Kukmirn <10408>;1965,25
+2002;Neuberg im Burgenland <10409>;1053,875
+2002;Neustift bei Güssing <10410>;557,375
+2002;Olbendorf <10411>;1393,125
+2002;Ollersdorf im Burgenland <10412>;993,625
+2002;Sankt Michael im Burgenland <10413>;1073,25
+2002;Stegersbach <10414>;2374
+2002;Stinatz <10415>;1403
+2002;Strem <10416>;916
+2002;Tobaj <10417>;1395,875
+2002;Hackerberg <10418>;369,875
+2002;Wörterberg <10419>;480,375
+2002;Großmürbisch <10420>;280
+2002;Inzenhof <10421>;317,5
+2002;Kleinmürbisch <10422>;256,25
+2002;Tschanigraben <10423>;68,375
+2002;Heugraben <10424>;251,875
+2002;Rohr im Burgenland <10425>;391,25
+2002;Bildein <10426>;345,25
+2002;Rauchwart <10427>;467,75
+2002;Moschendorf <10428>;453,25
+2002;Deutsch Kaltenbrunn <10501>;1797,875
+2002;Eltendorf <10502>;1024,125
+2002;Heiligenkreuz im Lafnitztal <10503>;1238,375
+2002;Jennersdorf <10504>;4249,375
+2002;Minihof-Liebau <10505>;1164,5
+2002;Mogersdorf <10506>;1210,875
+2002;Neuhaus am Klausenbach <10507>;1020,625
+2002;Rudersdorf <10508>;2096,625
+2002;Sankt Martin an der Raab <10509>;2082,375
+2002;Weichselbaum <10510>;777,375
+2002;Königsdorf <10511>;739
+2002;Mühlgraben <10512>;437,25
+2002;Draßburg <10601>;1048
+2002;Forchtenstein <10602>;2786,375
+2002;Hirm <10603>;894,375
+2002;Loipersbach im Burgenland <10604>;1266,875
+2002;Marz <10605>;2006,375
+2002;Mattersburg <10606>;6287,625
+2002;Neudörfl <10607>;3998,25
+2002;Pöttelsdorf <10608>;639,125
+2002;Pöttsching <10609>;2706
+2002;Rohrbach bei Mattersburg <10610>;2701,875
+2002;Bad Sauerbrunn <10611>;1903,625
+2002;Schattendorf <10612>;2458,25
+2002;Sieggraben <10613>;1285,125
+2002;Sigleß <10614>;1119,125
+2002;Wiesen <10615>;2787,375
+2002;Antau <10616>;733,375
+2002;Baumgarten <10617>;890,375
+2002;Zemendorf-Stöttera <10618>;1251,875
+2002;Krensdorf <10619>;602,875
+2002;Andau <10701>;2479,375
+2002;Apetlon <10702>;1878
+2002;Bruckneudorf <10703>;2691,625
+2002;Deutsch Jahrndorf <10704>;545,125
+2002;Frauenkirchen <10705>;2822,625
+2002;Gattendorf <10706>;1107,875
+2002;Gols <10707>;3491,375
+2002;Halbturn <10708>;1868,875
+2002;Illmitz <10709>;2513,875
+2002;Jois <10710>;1302
+2002;Kittsee <10711>;1870,25
+2002;Mönchhof <10712>;2252,5
+2002;Neusiedl am See <10713>;5612
+2002;Nickelsdorf <10714>;1546,875
+2002;Pama <10715>;1022
+2002;Pamhagen <10716>;1768,625
+2002;Parndorf <10717>;3308,5
+2002;Podersdorf am See <10718>;1977,875
+2002;Sankt Andrä am Zicksee <10719>;1388,75
+2002;Tadten <10720>;1338,625
+2002;Wallern im Burgenland <10721>;1955,875
+2002;Weiden am See <10722>;1925,625
+2002;Winden am See <10723>;1124,125
+2002;Zurndorf <10724>;1981,5
+2002;Neudorf <10725>;711,125
+2002;Potzneusiedl <10726>;500,25
+2002;Edelstal <10727>;597,25
+2002;Deutschkreutz <10801>;3205,25
+2002;Draßmarkt <10802>;1396,625
+2002;Frankenau-Unterpullendorf <10803>;1255,625
+2002;Großwarasdorf <10804>;1626,125
+2002;Horitschon <10805>;1973,125
+2002;Kaisersdorf <10806>;522
+2002;Kobersdorf <10807>;1832,375
+2002;Lackenbach <10808>;1078,125
+2002;Lockenhaus <10809>;1984
+2002;Lutzmannsburg <10810>;918,625
+2002;Mannersdorf an der Rabnitz <10811>;1879,125
+2002;Markt Sankt Martin <10812>;1176,25
+2002;Neckenmarkt <10813>;1710,5
+2002;Neutal <10814>;1020,875
+2002;Nikitsch <10815>;1542,25
+2002;Oberpullendorf <10816>;2804,5
+2002;Pilgersdorf <10817>;1703,875
+2002;Piringsdorf <10818>;883,25
+2002;Raiding <10819>;815,125
+2002;Ritzing <10820>;896
+2002;Steinberg-Dörfl <10821>;1220,625
+2002;Stoob <10822>;1402,5
+2002;Weppersdorf <10823>;1794,125
+2002;Lackendorf <10824>;589
+2002;Unterfrauenhaid <10825>;691,5
+2002;Unterrabnitz-Schwendgraben <10826>;629,625
+2002;Weingraben <10827>;386,25
+2002;Oberloisdorf <10828>;804,125
+2002;Bad Tatzmannsdorf <10901>;1296,5
+2002;Bernstein <10902>;2389,375
+2002;Deutsch Schützen-Eisenberg <10903>;1146,75
+2002;Grafenschachen <10904>;1208
+2002;Großpetersdorf <10905>;3586,25
+2002;Hannersdorf <10906>;828,125
+2002;Kemeten <10907>;1532,875
+2002;Kohfidisch <10908>;1443,875
+2002;Litzelsdorf <10909>;1142,875
+2002;Loipersdorf-Kitzladen <10910>;1241,875
+2002;Mariasdorf <10911>;1254,25
+2002;Markt Allhau <10912>;1747,25
+2002;Markt Neuhodis <10913>;745,25
+2002;Mischendorf <10914>;1752,5
+2002;Oberdorf im Burgenland <10915>;1102
+2002;Oberschützen <10916>;2268,375
+2002;Oberwart <10917>;6615,375
+2002;Pinkafeld <10918>;5192,875
+2002;Rechnitz <10919>;3155,75
+2002;Riedlingsdorf <10920>;1634,875
+2002;Rotenturm an der Pinka <10921>;1395,375
+2002;Schachendorf <10922>;806,5
+2002;Stadtschlaining <10923>;2064,625
+2002;Unterkohlstätten <10924>;1098
+2002;Unterwart <10925>;942,5
+2002;Weiden bei Rechnitz <10926>;909,375
+2002;Wiesfleck <10927>;1171
+2002;Wolfau <10928>;1344,75
+2002;Neustift an der Lafnitz <10929>;639,375
+2002;Jabing <10930>;729
+2002;Badersdorf <10931>;316
+2002;Schandorf <10932>;309,625
+2003;Eisenstadt <10101>;11718,25
+2003;Rust <10201>;1752,875
+2003;Breitenbrunn am Neusiedler See <10301>;1739
+2003;Donnerskirchen <10302>;1651,25
+2003;Großhöflein <10303>;1811,875
+2003;Hornstein <10304>;2631,125
+2003;Klingenbach <10305>;1177,375
+2003;Leithaprodersdorf <10306>;1176,125
+2003;Mörbisch am See <10307>;2318,375
+2003;Müllendorf <10308>;1259,375
+2003;Neufeld an der Leitha <10309>;2979,125
+2003;Oggau am Neusiedler See <10310>;1781,25
+2003;Oslip <10311>;1296,75
+2003;Purbach am Neusiedler See <10312>;2575,875
+2003;Sankt Margarethen im Burgenland <10313>;2773,625
+2003;Schützen am Gebirge <10314>;1381,125
+2003;Siegendorf <10315>;2696,75
+2003;Steinbrunn <10316>;1930,875
+2003;Trausdorf an der Wulka <10317>;1767,625
+2003;Wimpassing an der Leitha <10318>;1131,375
+2003;Wulkaprodersdorf <10319>;1885,5
+2003;Loretto <10320>;373,125
+2003;Stotzing <10321>;787
+2003;Zillingtal <10322>;884,75
+2003;Zagersdorf <10323>;913,375
+2003;Bocksdorf <10401>;774,5
+2003;Burgauberg-Neudauberg <10402>;1335
+2003;Eberau <10403>;971,625
+2003;Gerersdorf-Sulz <10404>;1053
+2003;Güssing <10405>;3826
+2003;Güttenbach <10406>;978
+2003;Heiligenbrunn <10407>;921
+2003;Kukmirn <10408>;1964,625
+2003;Neuberg im Burgenland <10409>;1035,625
+2003;Neustift bei Güssing <10410>;545,625
+2003;Olbendorf <10411>;1379,25
+2003;Ollersdorf im Burgenland <10412>;988,125
+2003;Sankt Michael im Burgenland <10413>;1063,5
+2003;Stegersbach <10414>;2382,5
+2003;Stinatz <10415>;1419,125
+2003;Strem <10416>;910,375
+2003;Tobaj <10417>;1407
+2003;Hackerberg <10418>;363,25
+2003;Wörterberg <10419>;480
+2003;Großmürbisch <10420>;272,125
+2003;Inzenhof <10421>;312,75
+2003;Kleinmürbisch <10422>;254,75
+2003;Tschanigraben <10423>;69,875
+2003;Heugraben <10424>;246,875
+2003;Rohr im Burgenland <10425>;381,5
+2003;Bildein <10426>;338,125
+2003;Rauchwart <10427>;461,625
+2003;Moschendorf <10428>;438,5
+2003;Deutsch Kaltenbrunn <10501>;1781,25
+2003;Eltendorf <10502>;1008,875
+2003;Heiligenkreuz im Lafnitztal <10503>;1233,125
+2003;Jennersdorf <10504>;4224
+2003;Minihof-Liebau <10505>;1157,75
+2003;Mogersdorf <10506>;1206,25
+2003;Neuhaus am Klausenbach <10507>;1008,75
+2003;Rudersdorf <10508>;2121
+2003;Sankt Martin an der Raab <10509>;2077,5
+2003;Weichselbaum <10510>;771,25
+2003;Königsdorf <10511>;736,25
+2003;Mühlgraben <10512>;427
+2003;Draßburg <10601>;1047,5
+2003;Forchtenstein <10602>;2776,5
+2003;Hirm <10603>;906,375
+2003;Loipersbach im Burgenland <10604>;1259,625
+2003;Marz <10605>;1982,125
+2003;Mattersburg <10606>;6358,5
+2003;Neudörfl <10607>;4038,75
+2003;Pöttelsdorf <10608>;647
+2003;Pöttsching <10609>;2751,125
+2003;Rohrbach bei Mattersburg <10610>;2719,375
+2003;Bad Sauerbrunn <10611>;1920,5
+2003;Schattendorf <10612>;2435,875
+2003;Sieggraben <10613>;1290,75
+2003;Sigleß <10614>;1116,375
+2003;Wiesen <10615>;2772,875
+2003;Antau <10616>;728,375
+2003;Baumgarten <10617>;889,375
+2003;Zemendorf-Stöttera <10618>;1240,5
+2003;Krensdorf <10619>;604,625
+2003;Andau <10701>;2459
+2003;Apetlon <10702>;1859,5
+2003;Bruckneudorf <10703>;2746,625
+2003;Deutsch Jahrndorf <10704>;537,5
+2003;Frauenkirchen <10705>;2818,375
+2003;Gattendorf <10706>;1115,125
+2003;Gols <10707>;3495,625
+2003;Halbturn <10708>;1856
+2003;Illmitz <10709>;2505,75
+2003;Jois <10710>;1318,125
+2003;Kittsee <10711>;1862,25
+2003;Mönchhof <10712>;2247,375
+2003;Neusiedl am See <10713>;5666,75
+2003;Nickelsdorf <10714>;1539,75
+2003;Pama <10715>;1026,875
+2003;Pamhagen <10716>;1756,25
+2003;Parndorf <10717>;3467,75
+2003;Podersdorf am See <10718>;1987,375
+2003;Sankt Andrä am Zicksee <10719>;1375,375
+2003;Tadten <10720>;1305,75
+2003;Wallern im Burgenland <10721>;1939,5
+2003;Weiden am See <10722>;1950,125
+2003;Winden am See <10723>;1109,625
+2003;Zurndorf <10724>;1977,375
+2003;Neudorf <10725>;701,625
+2003;Potzneusiedl <10726>;502
+2003;Edelstal <10727>;601,5
+2003;Deutschkreutz <10801>;3205,875
+2003;Draßmarkt <10802>;1398,125
+2003;Frankenau-Unterpullendorf <10803>;1252
+2003;Großwarasdorf <10804>;1580,25
+2003;Horitschon <10805>;1994,625
+2003;Kaisersdorf <10806>;527,125
+2003;Kobersdorf <10807>;1846,625
+2003;Lackenbach <10808>;1076,75
+2003;Lockenhaus <10809>;1971
+2003;Lutzmannsburg <10810>;895,25
+2003;Mannersdorf an der Rabnitz <10811>;1864,625
+2003;Markt Sankt Martin <10812>;1171,125
+2003;Neckenmarkt <10813>;1708,875
+2003;Neutal <10814>;1005
+2003;Nikitsch <10815>;1520
+2003;Oberpullendorf <10816>;2824
+2003;Pilgersdorf <10817>;1707,75
+2003;Piringsdorf <10818>;885,75
+2003;Raiding <10819>;825
+2003;Ritzing <10820>;910
+2003;Steinberg-Dörfl <10821>;1209,5
+2003;Stoob <10822>;1394,25
+2003;Weppersdorf <10823>;1791,125
+2003;Lackendorf <10824>;584
+2003;Unterfrauenhaid <10825>;687,75
+2003;Unterrabnitz-Schwendgraben <10826>;627,25
+2003;Weingraben <10827>;386,5
+2003;Oberloisdorf <10828>;800,75
+2003;Bad Tatzmannsdorf <10901>;1282,125
+2003;Bernstein <10902>;2333,875
+2003;Deutsch Schützen-Eisenberg <10903>;1139
+2003;Grafenschachen <10904>;1218,625
+2003;Großpetersdorf <10905>;3590
+2003;Hannersdorf <10906>;820,5
+2003;Kemeten <10907>;1531
+2003;Kohfidisch <10908>;1432,625
+2003;Litzelsdorf <10909>;1155,125
+2003;Loipersdorf-Kitzladen <10910>;1245
+2003;Mariasdorf <10911>;1245,25
+2003;Markt Allhau <10912>;1747,5
+2003;Markt Neuhodis <10913>;738,875
+2003;Mischendorf <10914>;1757
+2003;Oberdorf im Burgenland <10915>;1090,5
+2003;Oberschützen <10916>;2238,75
+2003;Oberwart <10917>;6670,5
+2003;Pinkafeld <10918>;5219
+2003;Rechnitz <10919>;3121,625
+2003;Riedlingsdorf <10920>;1651,5
+2003;Rotenturm an der Pinka <10921>;1398,75
+2003;Schachendorf <10922>;795
+2003;Stadtschlaining <10923>;2060,25
+2003;Unterkohlstätten <10924>;1086
+2003;Unterwart <10925>;930,25
+2003;Weiden bei Rechnitz <10926>;902,375
+2003;Wiesfleck <10927>;1166,375
+2003;Wolfau <10928>;1336,125
+2003;Neustift an der Lafnitz <10929>;651,25
+2003;Jabing <10930>;721,375
+2003;Badersdorf <10931>;315,75
+2003;Schandorf <10932>;299
+2004;Eisenstadt <10101>;11912,5
+2004;Rust <10201>;1784,25
+2004;Breitenbrunn am Neusiedler See <10301>;1754,5
+2004;Donnerskirchen <10302>;1683,25
+2004;Großhöflein <10303>;1806,25
+2004;Hornstein <10304>;2629,25
+2004;Klingenbach <10305>;1177,75
+2004;Leithaprodersdorf <10306>;1172,125
+2004;Mörbisch am See <10307>;2317,25
+2004;Müllendorf <10308>;1268,25
+2004;Neufeld an der Leitha <10309>;2998,375
+2004;Oggau am Neusiedler See <10310>;1806,5
+2004;Oslip <10311>;1297,625
+2004;Purbach am Neusiedler See <10312>;2600
+2004;Sankt Margarethen im Burgenland <10313>;2778,125
+2004;Schützen am Gebirge <10314>;1391,5
+2004;Siegendorf <10315>;2719,5
+2004;Steinbrunn <10316>;1954,375
+2004;Trausdorf an der Wulka <10317>;1776,875
+2004;Wimpassing an der Leitha <10318>;1124,25
+2004;Wulkaprodersdorf <10319>;1885,375
+2004;Loretto <10320>;372,75
+2004;Stotzing <10321>;799,5
+2004;Zillingtal <10322>;888,875
+2004;Zagersdorf <10323>;920,75
+2004;Bocksdorf <10401>;770,125
+2004;Burgauberg-Neudauberg <10402>;1341,625
+2004;Eberau <10403>;961,75
+2004;Gerersdorf-Sulz <10404>;1056,75
+2004;Güssing <10405>;3829
+2004;Güttenbach <10406>;966,375
+2004;Heiligenbrunn <10407>;911,25
+2004;Kukmirn <10408>;1966,75
+2004;Neuberg im Burgenland <10409>;1015,625
+2004;Neustift bei Güssing <10410>;536,125
+2004;Olbendorf <10411>;1360,375
+2004;Ollersdorf im Burgenland <10412>;989,625
+2004;Sankt Michael im Burgenland <10413>;1059,75
+2004;Stegersbach <10414>;2404,125
+2004;Stinatz <10415>;1423,625
+2004;Strem <10416>;901,25
+2004;Tobaj <10417>;1408,5
+2004;Hackerberg <10418>;360,25
+2004;Wörterberg <10419>;477,875
+2004;Großmürbisch <10420>;261,5
+2004;Inzenhof <10421>;316
+2004;Kleinmürbisch <10422>;255,375
+2004;Tschanigraben <10423>;69,25
+2004;Heugraben <10424>;247,875
+2004;Rohr im Burgenland <10425>;386,125
+2004;Bildein <10426>;328
+2004;Rauchwart <10427>;460,25
+2004;Moschendorf <10428>;435,25
+2004;Deutsch Kaltenbrunn <10501>;1757,75
+2004;Eltendorf <10502>;1012,625
+2004;Heiligenkreuz im Lafnitztal <10503>;1226
+2004;Jennersdorf <10504>;4215,125
+2004;Minihof-Liebau <10505>;1155,125
+2004;Mogersdorf <10506>;1190,125
+2004;Neuhaus am Klausenbach <10507>;992,125
+2004;Rudersdorf <10508>;2157,375
+2004;Sankt Martin an der Raab <10509>;2071,5
+2004;Weichselbaum <10510>;777,75
+2004;Königsdorf <10511>;739,25
+2004;Mühlgraben <10512>;422,375
+2004;Draßburg <10601>;1054
+2004;Forchtenstein <10602>;2765,5
+2004;Hirm <10603>;905,125
+2004;Loipersbach im Burgenland <10604>;1254
+2004;Marz <10605>;1958,625
+2004;Mattersburg <10606>;6494,75
+2004;Neudörfl <10607>;4123,25
+2004;Pöttelsdorf <10608>;649,125
+2004;Pöttsching <10609>;2784,5
+2004;Rohrbach bei Mattersburg <10610>;2703,125
+2004;Bad Sauerbrunn <10611>;1942,375
+2004;Schattendorf <10612>;2444,5
+2004;Sieggraben <10613>;1286,875
+2004;Sigleß <10614>;1119,125
+2004;Wiesen <10615>;2782,75
+2004;Antau <10616>;716,25
+2004;Baumgarten <10617>;878,75
+2004;Zemendorf-Stöttera <10618>;1242,875
+2004;Krensdorf <10619>;608,5
+2004;Andau <10701>;2452,625
+2004;Apetlon <10702>;1851,875
+2004;Bruckneudorf <10703>;2795,75
+2004;Deutsch Jahrndorf <10704>;544,75
+2004;Frauenkirchen <10705>;2818,625
+2004;Gattendorf <10706>;1113,375
+2004;Gols <10707>;3547,375
+2004;Halbturn <10708>;1868,5
+2004;Illmitz <10709>;2502,125
+2004;Jois <10710>;1331,75
+2004;Kittsee <10711>;1862,5
+2004;Mönchhof <10712>;2251,125
+2004;Neusiedl am See <10713>;5753,25
+2004;Nickelsdorf <10714>;1541,25
+2004;Pama <10715>;1026
+2004;Pamhagen <10716>;1750,75
+2004;Parndorf <10717>;3574,625
+2004;Podersdorf am See <10718>;2019,375
+2004;Sankt Andrä am Zicksee <10719>;1374,875
+2004;Tadten <10720>;1290
+2004;Wallern im Burgenland <10721>;1929,5
+2004;Weiden am See <10722>;1969,5
+2004;Winden am See <10723>;1110
+2004;Zurndorf <10724>;1977,125
+2004;Neudorf <10725>;703,75
+2004;Potzneusiedl <10726>;491
+2004;Edelstal <10727>;593,25
+2004;Deutschkreutz <10801>;3170,875
+2004;Draßmarkt <10802>;1387,25
+2004;Frankenau-Unterpullendorf <10803>;1228,875
+2004;Großwarasdorf <10804>;1554,125
+2004;Horitschon <10805>;1982,75
+2004;Kaisersdorf <10806>;539,125
+2004;Kobersdorf <10807>;1857
+2004;Lackenbach <10808>;1080,25
+2004;Lockenhaus <10809>;1977,375
+2004;Lutzmannsburg <10810>;879,5
+2004;Mannersdorf an der Rabnitz <10811>;1851,5
+2004;Markt Sankt Martin <10812>;1178,5
+2004;Neckenmarkt <10813>;1699,375
+2004;Neutal <10814>;1025,625
+2004;Nikitsch <10815>;1496,5
+2004;Oberpullendorf <10816>;2856,125
+2004;Pilgersdorf <10817>;1690,375
+2004;Piringsdorf <10818>;887,375
+2004;Raiding <10819>;832
+2004;Ritzing <10820>;892,375
+2004;Steinberg-Dörfl <10821>;1214,5
+2004;Stoob <10822>;1398,875
+2004;Weppersdorf <10823>;1794,25
+2004;Lackendorf <10824>;582,5
+2004;Unterfrauenhaid <10825>;697,5
+2004;Unterrabnitz-Schwendgraben <10826>;632,125
+2004;Weingraben <10827>;387,625
+2004;Oberloisdorf <10828>;804,25
+2004;Bad Tatzmannsdorf <10901>;1295,5
+2004;Bernstein <10902>;2305
+2004;Deutsch Schützen-Eisenberg <10903>;1132,75
+2004;Grafenschachen <10904>;1212,375
+2004;Großpetersdorf <10905>;3585,875
+2004;Hannersdorf <10906>;819,875
+2004;Kemeten <10907>;1533,375
+2004;Kohfidisch <10908>;1436,625
+2004;Litzelsdorf <10909>;1157
+2004;Loipersdorf-Kitzladen <10910>;1243,5
+2004;Mariasdorf <10911>;1240,625
+2004;Markt Allhau <10912>;1768,5
+2004;Markt Neuhodis <10913>;727
+2004;Mischendorf <10914>;1760,625
+2004;Oberdorf im Burgenland <10915>;1076,125
+2004;Oberschützen <10916>;2255
+2004;Oberwart <10917>;6768
+2004;Pinkafeld <10918>;5243,375
+2004;Rechnitz <10919>;3147,25
+2004;Riedlingsdorf <10920>;1640,125
+2004;Rotenturm an der Pinka <10921>;1404
+2004;Schachendorf <10922>;790
+2004;Stadtschlaining <10923>;2057,625
+2004;Unterkohlstätten <10924>;1079,375
+2004;Unterwart <10925>;926,625
+2004;Weiden bei Rechnitz <10926>;896,875
+2004;Wiesfleck <10927>;1161,25
+2004;Wolfau <10928>;1329,75
+2004;Neustift an der Lafnitz <10929>;665,75
+2004;Jabing <10930>;731,125
+2004;Badersdorf <10931>;323
+2004;Schandorf <10932>;294,5
+2005;Eisenstadt <10101>;12096,25
+2005;Rust <10201>;1799,75
+2005;Breitenbrunn am Neusiedler See <10301>;1757,5
+2005;Donnerskirchen <10302>;1695,125
+2005;Großhöflein <10303>;1834,625
+2005;Hornstein <10304>;2613,625
+2005;Klingenbach <10305>;1167,75
+2005;Leithaprodersdorf <10306>;1169,375
+2005;Mörbisch am See <10307>;2341,875
+2005;Müllendorf <10308>;1289,875
+2005;Neufeld an der Leitha <10309>;3031,5
+2005;Oggau am Neusiedler See <10310>;1816,5
+2005;Oslip <10311>;1310,875
+2005;Purbach am Neusiedler See <10312>;2625,125
+2005;Sankt Margarethen im Burgenland <10313>;2779,25
+2005;Schützen am Gebirge <10314>;1404,875
+2005;Siegendorf <10315>;2716,875
+2005;Steinbrunn <10316>;2013,375
+2005;Trausdorf an der Wulka <10317>;1782,875
+2005;Wimpassing an der Leitha <10318>;1126
+2005;Wulkaprodersdorf <10319>;1878,25
+2005;Loretto <10320>;391
+2005;Stotzing <10321>;803,375
+2005;Zillingtal <10322>;892
+2005;Zagersdorf <10323>;944,25
+2005;Bocksdorf <10401>;774
+2005;Burgauberg-Neudauberg <10402>;1357,75
+2005;Eberau <10403>;948,125
+2005;Gerersdorf-Sulz <10404>;1049,25
+2005;Güssing <10405>;3827,75
+2005;Güttenbach <10406>;970
+2005;Heiligenbrunn <10407>;897,5
+2005;Kukmirn <10408>;1954,875
+2005;Neuberg im Burgenland <10409>;1012,5
+2005;Neustift bei Güssing <10410>;533,375
+2005;Olbendorf <10411>;1346,625
+2005;Ollersdorf im Burgenland <10412>;982,25
+2005;Sankt Michael im Burgenland <10413>;1059
+2005;Stegersbach <10414>;2435,125
+2005;Stinatz <10415>;1416,75
+2005;Strem <10416>;925,375
+2005;Tobaj <10417>;1409,875
+2005;Hackerberg <10418>;349,125
+2005;Wörterberg <10419>;480,625
+2005;Großmürbisch <10420>;270,625
+2005;Inzenhof <10421>;311,25
+2005;Kleinmürbisch <10422>;253,25
+2005;Tschanigraben <10423>;68,875
+2005;Heugraben <10424>;236,875
+2005;Rohr im Burgenland <10425>;392,125
+2005;Bildein <10426>;322,5
+2005;Rauchwart <10427>;470,25
+2005;Moschendorf <10428>;433,375
+2005;Deutsch Kaltenbrunn <10501>;1770,625
+2005;Eltendorf <10502>;1020,75
+2005;Heiligenkreuz im Lafnitztal <10503>;1233,75
+2005;Jennersdorf <10504>;4237
+2005;Minihof-Liebau <10505>;1143,5
+2005;Mogersdorf <10506>;1170,375
+2005;Neuhaus am Klausenbach <10507>;977,125
+2005;Rudersdorf <10508>;2171,625
+2005;Sankt Martin an der Raab <10509>;2072,375
+2005;Weichselbaum <10510>;776,125
+2005;Königsdorf <10511>;745,125
+2005;Mühlgraben <10512>;429,75
+2005;Draßburg <10601>;1055,25
+2005;Forchtenstein <10602>;2807,25
+2005;Hirm <10603>;916,75
+2005;Loipersbach im Burgenland <10604>;1248,125
+2005;Marz <10605>;1958,375
+2005;Mattersburg <10606>;6588,25
+2005;Neudörfl <10607>;4240,375
+2005;Pöttelsdorf <10608>;654,375
+2005;Pöttsching <10609>;2792,875
+2005;Rohrbach bei Mattersburg <10610>;2702,375
+2005;Bad Sauerbrunn <10611>;1951
+2005;Schattendorf <10612>;2445,5
+2005;Sieggraben <10613>;1297,25
+2005;Sigleß <10614>;1111,75
+2005;Wiesen <10615>;2785,75
+2005;Antau <10616>;716,75
+2005;Baumgarten <10617>;869
+2005;Zemendorf-Stöttera <10618>;1241,5
+2005;Krensdorf <10619>;605,125
+2005;Andau <10701>;2462,125
+2005;Apetlon <10702>;1853,375
+2005;Bruckneudorf <10703>;2794,25
+2005;Deutsch Jahrndorf <10704>;551,75
+2005;Frauenkirchen <10705>;2835,125
+2005;Gattendorf <10706>;1111,875
+2005;Gols <10707>;3578,75
+2005;Halbturn <10708>;1880,875
+2005;Illmitz <10709>;2487,5
+2005;Jois <10710>;1345,75
+2005;Kittsee <10711>;1860
+2005;Mönchhof <10712>;2265,75
+2005;Neusiedl am See <10713>;5838,5
+2005;Nickelsdorf <10714>;1558,75
+2005;Pama <10715>;1024,5
+2005;Pamhagen <10716>;1739
+2005;Parndorf <10717>;3666,625
+2005;Podersdorf am See <10718>;2047,25
+2005;Sankt Andrä am Zicksee <10719>;1374
+2005;Tadten <10720>;1292,25
+2005;Wallern im Burgenland <10721>;1901,25
+2005;Weiden am See <10722>;2001,875
+2005;Winden am See <10723>;1129,125
+2005;Zurndorf <10724>;1979,75
+2005;Neudorf <10725>;699,5
+2005;Potzneusiedl <10726>;480,25
+2005;Edelstal <10727>;591,625
+2005;Deutschkreutz <10801>;3142,375
+2005;Draßmarkt <10802>;1385,75
+2005;Frankenau-Unterpullendorf <10803>;1213,125
+2005;Großwarasdorf <10804>;1532,625
+2005;Horitschon <10805>;1934,625
+2005;Kaisersdorf <10806>;537,875
+2005;Kobersdorf <10807>;1875,625
+2005;Lackenbach <10808>;1114,25
+2005;Lockenhaus <10809>;1986,875
+2005;Lutzmannsburg <10810>;866,625
+2005;Mannersdorf an der Rabnitz <10811>;1827,125
+2005;Markt Sankt Martin <10812>;1174,125
+2005;Neckenmarkt <10813>;1683
+2005;Neutal <10814>;1037,75
+2005;Nikitsch <10815>;1488,875
+2005;Oberpullendorf <10816>;2899,375
+2005;Pilgersdorf <10817>;1679,125
+2005;Piringsdorf <10818>;888,125
+2005;Raiding <10819>;834,625
+2005;Ritzing <10820>;870,875
+2005;Steinberg-Dörfl <10821>;1214,5
+2005;Stoob <10822>;1397,625
+2005;Weppersdorf <10823>;1765,75
+2005;Lackendorf <10824>;582
+2005;Unterfrauenhaid <10825>;685,875
+2005;Unterrabnitz-Schwendgraben <10826>;643
+2005;Weingraben <10827>;386,75
+2005;Oberloisdorf <10828>;790,875
+2005;Bad Tatzmannsdorf <10901>;1323,125
+2005;Bernstein <10902>;2319,375
+2005;Deutsch Schützen-Eisenberg <10903>;1155,375
+2005;Grafenschachen <10904>;1213,375
+2005;Großpetersdorf <10905>;3576,125
+2005;Hannersdorf <10906>;813,625
+2005;Kemeten <10907>;1547,25
+2005;Kohfidisch <10908>;1432,5
+2005;Litzelsdorf <10909>;1165
+2005;Loipersdorf-Kitzladen <10910>;1243,875
+2005;Mariasdorf <10911>;1224,375
+2005;Markt Allhau <10912>;1784,75
+2005;Markt Neuhodis <10913>;717,5
+2005;Mischendorf <10914>;1745
+2005;Oberdorf im Burgenland <10915>;1066,75
+2005;Oberschützen <10916>;2274,375
+2005;Oberwart <10917>;6806,25
+2005;Pinkafeld <10918>;5263,25
+2005;Rechnitz <10919>;3151,375
+2005;Riedlingsdorf <10920>;1634,125
+2005;Rotenturm an der Pinka <10921>;1430,625
+2005;Schachendorf <10922>;800,25
+2005;Stadtschlaining <10923>;2055,25
+2005;Unterkohlstätten <10924>;1062,125
+2005;Unterwart <10925>;926,375
+2005;Weiden bei Rechnitz <10926>;882,875
+2005;Wiesfleck <10927>;1145,375
+2005;Wolfau <10928>;1371,5
+2005;Neustift an der Lafnitz <10929>;662,875
+2005;Jabing <10930>;742,375
+2005;Badersdorf <10931>;330,125
+2005;Schandorf <10932>;297,375
+2006;Eisenstadt <10101>;12256,125
+2006;Rust <10201>;1811,75
+2006;Breitenbrunn am Neusiedler See <10301>;1780,75
+2006;Donnerskirchen <10302>;1717,75
+2006;Großhöflein <10303>;1841,75
+2006;Hornstein <10304>;2602
+2006;Klingenbach <10305>;1164,75
+2006;Leithaprodersdorf <10306>;1161,5
+2006;Mörbisch am See <10307>;2343,125
+2006;Müllendorf <10308>;1305,75
+2006;Neufeld an der Leitha <10309>;3057,25
+2006;Oggau am Neusiedler See <10310>;1813,375
+2006;Oslip <10311>;1299,875
+2006;Purbach am Neusiedler See <10312>;2644,125
+2006;Sankt Margarethen im Burgenland <10313>;2780,75
+2006;Schützen am Gebirge <10314>;1382,375
+2006;Siegendorf <10315>;2745,75
+2006;Steinbrunn <10316>;2083,625
+2006;Trausdorf an der Wulka <10317>;1808,5
+2006;Wimpassing an der Leitha <10318>;1144,375
+2006;Wulkaprodersdorf <10319>;1866,625
+2006;Loretto <10320>;396,75
+2006;Stotzing <10321>;798,375
+2006;Zillingtal <10322>;893,25
+2006;Zagersdorf <10323>;961,25
+2006;Bocksdorf <10401>;791,125
+2006;Burgauberg-Neudauberg <10402>;1364,75
+2006;Eberau <10403>;947
+2006;Gerersdorf-Sulz <10404>;1041,125
+2006;Güssing <10405>;3803,625
+2006;Güttenbach <10406>;963,75
+2006;Heiligenbrunn <10407>;875
+2006;Kukmirn <10408>;1956,625
+2006;Neuberg im Burgenland <10409>;1012,75
+2006;Neustift bei Güssing <10410>;517,5
+2006;Olbendorf <10411>;1345,375
+2006;Ollersdorf im Burgenland <10412>;983,875
+2006;Sankt Michael im Burgenland <10413>;1046,625
+2006;Stegersbach <10414>;2451,25
+2006;Stinatz <10415>;1392,25
+2006;Strem <10416>;925,375
+2006;Tobaj <10417>;1455,5
+2006;Hackerberg <10418>;350,25
+2006;Wörterberg <10419>;489,625
+2006;Großmürbisch <10420>;274,25
+2006;Inzenhof <10421>;315,625
+2006;Kleinmürbisch <10422>;252,5
+2006;Tschanigraben <10423>;66,375
+2006;Heugraben <10424>;235,25
+2006;Rohr im Burgenland <10425>;394,5
+2006;Bildein <10426>;321,5
+2006;Rauchwart <10427>;476
+2006;Moschendorf <10428>;431,125
+2006;Deutsch Kaltenbrunn <10501>;1772,5
+2006;Eltendorf <10502>;1013,75
+2006;Heiligenkreuz im Lafnitztal <10503>;1254,375
+2006;Jennersdorf <10504>;4238,25
+2006;Minihof-Liebau <10505>;1148,5
+2006;Mogersdorf <10506>;1165,375
+2006;Neuhaus am Klausenbach <10507>;979,75
+2006;Rudersdorf <10508>;2163
+2006;Sankt Martin an der Raab <10509>;2071,875
+2006;Weichselbaum <10510>;768,75
+2006;Königsdorf <10511>;732,125
+2006;Mühlgraben <10512>;436,75
+2006;Draßburg <10601>;1049,25
+2006;Forchtenstein <10602>;2805,875
+2006;Hirm <10603>;923,75
+2006;Loipersbach im Burgenland <10604>;1245,75
+2006;Marz <10605>;1974
+2006;Mattersburg <10606>;6732,125
+2006;Neudörfl <10607>;4272,125
+2006;Pöttelsdorf <10608>;656
+2006;Pöttsching <10609>;2796,5
+2006;Rohrbach bei Mattersburg <10610>;2702,625
+2006;Bad Sauerbrunn <10611>;1970,25
+2006;Schattendorf <10612>;2424,25
+2006;Sieggraben <10613>;1280,75
+2006;Sigleß <10614>;1112,5
+2006;Wiesen <10615>;2801,5
+2006;Antau <10616>;713
+2006;Baumgarten <10617>;868
+2006;Zemendorf-Stöttera <10618>;1252
+2006;Krensdorf <10619>;607,75
+2006;Andau <10701>;2441,625
+2006;Apetlon <10702>;1829
+2006;Bruckneudorf <10703>;2818,625
+2006;Deutsch Jahrndorf <10704>;561
+2006;Frauenkirchen <10705>;2836,5
+2006;Gattendorf <10706>;1130,125
+2006;Gols <10707>;3609,875
+2006;Halbturn <10708>;1887,75
+2006;Illmitz <10709>;2458,625
+2006;Jois <10710>;1384,125
+2006;Kittsee <10711>;1867,625
+2006;Mönchhof <10712>;2284,375
+2006;Neusiedl am See <10713>;6043,5
+2006;Nickelsdorf <10714>;1527,625
+2006;Pama <10715>;1032,875
+2006;Pamhagen <10716>;1729
+2006;Parndorf <10717>;3760,25
+2006;Podersdorf am See <10718>;2050,875
+2006;Sankt Andrä am Zicksee <10719>;1361,5
+2006;Tadten <10720>;1285,5
+2006;Wallern im Burgenland <10721>;1901,875
+2006;Weiden am See <10722>;2040,25
+2006;Winden am See <10723>;1173,625
+2006;Zurndorf <10724>;1996,875
+2006;Neudorf <10725>;688,5
+2006;Potzneusiedl <10726>;480,375
+2006;Edelstal <10727>;607,5
+2006;Deutschkreutz <10801>;3152,875
+2006;Draßmarkt <10802>;1381
+2006;Frankenau-Unterpullendorf <10803>;1201
+2006;Großwarasdorf <10804>;1530,5
+2006;Horitschon <10805>;1928,625
+2006;Kaisersdorf <10806>;544,375
+2006;Kobersdorf <10807>;1906,375
+2006;Lackenbach <10808>;1108,875
+2006;Lockenhaus <10809>;1988,875
+2006;Lutzmannsburg <10810>;857,5
+2006;Mannersdorf an der Rabnitz <10811>;1812,375
+2006;Markt Sankt Martin <10812>;1171
+2006;Neckenmarkt <10813>;1682
+2006;Neutal <10814>;1038,75
+2006;Nikitsch <10815>;1483,375
+2006;Oberpullendorf <10816>;2939,125
+2006;Pilgersdorf <10817>;1671,75
+2006;Piringsdorf <10818>;881
+2006;Raiding <10819>;834,625
+2006;Ritzing <10820>;861,75
+2006;Steinberg-Dörfl <10821>;1240,5
+2006;Stoob <10822>;1399,5
+2006;Weppersdorf <10823>;1755,125
+2006;Lackendorf <10824>;587,125
+2006;Unterfrauenhaid <10825>;674,75
+2006;Unterrabnitz-Schwendgraben <10826>;649,5
+2006;Weingraben <10827>;383,25
+2006;Oberloisdorf <10828>;785,25
+2006;Bad Tatzmannsdorf <10901>;1325
+2006;Bernstein <10902>;2308,875
+2006;Deutsch Schützen-Eisenberg <10903>;1139,25
+2006;Grafenschachen <10904>;1220,625
+2006;Großpetersdorf <10905>;3572,75
+2006;Hannersdorf <10906>;803,5
+2006;Kemeten <10907>;1547,875
+2006;Kohfidisch <10908>;1464,5
+2006;Litzelsdorf <10909>;1186,5
+2006;Loipersdorf-Kitzladen <10910>;1246
+2006;Mariasdorf <10911>;1213,375
+2006;Markt Allhau <10912>;1791,25
+2006;Markt Neuhodis <10913>;698,875
+2006;Mischendorf <10914>;1711
+2006;Oberdorf im Burgenland <10915>;1058,75
+2006;Oberschützen <10916>;2299,5
+2006;Oberwart <10917>;6882,625
+2006;Pinkafeld <10918>;5312,5
+2006;Rechnitz <10919>;3124,625
+2006;Riedlingsdorf <10920>;1656,25
+2006;Rotenturm an der Pinka <10921>;1462,875
+2006;Schachendorf <10922>;795,375
+2006;Stadtschlaining <10923>;2066,125
+2006;Unterkohlstätten <10924>;1053,875
+2006;Unterwart <10925>;898,75
+2006;Weiden bei Rechnitz <10926>;882
+2006;Wiesfleck <10927>;1146,75
+2006;Wolfau <10928>;1373,625
+2006;Neustift an der Lafnitz <10929>;659,625
+2006;Jabing <10930>;743,125
+2006;Badersdorf <10931>;325,125
+2006;Schandorf <10932>;301,375
+2007;Eisenstadt <10101>;12470,375
+2007;Rust <10201>;1815,625
+2007;Breitenbrunn am Neusiedler See <10301>;1794
+2007;Donnerskirchen <10302>;1716,625
+2007;Großhöflein <10303>;1831
+2007;Hornstein <10304>;2643,875
+2007;Klingenbach <10305>;1148,125
+2007;Leithaprodersdorf <10306>;1157,75
+2007;Mörbisch am See <10307>;2373,625
+2007;Müllendorf <10308>;1299,5
+2007;Neufeld an der Leitha <10309>;3113,5
+2007;Oggau am Neusiedler See <10310>;1807,125
+2007;Oslip <10311>;1298
+2007;Purbach am Neusiedler See <10312>;2675,125
+2007;Sankt Margarethen im Burgenland <10313>;2766,75
+2007;Schützen am Gebirge <10314>;1379,875
+2007;Siegendorf <10315>;2775
+2007;Steinbrunn <10316>;2136
+2007;Trausdorf an der Wulka <10317>;1846,625
+2007;Wimpassing an der Leitha <10318>;1152,875
+2007;Wulkaprodersdorf <10319>;1857,25
+2007;Loretto <10320>;399,625
+2007;Stotzing <10321>;809,375
+2007;Zillingtal <10322>;894,5
+2007;Zagersdorf <10323>;957,125
+2007;Bocksdorf <10401>;795,875
+2007;Burgauberg-Neudauberg <10402>;1380,25
+2007;Eberau <10403>;966,125
+2007;Gerersdorf-Sulz <10404>;1049,875
+2007;Güssing <10405>;3789
+2007;Güttenbach <10406>;960,25
+2007;Heiligenbrunn <10407>;852,625
+2007;Kukmirn <10408>;1979,625
+2007;Neuberg im Burgenland <10409>;1012,875
+2007;Neustift bei Güssing <10410>;517,375
+2007;Olbendorf <10411>;1359,25
+2007;Ollersdorf im Burgenland <10412>;977,75
+2007;Sankt Michael im Burgenland <10413>;1041,625
+2007;Stegersbach <10414>;2445,375
+2007;Stinatz <10415>;1376,5
+2007;Strem <10416>;938
+2007;Tobaj <10417>;1446
+2007;Hackerberg <10418>;353
+2007;Wörterberg <10419>;485,25
+2007;Großmürbisch <10420>;270,625
+2007;Inzenhof <10421>;315,5
+2007;Kleinmürbisch <10422>;250,25
+2007;Tschanigraben <10423>;66,125
+2007;Heugraben <10424>;231,5
+2007;Rohr im Burgenland <10425>;387,875
+2007;Bildein <10426>;318,375
+2007;Rauchwart <10427>;476,25
+2007;Moschendorf <10428>;424
+2007;Deutsch Kaltenbrunn <10501>;1764,5
+2007;Eltendorf <10502>;1014,625
+2007;Heiligenkreuz im Lafnitztal <10503>;1247,75
+2007;Jennersdorf <10504>;4214,875
+2007;Minihof-Liebau <10505>;1139,875
+2007;Mogersdorf <10506>;1156
+2007;Neuhaus am Klausenbach <10507>;978,625
+2007;Rudersdorf <10508>;2150,875
+2007;Sankt Martin an der Raab <10509>;2081,25
+2007;Weichselbaum <10510>;757,25
+2007;Königsdorf <10511>;722,125
+2007;Mühlgraben <10512>;441,875
+2007;Draßburg <10601>;1070,875
+2007;Forchtenstein <10602>;2817,25
+2007;Hirm <10603>;932
+2007;Loipersbach im Burgenland <10604>;1268,5
+2007;Marz <10605>;1976,75
+2007;Mattersburg <10606>;6798,875
+2007;Neudörfl <10607>;4267,125
+2007;Pöttelsdorf <10608>;670
+2007;Pöttsching <10609>;2808,875
+2007;Rohrbach bei Mattersburg <10610>;2695
+2007;Bad Sauerbrunn <10611>;1984,75
+2007;Schattendorf <10612>;2401,25
+2007;Sieggraben <10613>;1270,25
+2007;Sigleß <10614>;1121,75
+2007;Wiesen <10615>;2814,375
+2007;Antau <10616>;722,5
+2007;Baumgarten <10617>;860,75
+2007;Zemendorf-Stöttera <10618>;1250,5
+2007;Krensdorf <10619>;614,25
+2007;Andau <10701>;2410
+2007;Apetlon <10702>;1807,25
+2007;Bruckneudorf <10703>;2816,375
+2007;Deutsch Jahrndorf <10704>;569,625
+2007;Frauenkirchen <10705>;2859,25
+2007;Gattendorf <10706>;1141,625
+2007;Gols <10707>;3611,375
+2007;Halbturn <10708>;1922,125
+2007;Illmitz <10709>;2445
+2007;Jois <10710>;1403,25
+2007;Kittsee <10711>;1874,25
+2007;Mönchhof <10712>;2292,125
+2007;Neusiedl am See <10713>;6240,25
+2007;Nickelsdorf <10714>;1523,875
+2007;Pama <10715>;1037,25
+2007;Pamhagen <10716>;1711,5
+2007;Parndorf <10717>;3840,375
+2007;Podersdorf am See <10718>;2063,125
+2007;Sankt Andrä am Zicksee <10719>;1359,75
+2007;Tadten <10720>;1279,375
+2007;Wallern im Burgenland <10721>;1888,5
+2007;Weiden am See <10722>;2085,375
+2007;Winden am See <10723>;1202
+2007;Zurndorf <10724>;2006,375
+2007;Neudorf <10725>;677,75
+2007;Potzneusiedl <10726>;494,625
+2007;Edelstal <10727>;603,375
+2007;Deutschkreutz <10801>;3144,5
+2007;Draßmarkt <10802>;1378,875
+2007;Frankenau-Unterpullendorf <10803>;1192,75
+2007;Großwarasdorf <10804>;1532,25
+2007;Horitschon <10805>;1924
+2007;Kaisersdorf <10806>;558,625
+2007;Kobersdorf <10807>;1918,5
+2007;Lackenbach <10808>;1115
+2007;Lockenhaus <10809>;1986,25
+2007;Lutzmannsburg <10810>;871,5
+2007;Mannersdorf an der Rabnitz <10811>;1801,5
+2007;Markt Sankt Martin <10812>;1162,5
+2007;Neckenmarkt <10813>;1677
+2007;Neutal <10814>;1041
+2007;Nikitsch <10815>;1471
+2007;Oberpullendorf <10816>;2979,375
+2007;Pilgersdorf <10817>;1649,875
+2007;Piringsdorf <10818>;878
+2007;Raiding <10819>;829,375
+2007;Ritzing <10820>;858,75
+2007;Steinberg-Dörfl <10821>;1246,25
+2007;Stoob <10822>;1419,625
+2007;Weppersdorf <10823>;1770,625
+2007;Lackendorf <10824>;581,75
+2007;Unterfrauenhaid <10825>;671,375
+2007;Unterrabnitz-Schwendgraben <10826>;645,75
+2007;Weingraben <10827>;373,625
+2007;Oberloisdorf <10828>;785,25
+2007;Bad Tatzmannsdorf <10901>;1321,25
+2007;Bernstein <10902>;2299,875
+2007;Deutsch Schützen-Eisenberg <10903>;1120,25
+2007;Grafenschachen <10904>;1234,375
+2007;Großpetersdorf <10905>;3550,25
+2007;Hannersdorf <10906>;792,5
+2007;Kemeten <10907>;1549,5
+2007;Kohfidisch <10908>;1478,875
+2007;Litzelsdorf <10909>;1178,375
+2007;Loipersdorf-Kitzladen <10910>;1244,5
+2007;Mariasdorf <10911>;1193,5
+2007;Markt Allhau <10912>;1821,875
+2007;Markt Neuhodis <10913>;692,625
+2007;Mischendorf <10914>;1697
+2007;Oberdorf im Burgenland <10915>;1043,625
+2007;Oberschützen <10916>;2325,25
+2007;Oberwart <10917>;6883,5
+2007;Pinkafeld <10918>;5332
+2007;Rechnitz <10919>;3129
+2007;Riedlingsdorf <10920>;1645,375
+2007;Rotenturm an der Pinka <10921>;1457
+2007;Schachendorf <10922>;800
+2007;Stadtschlaining <10923>;2084,25
+2007;Unterkohlstätten <10924>;1050,875
+2007;Unterwart <10925>;910,625
+2007;Weiden bei Rechnitz <10926>;866,5
+2007;Wiesfleck <10927>;1133,75
+2007;Wolfau <10928>;1362,25
+2007;Neustift an der Lafnitz <10929>;671,875
+2007;Jabing <10930>;746,375
+2007;Badersdorf <10931>;321,875
+2007;Schandorf <10932>;300
+2008;Eisenstadt <10101>;12617,25
+2008;Rust <10201>;1835,875
+2008;Breitenbrunn am Neusiedler See <10301>;1830,875
+2008;Donnerskirchen <10302>;1729,25
+2008;Großhöflein <10303>;1848,25
+2008;Hornstein <10304>;2718,5
+2008;Klingenbach <10305>;1168,875
+2008;Leithaprodersdorf <10306>;1153,875
+2008;Mörbisch am See <10307>;2379,5
+2008;Müllendorf <10308>;1304,125
+2008;Neufeld an der Leitha <10309>;3144,75
+2008;Oggau am Neusiedler See <10310>;1795,25
+2008;Oslip <10311>;1309,75
+2008;Purbach am Neusiedler See <10312>;2694
+2008;Sankt Margarethen im Burgenland <10313>;2741,25
+2008;Schützen am Gebirge <10314>;1401
+2008;Siegendorf <10315>;2806,875
+2008;Steinbrunn <10316>;2214,75
+2008;Trausdorf an der Wulka <10317>;1865,875
+2008;Wimpassing an der Leitha <10318>;1192,5
+2008;Wulkaprodersdorf <10319>;1849,125
+2008;Loretto <10320>;418,25
+2008;Stotzing <10321>;814,375
+2008;Zillingtal <10322>;895,375
+2008;Zagersdorf <10323>;953
+2008;Bocksdorf <10401>;795,75
+2008;Burgauberg-Neudauberg <10402>;1389,375
+2008;Eberau <10403>;967,75
+2008;Gerersdorf-Sulz <10404>;1055
+2008;Güssing <10405>;3753,125
+2008;Güttenbach <10406>;946,5
+2008;Heiligenbrunn <10407>;866
+2008;Kukmirn <10408>;1993,25
+2008;Neuberg im Burgenland <10409>;1021,75
+2008;Neustift bei Güssing <10410>;513,375
+2008;Olbendorf <10411>;1381,125
+2008;Ollersdorf im Burgenland <10412>;973,375
+2008;Sankt Michael im Burgenland <10413>;1050
+2008;Stegersbach <10414>;2446,625
+2008;Stinatz <10415>;1372,125
+2008;Strem <10416>;924,625
+2008;Tobaj <10417>;1455,5
+2008;Hackerberg <10418>;354,75
+2008;Wörterberg <10419>;491
+2008;Großmürbisch <10420>;279,875
+2008;Inzenhof <10421>;312
+2008;Kleinmürbisch <10422>;248,5
+2008;Tschanigraben <10423>;67
+2008;Heugraben <10424>;231,75
+2008;Rohr im Burgenland <10425>;388,875
+2008;Bildein <10426>;319,75
+2008;Rauchwart <10427>;466,5
+2008;Moschendorf <10428>;424,125
+2008;Deutsch Kaltenbrunn <10501>;1767,125
+2008;Eltendorf <10502>;1004,5
+2008;Heiligenkreuz im Lafnitztal <10503>;1249,125
+2008;Jennersdorf <10504>;4214
+2008;Minihof-Liebau <10505>;1141,5
+2008;Mogersdorf <10506>;1149,5
+2008;Neuhaus am Klausenbach <10507>;967
+2008;Rudersdorf <10508>;2162,5
+2008;Sankt Martin an der Raab <10509>;2090,5
+2008;Weichselbaum <10510>;744,625
+2008;Königsdorf <10511>;717,25
+2008;Mühlgraben <10512>;436,875
+2008;Draßburg <10601>;1115,75
+2008;Forchtenstein <10602>;2842,625
+2008;Hirm <10603>;948,75
+2008;Loipersbach im Burgenland <10604>;1264
+2008;Marz <10605>;1999,25
+2008;Mattersburg <10606>;6825,875
+2008;Neudörfl <10607>;4290,875
+2008;Pöttelsdorf <10608>;687,25
+2008;Pöttsching <10609>;2822,375
+2008;Rohrbach bei Mattersburg <10610>;2710,25
+2008;Bad Sauerbrunn <10611>;1991
+2008;Schattendorf <10612>;2389,625
+2008;Sieggraben <10613>;1286,625
+2008;Sigleß <10614>;1126,375
+2008;Wiesen <10615>;2814,125
+2008;Antau <10616>;734,125
+2008;Baumgarten <10617>;867,75
+2008;Zemendorf-Stöttera <10618>;1258,5
+2008;Krensdorf <10619>;614,125
+2008;Andau <10701>;2402,375
+2008;Apetlon <10702>;1816,125
+2008;Bruckneudorf <10703>;2818,5
+2008;Deutsch Jahrndorf <10704>;582
+2008;Frauenkirchen <10705>;2850,375
+2008;Gattendorf <10706>;1154
+2008;Gols <10707>;3649,5
+2008;Halbturn <10708>;1929,25
+2008;Illmitz <10709>;2460,5
+2008;Jois <10710>;1408,5
+2008;Kittsee <10711>;1931,5
+2008;Mönchhof <10712>;2287,5
+2008;Neusiedl am See <10713>;6468,875
+2008;Nickelsdorf <10714>;1542,875
+2008;Pama <10715>;1037,5
+2008;Pamhagen <10716>;1701,625
+2008;Parndorf <10717>;3943,125
+2008;Podersdorf am See <10718>;2066,25
+2008;Sankt Andrä am Zicksee <10719>;1358,25
+2008;Tadten <10720>;1260,125
+2008;Wallern im Burgenland <10721>;1882,125
+2008;Weiden am See <10722>;2124,25
+2008;Winden am See <10723>;1233,625
+2008;Zurndorf <10724>;1999,25
+2008;Neudorf <10725>;689,75
+2008;Potzneusiedl <10726>;505,625
+2008;Edelstal <10727>;602,5
+2008;Deutschkreutz <10801>;3112,625
+2008;Draßmarkt <10802>;1382,625
+2008;Frankenau-Unterpullendorf <10803>;1194,5
+2008;Großwarasdorf <10804>;1520,25
+2008;Horitschon <10805>;1908,75
+2008;Kaisersdorf <10806>;564,625
+2008;Kobersdorf <10807>;1926,625
+2008;Lackenbach <10808>;1117,5
+2008;Lockenhaus <10809>;1983
+2008;Lutzmannsburg <10810>;867,875
+2008;Mannersdorf an der Rabnitz <10811>;1792,625
+2008;Markt Sankt Martin <10812>;1176,75
+2008;Neckenmarkt <10813>;1684,25
+2008;Neutal <10814>;1049,75
+2008;Nikitsch <10815>;1441
+2008;Oberpullendorf <10816>;2980,125
+2008;Pilgersdorf <10817>;1642,125
+2008;Piringsdorf <10818>;871,375
+2008;Raiding <10819>;837,375
+2008;Ritzing <10820>;870,5
+2008;Steinberg-Dörfl <10821>;1261,25
+2008;Stoob <10822>;1424,5
+2008;Weppersdorf <10823>;1794,75
+2008;Lackendorf <10824>;581,375
+2008;Unterfrauenhaid <10825>;677,375
+2008;Unterrabnitz-Schwendgraben <10826>;644,75
+2008;Weingraben <10827>;366,625
+2008;Oberloisdorf <10828>;784,125
+2008;Bad Tatzmannsdorf <10901>;1323,25
+2008;Bernstein <10902>;2308,25
+2008;Deutsch Schützen-Eisenberg <10903>;1107,5
+2008;Grafenschachen <10904>;1245,625
+2008;Großpetersdorf <10905>;3546,375
+2008;Hannersdorf <10906>;775,75
+2008;Kemeten <10907>;1538,375
+2008;Kohfidisch <10908>;1462,875
+2008;Litzelsdorf <10909>;1168,625
+2008;Loipersdorf-Kitzladen <10910>;1249,125
+2008;Mariasdorf <10911>;1191,625
+2008;Markt Allhau <10912>;1831,375
+2008;Markt Neuhodis <10913>;691,5
+2008;Mischendorf <10914>;1712,75
+2008;Oberdorf im Burgenland <10915>;1031,125
+2008;Oberschützen <10916>;2337
+2008;Oberwart <10917>;6977,5
+2008;Pinkafeld <10918>;5367,75
+2008;Rechnitz <10919>;3120,375
+2008;Riedlingsdorf <10920>;1648,625
+2008;Rotenturm an der Pinka <10921>;1435,625
+2008;Schachendorf <10922>;797,125
+2008;Stadtschlaining <10923>;2106,75
+2008;Unterkohlstätten <10924>;1042,875
+2008;Unterwart <10925>;908,5
+2008;Weiden bei Rechnitz <10926>;861,375
+2008;Wiesfleck <10927>;1128,375
+2008;Wolfau <10928>;1376,5
+2008;Neustift an der Lafnitz <10929>;694,875
+2008;Jabing <10930>;753
+2008;Badersdorf <10931>;310
+2008;Schandorf <10932>;290,625
+2009;Eisenstadt <10101>;12794,625
+2009;Rust <10201>;1878,25
+2009;Breitenbrunn am Neusiedler See <10301>;1861,25
+2009;Donnerskirchen <10302>;1717,25
+2009;Großhöflein <10303>;1869,125
+2009;Hornstein <10304>;2730,25
+2009;Klingenbach <10305>;1172,375
+2009;Leithaprodersdorf <10306>;1147,375
+2009;Mörbisch am See <10307>;2358
+2009;Müllendorf <10308>;1321
+2009;Neufeld an der Leitha <10309>;3154,25
+2009;Oggau am Neusiedler See <10310>;1793,875
+2009;Oslip <10311>;1310,625
+2009;Purbach am Neusiedler See <10312>;2720,375
+2009;Sankt Margarethen im Burgenland <10313>;2729,875
+2009;Schützen am Gebirge <10314>;1408,5
+2009;Siegendorf <10315>;2852,875
+2009;Steinbrunn <10316>;2286,75
+2009;Trausdorf an der Wulka <10317>;1859,5
+2009;Wimpassing an der Leitha <10318>;1206,875
+2009;Wulkaprodersdorf <10319>;1845,5
+2009;Loretto <10320>;438,5
+2009;Stotzing <10321>;813,375
+2009;Zillingtal <10322>;911,25
+2009;Zagersdorf <10323>;953,25
+2009;Bocksdorf <10401>;799,75
+2009;Burgauberg-Neudauberg <10402>;1401,125
+2009;Eberau <10403>;970,875
+2009;Gerersdorf-Sulz <10404>;1051,5
+2009;Güssing <10405>;3754,375
+2009;Güttenbach <10406>;960,375
+2009;Heiligenbrunn <10407>;858
+2009;Kukmirn <10408>;1994,625
+2009;Neuberg im Burgenland <10409>;1023,125
+2009;Neustift bei Güssing <10410>;521,125
+2009;Olbendorf <10411>;1389,875
+2009;Ollersdorf im Burgenland <10412>;968,625
+2009;Sankt Michael im Burgenland <10413>;1037,625
+2009;Stegersbach <10414>;2469,625
+2009;Stinatz <10415>;1391,5
+2009;Strem <10416>;937
+2009;Tobaj <10417>;1450,5
+2009;Hackerberg <10418>;359,625
+2009;Wörterberg <10419>;495,875
+2009;Großmürbisch <10420>;273,375
+2009;Inzenhof <10421>;324
+2009;Kleinmürbisch <10422>;253,625
+2009;Tschanigraben <10423>;65,875
+2009;Heugraben <10424>;231,625
+2009;Rohr im Burgenland <10425>;396,375
+2009;Bildein <10426>;322,5
+2009;Rauchwart <10427>;456,5
+2009;Moschendorf <10428>;418,75
+2009;Deutsch Kaltenbrunn <10501>;1755,625
+2009;Eltendorf <10502>;982,125
+2009;Heiligenkreuz im Lafnitztal <10503>;1264,625
+2009;Jennersdorf <10504>;4221,375
+2009;Minihof-Liebau <10505>;1133,875
+2009;Mogersdorf <10506>;1142,125
+2009;Neuhaus am Klausenbach <10507>;960,125
+2009;Rudersdorf <10508>;2154,5
+2009;Sankt Martin an der Raab <10509>;2077,625
+2009;Weichselbaum <10510>;735,875
+2009;Königsdorf <10511>;705,625
+2009;Mühlgraben <10512>;431,125
+2009;Draßburg <10601>;1137,625
+2009;Forchtenstein <10602>;2843
+2009;Hirm <10603>;961,625
+2009;Loipersbach im Burgenland <10604>;1255,875
+2009;Marz <10605>;1995,5
+2009;Mattersburg <10606>;6895,5
+2009;Neudörfl <10607>;4306,375
+2009;Pöttelsdorf <10608>;692,25
+2009;Pöttsching <10609>;2854,625
+2009;Rohrbach bei Mattersburg <10610>;2722,125
+2009;Bad Sauerbrunn <10611>;2011,875
+2009;Schattendorf <10612>;2379,375
+2009;Sieggraben <10613>;1288
+2009;Sigleß <10614>;1123,25
+2009;Wiesen <10615>;2799,875
+2009;Antau <10616>;736,875
+2009;Baumgarten <10617>;870,125
+2009;Zemendorf-Stöttera <10618>;1271,875
+2009;Krensdorf <10619>;621,875
+2009;Andau <10701>;2396,75
+2009;Apetlon <10702>;1821,5
+2009;Bruckneudorf <10703>;2784
+2009;Deutsch Jahrndorf <10704>;567,5
+2009;Frauenkirchen <10705>;2823,875
+2009;Gattendorf <10706>;1169,75
+2009;Gols <10707>;3669,375
+2009;Halbturn <10708>;1922,375
+2009;Illmitz <10709>;2465,625
+2009;Jois <10710>;1435,625
+2009;Kittsee <10711>;1986,125
+2009;Mönchhof <10712>;2291
+2009;Neusiedl am See <10713>;6695,875
+2009;Nickelsdorf <10714>;1563,25
+2009;Pama <10715>;1048,875
+2009;Pamhagen <10716>;1691,375
+2009;Parndorf <10717>;4006,125
+2009;Podersdorf am See <10718>;2078,875
+2009;Sankt Andrä am Zicksee <10719>;1363,125
+2009;Tadten <10720>;1257,375
+2009;Wallern im Burgenland <10721>;1868,625
+2009;Weiden am See <10722>;2165,25
+2009;Winden am See <10723>;1247,625
+2009;Zurndorf <10724>;2023,625
+2009;Neudorf <10725>;703,75
+2009;Potzneusiedl <10726>;508,375
+2009;Edelstal <10727>;603,375
+2009;Deutschkreutz <10801>;3113,5
+2009;Draßmarkt <10802>;1368,375
+2009;Frankenau-Unterpullendorf <10803>;1179,375
+2009;Großwarasdorf <10804>;1511,25
+2009;Horitschon <10805>;1903,5
+2009;Kaisersdorf <10806>;582,75
+2009;Kobersdorf <10807>;1905,375
+2009;Lackenbach <10808>;1105,125
+2009;Lockenhaus <10809>;1976,625
+2009;Lutzmannsburg <10810>;857,125
+2009;Mannersdorf an der Rabnitz <10811>;1807,25
+2009;Markt Sankt Martin <10812>;1177,125
+2009;Neckenmarkt <10813>;1689,5
+2009;Neutal <10814>;1047,25
+2009;Nikitsch <10815>;1451,125
+2009;Oberpullendorf <10816>;3022,75
+2009;Pilgersdorf <10817>;1641,875
+2009;Piringsdorf <10818>;870,625
+2009;Raiding <10819>;837,25
+2009;Ritzing <10820>;869,75
+2009;Steinberg-Dörfl <10821>;1251,875
+2009;Stoob <10822>;1433,5
+2009;Weppersdorf <10823>;1819,875
+2009;Lackendorf <10824>;576,5
+2009;Unterfrauenhaid <10825>;677,875
+2009;Unterrabnitz-Schwendgraben <10826>;654,75
+2009;Weingraben <10827>;367,375
+2009;Oberloisdorf <10828>;787,25
+2009;Bad Tatzmannsdorf <10901>;1336
+2009;Bernstein <10902>;2302,375
+2009;Deutsch Schützen-Eisenberg <10903>;1111
+2009;Grafenschachen <10904>;1255,5
+2009;Großpetersdorf <10905>;3543,25
+2009;Hannersdorf <10906>;779,375
+2009;Kemeten <10907>;1522,75
+2009;Kohfidisch <10908>;1471,875
+2009;Litzelsdorf <10909>;1150,25
+2009;Loipersdorf-Kitzladen <10910>;1260,5
+2009;Mariasdorf <10911>;1186
+2009;Markt Allhau <10912>;1834,625
+2009;Markt Neuhodis <10913>;677,25
+2009;Mischendorf <10914>;1712,375
+2009;Oberdorf im Burgenland <10915>;1047,5
+2009;Oberschützen <10916>;2348,75
+2009;Oberwart <10917>;7069,875
+2009;Pinkafeld <10918>;5437,875
+2009;Rechnitz <10919>;3114,375
+2009;Riedlingsdorf <10920>;1644,625
+2009;Rotenturm an der Pinka <10921>;1429,625
+2009;Schachendorf <10922>;794,625
+2009;Stadtschlaining <10923>;2100,875
+2009;Unterkohlstätten <10924>;1045,375
+2009;Unterwart <10925>;916,625
+2009;Weiden bei Rechnitz <10926>;856,25
+2009;Wiesfleck <10927>;1110,375
+2009;Wolfau <10928>;1387,5
+2009;Neustift an der Lafnitz <10929>;721,875
+2009;Jabing <10930>;757,25
+2009;Badersdorf <10931>;303
+2009;Schandorf <10932>;289,375
+2010;Eisenstadt <10101>;12880
+2010;Rust <10201>;1888,625
+2010;Breitenbrunn am Neusiedler See <10301>;1881,25
+2010;Donnerskirchen <10302>;1722,75
+2010;Großhöflein <10303>;1896,5
+2010;Hornstein <10304>;2741,75
+2010;Klingenbach <10305>;1178,75
+2010;Leithaprodersdorf <10306>;1158,75
+2010;Mörbisch am See <10307>;2341
+2010;Müllendorf <10308>;1339,25
+2010;Neufeld an der Leitha <10309>;3123,75
+2010;Oggau am Neusiedler See <10310>;1796,75
+2010;Oslip <10311>;1314,625
+2010;Purbach am Neusiedler See <10312>;2721,625
+2010;Sankt Margarethen im Burgenland <10313>;2728,375
+2010;Schützen am Gebirge <10314>;1413,25
+2010;Siegendorf <10315>;2915
+2010;Steinbrunn <10316>;2295,875
+2010;Trausdorf an der Wulka <10317>;1867
+2010;Wimpassing an der Leitha <10318>;1219,875
+2010;Wulkaprodersdorf <10319>;1863,375
+2010;Loretto <10320>;450,125
+2010;Stotzing <10321>;805,5
+2010;Zillingtal <10322>;926
+2010;Zagersdorf <10323>;953,875
+2010;Bocksdorf <10401>;799,625
+2010;Burgauberg-Neudauberg <10402>;1377,625
+2010;Eberau <10403>;994,875
+2010;Gerersdorf-Sulz <10404>;1047
+2010;Güssing <10405>;3747
+2010;Güttenbach <10406>;951,125
+2010;Heiligenbrunn <10407>;830,125
+2010;Kukmirn <10408>;2000,25
+2010;Neuberg im Burgenland <10409>;1023,875
+2010;Neustift bei Güssing <10410>;522,875
+2010;Olbendorf <10411>;1383,375
+2010;Ollersdorf im Burgenland <10412>;966,375
+2010;Sankt Michael im Burgenland <10413>;1026,375
+2010;Stegersbach <10414>;2494,625
+2010;Stinatz <10415>;1367,875
+2010;Strem <10416>;942,125
+2010;Tobaj <10417>;1398,25
+2010;Hackerberg <10418>;359,5
+2010;Wörterberg <10419>;502,5
+2010;Großmürbisch <10420>;269,5
+2010;Inzenhof <10421>;328,875
+2010;Kleinmürbisch <10422>;255,5
+2010;Tschanigraben <10423>;66,25
+2010;Heugraben <10424>;224,25
+2010;Rohr im Burgenland <10425>;397,75
+2010;Bildein <10426>;333
+2010;Rauchwart <10427>;456,5
+2010;Moschendorf <10428>;418
+2010;Deutsch Kaltenbrunn <10501>;1757,375
+2010;Eltendorf <10502>;974,125
+2010;Heiligenkreuz im Lafnitztal <10503>;1258,875
+2010;Jennersdorf <10504>;4231,75
+2010;Minihof-Liebau <10505>;1113,375
+2010;Mogersdorf <10506>;1144,625
+2010;Neuhaus am Klausenbach <10507>;943,625
+2010;Rudersdorf <10508>;2147,5
+2010;Sankt Martin an der Raab <10509>;2052,25
+2010;Weichselbaum <10510>;731,5
+2010;Königsdorf <10511>;702,625
+2010;Mühlgraben <10512>;425,125
+2010;Draßburg <10601>;1125,875
+2010;Forchtenstein <10602>;2846,75
+2010;Hirm <10603>;971,25
+2010;Loipersbach im Burgenland <10604>;1257,375
+2010;Marz <10605>;1990,5
+2010;Mattersburg <10606>;6990,75
+2010;Neudörfl <10607>;4284,625
+2010;Pöttelsdorf <10608>;691,25
+2010;Pöttsching <10609>;2897,125
+2010;Rohrbach bei Mattersburg <10610>;2712
+2010;Bad Sauerbrunn <10611>;2072,25
+2010;Schattendorf <10612>;2388
+2010;Sieggraben <10613>;1289,75
+2010;Sigleß <10614>;1135,75
+2010;Wiesen <10615>;2789
+2010;Antau <10616>;743,75
+2010;Baumgarten <10617>;882,375
+2010;Zemendorf-Stöttera <10618>;1290,625
+2010;Krensdorf <10619>;620,125
+2010;Andau <10701>;2388,75
+2010;Apetlon <10702>;1825,375
+2010;Bruckneudorf <10703>;2748,875
+2010;Deutsch Jahrndorf <10704>;579,875
+2010;Frauenkirchen <10705>;2835,125
+2010;Gattendorf <10706>;1193
+2010;Gols <10707>;3689,375
+2010;Halbturn <10708>;1917,75
+2010;Illmitz <10709>;2462,875
+2010;Jois <10710>;1450,125
+2010;Kittsee <10711>;2037,25
+2010;Mönchhof <10712>;2289,25
+2010;Neusiedl am See <10713>;6922,375
+2010;Nickelsdorf <10714>;1585,875
+2010;Pama <10715>;1062,375
+2010;Pamhagen <10716>;1674,625
+2010;Parndorf <10717>;4094,625
+2010;Podersdorf am See <10718>;2078,5
+2010;Sankt Andrä am Zicksee <10719>;1364,25
+2010;Tadten <10720>;1250
+2010;Wallern im Burgenland <10721>;1845,625
+2010;Weiden am See <10722>;2211
+2010;Winden am See <10723>;1270,75
+2010;Zurndorf <10724>;2030,625
+2010;Neudorf <10725>;712,25
+2010;Potzneusiedl <10726>;507,125
+2010;Edelstal <10727>;606,875
+2010;Deutschkreutz <10801>;3134,75
+2010;Draßmarkt <10802>;1373
+2010;Frankenau-Unterpullendorf <10803>;1165,25
+2010;Großwarasdorf <10804>;1491,125
+2010;Horitschon <10805>;1873,875
+2010;Kaisersdorf <10806>;592,5
+2010;Kobersdorf <10807>;1902,625
+2010;Lackenbach <10808>;1084,75
+2010;Lockenhaus <10809>;1979,375
+2010;Lutzmannsburg <10810>;881,75
+2010;Mannersdorf an der Rabnitz <10811>;1800,75
+2010;Markt Sankt Martin <10812>;1180,375
+2010;Neckenmarkt <10813>;1689,625
+2010;Neutal <10814>;1049
+2010;Nikitsch <10815>;1441,625
+2010;Oberpullendorf <10816>;3027,875
+2010;Pilgersdorf <10817>;1648,5
+2010;Piringsdorf <10818>;856,25
+2010;Raiding <10819>;840,125
+2010;Ritzing <10820>;891,875
+2010;Steinberg-Dörfl <10821>;1264,875
+2010;Stoob <10822>;1434,5
+2010;Weppersdorf <10823>;1835,75
+2010;Lackendorf <10824>;580,25
+2010;Unterfrauenhaid <10825>;672,25
+2010;Unterrabnitz-Schwendgraben <10826>;657,5
+2010;Weingraben <10827>;365,125
+2010;Oberloisdorf <10828>;780,625
+2010;Bad Tatzmannsdorf <10901>;1358,625
+2010;Bernstein <10902>;2291,125
+2010;Deutsch Schützen-Eisenberg <10903>;1115,75
+2010;Grafenschachen <10904>;1254,875
+2010;Großpetersdorf <10905>;3539
+2010;Hannersdorf <10906>;793,125
+2010;Kemeten <10907>;1518,125
+2010;Kohfidisch <10908>;1465,375
+2010;Litzelsdorf <10909>;1146,75
+2010;Loipersdorf-Kitzladen <10910>;1271,125
+2010;Mariasdorf <10911>;1197,125
+2010;Markt Allhau <10912>;1828,125
+2010;Markt Neuhodis <10913>;676
+2010;Mischendorf <10914>;1701,5
+2010;Oberdorf im Burgenland <10915>;1033,375
+2010;Oberschützen <10916>;2340,25
+2010;Oberwart <10917>;7119,125
+2010;Pinkafeld <10918>;5466,25
+2010;Rechnitz <10919>;3099,875
+2010;Riedlingsdorf <10920>;1653,875
+2010;Rotenturm an der Pinka <10921>;1423
+2010;Schachendorf <10922>;776,125
+2010;Stadtschlaining <10923>;2060,625
+2010;Unterkohlstätten <10924>;1041,75
+2010;Unterwart <10925>;927,25
+2010;Weiden bei Rechnitz <10926>;847,5
+2010;Wiesfleck <10927>;1099
+2010;Wolfau <10928>;1397,875
+2010;Neustift an der Lafnitz <10929>;742,25
+2010;Jabing <10930>;759,75
+2010;Badersdorf <10931>;301,875
+2010;Schandorf <10932>;296,75
+2011;Eisenstadt <10101>;13025,5
+2011;Rust <10201>;1891,125
+2011;Breitenbrunn am Neusiedler See <10301>;1892,625
+2011;Donnerskirchen <10302>;1738,75
+2011;Großhöflein <10303>;1909,375
+2011;Hornstein <10304>;2760,125
+2011;Klingenbach <10305>;1176,375
+2011;Leithaprodersdorf <10306>;1155,375
+2011;Mörbisch am See <10307>;2318,75
+2011;Müllendorf <10308>;1341,625
+2011;Neufeld an der Leitha <10309>;3135,75
+2011;Oggau am Neusiedler See <10310>;1803,25
+2011;Oslip <10311>;1298,5
+2011;Purbach am Neusiedler See <10312>;2719,5
+2011;Sankt Margarethen im Burgenland <10313>;2713,875
+2011;Schützen am Gebirge <10314>;1409,25
+2011;Siegendorf <10315>;2918,625
+2011;Steinbrunn <10316>;2349,125
+2011;Trausdorf an der Wulka <10317>;1887
+2011;Wimpassing an der Leitha <10318>;1254,375
+2011;Wulkaprodersdorf <10319>;1874,125
+2011;Loretto <10320>;459,375
+2011;Stotzing <10321>;804,875
+2011;Zillingtal <10322>;923,5
+2011;Zagersdorf <10323>;986,125
+2011;Bocksdorf <10401>;805,875
+2011;Burgauberg-Neudauberg <10402>;1363,5
+2011;Eberau <10403>;992,875
+2011;Gerersdorf-Sulz <10404>;1043,75
+2011;Güssing <10405>;3769,5
+2011;Güttenbach <10406>;940,625
+2011;Heiligenbrunn <10407>;841,125
+2011;Kukmirn <10408>;2000,25
+2011;Neuberg im Burgenland <10409>;1025,625
+2011;Neustift bei Güssing <10410>;513,5
+2011;Olbendorf <10411>;1412,625
+2011;Ollersdorf im Burgenland <10412>;978,625
+2011;Sankt Michael im Burgenland <10413>;1017,75
+2011;Stegersbach <10414>;2527,25
+2011;Stinatz <10415>;1381,5
+2011;Strem <10416>;931,875
+2011;Tobaj <10417>;1387,25
+2011;Hackerberg <10418>;365,125
+2011;Wörterberg <10419>;496,875
+2011;Großmürbisch <10420>;261,5
+2011;Inzenhof <10421>;325,125
+2011;Kleinmürbisch <10422>;251,5
+2011;Tschanigraben <10423>;70
+2011;Heugraben <10424>;223,25
+2011;Rohr im Burgenland <10425>;393,875
+2011;Bildein <10426>;351,875
+2011;Rauchwart <10427>;448,75
+2011;Moschendorf <10428>;410
+2011;Deutsch Kaltenbrunn <10501>;1760,625
+2011;Eltendorf <10502>;965,75
+2011;Heiligenkreuz im Lafnitztal <10503>;1278,75
+2011;Jennersdorf <10504>;4213,75
+2011;Minihof-Liebau <10505>;1114,75
+2011;Mogersdorf <10506>;1160,625
+2011;Neuhaus am Klausenbach <10507>;937,25
+2011;Rudersdorf <10508>;2167
+2011;Sankt Martin an der Raab <10509>;2062
+2011;Weichselbaum <10510>;725,75
+2011;Königsdorf <10511>;724,125
+2011;Mühlgraben <10512>;424,75
+2011;Draßburg <10601>;1130
+2011;Forchtenstein <10602>;2813,75
+2011;Hirm <10603>;951,125
+2011;Loipersbach im Burgenland <10604>;1247,625
+2011;Marz <10605>;1977,875
+2011;Mattersburg <10606>;7060,625
+2011;Neudörfl <10607>;4283,5
+2011;Pöttelsdorf <10608>;688,5
+2011;Pöttsching <10609>;2900,125
+2011;Rohrbach bei Mattersburg <10610>;2716,5
+2011;Bad Sauerbrunn <10611>;2112,875
+2011;Schattendorf <10612>;2421,75
+2011;Sieggraben <10613>;1281,375
+2011;Sigleß <10614>;1137,25
+2011;Wiesen <10615>;2789,375
+2011;Antau <10616>;751,625
+2011;Baumgarten <10617>;898,375
+2011;Zemendorf-Stöttera <10618>;1283,125
+2011;Krensdorf <10619>;606,875
+2011;Andau <10701>;2361,625
+2011;Apetlon <10702>;1810,125
+2011;Bruckneudorf <10703>;2818,5
+2011;Deutsch Jahrndorf <10704>;608,875
+2011;Frauenkirchen <10705>;2817
+2011;Gattendorf <10706>;1201,25
+2011;Gols <10707>;3711,125
+2011;Halbturn <10708>;1905,625
+2011;Illmitz <10709>;2448,5
+2011;Jois <10710>;1437,25
+2011;Kittsee <10711>;2131,125
+2011;Mönchhof <10712>;2285,875
+2011;Neusiedl am See <10713>;7055,625
+2011;Nickelsdorf <10714>;1612
+2011;Pama <10715>;1081,25
+2011;Pamhagen <10716>;1663,25
+2011;Parndorf <10717>;4183,125
+2011;Podersdorf am See <10718>;2087,125
+2011;Sankt Andrä am Zicksee <10719>;1364,25
+2011;Tadten <10720>;1249,625
+2011;Wallern im Burgenland <10721>;1821
+2011;Weiden am See <10722>;2254,875
+2011;Winden am See <10723>;1278,375
+2011;Zurndorf <10724>;2041,375
+2011;Neudorf <10725>;712,375
+2011;Potzneusiedl <10726>;515,125
+2011;Edelstal <10727>;620,625
+2011;Deutschkreutz <10801>;3138,875
+2011;Draßmarkt <10802>;1370,875
+2011;Frankenau-Unterpullendorf <10803>;1185
+2011;Großwarasdorf <10804>;1461,125
+2011;Horitschon <10805>;1868,5
+2011;Kaisersdorf <10806>;602,25
+2011;Kobersdorf <10807>;1918,25
+2011;Lackenbach <10808>;1088,875
+2011;Lockenhaus <10809>;2000,125
+2011;Lutzmannsburg <10810>;887,625
+2011;Mannersdorf an der Rabnitz <10811>;1804,875
+2011;Markt Sankt Martin <10812>;1173,375
+2011;Neckenmarkt <10813>;1697
+2011;Neutal <10814>;1049,125
+2011;Nikitsch <10815>;1429,625
+2011;Oberpullendorf <10816>;3016,875
+2011;Pilgersdorf <10817>;1654,875
+2011;Piringsdorf <10818>;858,25
+2011;Raiding <10819>;823,875
+2011;Ritzing <10820>;914,25
+2011;Steinberg-Dörfl <10821>;1259,375
+2011;Stoob <10822>;1443,375
+2011;Weppersdorf <10823>;1841,875
+2011;Lackendorf <10824>;576,25
+2011;Unterfrauenhaid <10825>;662,75
+2011;Unterrabnitz-Schwendgraben <10826>;657,625
+2011;Weingraben <10827>;362,875
+2011;Oberloisdorf <10828>;781,25
+2011;Bad Tatzmannsdorf <10901>;1368,375
+2011;Bernstein <10902>;2255,5
+2011;Deutsch Schützen-Eisenberg <10903>;1104,75
+2011;Grafenschachen <10904>;1248,5
+2011;Großpetersdorf <10905>;3540,875
+2011;Hannersdorf <10906>;785
+2011;Kemeten <10907>;1512,625
+2011;Kohfidisch <10908>;1444
+2011;Litzelsdorf <10909>;1132,625
+2011;Loipersdorf-Kitzladen <10910>;1297,5
+2011;Mariasdorf <10911>;1195,875
+2011;Markt Allhau <10912>;1834,125
+2011;Markt Neuhodis <10913>;666,125
+2011;Mischendorf <10914>;1703
+2011;Oberdorf im Burgenland <10915>;1037,25
+2011;Oberschützen <10916>;2369,375
+2011;Oberwart <10917>;7161,875
+2011;Pinkafeld <10918>;5490,25
+2011;Rechnitz <10919>;3104,25
+2011;Riedlingsdorf <10920>;1672,125
+2011;Rotenturm an der Pinka <10921>;1431,375
+2011;Schachendorf <10922>;768,5
+2011;Stadtschlaining <10923>;2064,75
+2011;Unterkohlstätten <10924>;1028
+2011;Unterwart <10925>;910
+2011;Weiden bei Rechnitz <10926>;839,75
+2011;Wiesfleck <10927>;1107,625
+2011;Wolfau <10928>;1381,5
+2011;Neustift an der Lafnitz <10929>;745,875
+2011;Jabing <10930>;747,75
+2011;Badersdorf <10931>;296,125
+2011;Schandorf <10932>;291,125
+2012;Eisenstadt <10101>;13193,875
+2012;Rust <10201>;1909,625
+2012;Breitenbrunn am Neusiedler See <10301>;1906,5
+2012;Donnerskirchen <10302>;1740,625
+2012;Großhöflein <10303>;1960,875
+2012;Hornstein <10304>;2773,625
+2012;Klingenbach <10305>;1167,5
+2012;Leithaprodersdorf <10306>;1166,375
+2012;Mörbisch am See <10307>;2296,75
+2012;Müllendorf <10308>;1342,5
+2012;Neufeld an der Leitha <10309>;3198,625
+2012;Oggau am Neusiedler See <10310>;1805
+2012;Oslip <10311>;1275
+2012;Purbach am Neusiedler See <10312>;2710,625
+2012;Sankt Margarethen im Burgenland <10313>;2710,5
+2012;Schützen am Gebirge <10314>;1410,25
+2012;Siegendorf <10315>;2952,25
+2012;Steinbrunn <10316>;2417
+2012;Trausdorf an der Wulka <10317>;1920,375
+2012;Wimpassing an der Leitha <10318>;1290,25
+2012;Wulkaprodersdorf <10319>;1880,125
+2012;Loretto <10320>;461
+2012;Stotzing <10321>;799,375
+2012;Zillingtal <10322>;927,375
+2012;Zagersdorf <10323>;989,75
+2012;Bocksdorf <10401>;797,375
+2012;Burgauberg-Neudauberg <10402>;1365,625
+2012;Eberau <10403>;984,375
+2012;Gerersdorf-Sulz <10404>;1033,875
+2012;Güssing <10405>;3780,625
+2012;Güttenbach <10406>;928,875
+2012;Heiligenbrunn <10407>;825,5
+2012;Kukmirn <10408>;2023,625
+2012;Neuberg im Burgenland <10409>;1008,125
+2012;Neustift bei Güssing <10410>;497,625
+2012;Olbendorf <10411>;1417,5
+2012;Ollersdorf im Burgenland <10412>;987,125
+2012;Sankt Michael im Burgenland <10413>;1009,125
+2012;Stegersbach <10414>;2571,875
+2012;Stinatz <10415>;1377,625
+2012;Strem <10416>;937,25
+2012;Tobaj <10417>;1403,875
+2012;Hackerberg <10418>;354,625
+2012;Wörterberg <10419>;507,625
+2012;Großmürbisch <10420>;261,75
+2012;Inzenhof <10421>;330,125
+2012;Kleinmürbisch <10422>;251,875
+2012;Tschanigraben <10423>;69,5
+2012;Heugraben <10424>;216,375
+2012;Rohr im Burgenland <10425>;384,25
+2012;Bildein <10426>;362,5
+2012;Rauchwart <10427>;459,875
+2012;Moschendorf <10428>;410,625
+2012;Deutsch Kaltenbrunn <10501>;1758,125
+2012;Eltendorf <10502>;980,375
+2012;Heiligenkreuz im Lafnitztal <10503>;1282,625
+2012;Jennersdorf <10504>;4189,875
+2012;Minihof-Liebau <10505>;1103,375
+2012;Mogersdorf <10506>;1174,375
+2012;Neuhaus am Klausenbach <10507>;950,25
+2012;Rudersdorf <10508>;2190,125
+2012;Sankt Martin an der Raab <10509>;2060,25
+2012;Weichselbaum <10510>;726,25
+2012;Königsdorf <10511>;723,125
+2012;Mühlgraben <10512>;412,625
+2012;Draßburg <10601>;1151,625
+2012;Forchtenstein <10602>;2800
+2012;Hirm <10603>;953,625
+2012;Loipersbach im Burgenland <10604>;1258
+2012;Marz <10605>;1987,25
+2012;Mattersburg <10606>;7125,25
+2012;Neudörfl <10607>;4294,625
+2012;Pöttelsdorf <10608>;697,125
+2012;Pöttsching <10609>;2896,25
+2012;Rohrbach bei Mattersburg <10610>;2709,875
+2012;Bad Sauerbrunn <10611>;2165,625
+2012;Schattendorf <10612>;2434,625
+2012;Sieggraben <10613>;1274,875
+2012;Sigleß <10614>;1136,875
+2012;Wiesen <10615>;2770,5
+2012;Antau <10616>;771,75
+2012;Baumgarten <10617>;904
+2012;Zemendorf-Stöttera <10618>;1275,25
+2012;Krensdorf <10619>;591,875
+2012;Andau <10701>;2345,375
+2012;Apetlon <10702>;1800,125
+2012;Bruckneudorf <10703>;2884,625
+2012;Deutsch Jahrndorf <10704>;605,125
+2012;Frauenkirchen <10705>;2826,5
+2012;Gattendorf <10706>;1221,125
+2012;Gols <10707>;3730,75
+2012;Halbturn <10708>;1893,875
+2012;Illmitz <10709>;2400,875
+2012;Jois <10710>;1433,125
+2012;Kittsee <10711>;2404,5
+2012;Mönchhof <10712>;2280,375
+2012;Neusiedl am See <10713>;7188,5
+2012;Nickelsdorf <10714>;1638,25
+2012;Pama <10715>;1093
+2012;Pamhagen <10716>;1645,375
+2012;Parndorf <10717>;4235
+2012;Podersdorf am See <10718>;2082,25
+2012;Sankt Andrä am Zicksee <10719>;1360,5
+2012;Tadten <10720>;1251,25
+2012;Wallern im Burgenland <10721>;1780,5
+2012;Weiden am See <10722>;2270,375
+2012;Winden am See <10723>;1291,625
+2012;Zurndorf <10724>;2066,75
+2012;Neudorf <10725>;706,75
+2012;Potzneusiedl <10726>;516,75
+2012;Edelstal <10727>;638
+2012;Deutschkreutz <10801>;3113,125
+2012;Draßmarkt <10802>;1385,25
+2012;Frankenau-Unterpullendorf <10803>;1179,375
+2012;Großwarasdorf <10804>;1447,25
+2012;Horitschon <10805>;1889,75
+2012;Kaisersdorf <10806>;614,375
+2012;Kobersdorf <10807>;1922,875
+2012;Lackenbach <10808>;1133,25
+2012;Lockenhaus <10809>;2006,375
+2012;Lutzmannsburg <10810>;876,75
+2012;Mannersdorf an der Rabnitz <10811>;1806
+2012;Markt Sankt Martin <10812>;1165,75
+2012;Neckenmarkt <10813>;1705,375
+2012;Neutal <10814>;1057,25
+2012;Nikitsch <10815>;1421,25
+2012;Oberpullendorf <10816>;3036
+2012;Pilgersdorf <10817>;1649,125
+2012;Piringsdorf <10818>;861,75
+2012;Raiding <10819>;809,375
+2012;Ritzing <10820>;906,75
+2012;Steinberg-Dörfl <10821>;1274,625
+2012;Stoob <10822>;1437,375
+2012;Weppersdorf <10823>;1834,625
+2012;Lackendorf <10824>;570,125
+2012;Unterfrauenhaid <10825>;661,25
+2012;Unterrabnitz-Schwendgraben <10826>;652,125
+2012;Weingraben <10827>;356,375
+2012;Oberloisdorf <10828>;776,75
+2012;Bad Tatzmannsdorf <10901>;1377,75
+2012;Bernstein <10902>;2207,125
+2012;Deutsch Schützen-Eisenberg <10903>;1120,375
+2012;Grafenschachen <10904>;1257,375
+2012;Großpetersdorf <10905>;3535,5
+2012;Hannersdorf <10906>;781,75
+2012;Kemeten <10907>;1507,75
+2012;Kohfidisch <10908>;1439,875
+2012;Litzelsdorf <10909>;1140,125
+2012;Loipersdorf-Kitzladen <10910>;1273,125
+2012;Mariasdorf <10911>;1188,5
+2012;Markt Allhau <10912>;1875,125
+2012;Markt Neuhodis <10913>;672,5
+2012;Mischendorf <10914>;1667
+2012;Oberdorf im Burgenland <10915>;1036,125
+2012;Oberschützen <10916>;2404,75
+2012;Oberwart <10917>;7168,25
+2012;Pinkafeld <10918>;5503,375
+2012;Rechnitz <10919>;3118,5
+2012;Riedlingsdorf <10920>;1664,875
+2012;Rotenturm an der Pinka <10921>;1423,375
+2012;Schachendorf <10922>;772,125
+2012;Stadtschlaining <10923>;2059,125
+2012;Unterkohlstätten <10924>;1019,5
+2012;Unterwart <10925>;900,5
+2012;Weiden bei Rechnitz <10926>;823,5
+2012;Wiesfleck <10927>;1129,625
+2012;Wolfau <10928>;1359
+2012;Neustift an der Lafnitz <10929>;757,875
+2012;Jabing <10930>;736,125
+2012;Badersdorf <10931>;291,625
+2012;Schandorf <10932>;287
+2013;Eisenstadt <10101>;13428,5
+2013;Rust <10201>;1923,75
+2013;Breitenbrunn am Neusiedler See <10301>;1903,25
+2013;Donnerskirchen <10302>;1729,125
+2013;Großhöflein <10303>;2018
+2013;Hornstein <10304>;2793,625
+2013;Klingenbach <10305>;1177
+2013;Leithaprodersdorf <10306>;1171,75
+2013;Mörbisch am See <10307>;2279,5
+2013;Müllendorf <10308>;1352,75
+2013;Neufeld an der Leitha <10309>;3182
+2013;Oggau am Neusiedler See <10310>;1792
+2013;Oslip <10311>;1274,625
+2013;Purbach am Neusiedler See <10312>;2743,25
+2013;Sankt Margarethen im Burgenland <10313>;2704,75
+2013;Schützen am Gebirge <10314>;1406,5
+2013;Siegendorf <10315>;2939,75
+2013;Steinbrunn <10316>;2472,5
+2013;Trausdorf an der Wulka <10317>;1940,125
+2013;Wimpassing an der Leitha <10318>;1355,375
+2013;Wulkaprodersdorf <10319>;1902
+2013;Loretto <10320>;460,875
+2013;Stotzing <10321>;804,5
+2013;Zillingtal <10322>;926,875
+2013;Zagersdorf <10323>;997,5
+2013;Bocksdorf <10401>;795,625
+2013;Burgauberg-Neudauberg <10402>;1369,25
+2013;Eberau <10403>;958,5
+2013;Gerersdorf-Sulz <10404>;1021,5
+2013;Güssing <10405>;3742,875
+2013;Güttenbach <10406>;912,125
+2013;Heiligenbrunn <10407>;830,75
+2013;Kukmirn <10408>;2036,125
+2013;Neuberg im Burgenland <10409>;977,125
+2013;Neustift bei Güssing <10410>;506,5
+2013;Olbendorf <10411>;1438,25
+2013;Ollersdorf im Burgenland <10412>;994,125
+2013;Sankt Michael im Burgenland <10413>;1000,75
+2013;Stegersbach <10414>;2557,125
+2013;Stinatz <10415>;1371,25
+2013;Strem <10416>;927,125
+2013;Tobaj <10417>;1419,125
+2013;Hackerberg <10418>;356,25
+2013;Wörterberg <10419>;498,125
+2013;Großmürbisch <10420>;254,75
+2013;Inzenhof <10421>;347,75
+2013;Kleinmürbisch <10422>;248,25
+2013;Tschanigraben <10423>;64,625
+2013;Heugraben <10424>;209,5
+2013;Rohr im Burgenland <10425>;384,875
+2013;Bildein <10426>;356
+2013;Rauchwart <10427>;456,375
+2013;Moschendorf <10428>;422,25
+2013;Deutsch Kaltenbrunn <10501>;1756,375
+2013;Eltendorf <10502>;979,375
+2013;Heiligenkreuz im Lafnitztal <10503>;1260,125
+2013;Jennersdorf <10504>;4135,875
+2013;Minihof-Liebau <10505>;1090,75
+2013;Mogersdorf <10506>;1157,125
+2013;Neuhaus am Klausenbach <10507>;961,5
+2013;Rudersdorf <10508>;2195
+2013;Sankt Martin an der Raab <10509>;2030,75
+2013;Weichselbaum <10510>;736,375
+2013;Königsdorf <10511>;720,25
+2013;Mühlgraben <10512>;408,125
+2013;Draßburg <10601>;1168,5
+2013;Forchtenstein <10602>;2799,75
+2013;Hirm <10603>;944,875
+2013;Loipersbach im Burgenland <10604>;1251,5
+2013;Marz <10605>;2026,5
+2013;Mattersburg <10606>;7077,5
+2013;Neudörfl <10607>;4295,25
+2013;Pöttelsdorf <10608>;710
+2013;Pöttsching <10609>;2894,375
+2013;Rohrbach bei Mattersburg <10610>;2707,375
+2013;Bad Sauerbrunn <10611>;2164,75
+2013;Schattendorf <10612>;2416,125
+2013;Sieggraben <10613>;1248,875
+2013;Sigleß <10614>;1144,5
+2013;Wiesen <10615>;2757,25
+2013;Antau <10616>;760,375
+2013;Baumgarten <10617>;898
+2013;Zemendorf-Stöttera <10618>;1279,875
+2013;Krensdorf <10619>;602
+2013;Andau <10701>;2365,375
+2013;Apetlon <10702>;1786,25
+2013;Bruckneudorf <10703>;2917,625
+2013;Deutsch Jahrndorf <10704>;605,375
+2013;Frauenkirchen <10705>;2831,875
+2013;Gattendorf <10706>;1230,5
+2013;Gols <10707>;3741,75
+2013;Halbturn <10708>;1893,25
+2013;Illmitz <10709>;2385,25
+2013;Jois <10710>;1441
+2013;Kittsee <10711>;2651,125
+2013;Mönchhof <10712>;2294,125
+2013;Neusiedl am See <10713>;7378,375
+2013;Nickelsdorf <10714>;1666,75
+2013;Pama <10715>;1106,75
+2013;Pamhagen <10716>;1635,375
+2013;Parndorf <10717>;4315,5
+2013;Podersdorf am See <10718>;2063,25
+2013;Sankt Andrä am Zicksee <10719>;1355,375
+2013;Tadten <10720>;1243
+2013;Wallern im Burgenland <10721>;1760,125
+2013;Weiden am See <10722>;2279,625
+2013;Winden am See <10723>;1320
+2013;Zurndorf <10724>;2067,875
+2013;Neudorf <10725>;708,875
+2013;Potzneusiedl <10726>;530,375
+2013;Edelstal <10727>;644,625
+2013;Deutschkreutz <10801>;3096
+2013;Draßmarkt <10802>;1390
+2013;Frankenau-Unterpullendorf <10803>;1163,5
+2013;Großwarasdorf <10804>;1437,375
+2013;Horitschon <10805>;1901,5
+2013;Kaisersdorf <10806>;620,75
+2013;Kobersdorf <10807>;1924,5
+2013;Lackenbach <10808>;1141
+2013;Lockenhaus <10809>;2007
+2013;Lutzmannsburg <10810>;865,5
+2013;Mannersdorf an der Rabnitz <10811>;1810,25
+2013;Markt Sankt Martin <10812>;1166,625
+2013;Neckenmarkt <10813>;1684,5
+2013;Neutal <10814>;1078,625
+2013;Nikitsch <10815>;1433,25
+2013;Oberpullendorf <10816>;3049,75
+2013;Pilgersdorf <10817>;1653
+2013;Piringsdorf <10818>;855,375
+2013;Raiding <10819>;820
+2013;Ritzing <10820>;899,375
+2013;Steinberg-Dörfl <10821>;1284,75
+2013;Stoob <10822>;1411,625
+2013;Weppersdorf <10823>;1812,625
+2013;Lackendorf <10824>;573,5
+2013;Unterfrauenhaid <10825>;660,375
+2013;Unterrabnitz-Schwendgraben <10826>;649,5
+2013;Weingraben <10827>;355,125
+2013;Oberloisdorf <10828>;782,25
+2013;Bad Tatzmannsdorf <10901>;1394,75
+2013;Bernstein <10902>;2195,75
+2013;Deutsch Schützen-Eisenberg <10903>;1136,5
+2013;Grafenschachen <10904>;1269,375
+2013;Großpetersdorf <10905>;3533,375
+2013;Hannersdorf <10906>;774,875
+2013;Kemeten <10907>;1485,625
+2013;Kohfidisch <10908>;1428,625
+2013;Litzelsdorf <10909>;1139,25
+2013;Loipersdorf-Kitzladen <10910>;1271
+2013;Mariasdorf <10911>;1181,5
+2013;Markt Allhau <10912>;1895,375
+2013;Markt Neuhodis <10913>;661,375
+2013;Mischendorf <10914>;1640,625
+2013;Oberdorf im Burgenland <10915>;1018,125
+2013;Oberschützen <10916>;2407,75
+2013;Oberwart <10917>;7243,625
+2013;Pinkafeld <10918>;5525,25
+2013;Rechnitz <10919>;3156,125
+2013;Riedlingsdorf <10920>;1639
+2013;Rotenturm an der Pinka <10921>;1434,25
+2013;Schachendorf <10922>;754,75
+2013;Stadtschlaining <10923>;2034,75
+2013;Unterkohlstätten <10924>;1022,75
+2013;Unterwart <10925>;890,625
+2013;Weiden bei Rechnitz <10926>;825,25
+2013;Wiesfleck <10927>;1125,875
+2013;Wolfau <10928>;1356,75
+2013;Neustift an der Lafnitz <10929>;764,625
+2013;Jabing <10930>;748,25
+2013;Badersdorf <10931>;292,25
+2013;Schandorf <10932>;281,875
+2014;Eisenstadt <10101>;13548,375
+2014;Rust <10201>;1942,875
+2014;Breitenbrunn am Neusiedler See <10301>;1916,5
+2014;Donnerskirchen <10302>;1737,25
+2014;Großhöflein <10303>;2038
+2014;Hornstein <10304>;2820
+2014;Klingenbach <10305>;1180,625
+2014;Leithaprodersdorf <10306>;1168
+2014;Mörbisch am See <10307>;2265,125
+2014;Müllendorf <10308>;1365
+2014;Neufeld an der Leitha <10309>;3220,625
+2014;Oggau am Neusiedler See <10310>;1776,875
+2014;Oslip <10311>;1278,75
+2014;Purbach am Neusiedler See <10312>;2756,25
+2014;Sankt Margarethen im Burgenland <10313>;2693,25
+2014;Schützen am Gebirge <10314>;1384
+2014;Siegendorf <10315>;2957,125
+2014;Steinbrunn <10316>;2506,25
+2014;Trausdorf an der Wulka <10317>;1976,75
+2014;Wimpassing an der Leitha <10318>;1399,75
+2014;Wulkaprodersdorf <10319>;1903,875
+2014;Loretto <10320>;465,375
+2014;Stotzing <10321>;822
+2014;Zillingtal <10322>;923,375
+2014;Zagersdorf <10323>;996,125
+2014;Bocksdorf <10401>;800,875
+2014;Burgauberg-Neudauberg <10402>;1370,75
+2014;Eberau <10403>;937
+2014;Gerersdorf-Sulz <10404>;1011,125
+2014;Güssing <10405>;3722,25
+2014;Güttenbach <10406>;912
+2014;Heiligenbrunn <10407>;825
+2014;Kukmirn <10408>;2039,625
+2014;Neuberg im Burgenland <10409>;963,875
+2014;Neustift bei Güssing <10410>;499,25
+2014;Olbendorf <10411>;1452,875
+2014;Ollersdorf im Burgenland <10412>;984,25
+2014;Sankt Michael im Burgenland <10413>;1000,625
+2014;Stegersbach <10414>;2552,125
+2014;Stinatz <10415>;1356,75
+2014;Strem <10416>;918
+2014;Tobaj <10417>;1422,75
+2014;Hackerberg <10418>;361,375
+2014;Wörterberg <10419>;483,25
+2014;Großmürbisch <10420>;256,25
+2014;Inzenhof <10421>;345,75
+2014;Kleinmürbisch <10422>;243,625
+2014;Tschanigraben <10423>;60,625
+2014;Heugraben <10424>;206,25
+2014;Rohr im Burgenland <10425>;380,25
+2014;Bildein <10426>;341,125
+2014;Rauchwart <10427>;450,625
+2014;Moschendorf <10428>;418,75
+2014;Deutsch Kaltenbrunn <10501>;1725,625
+2014;Eltendorf <10502>;959,75
+2014;Heiligenkreuz im Lafnitztal <10503>;1235,875
+2014;Jennersdorf <10504>;4101
+2014;Minihof-Liebau <10505>;1091,375
+2014;Mogersdorf <10506>;1155,625
+2014;Neuhaus am Klausenbach <10507>;946,625
+2014;Rudersdorf <10508>;2181,625
+2014;Sankt Martin an der Raab <10509>;2017,875
+2014;Weichselbaum <10510>;741,375
+2014;Königsdorf <10511>;725,25
+2014;Mühlgraben <10512>;403,875
+2014;Draßburg <10601>;1187,125
+2014;Forchtenstein <10602>;2788
+2014;Hirm <10603>;949,625
+2014;Loipersbach im Burgenland <10604>;1227,25
+2014;Marz <10605>;2043,125
+2014;Mattersburg <10606>;7143
+2014;Neudörfl <10607>;4355,125
+2014;Pöttelsdorf <10608>;713,75
+2014;Pöttsching <10609>;2900,25
+2014;Rohrbach bei Mattersburg <10610>;2701,5
+2014;Bad Sauerbrunn <10611>;2147,25
+2014;Schattendorf <10612>;2407,125
+2014;Sieggraben <10613>;1261,75
+2014;Sigleß <10614>;1171,75
+2014;Wiesen <10615>;2729,75
+2014;Antau <10616>;759,5
+2014;Baumgarten <10617>;883,25
+2014;Zemendorf-Stöttera <10618>;1278,875
+2014;Krensdorf <10619>;612,25
+2014;Andau <10701>;2353,5
+2014;Apetlon <10702>;1781,75
+2014;Bruckneudorf <10703>;2931,75
+2014;Deutsch Jahrndorf <10704>;598,75
+2014;Frauenkirchen <10705>;2835,5
+2014;Gattendorf <10706>;1253,75
+2014;Gols <10707>;3753,5
+2014;Halbturn <10708>;1884,625
+2014;Illmitz <10709>;2363
+2014;Jois <10710>;1505,125
+2014;Kittsee <10711>;2754,25
+2014;Mönchhof <10712>;2284,375
+2014;Neusiedl am See <10713>;7546,75
+2014;Nickelsdorf <10714>;1693,25
+2014;Pama <10715>;1121,625
+2014;Pamhagen <10716>;1658
+2014;Parndorf <10717>;4371
+2014;Podersdorf am See <10718>;2053
+2014;Sankt Andrä am Zicksee <10719>;1348,25
+2014;Tadten <10720>;1230,375
+2014;Wallern im Burgenland <10721>;1759,5
+2014;Weiden am See <10722>;2300,875
+2014;Winden am See <10723>;1331,875
+2014;Zurndorf <10724>;2077,875
+2014;Neudorf <10725>;718,375
+2014;Potzneusiedl <10726>;547,125
+2014;Edelstal <10727>;668,625
+2014;Deutschkreutz <10801>;3114,75
+2014;Draßmarkt <10802>;1402,75
+2014;Frankenau-Unterpullendorf <10803>;1142,25
+2014;Großwarasdorf <10804>;1423,75
+2014;Horitschon <10805>;1917,375
+2014;Kaisersdorf <10806>;631
+2014;Kobersdorf <10807>;1918,625
+2014;Lackenbach <10808>;1144,25
+2014;Lockenhaus <10809>;2004,875
+2014;Lutzmannsburg <10810>;866,5
+2014;Mannersdorf an der Rabnitz <10811>;1810,625
+2014;Markt Sankt Martin <10812>;1155,875
+2014;Neckenmarkt <10813>;1668,875
+2014;Neutal <10814>;1078,125
+2014;Nikitsch <10815>;1425,25
+2014;Oberpullendorf <10816>;3090,375
+2014;Pilgersdorf <10817>;1659,125
+2014;Piringsdorf <10818>;853,25
+2014;Raiding <10819>;827,875
+2014;Ritzing <10820>;896,875
+2014;Steinberg-Dörfl <10821>;1292,625
+2014;Stoob <10822>;1419,25
+2014;Weppersdorf <10823>;1800,5
+2014;Lackendorf <10824>;575,375
+2014;Unterfrauenhaid <10825>;675,375
+2014;Unterrabnitz-Schwendgraben <10826>;646,5
+2014;Weingraben <10827>;356,25
+2014;Oberloisdorf <10828>;792
+2014;Bad Tatzmannsdorf <10901>;1457,875
+2014;Bernstein <10902>;2195,75
+2014;Deutsch Schützen-Eisenberg <10903>;1129,875
+2014;Grafenschachen <10904>;1263,75
+2014;Großpetersdorf <10905>;3528,25
+2014;Hannersdorf <10906>;779,75
+2014;Kemeten <10907>;1487,625
+2014;Kohfidisch <10908>;1437
+2014;Litzelsdorf <10909>;1140,75
+2014;Loipersdorf-Kitzladen <10910>;1274,875
+2014;Mariasdorf <10911>;1161,875
+2014;Markt Allhau <10912>;1883,75
+2014;Markt Neuhodis <10913>;643,625
+2014;Mischendorf <10914>;1639,625
+2014;Oberdorf im Burgenland <10915>;1005,25
+2014;Oberschützen <10916>;2416,875
+2014;Oberwart <10917>;7251,5
+2014;Pinkafeld <10918>;5548,875
+2014;Rechnitz <10919>;3159,125
+2014;Riedlingsdorf <10920>;1639
+2014;Rotenturm an der Pinka <10921>;1445,75
+2014;Schachendorf <10922>;752,75
+2014;Stadtschlaining <10923>;2010,5
+2014;Unterkohlstätten <10924>;1022,875
+2014;Unterwart <10925>;895
+2014;Weiden bei Rechnitz <10926>;806,5
+2014;Wiesfleck <10927>;1128,625
+2014;Wolfau <10928>;1380,5
+2014;Neustift an der Lafnitz <10929>;775,125
+2014;Jabing <10930>;749,125
+2014;Badersdorf <10931>;292,375
+2014;Schandorf <10932>;278,25
+2015;Eisenstadt <10101>;13894,5
+2015;Rust <10201>;1918,75
+2015;Breitenbrunn am Neusiedler See <10301>;1909,125
+2015;Donnerskirchen <10302>;1736,125
+2015;Großhöflein <10303>;2059,125
+2015;Hornstein <10304>;2876,625
+2015;Klingenbach <10305>;1203,125
+2015;Leithaprodersdorf <10306>;1186,5
+2015;Mörbisch am See <10307>;2252,875
+2015;Müllendorf <10308>;1377,125
+2015;Neufeld an der Leitha <10309>;3245,375
+2015;Oggau am Neusiedler See <10310>;1768,75
+2015;Oslip <10311>;1254,875
+2015;Purbach am Neusiedler See <10312>;2794,375
+2015;Sankt Margarethen im Burgenland <10313>;2672,875
+2015;Schützen am Gebirge <10314>;1394,375
+2015;Siegendorf <10315>;2944,5
+2015;Steinbrunn <10316>;2524,125
+2015;Trausdorf an der Wulka <10317>;2023,125
+2015;Wimpassing an der Leitha <10318>;1426,125
+2015;Wulkaprodersdorf <10319>;1901,625
+2015;Loretto <10320>;469,125
+2015;Stotzing <10321>;838,75
+2015;Zillingtal <10322>;921,625
+2015;Zagersdorf <10323>;1004,375
+2015;Bocksdorf <10401>;790,875
+2015;Burgauberg-Neudauberg <10402>;1378,25
+2015;Eberau <10403>;931
+2015;Gerersdorf-Sulz <10404>;1005,625
+2015;Güssing <10405>;3672,625
+2015;Güttenbach <10406>;900,125
+2015;Heiligenbrunn <10407>;819,5
+2015;Kukmirn <10408>;2022,75
+2015;Neuberg im Burgenland <10409>;958,75
+2015;Neustift bei Güssing <10410>;493,875
+2015;Olbendorf <10411>;1466,125
+2015;Ollersdorf im Burgenland <10412>;992
+2015;Sankt Michael im Burgenland <10413>;993,25
+2015;Stegersbach <10414>;2574,75
+2015;Stinatz <10415>;1341,5
+2015;Strem <10416>;925,5
+2015;Tobaj <10417>;1437,375
+2015;Hackerberg <10418>;364,75
+2015;Wörterberg <10419>;490,875
+2015;Großmürbisch <10420>;248,375
+2015;Inzenhof <10421>;339,625
+2015;Kleinmürbisch <10422>;240,625
+2015;Tschanigraben <10423>;58,125
+2015;Heugraben <10424>;206
+2015;Rohr im Burgenland <10425>;384,625
+2015;Bildein <10426>;337,25
+2015;Rauchwart <10427>;447,75
+2015;Moschendorf <10428>;408,375
+2015;Deutsch Kaltenbrunn <10501>;1704,25
+2015;Eltendorf <10502>;949
+2015;Heiligenkreuz im Lafnitztal <10503>;1224,25
+2015;Jennersdorf <10504>;4091,375
+2015;Minihof-Liebau <10505>;1083,75
+2015;Mogersdorf <10506>;1152,5
+2015;Neuhaus am Klausenbach <10507>;947,25
+2015;Rudersdorf <10508>;2185,5
+2015;Sankt Martin an der Raab <10509>;2015,5
+2015;Weichselbaum <10510>;734,875
+2015;Königsdorf <10511>;726,125
+2015;Mühlgraben <10512>;398,125
+2015;Draßburg <10601>;1188,125
+2015;Forchtenstein <10602>;2783
+2015;Hirm <10603>;961,25
+2015;Loipersbach im Burgenland <10604>;1231,5
+2015;Marz <10605>;2038,25
+2015;Mattersburg <10606>;7205,5
+2015;Neudörfl <10607>;4372,875
+2015;Pöttelsdorf <10608>;717
+2015;Pöttsching <10609>;2881,25
+2015;Rohrbach bei Mattersburg <10610>;2742,5
+2015;Bad Sauerbrunn <10611>;2161
+2015;Schattendorf <10612>;2394,75
+2015;Sieggraben <10613>;1271,25
+2015;Sigleß <10614>;1183,375
+2015;Wiesen <10615>;2731,125
+2015;Antau <10616>;761,625
+2015;Baumgarten <10617>;875,875
+2015;Zemendorf-Stöttera <10618>;1291,25
+2015;Krensdorf <10619>;619,875
+2015;Andau <10701>;2334,75
+2015;Apetlon <10702>;1771,125
+2015;Bruckneudorf <10703>;2940,375
+2015;Deutsch Jahrndorf <10704>;614,125
+2015;Frauenkirchen <10705>;2833,25
+2015;Gattendorf <10706>;1289,875
+2015;Gols <10707>;3806,125
+2015;Halbturn <10708>;1877,625
+2015;Illmitz <10709>;2372,25
+2015;Jois <10710>;1538
+2015;Kittsee <10711>;2935,75
+2015;Mönchhof <10712>;2296,875
+2015;Neusiedl am See <10713>;7707,25
+2015;Nickelsdorf <10714>;1726,25
+2015;Pama <10715>;1145,625
+2015;Pamhagen <10716>;1666,25
+2015;Parndorf <10717>;4423,625
+2015;Podersdorf am See <10718>;2113,625
+2015;Sankt Andrä am Zicksee <10719>;1349
+2015;Tadten <10720>;1215
+2015;Wallern im Burgenland <10721>;1749
+2015;Weiden am See <10722>;2327,375
+2015;Winden am See <10723>;1346
+2015;Zurndorf <10724>;2118,125
+2015;Neudorf <10725>;718,75
+2015;Potzneusiedl <10726>;570
+2015;Edelstal <10727>;687,25
+2015;Deutschkreutz <10801>;3111,375
+2015;Draßmarkt <10802>;1407,125
+2015;Frankenau-Unterpullendorf <10803>;1131,125
+2015;Großwarasdorf <10804>;1410,625
+2015;Horitschon <10805>;1909,25
+2015;Kaisersdorf <10806>;631
+2015;Kobersdorf <10807>;1905,875
+2015;Lackenbach <10808>;1153,75
+2015;Lockenhaus <10809>;2029,25
+2015;Lutzmannsburg <10810>;868,75
+2015;Mannersdorf an der Rabnitz <10811>;1803
+2015;Markt Sankt Martin <10812>;1169,375
+2015;Neckenmarkt <10813>;1674,625
+2015;Neutal <10814>;1090,625
+2015;Nikitsch <10815>;1397
+2015;Oberpullendorf <10816>;3152,375
+2015;Pilgersdorf <10817>;1658,75
+2015;Piringsdorf <10818>;852,25
+2015;Raiding <10819>;828,625
+2015;Ritzing <10820>;897,625
+2015;Steinberg-Dörfl <10821>;1301,25
+2015;Stoob <10822>;1389,5
+2015;Weppersdorf <10823>;1799,875
+2015;Lackendorf <10824>;586,125
+2015;Unterfrauenhaid <10825>;678,125
+2015;Unterrabnitz-Schwendgraben <10826>;648,25
+2015;Weingraben <10827>;356,625
+2015;Oberloisdorf <10828>;798,875
+2015;Bad Tatzmannsdorf <10901>;1492
+2015;Bernstein <10902>;2194
+2015;Deutsch Schützen-Eisenberg <10903>;1129,5
+2015;Grafenschachen <10904>;1254,75
+2015;Großpetersdorf <10905>;3475,5
+2015;Hannersdorf <10906>;754,75
+2015;Kemeten <10907>;1468,875
+2015;Kohfidisch <10908>;1449,25
+2015;Litzelsdorf <10909>;1152,625
+2015;Loipersdorf-Kitzladen <10910>;1285,875
+2015;Mariasdorf <10911>;1163,125
+2015;Markt Allhau <10912>;1865,625
+2015;Markt Neuhodis <10913>;649,125
+2015;Mischendorf <10914>;1637,75
+2015;Oberdorf im Burgenland <10915>;1001,75
+2015;Oberschützen <10916>;2413,75
+2015;Oberwart <10917>;7347,5
+2015;Pinkafeld <10918>;5581,75
+2015;Rechnitz <10919>;3141,25
+2015;Riedlingsdorf <10920>;1635,25
+2015;Rotenturm an der Pinka <10921>;1436,75
+2015;Schachendorf <10922>;766
+2015;Stadtschlaining <10923>;1991,75
+2015;Unterkohlstätten <10924>;1029,875
+2015;Unterwart <10925>;908,125
+2015;Weiden bei Rechnitz <10926>;808,375
+2015;Wiesfleck <10927>;1129,75
+2015;Wolfau <10928>;1434,5
+2015;Neustift an der Lafnitz <10929>;783,25
+2015;Jabing <10930>;739,75
+2015;Badersdorf <10931>;290,375
+2015;Schandorf <10932>;284,875
+2016;Eisenstadt <10101>;14274,125
+2016;Rust <10201>;1906,625
+2016;Breitenbrunn am Neusiedler See <10301>;1931,125
+2016;Donnerskirchen <10302>;1758,75
+2016;Großhöflein <10303>;2077,625
+2016;Hornstein <10304>;2943
+2016;Klingenbach <10305>;1219,125
+2016;Leithaprodersdorf <10306>;1186,125
+2016;Mörbisch am See <10307>;2258,875
+2016;Müllendorf <10308>;1394,25
+2016;Neufeld an der Leitha <10309>;3280,125
+2016;Oggau am Neusiedler See <10310>;1776,125
+2016;Oslip <10311>;1249
+2016;Purbach am Neusiedler See <10312>;2852
+2016;Sankt Margarethen im Burgenland <10313>;2661,5
+2016;Schützen am Gebirge <10314>;1392,125
+2016;Siegendorf <10315>;2930,375
+2016;Steinbrunn <10316>;2581,125
+2016;Trausdorf an der Wulka <10317>;2028,25
+2016;Wimpassing an der Leitha <10318>;1480,125
+2016;Wulkaprodersdorf <10319>;1932,25
+2016;Loretto <10320>;460,625
+2016;Stotzing <10321>;829,875
+2016;Zillingtal <10322>;924,875
+2016;Zagersdorf <10323>;1015,125
+2016;Bocksdorf <10401>;799,5
+2016;Burgauberg-Neudauberg <10402>;1364,25
+2016;Eberau <10403>;933,875
+2016;Gerersdorf-Sulz <10404>;1006,625
+2016;Güssing <10405>;3683,25
+2016;Güttenbach <10406>;884,125
+2016;Heiligenbrunn <10407>;788,875
+2016;Kukmirn <10408>;2023,5
+2016;Neuberg im Burgenland <10409>;964,5
+2016;Neustift bei Güssing <10410>;498,375
+2016;Olbendorf <10411>;1475,25
+2016;Ollersdorf im Burgenland <10412>;957,5
+2016;Sankt Michael im Burgenland <10413>;981,375
+2016;Stegersbach <10414>;2623,125
+2016;Stinatz <10415>;1326,25
+2016;Strem <10416>;913,25
+2016;Tobaj <10417>;1415,375
+2016;Hackerberg <10418>;358,125
+2016;Wörterberg <10419>;526,375
+2016;Großmürbisch <10420>;240,75
+2016;Inzenhof <10421>;338,375
+2016;Kleinmürbisch <10422>;233,125
+2016;Tschanigraben <10423>;58,75
+2016;Heugraben <10424>;205,25
+2016;Rohr im Burgenland <10425>;387,75
+2016;Bildein <10426>;339,75
+2016;Rauchwart <10427>;456,5
+2016;Moschendorf <10428>;401,125
+2016;Deutsch Kaltenbrunn <10501>;1718,125
+2016;Eltendorf <10502>;973,5
+2016;Heiligenkreuz im Lafnitztal <10503>;1254,625
+2016;Jennersdorf <10504>;4146,75
+2016;Minihof-Liebau <10505>;1073,25
+2016;Mogersdorf <10506>;1183,625
+2016;Neuhaus am Klausenbach <10507>;944,25
+2016;Rudersdorf <10508>;2199,375
+2016;Sankt Martin an der Raab <10509>;2001,5
+2016;Weichselbaum <10510>;736,125
+2016;Königsdorf <10511>;725,375
+2016;Mühlgraben <10512>;392,625
+2016;Draßburg <10601>;1173,5
+2016;Forchtenstein <10602>;2818,875
+2016;Hirm <10603>;1005,625
+2016;Loipersbach im Burgenland <10604>;1223,375
+2016;Marz <10605>;2072,625
+2016;Mattersburg <10606>;7285,125
+2016;Neudörfl <10607>;4442,25
+2016;Pöttelsdorf <10608>;721,5
+2016;Pöttsching <10609>;2909
+2016;Rohrbach bei Mattersburg <10610>;2762,875
+2016;Bad Sauerbrunn <10611>;2156,25
+2016;Schattendorf <10612>;2371,875
+2016;Sieggraben <10613>;1271,75
+2016;Sigleß <10614>;1190,5
+2016;Wiesen <10615>;2727,125
+2016;Antau <10616>;770,875
+2016;Baumgarten <10617>;879,75
+2016;Zemendorf-Stöttera <10618>;1298
+2016;Krensdorf <10619>;628,75
+2016;Andau <10701>;2335,5
+2016;Apetlon <10702>;1766,125
+2016;Bruckneudorf <10703>;2996,375
+2016;Deutsch Jahrndorf <10704>;604,75
+2016;Frauenkirchen <10705>;2852,625
+2016;Gattendorf <10706>;1312,75
+2016;Gols <10707>;3816,75
+2016;Halbturn <10708>;1883,375
+2016;Illmitz <10709>;2371,25
+2016;Jois <10710>;1569,5
+2016;Kittsee <10711>;3044,625
+2016;Mönchhof <10712>;2281,25
+2016;Neusiedl am See <10713>;7885,875
+2016;Nickelsdorf <10714>;1773
+2016;Pama <10715>;1167
+2016;Pamhagen <10716>;1672
+2016;Parndorf <10717>;4510,75
+2016;Podersdorf am See <10718>;2144,625
+2016;Sankt Andrä am Zicksee <10719>;1364,375
+2016;Tadten <10720>;1210,5
+2016;Wallern im Burgenland <10721>;1728,625
+2016;Weiden am See <10722>;2372,125
+2016;Winden am See <10723>;1327
+2016;Zurndorf <10724>;2182,25
+2016;Neudorf <10725>;716,875
+2016;Potzneusiedl <10726>;597,875
+2016;Edelstal <10727>;711,75
+2016;Deutschkreutz <10801>;3094,625
+2016;Draßmarkt <10802>;1409,375
+2016;Frankenau-Unterpullendorf <10803>;1117,25
+2016;Großwarasdorf <10804>;1416,75
+2016;Horitschon <10805>;1900,875
+2016;Kaisersdorf <10806>;629,75
+2016;Kobersdorf <10807>;1899,5
+2016;Lackenbach <10808>;1160,875
+2016;Lockenhaus <10809>;2028,75
+2016;Lutzmannsburg <10810>;887
+2016;Mannersdorf an der Rabnitz <10811>;1814,375
+2016;Markt Sankt Martin <10812>;1189,25
+2016;Neckenmarkt <10813>;1680,375
+2016;Neutal <10814>;1093,75
+2016;Nikitsch <10815>;1374,625
+2016;Oberpullendorf <10816>;3181
+2016;Pilgersdorf <10817>;1656
+2016;Piringsdorf <10818>;864,375
+2016;Raiding <10819>;843,75
+2016;Ritzing <10820>;892,25
+2016;Steinberg-Dörfl <10821>;1302,125
+2016;Stoob <10822>;1387,375
+2016;Weppersdorf <10823>;1807,25
+2016;Lackendorf <10824>;590,5
+2016;Unterfrauenhaid <10825>;694,625
+2016;Unterrabnitz-Schwendgraben <10826>;648,5
+2016;Weingraben <10827>;358,5
+2016;Oberloisdorf <10828>;807,375
+2016;Bad Tatzmannsdorf <10901>;1518,875
+2016;Bernstein <10902>;2197
+2016;Deutsch Schützen-Eisenberg <10903>;1136,375
+2016;Grafenschachen <10904>;1235,5
+2016;Großpetersdorf <10905>;3484,5
+2016;Hannersdorf <10906>;764,75
+2016;Kemeten <10907>;1475
+2016;Kohfidisch <10908>;1467,375
+2016;Litzelsdorf <10909>;1174,75
+2016;Loipersdorf-Kitzladen <10910>;1313,875
+2016;Mariasdorf <10911>;1151,5
+2016;Markt Allhau <10912>;1884,25
+2016;Markt Neuhodis <10913>;655,625
+2016;Mischendorf <10914>;1620,375
+2016;Oberdorf im Burgenland <10915>;993,875
+2016;Oberschützen <10916>;2426,125
+2016;Oberwart <10917>;7491,125
+2016;Pinkafeld <10918>;5695
+2016;Rechnitz <10919>;3119,75
+2016;Riedlingsdorf <10920>;1632,75
+2016;Rotenturm an der Pinka <10921>;1445,25
+2016;Schachendorf <10922>;775,25
+2016;Stadtschlaining <10923>;2002,125
+2016;Unterkohlstätten <10924>;1034,125
+2016;Unterwart <10925>;936,875
+2016;Weiden bei Rechnitz <10926>;820,625
+2016;Wiesfleck <10927>;1132,375
+2016;Wolfau <10928>;1456,375
+2016;Neustift an der Lafnitz <10929>;788,75
+2016;Jabing <10930>;737,125
+2016;Badersdorf <10931>;293
+2016;Schandorf <10932>;274,375
+2017;Eisenstadt <10101>;14363,625
+2017;Rust <10201>;1905,875
+2017;Breitenbrunn am Neusiedler See <10301>;1933
+2017;Donnerskirchen <10302>;1801
+2017;Großhöflein <10303>;2069
+2017;Hornstein <10304>;2976
+2017;Klingenbach <10305>;1199,625
+2017;Leithaprodersdorf <10306>;1175,375
+2017;Mörbisch am See <10307>;2258
+2017;Müllendorf <10308>;1396,125
+2017;Neufeld an der Leitha <10309>;3370,125
+2017;Oggau am Neusiedler See <10310>;1755,25
+2017;Oslip <10311>;1249,875
+2017;Purbach am Neusiedler See <10312>;2899,5
+2017;Sankt Margarethen im Burgenland <10313>;2654,375
+2017;Schützen am Gebirge <10314>;1382,625
+2017;Siegendorf <10315>;2932,75
+2017;Steinbrunn <10316>;2593,25
+2017;Trausdorf an der Wulka <10317>;2054,25
+2017;Wimpassing an der Leitha <10318>;1513,375
+2017;Wulkaprodersdorf <10319>;1951
+2017;Loretto <10320>;467,75
+2017;Stotzing <10321>;832,125
+2017;Zillingtal <10322>;931,375
+2017;Zagersdorf <10323>;1018,25
+2017;Bocksdorf <10401>;808,125
+2017;Burgauberg-Neudauberg <10402>;1363,5
+2017;Eberau <10403>;921,5
+2017;Gerersdorf-Sulz <10404>;1012
+2017;Güssing <10405>;3643,125
+2017;Güttenbach <10406>;885,5
+2017;Heiligenbrunn <10407>;763,5
+2017;Kukmirn <10408>;2009,875
+2017;Neuberg im Burgenland <10409>;973,75
+2017;Neustift bei Güssing <10410>;487,125
+2017;Olbendorf <10411>;1461,25
+2017;Ollersdorf im Burgenland <10412>;940,375
+2017;Sankt Michael im Burgenland <10413>;952,875
+2017;Stegersbach <10414>;2635,875
+2017;Stinatz <10415>;1282
+2017;Strem <10416>;887,125
+2017;Tobaj <10417>;1390,25
+2017;Hackerberg <10418>;356,125
+2017;Wörterberg <10419>;495,625
+2017;Großmürbisch <10420>;241,125
+2017;Inzenhof <10421>;333,25
+2017;Kleinmürbisch <10422>;227,5
+2017;Tschanigraben <10423>;60,125
+2017;Heugraben <10424>;216,25
+2017;Rohr im Burgenland <10425>;385,625
+2017;Bildein <10426>;342,625
+2017;Rauchwart <10427>;455,875
+2017;Moschendorf <10428>;406,25
+2017;Deutsch Kaltenbrunn <10501>;1714,125
+2017;Eltendorf <10502>;966,75
+2017;Heiligenkreuz im Lafnitztal <10503>;1236,5
+2017;Jennersdorf <10504>;4135,625
+2017;Minihof-Liebau <10505>;1058,75
+2017;Mogersdorf <10506>;1175,125
+2017;Neuhaus am Klausenbach <10507>;928,125
+2017;Rudersdorf <10508>;2180,25
+2017;Sankt Martin an der Raab <10509>;1973,375
+2017;Weichselbaum <10510>;727,75
+2017;Königsdorf <10511>;725,75
+2017;Mühlgraben <10512>;393,375
+2017;Draßburg <10601>;1179,375
+2017;Forchtenstein <10602>;2814,5
+2017;Hirm <10603>;1002,75
+2017;Loipersbach im Burgenland <10604>;1221,375
+2017;Marz <10605>;2090
+2017;Mattersburg <10606>;7315,75
+2017;Neudörfl <10607>;4516,25
+2017;Pöttelsdorf <10608>;725
+2017;Pöttsching <10609>;2948,75
+2017;Rohrbach bei Mattersburg <10610>;2724
+2017;Bad Sauerbrunn <10611>;2190,875
+2017;Schattendorf <10612>;2372,625
+2017;Sieggraben <10613>;1257,125
+2017;Sigleß <10614>;1187,625
+2017;Wiesen <10615>;2689,375
+2017;Antau <10616>;768,625
+2017;Baumgarten <10617>;890
+2017;Zemendorf-Stöttera <10618>;1279,125
+2017;Krensdorf <10619>;634,25
+2017;Andau <10701>;2294,5
+2017;Apetlon <10702>;1766,75
+2017;Bruckneudorf <10703>;2983,75
+2017;Deutsch Jahrndorf <10704>;607,75
+2017;Frauenkirchen <10705>;2864,75
+2017;Gattendorf <10706>;1327,875
+2017;Gols <10707>;3825
+2017;Halbturn <10708>;1890
+2017;Illmitz <10709>;2386,5
+2017;Jois <10710>;1594,75
+2017;Kittsee <10711>;3110,625
+2017;Mönchhof <10712>;2238,625
+2017;Neusiedl am See <10713>;8099,25
+2017;Nickelsdorf <10714>;1774,125
+2017;Pama <10715>;1195
+2017;Pamhagen <10716>;1648,25
+2017;Parndorf <10717>;4651,5
+2017;Podersdorf am See <10718>;2146
+2017;Sankt Andrä am Zicksee <10719>;1373,375
+2017;Tadten <10720>;1183,375
+2017;Wallern im Burgenland <10721>;1703,75
+2017;Weiden am See <10722>;2407
+2017;Winden am See <10723>;1322,625
+2017;Zurndorf <10724>;2224,375
+2017;Neudorf <10725>;724
+2017;Potzneusiedl <10726>;587,625
+2017;Edelstal <10727>;745,125
+2017;Deutschkreutz <10801>;3075,875
+2017;Draßmarkt <10802>;1400,875
+2017;Frankenau-Unterpullendorf <10803>;1119,375
+2017;Großwarasdorf <10804>;1392,75
+2017;Horitschon <10805>;1876,25
+2017;Kaisersdorf <10806>;626,125
+2017;Kobersdorf <10807>;1890,25
+2017;Lackenbach <10808>;1170,875
+2017;Lockenhaus <10809>;2045,375
+2017;Lutzmannsburg <10810>;881,25
+2017;Mannersdorf an der Rabnitz <10811>;1810,75
+2017;Markt Sankt Martin <10812>;1197,625
+2017;Neckenmarkt <10813>;1677,125
+2017;Neutal <10814>;1096,5
+2017;Nikitsch <10815>;1394,625
+2017;Oberpullendorf <10816>;3206,5
+2017;Pilgersdorf <10817>;1653,875
+2017;Piringsdorf <10818>;852,5
+2017;Raiding <10819>;861
+2017;Ritzing <10820>;893,25
+2017;Steinberg-Dörfl <10821>;1289,875
+2017;Stoob <10822>;1387,125
+2017;Weppersdorf <10823>;1816,75
+2017;Lackendorf <10824>;597,875
+2017;Unterfrauenhaid <10825>;687,125
+2017;Unterrabnitz-Schwendgraben <10826>;650
+2017;Weingraben <10827>;364,875
+2017;Oberloisdorf <10828>;805,75
+2017;Bad Tatzmannsdorf <10901>;1546,5
+2017;Bernstein <10902>;2144,125
+2017;Deutsch Schützen-Eisenberg <10903>;1126,75
+2017;Grafenschachen <10904>;1220,625
+2017;Großpetersdorf <10905>;3536,875
+2017;Hannersdorf <10906>;766,875
+2017;Kemeten <10907>;1487,125
+2017;Kohfidisch <10908>;1465,25
+2017;Litzelsdorf <10909>;1172,875
+2017;Loipersdorf-Kitzladen <10910>;1319,125
+2017;Mariasdorf <10911>;1138
+2017;Markt Allhau <10912>;1875,875
+2017;Markt Neuhodis <10913>;655,75
+2017;Mischendorf <10914>;1594,125
+2017;Oberdorf im Burgenland <10915>;993,875
+2017;Oberschützen <10916>;2423,25
+2017;Oberwart <10917>;7524,25
+2017;Pinkafeld <10918>;5729,375
+2017;Rechnitz <10919>;3078,125
+2017;Riedlingsdorf <10920>;1625,25
+2017;Rotenturm an der Pinka <10921>;1446,625
+2017;Schachendorf <10922>;774
+2017;Stadtschlaining <10923>;1979,25
+2017;Unterkohlstätten <10924>;1035,5
+2017;Unterwart <10925>;960,25
+2017;Weiden bei Rechnitz <10926>;832,125
+2017;Wiesfleck <10927>;1148,375
+2017;Wolfau <10928>;1434,625
+2017;Neustift an der Lafnitz <10929>;795
+2017;Jabing <10930>;735,625
+2017;Badersdorf <10931>;290,625
+2017;Schandorf <10932>;275
+2018;Eisenstadt <10101>;14527,625
+2018;Rust <10201>;1943,625
+2018;Breitenbrunn am Neusiedler See <10301>;1910,5
+2018;Donnerskirchen <10302>;1821,5
+2018;Großhöflein <10303>;2059,75
+2018;Hornstein <10304>;3060,625
+2018;Klingenbach <10305>;1157,875
+2018;Leithaprodersdorf <10306>;1196,125
+2018;Mörbisch am See <10307>;2235,125
+2018;Müllendorf <10308>;1399,875
+2018;Neufeld an der Leitha <10309>;3422,375
+2018;Oggau am Neusiedler See <10310>;1744,125
+2018;Oslip <10311>;1253,125
+2018;Purbach am Neusiedler See <10312>;2909,875
+2018;Sankt Margarethen im Burgenland <10313>;2638,75
+2018;Schützen am Gebirge <10314>;1383,125
+2018;Siegendorf <10315>;2997,5
+2018;Steinbrunn <10316>;2630,375
+2018;Trausdorf an der Wulka <10317>;2080,625
+2018;Wimpassing an der Leitha <10318>;1575,625
+2018;Wulkaprodersdorf <10319>;1947,75
+2018;Loretto <10320>;473,75
+2018;Stotzing <10321>;842,5
+2018;Zillingtal <10322>;934,75
+2018;Zagersdorf <10323>;1031,375
+2018;Bocksdorf <10401>;808
+2018;Burgauberg-Neudauberg <10402>;1361,375
+2018;Eberau <10403>;914,5
+2018;Gerersdorf-Sulz <10404>;1007
+2018;Güssing <10405>;3697,375
+2018;Güttenbach <10406>;888,5
+2018;Heiligenbrunn <10407>;747,5
+2018;Kukmirn <10408>;2000,25
+2018;Neuberg im Burgenland <10409>;979,125
+2018;Neustift bei Güssing <10410>;473,375
+2018;Olbendorf <10411>;1436,125
+2018;Ollersdorf im Burgenland <10412>;929,25
+2018;Sankt Michael im Burgenland <10413>;971,5
+2018;Stegersbach <10414>;2665,125
+2018;Stinatz <10415>;1239,625
+2018;Strem <10416>;897,5
+2018;Tobaj <10417>;1363,5
+2018;Hackerberg <10418>;357,75
+2018;Wörterberg <10419>;487,375
+2018;Großmürbisch <10420>;240,5
+2018;Inzenhof <10421>;331,875
+2018;Kleinmürbisch <10422>;224
+2018;Tschanigraben <10423>;64,125
+2018;Heugraben <10424>;213,5
+2018;Rohr im Burgenland <10425>;378,625
+2018;Bildein <10426>;338,875
+2018;Rauchwart <10427>;445,25
+2018;Moschendorf <10428>;398,875
+2018;Deutsch Kaltenbrunn <10501>;1733,625
+2018;Eltendorf <10502>;942,5
+2018;Heiligenkreuz im Lafnitztal <10503>;1227,5
+2018;Jennersdorf <10504>;4098,625
+2018;Minihof-Liebau <10505>;1041
+2018;Mogersdorf <10506>;1154,5
+2018;Neuhaus am Klausenbach <10507>;912,625
+2018;Rudersdorf <10508>;2165
+2018;Sankt Martin an der Raab <10509>;1965,75
+2018;Weichselbaum <10510>;716,75
+2018;Königsdorf <10511>;720,75
+2018;Mühlgraben <10512>;395,375
+2018;Draßburg <10601>;1199,625
+2018;Forchtenstein <10602>;2778,875
+2018;Hirm <10603>;1014
+2018;Loipersbach im Burgenland <10604>;1225,625
+2018;Marz <10605>;2059,625
+2018;Mattersburg <10606>;7397,75
+2018;Neudörfl <10607>;4559,625
+2018;Pöttelsdorf <10608>;741,25
+2018;Pöttsching <10609>;2963,125
+2018;Rohrbach bei Mattersburg <10610>;2684,375
+2018;Bad Sauerbrunn <10611>;2221,375
+2018;Schattendorf <10612>;2395,5
+2018;Sieggraben <10613>;1240,875
+2018;Sigleß <10614>;1182,125
+2018;Wiesen <10615>;2685,5
+2018;Antau <10616>;756,125
+2018;Baumgarten <10617>;880,875
+2018;Zemendorf-Stöttera <10618>;1271,125
+2018;Krensdorf <10619>;644,625
+2018;Andau <10701>;2270,375
+2018;Apetlon <10702>;1761,875
+2018;Bruckneudorf <10703>;3097,5
+2018;Deutsch Jahrndorf <10704>;606
+2018;Frauenkirchen <10705>;2861,625
+2018;Gattendorf <10706>;1330
+2018;Gols <10707>;3860,125
+2018;Halbturn <10708>;1921,375
+2018;Illmitz <10709>;2373,25
+2018;Jois <10710>;1618,375
+2018;Kittsee <10711>;3204,25
+2018;Mönchhof <10712>;2227,625
+2018;Neusiedl am See <10713>;8336,25
+2018;Nickelsdorf <10714>;1781
+2018;Pama <10715>;1213,875
+2018;Pamhagen <10716>;1608,375
+2018;Parndorf <10717>;4746
+2018;Podersdorf am See <10718>;2117,375
+2018;Sankt Andrä am Zicksee <10719>;1378,875
+2018;Tadten <10720>;1193,625
+2018;Wallern im Burgenland <10721>;1695
+2018;Weiden am See <10722>;2443,25
+2018;Winden am See <10723>;1315,875
+2018;Zurndorf <10724>;2244,75
+2018;Neudorf <10725>;719,875
+2018;Potzneusiedl <10726>;608,875
+2018;Edelstal <10727>;750
+2018;Deutschkreutz <10801>;3073,75
+2018;Draßmarkt <10802>;1381,5
+2018;Frankenau-Unterpullendorf <10803>;1107,125
+2018;Großwarasdorf <10804>;1383,375
+2018;Horitschon <10805>;1849,875
+2018;Kaisersdorf <10806>;613,875
+2018;Kobersdorf <10807>;1878,375
+2018;Lackenbach <10808>;1149,625
+2018;Lockenhaus <10809>;2055,5
+2018;Lutzmannsburg <10810>;872
+2018;Mannersdorf an der Rabnitz <10811>;1794,125
+2018;Markt Sankt Martin <10812>;1201,625
+2018;Neckenmarkt <10813>;1680,625
+2018;Neutal <10814>;1108,5
+2018;Nikitsch <10815>;1383,75
+2018;Oberpullendorf <10816>;3190,875
+2018;Pilgersdorf <10817>;1649,125
+2018;Piringsdorf <10818>;842,125
+2018;Raiding <10819>;871,25
+2018;Ritzing <10820>;894,875
+2018;Steinberg-Dörfl <10821>;1284,5
+2018;Stoob <10822>;1388,125
+2018;Weppersdorf <10823>;1819,75
+2018;Lackendorf <10824>;603,125
+2018;Unterfrauenhaid <10825>;664
+2018;Unterrabnitz-Schwendgraben <10826>;647,875
+2018;Weingraben <10827>;363,875
+2018;Oberloisdorf <10828>;796,875
+2018;Bad Tatzmannsdorf <10901>;1566,25
+2018;Bernstein <10902>;2105,75
+2018;Deutsch Schützen-Eisenberg <10903>;1125
+2018;Grafenschachen <10904>;1228,25
+2018;Großpetersdorf <10905>;3527,875
+2018;Hannersdorf <10906>;747
+2018;Kemeten <10907>;1499,625
+2018;Kohfidisch <10908>;1447,25
+2018;Litzelsdorf <10909>;1171,875
+2018;Loipersdorf-Kitzladen <10910>;1319,875
+2018;Mariasdorf <10911>;1149,375
+2018;Markt Allhau <10912>;1849,25
+2018;Markt Neuhodis <10913>;656
+2018;Mischendorf <10914>;1583,625
+2018;Oberdorf im Burgenland <10915>;998,25
+2018;Oberschützen <10916>;2414,375
+2018;Oberwart <10917>;7592,125
+2018;Pinkafeld <10918>;5804
+2018;Rechnitz <10919>;3028,25
+2018;Riedlingsdorf <10920>;1625
+2018;Rotenturm an der Pinka <10921>;1433,375
+2018;Schachendorf <10922>;755,875
+2018;Stadtschlaining <10923>;1981,75
+2018;Unterkohlstätten <10924>;1021,625
+2018;Unterwart <10925>;966,625
+2018;Weiden bei Rechnitz <10926>;824,375
+2018;Wiesfleck <10927>;1150,125
+2018;Wolfau <10928>;1438,75
+2018;Neustift an der Lafnitz <10929>;790,125
+2018;Jabing <10930>;736,5
+2018;Badersdorf <10931>;288,375
+2018;Schandorf <10932>;273,75
+2019;Eisenstadt <10101>;14720,625
+2019;Rust <10201>;1961,5
+2019;Breitenbrunn am Neusiedler See <10301>;1899,125
+2019;Donnerskirchen <10302>;1836,875
+2019;Großhöflein <10303>;2092
+2019;Hornstein <10304>;3109
+2019;Klingenbach <10305>;1155,5
+2019;Leithaprodersdorf <10306>;1199,75
+2019;Mörbisch am See <10307>;2218,625
+2019;Müllendorf <10308>;1400,125
+2019;Neufeld an der Leitha <10309>;3460,625
+2019;Oggau am Neusiedler See <10310>;1754,875
+2019;Oslip <10311>;1255,875
+2019;Purbach am Neusiedler See <10312>;2900,625
+2019;Sankt Margarethen im Burgenland <10313>;2655,375
+2019;Schützen am Gebirge <10314>;1397,25
+2019;Siegendorf <10315>;3053,375
+2019;Steinbrunn <10316>;2713,625
+2019;Trausdorf an der Wulka <10317>;2079,5
+2019;Wimpassing an der Leitha <10318>;1639,75
+2019;Wulkaprodersdorf <10319>;1978,5
+2019;Loretto <10320>;480,25
+2019;Stotzing <10321>;822,5
+2019;Zillingtal <10322>;955
+2019;Zagersdorf <10323>;1064
+2019;Bocksdorf <10401>;800,75
+2019;Burgauberg-Neudauberg <10402>;1330,875
+2019;Eberau <10403>;934,375
+2019;Gerersdorf-Sulz <10404>;1003
+2019;Güssing <10405>;3676,375
+2019;Güttenbach <10406>;879,5
+2019;Heiligenbrunn <10407>;746,25
+2019;Kukmirn <10408>;1992,875
+2019;Neuberg im Burgenland <10409>;974,625
+2019;Neustift bei Güssing <10410>;469,625
+2019;Olbendorf <10411>;1433,125
+2019;Ollersdorf im Burgenland <10412>;930,875
+2019;Sankt Michael im Burgenland <10413>;965
+2019;Stegersbach <10414>;2674,25
+2019;Stinatz <10415>;1213,625
+2019;Strem <10416>;883,125
+2019;Tobaj <10417>;1364,875
+2019;Hackerberg <10418>;364,375
+2019;Wörterberg <10419>;481,25
+2019;Großmürbisch <10420>;238,875
+2019;Inzenhof <10421>;322,5
+2019;Kleinmürbisch <10422>;226
+2019;Tschanigraben <10423>;63,25
+2019;Heugraben <10424>;225,5
+2019;Rohr im Burgenland <10425>;372,375
+2019;Bildein <10426>;343,875
+2019;Rauchwart <10427>;445,5
+2019;Moschendorf <10428>;393,125
+2019;Deutsch Kaltenbrunn <10501>;1740,5
+2019;Eltendorf <10502>;931,5
+2019;Heiligenkreuz im Lafnitztal <10503>;1218,875
+2019;Jennersdorf <10504>;4092,25
+2019;Minihof-Liebau <10505>;1049,375
+2019;Mogersdorf <10506>;1145,375
+2019;Neuhaus am Klausenbach <10507>;903,75
+2019;Rudersdorf <10508>;2166,75
+2019;Sankt Martin an der Raab <10509>;1995,25
+2019;Weichselbaum <10510>;709,5
+2019;Königsdorf <10511>;726,625
+2019;Mühlgraben <10512>;384,125
+2019;Draßburg <10601>;1226,625
+2019;Forchtenstein <10602>;2775,625
+2019;Hirm <10603>;1020,875
+2019;Loipersbach im Burgenland <10604>;1217,625
+2019;Marz <10605>;2053,5
+2019;Mattersburg <10606>;7443,375
+2019;Neudörfl <10607>;4576,75
+2019;Pöttelsdorf <10608>;746,875
+2019;Pöttsching <10609>;2967
+2019;Rohrbach bei Mattersburg <10610>;2652,625
+2019;Bad Sauerbrunn <10611>;2239,5
+2019;Schattendorf <10612>;2372,5
+2019;Sieggraben <10613>;1233,75
+2019;Sigleß <10614>;1163,625
+2019;Wiesen <10615>;2698
+2019;Antau <10616>;768,125
+2019;Baumgarten <10617>;877
+2019;Zemendorf-Stöttera <10618>;1279,375
+2019;Krensdorf <10619>;635,375
+2019;Andau <10701>;2271,5
+2019;Apetlon <10702>;1751,625
+2019;Bruckneudorf <10703>;3105,25
+2019;Deutsch Jahrndorf <10704>;613,5
+2019;Frauenkirchen <10705>;2866,625
+2019;Gattendorf <10706>;1357,375
+2019;Gols <10707>;3864
+2019;Halbturn <10708>;1925,5
+2019;Illmitz <10709>;2380,75
+2019;Jois <10710>;1645,125
+2019;Kittsee <10711>;3288,125
+2019;Mönchhof <10712>;2229,625
+2019;Neusiedl am See <10713>;8516,75
+2019;Nickelsdorf <10714>;1806,375
+2019;Pama <10715>;1215,625
+2019;Pamhagen <10716>;1582,125
+2019;Parndorf <10717>;4811,625
+2019;Podersdorf am See <10718>;2128,5
+2019;Sankt Andrä am Zicksee <10719>;1377,625
+2019;Tadten <10720>;1191,875
+2019;Wallern im Burgenland <10721>;1680,25
+2019;Weiden am See <10722>;2459
+2019;Winden am See <10723>;1324
+2019;Zurndorf <10724>;2263,875
+2019;Neudorf <10725>;714,25
+2019;Potzneusiedl <10726>;605,25
+2019;Edelstal <10727>;766,875
+2019;Deutschkreutz <10801>;3070,375
+2019;Draßmarkt <10802>;1373
+2019;Frankenau-Unterpullendorf <10803>;1095,375
+2019;Großwarasdorf <10804>;1387
+2019;Horitschon <10805>;1807,125
+2019;Kaisersdorf <10806>;610,625
+2019;Kobersdorf <10807>;1869,75
+2019;Lackenbach <10808>;1144,625
+2019;Lockenhaus <10809>;2034,875
+2019;Lutzmannsburg <10810>;870,75
+2019;Mannersdorf an der Rabnitz <10811>;1796,625
+2019;Markt Sankt Martin <10812>;1229
+2019;Neckenmarkt <10813>;1689,375
+2019;Neutal <10814>;1107,875
+2019;Nikitsch <10815>;1376,625
+2019;Oberpullendorf <10816>;3200,375
+2019;Pilgersdorf <10817>;1632,25
+2019;Piringsdorf <10818>;844,125
+2019;Raiding <10819>;876,625
+2019;Ritzing <10820>;900
+2019;Steinberg-Dörfl <10821>;1279,125
+2019;Stoob <10822>;1378,375
+2019;Weppersdorf <10823>;1826,875
+2019;Lackendorf <10824>;593,25
+2019;Unterfrauenhaid <10825>;650,875
+2019;Unterrabnitz-Schwendgraben <10826>;647,875
+2019;Weingraben <10827>;355,75
+2019;Oberloisdorf <10828>;791,375
+2019;Bad Tatzmannsdorf <10901>;1605,25
+2019;Bernstein <10902>;2099,875
+2019;Deutsch Schützen-Eisenberg <10903>;1096
+2019;Grafenschachen <10904>;1251,625
+2019;Großpetersdorf <10905>;3548,625
+2019;Hannersdorf <10906>;740
+2019;Kemeten <10907>;1509,25
+2019;Kohfidisch <10908>;1427,625
+2019;Litzelsdorf <10909>;1166,5
+2019;Loipersdorf-Kitzladen <10910>;1322,625
+2019;Mariasdorf <10911>;1161,5
+2019;Markt Allhau <10912>;1846,5
+2019;Markt Neuhodis <10913>;654,875
+2019;Mischendorf <10914>;1550,125
+2019;Oberdorf im Burgenland <10915>;994,5
+2019;Oberschützen <10916>;2422,75
+2019;Oberwart <10917>;7607,375
+2019;Pinkafeld <10918>;5866,875
+2019;Rechnitz <10919>;2997
+2019;Riedlingsdorf <10920>;1644,5
+2019;Rotenturm an der Pinka <10921>;1425,125
+2019;Schachendorf <10922>;756,125
+2019;Stadtschlaining <10923>;1980,875
+2019;Unterkohlstätten <10924>;995
+2019;Unterwart <10925>;969,875
+2019;Weiden bei Rechnitz <10926>;812,5
+2019;Wiesfleck <10927>;1151,75
+2019;Wolfau <10928>;1412,125
+2019;Neustift an der Lafnitz <10929>;799,75
+2019;Jabing <10930>;732,875
+2019;Badersdorf <10931>;290,875
+2019;Schandorf <10932>;265,75
+2020;Eisenstadt <10101>;14826,375
+2020;Rust <10201>;1989,5
+2020;Breitenbrunn am Neusiedler See <10301>;1877,5
+2020;Donnerskirchen <10302>;1833
+2020;Großhöflein <10303>;2117,25
+2020;Hornstein <10304>;3156,875
+2020;Klingenbach <10305>;1171,75
+2020;Leithaprodersdorf <10306>;1202,375
+2020;Mörbisch am See <10307>;2220,125
+2020;Müllendorf <10308>;1383,875
+2020;Neufeld an der Leitha <10309>;3515,875
+2020;Oggau am Neusiedler See <10310>;1751,375
+2020;Oslip <10311>;1249,75
+2020;Purbach am Neusiedler See <10312>;2898,5
+2020;Sankt Margarethen im Burgenland <10313>;2673,25
+2020;Schützen am Gebirge <10314>;1415,75
+2020;Siegendorf <10315>;3093,25
+2020;Steinbrunn <10316>;2850,5
+2020;Trausdorf an der Wulka <10317>;2067,25
+2020;Wimpassing an der Leitha <10318>;1691,25
+2020;Wulkaprodersdorf <10319>;1981,25
+2020;Loretto <10320>;478,125
+2020;Stotzing <10321>;822,125
+2020;Zillingtal <10322>;981
+2020;Zagersdorf <10323>;1086,625
+2020;Bocksdorf <10401>;810,5
+2020;Burgauberg-Neudauberg <10402>;1328,5
+2020;Eberau <10403>;930,5
+2020;Gerersdorf-Sulz <10404>;995,125
+2020;Güssing <10405>;3659,5
+2020;Güttenbach <10406>;878,375
+2020;Heiligenbrunn <10407>;747,875
+2020;Kukmirn <10408>;1998,25
+2020;Neuberg im Burgenland <10409>;971
+2020;Neustift bei Güssing <10410>;456,5
+2020;Olbendorf <10411>;1436,5
+2020;Ollersdorf im Burgenland <10412>;924,375
+2020;Sankt Michael im Burgenland <10413>;981,25
+2020;Stegersbach <10414>;2673,125
+2020;Stinatz <10415>;1201,375
+2020;Strem <10416>;863,875
+2020;Tobaj <10417>;1355,875
+2020;Hackerberg <10418>;365,5
+2020;Wörterberg <10419>;483,5
+2020;Großmürbisch <10420>;236,5
+2020;Inzenhof <10421>;322,875
+2020;Kleinmürbisch <10422>;231,125
+2020;Tschanigraben <10423>;65
+2020;Heugraben <10424>;231,625
+2020;Rohr im Burgenland <10425>;379,375
+2020;Bildein <10426>;339,375
+2020;Rauchwart <10427>;450,25
+2020;Moschendorf <10428>;388
+2020;Deutsch Kaltenbrunn <10501>;1724,375
+2020;Eltendorf <10502>;916,625
+2020;Heiligenkreuz im Lafnitztal <10503>;1248,75
+2020;Jennersdorf <10504>;4116
+2020;Minihof-Liebau <10505>;1057,75
+2020;Mogersdorf <10506>;1143,375
+2020;Neuhaus am Klausenbach <10507>;910,5
+2020;Rudersdorf <10508>;2163,5
+2020;Sankt Martin an der Raab <10509>;1976
+2020;Weichselbaum <10510>;709,875
+2020;Königsdorf <10511>;754,125
+2020;Mühlgraben <10512>;384,375
+2020;Draßburg <10601>;1234,375
+2020;Forchtenstein <10602>;2791,5
+2020;Hirm <10603>;1021
+2020;Loipersbach im Burgenland <10604>;1198
+2020;Marz <10605>;2081,125
+2020;Mattersburg <10606>;7496,75
+2020;Neudörfl <10607>;4686,375
+2020;Pöttelsdorf <10608>;764,625
+2020;Pöttsching <10609>;3005,625
+2020;Rohrbach bei Mattersburg <10610>;2632
+2020;Bad Sauerbrunn <10611>;2234,75
+2020;Schattendorf <10612>;2353,125
+2020;Sieggraben <10613>;1240,75
+2020;Sigleß <10614>;1145,25
+2020;Wiesen <10615>;2702,75
+2020;Antau <10616>;766,25
+2020;Baumgarten <10617>;885,5
+2020;Zemendorf-Stöttera <10618>;1262,125
+2020;Krensdorf <10619>;636,875
+2020;Andau <10701>;2276,125
+2020;Apetlon <10702>;1754
+2020;Bruckneudorf <10703>;3084,375
+2020;Deutsch Jahrndorf <10704>;624,625
+2020;Frauenkirchen <10705>;2848,75
+2020;Gattendorf <10706>;1399,375
+2020;Gols <10707>;3931,75
+2020;Halbturn <10708>;1929,25
+2020;Illmitz <10709>;2383,5
+2020;Jois <10710>;1635,25
+2020;Kittsee <10711>;3362,125
+2020;Mönchhof <10712>;2227,5
+2020;Neusiedl am See <10713>;8629,5
+2020;Nickelsdorf <10714>;1804,25
+2020;Pama <10715>;1224,5
+2020;Pamhagen <10716>;1570,125
+2020;Parndorf <10717>;4940,5
+2020;Podersdorf am See <10718>;2122,75
+2020;Sankt Andrä am Zicksee <10719>;1378,125
+2020;Tadten <10720>;1183,125
+2020;Wallern im Burgenland <10721>;1677,25
+2020;Weiden am See <10722>;2513,125
+2020;Winden am See <10723>;1330,875
+2020;Zurndorf <10724>;2281
+2020;Neudorf <10725>;712,625
+2020;Potzneusiedl <10726>;609,75
+2020;Edelstal <10727>;789,25
+2020;Deutschkreutz <10801>;3073,125
+2020;Draßmarkt <10802>;1372,75
+2020;Frankenau-Unterpullendorf <10803>;1075
+2020;Großwarasdorf <10804>;1364,5
+2020;Horitschon <10805>;1819,75
+2020;Kaisersdorf <10806>;611
+2020;Kobersdorf <10807>;1884,125
+2020;Lackenbach <10808>;1149,125
+2020;Lockenhaus <10809>;2023,875
+2020;Lutzmannsburg <10810>;855,375
+2020;Mannersdorf an der Rabnitz <10811>;1784,875
+2020;Markt Sankt Martin <10812>;1244,5
+2020;Neckenmarkt <10813>;1679,875
+2020;Neutal <10814>;1096,75
+2020;Nikitsch <10815>;1391,5
+2020;Oberpullendorf <10816>;3232,625
+2020;Pilgersdorf <10817>;1620
+2020;Piringsdorf <10818>;851,25
+2020;Raiding <10819>;886,625
+2020;Ritzing <10820>;910
+2020;Steinberg-Dörfl <10821>;1279,875
+2020;Stoob <10822>;1361,25
+2020;Weppersdorf <10823>;1822,75
+2020;Lackendorf <10824>;584,125
+2020;Unterfrauenhaid <10825>;639,25
+2020;Unterrabnitz-Schwendgraben <10826>;641,375
+2020;Weingraben <10827>;354,375
+2020;Oberloisdorf <10828>;792,25
+2020;Bad Tatzmannsdorf <10901>;1615,25
+2020;Bernstein <10902>;2090,625
+2020;Deutsch Schützen-Eisenberg <10903>;1081,375
+2020;Grafenschachen <10904>;1252,375
+2020;Großpetersdorf <10905>;3538,75
+2020;Hannersdorf <10906>;738,75
+2020;Kemeten <10907>;1505,375
+2020;Kohfidisch <10908>;1432,375
+2020;Litzelsdorf <10909>;1138,375
+2020;Loipersdorf-Kitzladen <10910>;1333,25
+2020;Mariasdorf <10911>;1159,125
+2020;Markt Allhau <10912>;1863,5
+2020;Markt Neuhodis <10913>;660
+2020;Mischendorf <10914>;1532,25
+2020;Oberdorf im Burgenland <10915>;1001,75
+2020;Oberschützen <10916>;2437
+2020;Oberwart <10917>;7635,75
+2020;Pinkafeld <10918>;5910,5
+2020;Rechnitz <10919>;2961,375
+2020;Riedlingsdorf <10920>;1650,75
+2020;Rotenturm an der Pinka <10921>;1437,75
+2020;Schachendorf <10922>;744
+2020;Stadtschlaining <10923>;1995,375
+2020;Unterkohlstätten <10924>;999,25
+2020;Unterwart <10925>;957,25
+2020;Weiden bei Rechnitz <10926>;817,5
+2020;Wiesfleck <10927>;1161,75
+2020;Wolfau <10928>;1419,75
+2020;Neustift an der Lafnitz <10929>;809
+2020;Jabing <10930>;747,875
+2020;Badersdorf <10931>;290,875
+2020;Schandorf <10932>;263,25
+2021;Eisenstadt <10101>;15078,625
+2021;Rust <10201>;1989,25
+2021;Breitenbrunn am Neusiedler See <10301>;1885,875
+2021;Donnerskirchen <10302>;1845,375
+2021;Großhöflein <10303>;2122,75
+2021;Hornstein <10304>;3204,625
+2021;Klingenbach <10305>;1230,75
+2021;Leithaprodersdorf <10306>;1215,875
+2021;Mörbisch am See <10307>;2206,75
+2021;Müllendorf <10308>;1397
+2021;Neufeld an der Leitha <10309>;3620,375
+2021;Oggau am Neusiedler See <10310>;1739,125
+2021;Oslip <10311>;1269,75
+2021;Purbach am Neusiedler See <10312>;2908,5
+2021;Sankt Margarethen im Burgenland <10313>;2695,5
+2021;Schützen am Gebirge <10314>;1429,375
+2021;Siegendorf <10315>;3150,625
+2021;Steinbrunn <10316>;2969,25
+2021;Trausdorf an der Wulka <10317>;2075,75
+2021;Wimpassing an der Leitha <10318>;1708,375
+2021;Wulkaprodersdorf <10319>;1976,25
+2021;Loretto <10320>;490,375
+2021;Stotzing <10321>;824
+2021;Zillingtal <10322>;983,125
+2021;Zagersdorf <10323>;1102,875
+2021;Bocksdorf <10401>;805,625
+2021;Burgauberg-Neudauberg <10402>;1323,875
+2021;Eberau <10403>;926,375
+2021;Gerersdorf-Sulz <10404>;1008,625
+2021;Güssing <10405>;3618,625
+2021;Güttenbach <10406>;876,5
+2021;Heiligenbrunn <10407>;746,375
+2021;Kukmirn <10408>;2011,875
+2021;Neuberg im Burgenland <10409>;962,375
+2021;Neustift bei Güssing <10410>;445,125
+2021;Olbendorf <10411>;1453,125
+2021;Ollersdorf im Burgenland <10412>;927,25
+2021;Sankt Michael im Burgenland <10413>;986,875
+2021;Stegersbach <10414>;2697,375
+2021;Stinatz <10415>;1202,375
+2021;Strem <10416>;867,5
+2021;Tobaj <10417>;1337,875
+2021;Hackerberg <10418>;361,375
+2021;Wörterberg <10419>;477,75
+2021;Großmürbisch <10420>;235
+2021;Inzenhof <10421>;328,25
+2021;Kleinmürbisch <10422>;232,5
+2021;Tschanigraben <10423>;66
+2021;Heugraben <10424>;223,875
+2021;Rohr im Burgenland <10425>;372,75
+2021;Bildein <10426>;337,375
+2021;Rauchwart <10427>;455
+2021;Moschendorf <10428>;387,125
+2021;Deutsch Kaltenbrunn <10501>;1728,125
+2021;Eltendorf <10502>;905,75
+2021;Heiligenkreuz im Lafnitztal <10503>;1262,25
+2021;Jennersdorf <10504>;4138,375
+2021;Minihof-Liebau <10505>;1058,25
+2021;Mogersdorf <10506>;1143,75
+2021;Neuhaus am Klausenbach <10507>;919,625
+2021;Rudersdorf <10508>;2146,625
+2021;Sankt Martin an der Raab <10509>;1964,875
+2021;Weichselbaum <10510>;704,5
+2021;Königsdorf <10511>;774,75
+2021;Mühlgraben <10512>;381,75
+2021;Draßburg <10601>;1232,25
+2021;Forchtenstein <10602>;2805,25
+2021;Hirm <10603>;1023,125
+2021;Loipersbach im Burgenland <10604>;1200,625
+2021;Marz <10605>;2109
+2021;Mattersburg <10606>;7544
+2021;Neudörfl <10607>;4788,125
+2021;Pöttelsdorf <10608>;773,75
+2021;Pöttsching <10609>;2992,875
+2021;Rohrbach bei Mattersburg <10610>;2616,625
+2021;Bad Sauerbrunn <10611>;2252,5
+2021;Schattendorf <10612>;2375,625
+2021;Sieggraben <10613>;1266,75
+2021;Sigleß <10614>;1155,5
+2021;Wiesen <10615>;2732,875
+2021;Antau <10616>;776,625
+2021;Baumgarten <10617>;895,375
+2021;Zemendorf-Stöttera <10618>;1259,25
+2021;Krensdorf <10619>;642
+2021;Andau <10701>;2261,125
+2021;Apetlon <10702>;1734,75
+2021;Bruckneudorf <10703>;3045,125
+2021;Deutsch Jahrndorf <10704>;637,5
+2021;Frauenkirchen <10705>;2857,625
+2021;Gattendorf <10706>;1425,5
+2021;Gols <10707>;3954,75
+2021;Halbturn <10708>;1920,5
+2021;Illmitz <10709>;2377,875
+2021;Jois <10710>;1628
+2021;Kittsee <10711>;3475,75
+2021;Mönchhof <10712>;2207
+2021;Neusiedl am See <10713>;8666,75
+2021;Nickelsdorf <10714>;1818,125
+2021;Pama <10715>;1246,25
+2021;Pamhagen <10716>;1549,875
+2021;Parndorf <10717>;5149,625
+2021;Podersdorf am See <10718>;2135,875
+2021;Sankt Andrä am Zicksee <10719>;1385,125
+2021;Tadten <10720>;1167,625
+2021;Wallern im Burgenland <10721>;1668,5
+2021;Weiden am See <10722>;2542
+2021;Winden am See <10723>;1386,375
+2021;Zurndorf <10724>;2269,375
+2021;Neudorf <10725>;716,625
+2021;Potzneusiedl <10726>;621,375
+2021;Edelstal <10727>;789,125
+2021;Deutschkreutz <10801>;3137
+2021;Draßmarkt <10802>;1372,125
+2021;Frankenau-Unterpullendorf <10803>;1063
+2021;Großwarasdorf <10804>;1350,625
+2021;Horitschon <10805>;1822,25
+2021;Kaisersdorf <10806>;603
+2021;Kobersdorf <10807>;1880,875
+2021;Lackenbach <10808>;1156,25
+2021;Lockenhaus <10809>;2011,125
+2021;Lutzmannsburg <10810>;824,5
+2021;Mannersdorf an der Rabnitz <10811>;1784,625
+2021;Markt Sankt Martin <10812>;1258,5
+2021;Neckenmarkt <10813>;1675,625
+2021;Neutal <10814>;1115,125
+2021;Nikitsch <10815>;1399,625
+2021;Oberpullendorf <10816>;3256,75
+2021;Pilgersdorf <10817>;1610,125
+2021;Piringsdorf <10818>;848
+2021;Raiding <10819>;892,75
+2021;Ritzing <10820>;897,875
+2021;Steinberg-Dörfl <10821>;1276,125
+2021;Stoob <10822>;1374,625
+2021;Weppersdorf <10823>;1824
+2021;Lackendorf <10824>;591,5
+2021;Unterfrauenhaid <10825>;641,625
+2021;Unterrabnitz-Schwendgraben <10826>;636,625
+2021;Weingraben <10827>;354,25
+2021;Oberloisdorf <10828>;793,375
+2021;Bad Tatzmannsdorf <10901>;1610,25
+2021;Bernstein <10902>;2077,75
+2021;Deutsch Schützen-Eisenberg <10903>;1087
+2021;Grafenschachen <10904>;1245,25
+2021;Großpetersdorf <10905>;3552,625
+2021;Hannersdorf <10906>;745,125
+2021;Kemeten <10907>;1497,875
+2021;Kohfidisch <10908>;1456,375
+2021;Litzelsdorf <10909>;1139,75
+2021;Loipersdorf-Kitzladen <10910>;1341,25
+2021;Mariasdorf <10911>;1140,125
+2021;Markt Allhau <10912>;1888,375
+2021;Markt Neuhodis <10913>;661,625
+2021;Mischendorf <10914>;1508,125
+2021;Oberdorf im Burgenland <10915>;1008,125
+2021;Oberschützen <10916>;2448,875
+2021;Oberwart <10917>;7677,125
+2021;Pinkafeld <10918>;5901,125
+2021;Rechnitz <10919>;2957,5
+2021;Riedlingsdorf <10920>;1634,5
+2021;Rotenturm an der Pinka <10921>;1441
+2021;Schachendorf <10922>;750,875
+2021;Stadtschlaining <10923>;1997
+2021;Unterkohlstätten <10924>;987
+2021;Unterwart <10925>;964
+2021;Weiden bei Rechnitz <10926>;820
+2021;Wiesfleck <10927>;1162,375
+2021;Wolfau <10928>;1443,875
+2021;Neustift an der Lafnitz <10929>;798,75
+2021;Jabing <10930>;755,5
+2021;Badersdorf <10931>;283,625
+2021;Schandorf <10932>;265,25
+2022;Eisenstadt <10101>;15492,375
+2022;Rust <10201>;1995
+2022;Breitenbrunn am Neusiedler See <10301>;1913,5
+2022;Donnerskirchen <10302>;1852,25
+2022;Großhöflein <10303>;2105,625
+2022;Hornstein <10304>;3249,625
+2022;Klingenbach <10305>;1261,875
+2022;Leithaprodersdorf <10306>;1209,875
+2022;Mörbisch am See <10307>;2210,25
+2022;Müllendorf <10308>;1435,125
+2022;Neufeld an der Leitha <10309>;3638,25
+2022;Oggau am Neusiedler See <10310>;1722,375
+2022;Oslip <10311>;1307,375
+2022;Purbach am Neusiedler See <10312>;2969,875
+2022;Sankt Margarethen im Burgenland <10313>;2708,625
+2022;Schützen am Gebirge <10314>;1441,75
+2022;Siegendorf <10315>;3232,875
+2022;Steinbrunn <10316>;3031,375
+2022;Trausdorf an der Wulka <10317>;2109,75
+2022;Wimpassing an der Leitha <10318>;1722,625
+2022;Wulkaprodersdorf <10319>;1975
+2022;Loretto <10320>;511,625
+2022;Stotzing <10321>;826,375
+2022;Zillingtal <10322>;1002,875
+2022;Zagersdorf <10323>;1138,625
+2022;Bocksdorf <10401>;805,625
+2022;Burgauberg-Neudauberg <10402>;1411,25
+2022;Eberau <10403>;916,25
+2022;Gerersdorf-Sulz <10404>;1034,375
+2022;Güssing <10405>;3604,5
+2022;Güttenbach <10406>;864,625
+2022;Heiligenbrunn <10407>;741,5
+2022;Kukmirn <10408>;2016,5
+2022;Neuberg im Burgenland <10409>;954,125
+2022;Neustift bei Güssing <10410>;445,875
+2022;Olbendorf <10411>;1469,25
+2022;Ollersdorf im Burgenland <10412>;937,375
+2022;Sankt Michael im Burgenland <10413>;1000,25
+2022;Stegersbach <10414>;2721,375
+2022;Stinatz <10415>;1244
+2022;Strem <10416>;907,875
+2022;Tobaj <10417>;1370,125
+2022;Hackerberg <10418>;372
+2022;Wörterberg <10419>;511,625
+2022;Großmürbisch <10420>;228,625
+2022;Inzenhof <10421>;331,625
+2022;Kleinmürbisch <10422>;228,875
+2022;Tschanigraben <10423>;66,375
+2022;Heugraben <10424>;224
+2022;Rohr im Burgenland <10425>;364,5
+2022;Bildein <10426>;338,125
+2022;Rauchwart <10427>;462,5
+2022;Moschendorf <10428>;382,25
+2022;Deutsch Kaltenbrunn <10501>;1761,125
+2022;Eltendorf <10502>;914,625
+2022;Heiligenkreuz im Lafnitztal <10503>;1266,375
+2022;Jennersdorf <10504>;4153,625
+2022;Minihof-Liebau <10505>;1049,5
+2022;Mogersdorf <10506>;1166,625
+2022;Neuhaus am Klausenbach <10507>;928,5
+2022;Rudersdorf <10508>;2180,125
+2022;Sankt Martin an der Raab <10509>;1955,25
+2022;Weichselbaum <10510>;707,375
+2022;Königsdorf <10511>;768,75
+2022;Mühlgraben <10512>;379,25
+2022;Draßburg <10601>;1240,75
+2022;Forchtenstein <10602>;2800,375
+2022;Hirm <10603>;1053
+2022;Loipersbach im Burgenland <10604>;1210,625
+2022;Marz <10605>;2092,375
+2022;Mattersburg <10606>;7528,25
+2022;Neudörfl <10607>;4895,25
+2022;Pöttelsdorf <10608>;768,875
+2022;Pöttsching <10609>;3040,125
+2022;Rohrbach bei Mattersburg <10610>;2628,375
+2022;Bad Sauerbrunn <10611>;2293,875
+2022;Schattendorf <10612>;2404,875
+2022;Sieggraben <10613>;1266,5
+2022;Sigleß <10614>;1171,625
+2022;Wiesen <10615>;2783,5
+2022;Antau <10616>;795,125
+2022;Baumgarten <10617>;917,375
+2022;Zemendorf-Stöttera <10618>;1276,75
+2022;Krensdorf <10619>;639,375
+2022;Andau <10701>;2287,75
+2022;Apetlon <10702>;1757,5
+2022;Bruckneudorf <10703>;3065,625
+2022;Deutsch Jahrndorf <10704>;650,125
+2022;Frauenkirchen <10705>;2914,125
+2022;Gattendorf <10706>;1459,125
+2022;Gols <10707>;4002,375
+2022;Halbturn <10708>;1917,75
+2022;Illmitz <10709>;2372,875
+2022;Jois <10710>;1630,375
+2022;Kittsee <10711>;3579,75
+2022;Mönchhof <10712>;2189,875
+2022;Neusiedl am See <10713>;8815,75
+2022;Nickelsdorf <10714>;1845,875
+2022;Pama <10715>;1265,5
+2022;Pamhagen <10716>;1530,375
+2022;Parndorf <10717>;5270,125
+2022;Podersdorf am See <10718>;2194,5
+2022;Sankt Andrä am Zicksee <10719>;1382,125
+2022;Tadten <10720>;1183,875
+2022;Wallern im Burgenland <10721>;1662,375
+2022;Weiden am See <10722>;2606,375
+2022;Winden am See <10723>;1402
+2022;Zurndorf <10724>;2281,5
+2022;Neudorf <10725>;765,75
+2022;Potzneusiedl <10726>;644,75
+2022;Edelstal <10727>;799,875
+2022;Deutschkreutz <10801>;3165
+2022;Draßmarkt <10802>;1367,75
+2022;Frankenau-Unterpullendorf <10803>;1072,875
+2022;Großwarasdorf <10804>;1357,875
+2022;Horitschon <10805>;1828,5
+2022;Kaisersdorf <10806>;600,625
+2022;Kobersdorf <10807>;1902,125
+2022;Lackenbach <10808>;1157,75
+2022;Lockenhaus <10809>;2050,375
+2022;Lutzmannsburg <10810>;828,125
+2022;Mannersdorf an der Rabnitz <10811>;1761
+2022;Markt Sankt Martin <10812>;1261,5
+2022;Neckenmarkt <10813>;1658
+2022;Neutal <10814>;1129,25
+2022;Nikitsch <10815>;1420,25
+2022;Oberpullendorf <10816>;3285,375
+2022;Pilgersdorf <10817>;1599,125
+2022;Piringsdorf <10818>;833,625
+2022;Raiding <10819>;897,5
+2022;Ritzing <10820>;920,75
+2022;Steinberg-Dörfl <10821>;1294,125
+2022;Stoob <10822>;1353,625
+2022;Weppersdorf <10823>;1863,625
+2022;Lackendorf <10824>;596,75
+2022;Unterfrauenhaid <10825>;658,875
+2022;Unterrabnitz-Schwendgraben <10826>;633,5
+2022;Weingraben <10827>;361,625
+2022;Oberloisdorf <10828>;804,125
+2022;Bad Tatzmannsdorf <10901>;1651,375
+2022;Bernstein <10902>;2121
+2022;Deutsch Schützen-Eisenberg <10903>;1071,75
+2022;Grafenschachen <10904>;1232
+2022;Großpetersdorf <10905>;3579,5
+2022;Hannersdorf <10906>;739,875
+2022;Kemeten <10907>;1538,125
+2022;Kohfidisch <10908>;1450,25
+2022;Litzelsdorf <10909>;1151,5
+2022;Loipersdorf-Kitzladen <10910>;1352,125
+2022;Mariasdorf <10911>;1150,125
+2022;Markt Allhau <10912>;1911,875
+2022;Markt Neuhodis <10913>;662,125
+2022;Mischendorf <10914>;1496
+2022;Oberdorf im Burgenland <10915>;1001,875
+2022;Oberschützen <10916>;2455
+2022;Oberwart <10917>;7894,125
+2022;Pinkafeld <10918>;5954
+2022;Rechnitz <10919>;3013,25
+2022;Riedlingsdorf <10920>;1644,375
+2022;Rotenturm an der Pinka <10921>;1463,25
+2022;Schachendorf <10922>;757,5
+2022;Stadtschlaining <10923>;1972,625
+2022;Unterkohlstätten <10924>;975,125
+2022;Unterwart <10925>;969,25
+2022;Weiden bei Rechnitz <10926>;812,5
+2022;Wiesfleck <10927>;1175,625
+2022;Wolfau <10928>;1487,75
+2022;Neustift an der Lafnitz <10929>;801
+2022;Jabing <10930>;742,5
+2022;Badersdorf <10931>;284,125
+2022;Schandorf <10932>;272,375
+2023;Eisenstadt <10101>;15851
+2023;Rust <10201>;1971,25
+2023;Breitenbrunn am Neusiedler See <10301>;1924,375
+2023;Donnerskirchen <10302>;1849,875
+2023;Großhöflein <10303>;2084,5
+2023;Hornstein <10304>;3267
+2023;Klingenbach <10305>;1258,25
+2023;Leithaprodersdorf <10306>;1227,125
+2023;Mörbisch am See <10307>;2217,875
+2023;Müllendorf <10308>;1468,375
+2023;Neufeld an der Leitha <10309>;3637,375
+2023;Oggau am Neusiedler See <10310>;1706,5
+2023;Oslip <10311>;1297
+2023;Purbach am Neusiedler See <10312>;2993,375
+2023;Sankt Margarethen im Burgenland <10313>;2717
+2023;Schützen am Gebirge <10314>;1447,375
+2023;Siegendorf <10315>;3257,875
+2023;Steinbrunn <10316>;3055,375
+2023;Trausdorf an der Wulka <10317>;2152,125
+2023;Wimpassing an der Leitha <10318>;1731,375
+2023;Wulkaprodersdorf <10319>;1950,625
+2023;Loretto <10320>;521,75
+2023;Stotzing <10321>;832
+2023;Zillingtal <10322>;1010,125
+2023;Zagersdorf <10323>;1141,875
+2023;Bocksdorf <10401>;808,75
+2023;Burgauberg-Neudauberg <10402>;1452,25
+2023;Eberau <10403>;915,875
+2023;Gerersdorf-Sulz <10404>;1026,25
+2023;Güssing <10405>;3598,25
+2023;Güttenbach <10406>;869,75
+2023;Heiligenbrunn <10407>;734,5
+2023;Kukmirn <10408>;2006,75
+2023;Neuberg im Burgenland <10409>;951,125
+2023;Neustift bei Güssing <10410>;440
+2023;Olbendorf <10411>;1485,625
+2023;Ollersdorf im Burgenland <10412>;954,125
+2023;Sankt Michael im Burgenland <10413>;1019,625
+2023;Stegersbach <10414>;2756,5
+2023;Stinatz <10415>;1257,625
+2023;Strem <10416>;913,875
+2023;Tobaj <10417>;1396
+2023;Hackerberg <10418>;373,625
+2023;Wörterberg <10419>;529,875
+2023;Großmürbisch <10420>;229
+2023;Inzenhof <10421>;328,75
+2023;Kleinmürbisch <10422>;229,625
+2023;Tschanigraben <10423>;66,25
+2023;Heugraben <10424>;223
+2023;Rohr im Burgenland <10425>;364,625
+2023;Bildein <10426>;341,75
+2023;Rauchwart <10427>;473,375
+2023;Moschendorf <10428>;377,625
+2023;Deutsch Kaltenbrunn <10501>;1736,375
+2023;Eltendorf <10502>;912,5
+2023;Heiligenkreuz im Lafnitztal <10503>;1284,125
+2023;Jennersdorf <10504>;4153,125
+2023;Minihof-Liebau <10505>;1041
+2023;Mogersdorf <10506>;1171,75
+2023;Neuhaus am Klausenbach <10507>;912,5
+2023;Rudersdorf <10508>;2211,875
+2023;Sankt Martin an der Raab <10509>;1957,625
+2023;Weichselbaum <10510>;704,625
+2023;Königsdorf <10511>;769,75
+2023;Mühlgraben <10512>;385
+2023;Draßburg <10601>;1229,875
+2023;Forchtenstein <10602>;2776
+2023;Hirm <10603>;1081
+2023;Loipersbach im Burgenland <10604>;1216,375
+2023;Marz <10605>;2092,25
+2023;Mattersburg <10606>;7537,375
+2023;Neudörfl <10607>;4938,75
+2023;Pöttelsdorf <10608>;760,125
+2023;Pöttsching <10609>;3092,125
+2023;Rohrbach bei Mattersburg <10610>;2631,25
+2023;Bad Sauerbrunn <10611>;2329,5
+2023;Schattendorf <10612>;2406,5
+2023;Sieggraben <10613>;1262,125
+2023;Sigleß <10614>;1177,875
+2023;Wiesen <10615>;2762,25
+2023;Antau <10616>;814,875
+2023;Baumgarten <10617>;920,625
+2023;Zemendorf-Stöttera <10618>;1283,375
+2023;Krensdorf <10619>;631,5
+2023;Andau <10701>;2295,5
+2023;Apetlon <10702>;1740,75
+2023;Bruckneudorf <10703>;3072,75
+2023;Deutsch Jahrndorf <10704>;649,125
+2023;Frauenkirchen <10705>;2959,875
+2023;Gattendorf <10706>;1484,25
+2023;Gols <10707>;3992,125
+2023;Halbturn <10708>;1901,75
+2023;Illmitz <10709>;2359,25
+2023;Jois <10710>;1641
+2023;Kittsee <10711>;3682,125
+2023;Mönchhof <10712>;2189
+2023;Neusiedl am See <10713>;8944
+2023;Nickelsdorf <10714>;1848,875
+2023;Pama <10715>;1270,875
+2023;Pamhagen <10716>;1502,5
+2023;Parndorf <10717>;5344,125
+2023;Podersdorf am See <10718>;2182
+2023;Sankt Andrä am Zicksee <10719>;1384,625
+2023;Tadten <10720>;1169,375
+2023;Wallern im Burgenland <10721>;1648,125
+2023;Weiden am See <10722>;2607
+2023;Winden am See <10723>;1382,125
+2023;Zurndorf <10724>;2286,375
+2023;Neudorf <10725>;804,125
+2023;Potzneusiedl <10726>;662,125
+2023;Edelstal <10727>;811,25
+2023;Deutschkreutz <10801>;3170,75
+2023;Draßmarkt <10802>;1369,375
+2023;Frankenau-Unterpullendorf <10803>;1105,25
+2023;Großwarasdorf <10804>;1358,625
+2023;Horitschon <10805>;1828,625
+2023;Kaisersdorf <10806>;595
+2023;Kobersdorf <10807>;1876,5
+2023;Lackenbach <10808>;1159,625
+2023;Lockenhaus <10809>;2061,75
+2023;Lutzmannsburg <10810>;834
+2023;Mannersdorf an der Rabnitz <10811>;1776,375
+2023;Markt Sankt Martin <10812>;1277,125
+2023;Neckenmarkt <10813>;1668,875
+2023;Neutal <10814>;1120,75
+2023;Nikitsch <10815>;1420,125
+2023;Oberpullendorf <10816>;3315,875
+2023;Pilgersdorf <10817>;1585
+2023;Piringsdorf <10818>;829,25
+2023;Raiding <10819>;900,25
+2023;Ritzing <10820>;926,5
+2023;Steinberg-Dörfl <10821>;1302,75
+2023;Stoob <10822>;1355
+2023;Weppersdorf <10823>;1901,25
+2023;Lackendorf <10824>;597,125
+2023;Unterfrauenhaid <10825>;653,75
+2023;Unterrabnitz-Schwendgraben <10826>;634,75
+2023;Weingraben <10827>;353,125
+2023;Oberloisdorf <10828>;798,875
+2023;Bad Tatzmannsdorf <10901>;1656,5
+2023;Bernstein <10902>;2136,875
+2023;Deutsch Schützen-Eisenberg <10903>;1076,5
+2023;Grafenschachen <10904>;1234,875
+2023;Großpetersdorf <10905>;3602,5
+2023;Hannersdorf <10906>;740,875
+2023;Kemeten <10907>;1540,75
+2023;Kohfidisch <10908>;1440
+2023;Litzelsdorf <10909>;1157,75
+2023;Loipersdorf-Kitzladen <10910>;1370,25
+2023;Mariasdorf <10911>;1133,75
+2023;Markt Allhau <10912>;1914
+2023;Markt Neuhodis <10913>;668,125
+2023;Mischendorf <10914>;1480,5
+2023;Oberdorf im Burgenland <10915>;979,5
+2023;Oberschützen <10916>;2466,75
+2023;Oberwart <10917>;7987,125
+2023;Pinkafeld <10918>;5943,25
+2023;Rechnitz <10919>;3025,5
+2023;Riedlingsdorf <10920>;1665,125
+2023;Rotenturm an der Pinka <10921>;1439,5
+2023;Schachendorf <10922>;746,375
+2023;Stadtschlaining <10923>;1980,875
+2023;Unterkohlstätten <10924>;975,125
+2023;Unterwart <10925>;986,75
+2023;Weiden bei Rechnitz <10926>;815,25
+2023;Wiesfleck <10927>;1195,75
+2023;Wolfau <10928>;1514
+2023;Neustift an der Lafnitz <10929>;823,375
+2023;Jabing <10930>;726,375
+2023;Badersdorf <10931>;286,5
+2023;Schandorf <10932>;322,25
+2024;Eisenstadt <10101>;16039,125
+2024;Rust <10201>;1954,125
+2024;Breitenbrunn am Neusiedler See <10301>;1929,5
+2024;Donnerskirchen <10302>;1871,5
+2024;Großhöflein <10303>;2085,375
+2024;Hornstein <10304>;3323,125
+2024;Klingenbach <10305>;1237,875
+2024;Leithaprodersdorf <10306>;1253,75
+2024;Mörbisch am See <10307>;2198
+2024;Müllendorf <10308>;1498,625
+2024;Neufeld an der Leitha <10309>;3599,875
+2024;Oggau am Neusiedler See <10310>;1693,625
+2024;Oslip <10311>;1298,75
+2024;Purbach am Neusiedler See <10312>;3030,75
+2024;Sankt Margarethen im Burgenland <10313>;2712,75
+2024;Schützen am Gebirge <10314>;1450,375
+2024;Siegendorf <10315>;3234,125
+2024;Steinbrunn <10316>;3003
+2024;Trausdorf an der Wulka <10317>;2149,625
+2024;Wimpassing an der Leitha <10318>;1732,625
+2024;Wulkaprodersdorf <10319>;1949,875
+2024;Loretto <10320>;521
+2024;Stotzing <10321>;828,125
+2024;Zillingtal <10322>;1031,875
+2024;Zagersdorf <10323>;1138
+2024;Bocksdorf <10401>;802,125
+2024;Burgauberg-Neudauberg <10402>;1448,625
+2024;Eberau <10403>;909,5
+2024;Gerersdorf-Sulz <10404>;1018,125
+2024;Güssing <10405>;3560
+2024;Güttenbach <10406>;854,375
+2024;Heiligenbrunn <10407>;722,375
+2024;Kukmirn <10408>;1999,125
+2024;Neuberg im Burgenland <10409>;942,75
+2024;Neustift bei Güssing <10410>;432,75
+2024;Olbendorf <10411>;1479,625
+2024;Ollersdorf im Burgenland <10412>;952,25
+2024;Sankt Michael im Burgenland <10413>;1014
+2024;Stegersbach <10414>;2746,375
+2024;Stinatz <10415>;1209,625
+2024;Strem <10416>;919,5
+2024;Tobaj <10417>;1377,625
+2024;Hackerberg <10418>;381,875
+2024;Wörterberg <10419>;530,875
+2024;Großmürbisch <10420>;235,5
+2024;Inzenhof <10421>;333,125
+2024;Kleinmürbisch <10422>;225,75
+2024;Tschanigraben <10423>;64
+2024;Heugraben <10424>;230,875
+2024;Rohr im Burgenland <10425>;364,375
+2024;Bildein <10426>;353,75
+2024;Rauchwart <10427>;475,625
+2024;Moschendorf <10428>;366,5
+2024;Deutsch Kaltenbrunn <10501>;1721
+2024;Eltendorf <10502>;899,5
+2024;Heiligenkreuz im Lafnitztal <10503>;1256,75
+2024;Jennersdorf <10504>;4163,875
+2024;Minihof-Liebau <10505>;1046
+2024;Mogersdorf <10506>;1160,25
+2024;Neuhaus am Klausenbach <10507>;890,5
+2024;Rudersdorf <10508>;2221,5
+2024;Sankt Martin an der Raab <10509>;1952,25
+2024;Weichselbaum <10510>;705,125
+2024;Königsdorf <10511>;780
+2024;Mühlgraben <10512>;376
+2024;Draßburg <10601>;1233,75
+2024;Forchtenstein <10602>;2794,125
+2024;Hirm <10603>;1098,25
+2024;Loipersbach im Burgenland <10604>;1226
+2024;Marz <10605>;2100
+2024;Mattersburg <10606>;7528,375
+2024;Neudörfl <10607>;4997,5
+2024;Pöttelsdorf <10608>;759,875
+2024;Pöttsching <10609>;3068,125
+2024;Rohrbach bei Mattersburg <10610>;2618,625
+2024;Bad Sauerbrunn <10611>;2309,5
+2024;Schattendorf <10612>;2380
+2024;Sieggraben <10613>;1251,625
+2024;Sigleß <10614>;1185,75
+2024;Wiesen <10615>;2779,25
+2024;Antau <10616>;837,875
+2024;Baumgarten <10617>;925,5
+2024;Zemendorf-Stöttera <10618>;1302,5
+2024;Krensdorf <10619>;627,5
+2024;Andau <10701>;2276,5
+2024;Apetlon <10702>;1741,875
+2024;Bruckneudorf <10703>;3089,875
+2024;Deutsch Jahrndorf <10704>;648,625
+2024;Frauenkirchen <10705>;2972
+2024;Gattendorf <10706>;1518,375
+2024;Gols <10707>;3949,125
+2024;Halbturn <10708>;1882,625
+2024;Illmitz <10709>;2344
+2024;Jois <10710>;1656,5
+2024;Kittsee <10711>;3768,25
+2024;Mönchhof <10712>;2189,75
+2024;Neusiedl am See <10713>;8927,25
+2024;Nickelsdorf <10714>;1840,375
+2024;Pama <10715>;1279,125
+2024;Pamhagen <10716>;1492
+2024;Parndorf <10717>;5332,375
+2024;Podersdorf am See <10718>;2163,875
+2024;Sankt Andrä am Zicksee <10719>;1392
+2024;Tadten <10720>;1158,5
+2024;Wallern im Burgenland <10721>;1636,25
+2024;Weiden am See <10722>;2589,125
+2024;Winden am See <10723>;1377,125
+2024;Zurndorf <10724>;2301
+2024;Neudorf <10725>;841,125
+2024;Potzneusiedl <10726>;672,5
+2024;Edelstal <10727>;821
+2024;Deutschkreutz <10801>;3137,25
+2024;Draßmarkt <10802>;1373,375
+2024;Frankenau-Unterpullendorf <10803>;1091,75
+2024;Großwarasdorf <10804>;1361,375
+2024;Horitschon <10805>;1807,875
+2024;Kaisersdorf <10806>;599,25
+2024;Kobersdorf <10807>;1879,875
+2024;Lackenbach <10808>;1152
+2024;Lockenhaus <10809>;2062,5
+2024;Lutzmannsburg <10810>;840,125
+2024;Mannersdorf an der Rabnitz <10811>;1777,875
+2024;Markt Sankt Martin <10812>;1288,375
+2024;Neckenmarkt <10813>;1686
+2024;Neutal <10814>;1125,75
+2024;Nikitsch <10815>;1391,125
+2024;Oberpullendorf <10816>;3335,75
+2024;Pilgersdorf <10817>;1566,75
+2024;Piringsdorf <10818>;828
+2024;Raiding <10819>;914,125
+2024;Ritzing <10820>;913,625
+2024;Steinberg-Dörfl <10821>;1309,375
+2024;Stoob <10822>;1352,25
+2024;Weppersdorf <10823>;1907,75
+2024;Lackendorf <10824>;611,25
+2024;Unterfrauenhaid <10825>;642,125
+2024;Unterrabnitz-Schwendgraben <10826>;623,125
+2024;Weingraben <10827>;352,375
+2024;Oberloisdorf <10828>;797,125
+2024;Bad Tatzmannsdorf <10901>;1655,625
+2024;Bernstein <10902>;2148,375
+2024;Deutsch Schützen-Eisenberg <10903>;1066,25
+2024;Grafenschachen <10904>;1247,625
+2024;Großpetersdorf <10905>;3589,875
+2024;Hannersdorf <10906>;737,875
+2024;Kemeten <10907>;1549,75
+2024;Kohfidisch <10908>;1443,25
+2024;Litzelsdorf <10909>;1145,25
+2024;Loipersdorf-Kitzladen <10910>;1361
+2024;Mariasdorf <10911>;1130,125
+2024;Markt Allhau <10912>;1972
+2024;Markt Neuhodis <10913>;660,625
+2024;Mischendorf <10914>;1450,25
+2024;Oberdorf im Burgenland <10915>;984
+2024;Oberschützen <10916>;2480,875
+2024;Oberwart <10917>;8025,625
+2024;Pinkafeld <10918>;5936,625
+2024;Rechnitz <10919>;3036,5
+2024;Riedlingsdorf <10920>;1683,25
+2024;Rotenturm an der Pinka <10921>;1435,5
+2024;Schachendorf <10922>;745
+2024;Stadtschlaining <10923>;2036,5
+2024;Unterkohlstätten <10924>;977
+2024;Unterwart <10925>;1010,5
+2024;Weiden bei Rechnitz <10926>;796,625
+2024;Wiesfleck <10927>;1210,25
+2024;Wolfau <10928>;1525,5
+2024;Neustift an der Lafnitz <10929>;825
+2024;Jabing <10930>;723,625
+2024;Badersdorf <10931>;286,25
+2024;Schandorf <10932>;333,125

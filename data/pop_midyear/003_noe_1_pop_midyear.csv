@@ -1,0 +1,4457 @@
+jahr;gemnr;n
+2002;Allhartsberg <30501>;1796,25
+2002;Amstetten <30502>;22690,75
+2002;Ardagger <30503>;3289,625
+2002;Aschbach-Markt <30504>;3542,375
+2002;Behamberg <30506>;3135,5
+2002;Biberbach <30507>;2089,375
+2002;Ennsdorf <30508>;2391,375
+2002;Ernsthofen <30509>;2114,5
+2002;Ertl <30510>;1252,375
+2002;Euratsfeld <30511>;2345,5
+2002;Ferschnitz <30512>;1597,125
+2002;Haag <30514>;5162,25
+2002;Haidershofen <30515>;3436,125
+2002;Hollenstein an der Ybbs <30516>;1871,875
+2002;Kematen an der Ybbs <30517>;2438,625
+2002;Neuhofen an der Ybbs <30520>;2523,75
+2002;Neustadtl an der Donau <30521>;2128,375
+2002;Oed-Oehling <30522>;1519,625
+2002;Opponitz <30524>;949,125
+2002;St. Georgen am Reith <30526>;584,5
+2002;St. Georgen am Ybbsfelde <30527>;2533,375
+2002;St. Pantaleon-Erla <30529>;2486,375
+2002;St. Peter in der Au <30530>;4881,625
+2002;St. Valentin <30531>;8998,625
+2002;Seitenstetten <30532>;3118,125
+2002;Sonntagberg <30533>;4212,25
+2002;Strengberg <30534>;2075,625
+2002;Viehdorf <30536>;1176,25
+2002;Wallsee-Sindelburg <30538>;2079,75
+2002;Weistrach <30539>;2211,125
+2002;Winklarn <30541>;1453,625
+2002;Wolfsbach <30542>;1810,625
+2002;Ybbsitz <30543>;3793,625
+2002;Zeillern <30544>;1654,375
+2002;Alland <30601>;2373,375
+2002;Altenmarkt an der Triesting <30602>;2028,875
+2002;Bad Vöslau <30603>;10956
+2002;Baden <30604>;24693,25
+2002;Berndorf <30605>;8654,5
+2002;Blumau-Neurißhof <30646>;1690,625
+2002;Ebreichsdorf <30607>;8926
+2002;Enzesfeld-Lindabrunn <30608>;4020,625
+2002;Furth an der Triesting <30609>;789,75
+2002;Günselsdorf <30612>;1752,25
+2002;Heiligenkreuz <30613>;1339,125
+2002;Hernstein <30614>;1416,75
+2002;Hirtenberg <30615>;2268,625
+2002;Klausen-Leopoldsdorf <30616>;1425,625
+2002;Kottingbrunn <30618>;6669,625
+2002;Leobersdorf <30620>;4212,5
+2002;Mitterndorf an der Fischa <30621>;1543
+2002;Oberwaltersdorf <30623>;3365
+2002;Pfaffstätten <30625>;2614,5
+2002;Pottendorf <30626>;5957,875
+2002;Pottenstein <30627>;2912,5
+2002;Reisenberg <30629>;1406,25
+2002;Schönau an der Triesting <30631>;1779,375
+2002;Seibersdorf <30633>;1275,25
+2002;Sooß <30635>;1065,75
+2002;Tattendorf <30636>;1224,875
+2002;Teesdorf <30637>;1400,375
+2002;Traiskirchen <30639>;15078,375
+2002;Trumau <30641>;2525,5
+2002;Weissenbach an der Triesting <30645>;1673,625
+2002;Aderklaa <30801>;203,875
+2002;Andlersdorf <30802>;119,25
+2002;Angern an der March <30803>;3218,875
+2002;Auersthal <30804>;1853
+2002;Bad Pirawarth <30805>;1534,875
+2002;Baumgarten ^<30806>;-
+2002;Deutsch-Wagram <30808>;6828
+2002;Drösing <30810>;1174,75
+2002;Dürnkrut <30811>;2209
+2002;Ebenthal <30812>;807,125
+2002;Eckartsau <30813>;1138,125
+2002;Engelhartstetten <30814>;1840,75
+2002;Gänserndorf <30817>;8017,75
+2002;Glinzendorf <30819>;249,625
+2002;Groß-Enzersdorf <30821>;8193,875
+2002;Großhofen <30822>;89,625
+2002;Groß-Schweinbarth <30824>;1311,5
+2002;Haringsee <30825>;1154,25
+2002;Hauskirchen <30826>;1252,625
+2002;Hohenau an der March <30827>;2784,125
+2002;Hohenruppersdorf <30828>;927,625
+2002;Jedenspeigen <30829>;1162,375
+2002;Lassee <30830>;2325,625
+2002;Leopoldsdorf im Marchfeld <30831>;2351,875
+2002;Mannsdorf an der Donau <30834>;428,625
+2002;Marchegg <30835>;2829,75
+2002;Markgrafneusiedl <30836>;773,375
+2002;Matzen-Raggendorf <30838>;2566,75
+2002;Neusiedl an der Zaya <30841>;1241
+2002;Obersiebenbrunn <30842>;1418,375
+2002;Orth an der Donau <30844>;1994
+2002;Palterndorf-Dobermannsdorf <30845>;1244,75
+2002;Parbasdorf <30846>;136,625
+2002;Prottes <30848>;1287,25
+2002;Raasdorf <30849>;562,25
+2002;Ringelsdorf-Niederabsdorf <30850>;1405
+2002;Schönkirchen-Reyersdorf <30852>;1845,5
+2002;Spannberg <30854>;962,25
+2002;Strasshof an der Nordbahn <30856>;7179,25
+2002;Sulz im Weinviertel <30857>;1194,25
+2002;Untersiebenbrunn <30858>;1420,875
+2002;Velm-Götzendorf <30859>;759,625
+2002;Weiden an der March <30865>;902,125
+2002;Weikendorf <30860>;1957,25
+2002;Zistersdorf <30863>;5589,75
+2002;Zwerndorf ^<30864>;-
+2002;Amaliendorf-Aalfang <30902>;1169,75
+2002;Bad Großpertholz <30910>;1542,25
+2002;Brand-Nagelberg <30903>;1824
+2002;Eggern <30904>;759,125
+2002;Eisgarn <30906>;691,25
+2002;Gmünd <30908>;5792,125
+2002;Großdietmanns <30909>;2201,625
+2002;Großschönau <30912>;1255,875
+2002;Haugschlag <30915>;523,125
+2002;Heidenreichstein <30916>;4527,125
+2002;Hirschbach <30917>;579,125
+2002;Hoheneich <30920>;1552,75
+2002;Kirchberg am Walde <30921>;1466,875
+2002;Litschau <30925>;2479,125
+2002;Moorbad Harbach <30913>;691,125
+2002;Reingers <30929>;715,375
+2002;St. Martin <30932>;1179,75
+2002;Schrems <30935>;5784,875
+2002;Seyfrieds ^<30936>;-
+2002;Unserfrau-Altweitra <30939>;1026,625
+2002;Waldenstein <30940>;1210,375
+2002;Weitra <30942>;2890,5
+2002;Wolfsegg ^<30944>;-
+2002;Alberndorf im Pulkautal <31001>;721,25
+2002;Göllersdorf <31008>;2912,25
+2002;Grabern <31009>;1348,5
+2002;Guntersdorf <31014>;1113,375
+2002;Hadres <31015>;1701,125
+2002;Hardegg <31016>;1465,25
+2002;Haugsdorf <31018>;1708,625
+2002;Heldenberg <31019>;1086,75
+2002;Hofern ^<31020>;-
+2002;Hohenwarth-Mühlbach a.M. <31021>;1292
+2002;Hollabrunn <31022>;10805,5
+2002;Mailberg <31025>;564,875
+2002;Maissau <31026>;1862,625
+2002;Nappersdorf-Kammersdorf <31028>;1315,25
+2002;Niederfladnitz ^<31029>;-
+2002;Pernersdorf <31033>;1026,875
+2002;Pulkau <31035>;1547,25
+2002;Ravelsbach <31036>;1775,125
+2002;Retz <31037>;4193,375
+2002;Retzbach <31038>;1045,875
+2002;Schrattenthal <31041>;875,25
+2002;Seefeld-Kadolz <31042>;982,75
+2002;Sitzendorf an der Schmida <31043>;2221
+2002;Wullersdorf <31051>;2412,125
+2002;Zellerndorf <31052>;2626,75
+2002;Ziersdorf <31053>;3305,5
+2002;Au am Leithaberge <30701>;907,75
+2002;Bad Deutsch-Altenburg <30702>;1361,75
+2002;Berg <30703>;662,75
+2002;Bruck an der Leitha <30704>;7364,375
+2002;Ebergassing <30729>;-
+2002;Enzersdorf an der Fischa <30706>;2739,25
+2002;Fischamend <30730>;-
+2002;Göttlesbrunn-Arbesthal <30708>;1329,25
+2002;Götzendorf an der Leitha <30709>;1874,25
+2002;Gramatneusiedl <30731>;-
+2002;Hainburg a.d. Donau <30710>;5632,375
+2002;Haslau-Maria Ellend <30711>;1327,75
+2002;Himberg <30732>;-
+2002;Hof am Leithaberge <30713>;1373,75
+2002;Höflein <30712>;1129,125
+2002;Hundsheim <30715>;558,25
+2002;Klein-Neusiedl <30733>;-
+2002;Lanzendorf <30734>;-
+2002;Leopoldsdorf <30735>;-
+2002;Mannersdorf am Leithagebirge <30716>;3703,875
+2002;Maria-Lanzendorf <30736>;-
+2002;Moosbrunn <30737>;-
+2002;Petronell-Carnuntum <30718>;1176
+2002;Prellenkirchen <30719>;1301,125
+2002;Rauchenwarth <30738>;-
+2002;Rohrau <30721>;1460,25
+2002;Scharndorf <30722>;1076,25
+2002;Schwadorf <30739>;-
+2002;Schwechat <30740>;-
+2002;Sommerein <30724>;1778,375
+2002;Trautmannsdorf an der Leitha <30726>;2638,5
+2002;Wolfsthal <30728>;744,625
+2002;Zwölfaxing <30741>;-
+2003;Allhartsberg <30501>;1829,125
+2003;Amstetten <30502>;22735,875
+2003;Ardagger <30503>;3276,25
+2003;Aschbach-Markt <30504>;3544,625
+2003;Behamberg <30506>;3126,75
+2003;Biberbach <30507>;2098,125
+2003;Ennsdorf <30508>;2414,25
+2003;Ernsthofen <30509>;2091,25
+2003;Ertl <30510>;1246,875
+2003;Euratsfeld <30511>;2376,75
+2003;Ferschnitz <30512>;1614,5
+2003;Haag <30514>;5219,375
+2003;Haidershofen <30515>;3461,125
+2003;Hollenstein an der Ybbs <30516>;1848,5
+2003;Kematen an der Ybbs <30517>;2447,25
+2003;Neuhofen an der Ybbs <30520>;2535
+2003;Neustadtl an der Donau <30521>;2088,625
+2003;Oed-Oehling <30522>;1514,375
+2003;Opponitz <30524>;943,125
+2003;St. Georgen am Reith <30526>;574,75
+2003;St. Georgen am Ybbsfelde <30527>;2551
+2003;St. Pantaleon-Erla <30529>;2501,75
+2003;St. Peter in der Au <30530>;4912,75
+2003;St. Valentin <30531>;9024,875
+2003;Seitenstetten <30532>;3140,25
+2003;Sonntagberg <30533>;4124,125
+2003;Strengberg <30534>;2043,75
+2003;Viehdorf <30536>;1174,375
+2003;Wallsee-Sindelburg <30538>;2078,625
+2003;Weistrach <30539>;2210,625
+2003;Winklarn <30541>;1466,625
+2003;Wolfsbach <30542>;1822
+2003;Ybbsitz <30543>;3762
+2003;Zeillern <30544>;1669,25
+2003;Alland <30601>;2384,875
+2003;Altenmarkt an der Triesting <30602>;2038,75
+2003;Bad Vöslau <30603>;10986,125
+2003;Baden <30604>;24774,375
+2003;Berndorf <30605>;8621,75
+2003;Blumau-Neurißhof <30646>;1717,5
+2003;Ebreichsdorf <30607>;9038,5
+2003;Enzesfeld-Lindabrunn <30608>;4025,875
+2003;Furth an der Triesting <30609>;798
+2003;Günselsdorf <30612>;1751,5
+2003;Heiligenkreuz <30613>;1348,25
+2003;Hernstein <30614>;1420,875
+2003;Hirtenberg <30615>;2249,375
+2003;Klausen-Leopoldsdorf <30616>;1436,375
+2003;Kottingbrunn <30618>;6742,375
+2003;Leobersdorf <30620>;4271,25
+2003;Mitterndorf an der Fischa <30621>;1585,5
+2003;Oberwaltersdorf <30623>;3374
+2003;Pfaffstätten <30625>;2764,25
+2003;Pottendorf <30626>;5953,375
+2003;Pottenstein <30627>;2944
+2003;Reisenberg <30629>;1436
+2003;Schönau an der Triesting <30631>;1814,75
+2003;Seibersdorf <30633>;1286,875
+2003;Sooß <30635>;1085
+2003;Tattendorf <30636>;1236,375
+2003;Teesdorf <30637>;1489,375
+2003;Traiskirchen <30639>;15429,125
+2003;Trumau <30641>;2580,75
+2003;Weissenbach an der Triesting <30645>;1683,625
+2003;Aderklaa <30801>;203,625
+2003;Andlersdorf <30802>;118,625
+2003;Angern an der March <30803>;3254,125
+2003;Auersthal <30804>;1840,375
+2003;Bad Pirawarth <30805>;1529,375
+2003;Baumgarten ^<30806>;-
+2003;Deutsch-Wagram <30808>;6873
+2003;Drösing <30810>;1173,625
+2003;Dürnkrut <30811>;2223,5
+2003;Ebenthal <30812>;808,375
+2003;Eckartsau <30813>;1125
+2003;Engelhartstetten <30814>;1838,125
+2003;Gänserndorf <30817>;8269,5
+2003;Glinzendorf <30819>;244,75
+2003;Groß-Enzersdorf <30821>;8335,75
+2003;Großhofen <30822>;88,625
+2003;Groß-Schweinbarth <30824>;1317,125
+2003;Haringsee <30825>;1143,125
+2003;Hauskirchen <30826>;1259,25
+2003;Hohenau an der March <30827>;2785,875
+2003;Hohenruppersdorf <30828>;901,5
+2003;Jedenspeigen <30829>;1157,625
+2003;Lassee <30830>;2324,5
+2003;Leopoldsdorf im Marchfeld <30831>;2358,5
+2003;Mannsdorf an der Donau <30834>;417,25
+2003;Marchegg <30835>;2836,625
+2003;Markgrafneusiedl <30836>;783
+2003;Matzen-Raggendorf <30838>;2561,125
+2003;Neusiedl an der Zaya <30841>;1235,125
+2003;Obersiebenbrunn <30842>;1457,75
+2003;Orth an der Donau <30844>;1973,875
+2003;Palterndorf-Dobermannsdorf <30845>;1241,375
+2003;Parbasdorf <30846>;144,25
+2003;Prottes <30848>;1299,625
+2003;Raasdorf <30849>;561,125
+2003;Ringelsdorf-Niederabsdorf <30850>;1389,75
+2003;Schönkirchen-Reyersdorf <30852>;1846,25
+2003;Spannberg <30854>;970,125
+2003;Strasshof an der Nordbahn <30856>;7303,25
+2003;Sulz im Weinviertel <30857>;1185,125
+2003;Untersiebenbrunn <30858>;1432,125
+2003;Velm-Götzendorf <30859>;751,375
+2003;Weiden an der March <30865>;905,875
+2003;Weikendorf <30860>;1940,375
+2003;Zistersdorf <30863>;5535,5
+2003;Zwerndorf ^<30864>;-
+2003;Amaliendorf-Aalfang <30902>;1167,5
+2003;Bad Großpertholz <30910>;1545,625
+2003;Brand-Nagelberg <30903>;1820,25
+2003;Eggern <30904>;756,125
+2003;Eisgarn <30906>;680,75
+2003;Gmünd <30908>;5715,375
+2003;Großdietmanns <30909>;2199,75
+2003;Großschönau <30912>;1270
+2003;Haugschlag <30915>;512,875
+2003;Heidenreichstein <30916>;4496,625
+2003;Hirschbach <30917>;588,875
+2003;Hoheneich <30920>;1553,375
+2003;Kirchberg am Walde <30921>;1458,125
+2003;Litschau <30925>;2455,375
+2003;Moorbad Harbach <30913>;674,75
+2003;Reingers <30929>;707,125
+2003;St. Martin <30932>;1165,875
+2003;Schrems <30935>;5744,375
+2003;Seyfrieds ^<30936>;-
+2003;Unserfrau-Altweitra <30939>;1021,5
+2003;Waldenstein <30940>;1206,125
+2003;Weitra <30942>;2890,25
+2003;Wolfsegg ^<30944>;-
+2003;Alberndorf im Pulkautal <31001>;714,5
+2003;Göllersdorf <31008>;2929,375
+2003;Grabern <31009>;1345
+2003;Guntersdorf <31014>;1099
+2003;Hadres <31015>;1711,75
+2003;Hardegg <31016>;1438,75
+2003;Haugsdorf <31018>;1694,625
+2003;Heldenberg <31019>;1089,875
+2003;Hofern ^<31020>;-
+2003;Hohenwarth-Mühlbach a.M. <31021>;1281,75
+2003;Hollabrunn <31022>;10912
+2003;Mailberg <31025>;568,75
+2003;Maissau <31026>;1841,625
+2003;Nappersdorf-Kammersdorf <31028>;1319,5
+2003;Niederfladnitz ^<31029>;-
+2003;Pernersdorf <31033>;1022,75
+2003;Pulkau <31035>;1543
+2003;Ravelsbach <31036>;1751,875
+2003;Retz <31037>;4199,75
+2003;Retzbach <31038>;1047,75
+2003;Schrattenthal <31041>;872,625
+2003;Seefeld-Kadolz <31042>;967,75
+2003;Sitzendorf an der Schmida <31043>;2222
+2003;Wullersdorf <31051>;2417,75
+2003;Zellerndorf <31052>;2620,5
+2003;Ziersdorf <31053>;3332,75
+2003;Au am Leithaberge <30701>;910,5
+2003;Bad Deutsch-Altenburg <30702>;1373,125
+2003;Berg <30703>;661,375
+2003;Bruck an der Leitha <30704>;7369,25
+2003;Ebergassing <30729>;-
+2003;Enzersdorf an der Fischa <30706>;2755,375
+2003;Fischamend <30730>;-
+2003;Göttlesbrunn-Arbesthal <30708>;1334,875
+2003;Götzendorf an der Leitha <30709>;1864,5
+2003;Gramatneusiedl <30731>;-
+2003;Hainburg a.d. Donau <30710>;5594,125
+2003;Haslau-Maria Ellend <30711>;1408,375
+2003;Himberg <30732>;-
+2003;Hof am Leithaberge <30713>;1377,125
+2003;Höflein <30712>;1128,625
+2003;Hundsheim <30715>;560,875
+2003;Klein-Neusiedl <30733>;-
+2003;Lanzendorf <30734>;-
+2003;Leopoldsdorf <30735>;-
+2003;Mannersdorf am Leithagebirge <30716>;3724,875
+2003;Maria-Lanzendorf <30736>;-
+2003;Moosbrunn <30737>;-
+2003;Petronell-Carnuntum <30718>;1185,125
+2003;Prellenkirchen <30719>;1326,625
+2003;Rauchenwarth <30738>;-
+2003;Rohrau <30721>;1479,625
+2003;Scharndorf <30722>;1084,125
+2003;Schwadorf <30739>;-
+2003;Schwechat <30740>;-
+2003;Sommerein <30724>;1823,125
+2003;Trautmannsdorf an der Leitha <30726>;2662
+2003;Wolfsthal <30728>;742,5
+2003;Zwölfaxing <30741>;-
+2004;Allhartsberg <30501>;1871,75
+2004;Amstetten <30502>;22742,875
+2004;Ardagger <30503>;3285,75
+2004;Aschbach-Markt <30504>;3586,875
+2004;Behamberg <30506>;3157,375
+2004;Biberbach <30507>;2120,875
+2004;Ennsdorf <30508>;2444
+2004;Ernsthofen <30509>;2108,875
+2004;Ertl <30510>;1263,75
+2004;Euratsfeld <30511>;2396,625
+2004;Ferschnitz <30512>;1618,125
+2004;Haag <30514>;5279,25
+2004;Haidershofen <30515>;3467,75
+2004;Hollenstein an der Ybbs <30516>;1835,625
+2004;Kematen an der Ybbs <30517>;2479,875
+2004;Neuhofen an der Ybbs <30520>;2586
+2004;Neustadtl an der Donau <30521>;2088,375
+2004;Oed-Oehling <30522>;1514
+2004;Opponitz <30524>;966,625
+2004;St. Georgen am Reith <30526>;565,375
+2004;St. Georgen am Ybbsfelde <30527>;2560,75
+2004;St. Pantaleon-Erla <30529>;2514,375
+2004;St. Peter in der Au <30530>;4911,5
+2004;St. Valentin <30531>;9042,75
+2004;Seitenstetten <30532>;3134,25
+2004;Sonntagberg <30533>;4090
+2004;Strengberg <30534>;2032,375
+2004;Viehdorf <30536>;1186,625
+2004;Wallsee-Sindelburg <30538>;2105
+2004;Weistrach <30539>;2219,125
+2004;Winklarn <30541>;1466,375
+2004;Wolfsbach <30542>;1823,5
+2004;Ybbsitz <30543>;3724
+2004;Zeillern <30544>;1699,625
+2004;Alland <30601>;2397,75
+2004;Altenmarkt an der Triesting <30602>;2062
+2004;Bad Vöslau <30603>;11034
+2004;Baden <30604>;24975,25
+2004;Berndorf <30605>;8651,5
+2004;Blumau-Neurißhof <30646>;1719,5
+2004;Ebreichsdorf <30607>;9166,375
+2004;Enzesfeld-Lindabrunn <30608>;4063
+2004;Furth an der Triesting <30609>;811,625
+2004;Günselsdorf <30612>;1724,875
+2004;Heiligenkreuz <30613>;1371,375
+2004;Hernstein <30614>;1419,125
+2004;Hirtenberg <30615>;2393,875
+2004;Klausen-Leopoldsdorf <30616>;1452,5
+2004;Kottingbrunn <30618>;6830,5
+2004;Leobersdorf <30620>;4346,625
+2004;Mitterndorf an der Fischa <30621>;1672
+2004;Oberwaltersdorf <30623>;3443,125
+2004;Pfaffstätten <30625>;2877
+2004;Pottendorf <30626>;5990
+2004;Pottenstein <30627>;2959,625
+2004;Reisenberg <30629>;1465,375
+2004;Schönau an der Triesting <30631>;1834,875
+2004;Seibersdorf <30633>;1296
+2004;Sooß <30635>;1106,125
+2004;Tattendorf <30636>;1261,625
+2004;Teesdorf <30637>;1585,75
+2004;Traiskirchen <30639>;15670
+2004;Trumau <30641>;2618,375
+2004;Weissenbach an der Triesting <30645>;1696,125
+2004;Aderklaa <30801>;205,875
+2004;Andlersdorf <30802>;122,25
+2004;Angern an der March <30803>;3290,5
+2004;Auersthal <30804>;1845,875
+2004;Bad Pirawarth <30805>;1530,875
+2004;Baumgarten ^<30806>;-
+2004;Deutsch-Wagram <30808>;6966,125
+2004;Drösing <30810>;1160
+2004;Dürnkrut <30811>;2238,125
+2004;Ebenthal <30812>;813,125
+2004;Eckartsau <30813>;1128,625
+2004;Engelhartstetten <30814>;1855,75
+2004;Gänserndorf <30817>;8621,625
+2004;Glinzendorf <30819>;238,125
+2004;Groß-Enzersdorf <30821>;8447,625
+2004;Großhofen <30822>;86,25
+2004;Groß-Schweinbarth <30824>;1315,125
+2004;Haringsee <30825>;1149,125
+2004;Hauskirchen <30826>;1257,875
+2004;Hohenau an der March <30827>;2797
+2004;Hohenruppersdorf <30828>;897,25
+2004;Jedenspeigen <30829>;1135,75
+2004;Lassee <30830>;2353,5
+2004;Leopoldsdorf im Marchfeld <30831>;2374
+2004;Mannsdorf an der Donau <30834>;417,5
+2004;Marchegg <30835>;2832,625
+2004;Markgrafneusiedl <30836>;814,375
+2004;Matzen-Raggendorf <30838>;2548,125
+2004;Neusiedl an der Zaya <30841>;1245,25
+2004;Obersiebenbrunn <30842>;1509,875
+2004;Orth an der Donau <30844>;1972,75
+2004;Palterndorf-Dobermannsdorf <30845>;1247,75
+2004;Parbasdorf <30846>;146,625
+2004;Prottes <30848>;1296,75
+2004;Raasdorf <30849>;573,125
+2004;Ringelsdorf-Niederabsdorf <30850>;1386,375
+2004;Schönkirchen-Reyersdorf <30852>;1850,125
+2004;Spannberg <30854>;968
+2004;Strasshof an der Nordbahn <30856>;7435,625
+2004;Sulz im Weinviertel <30857>;1177,5
+2004;Untersiebenbrunn <30858>;1454,375
+2004;Velm-Götzendorf <30859>;755,875
+2004;Weiden an der March <30865>;914,875
+2004;Weikendorf <30860>;1942,25
+2004;Zistersdorf <30863>;5503,375
+2004;Zwerndorf ^<30864>;-
+2004;Amaliendorf-Aalfang <30902>;1171,375
+2004;Bad Großpertholz <30910>;1552,375
+2004;Brand-Nagelberg <30903>;1791,5
+2004;Eggern <30904>;746,75
+2004;Eisgarn <30906>;675,125
+2004;Gmünd <30908>;5689,375
+2004;Großdietmanns <30909>;2192,5
+2004;Großschönau <30912>;1270,375
+2004;Haugschlag <30915>;505,75
+2004;Heidenreichstein <30916>;4419,875
+2004;Hirschbach <30917>;601,875
+2004;Hoheneich <30920>;1538,375
+2004;Kirchberg am Walde <30921>;1450,5
+2004;Litschau <30925>;2412
+2004;Moorbad Harbach <30913>;680,625
+2004;Reingers <30929>;699,625
+2004;St. Martin <30932>;1158,875
+2004;Schrems <30935>;5707,375
+2004;Seyfrieds ^<30936>;-
+2004;Unserfrau-Altweitra <30939>;1020,375
+2004;Waldenstein <30940>;1208,75
+2004;Weitra <30942>;2859,125
+2004;Wolfsegg ^<30944>;-
+2004;Alberndorf im Pulkautal <31001>;714,75
+2004;Göllersdorf <31008>;2926,875
+2004;Grabern <31009>;1359
+2004;Guntersdorf <31014>;1103,5
+2004;Hadres <31015>;1700,875
+2004;Hardegg <31016>;1446
+2004;Haugsdorf <31018>;1664
+2004;Heldenberg <31019>;1088,75
+2004;Hofern ^<31020>;-
+2004;Hohenwarth-Mühlbach a.M. <31021>;1277,375
+2004;Hollabrunn <31022>;11026,75
+2004;Mailberg <31025>;582,75
+2004;Maissau <31026>;1857
+2004;Nappersdorf-Kammersdorf <31028>;1295,5
+2004;Niederfladnitz ^<31029>;-
+2004;Pernersdorf <31033>;1009,625
+2004;Pulkau <31035>;1543,375
+2004;Ravelsbach <31036>;1739,625
+2004;Retz <31037>;4179
+2004;Retzbach <31038>;1068,75
+2004;Schrattenthal <31041>;885,125
+2004;Seefeld-Kadolz <31042>;973,5
+2004;Sitzendorf an der Schmida <31043>;2230,375
+2004;Wullersdorf <31051>;2403,375
+2004;Zellerndorf <31052>;2621,625
+2004;Ziersdorf <31053>;3324,375
+2004;Au am Leithaberge <30701>;908
+2004;Bad Deutsch-Altenburg <30702>;1371,25
+2004;Berg <30703>;664,125
+2004;Bruck an der Leitha <30704>;7459,625
+2004;Ebergassing <30729>;-
+2004;Enzersdorf an der Fischa <30706>;2795,875
+2004;Fischamend <30730>;-
+2004;Göttlesbrunn-Arbesthal <30708>;1359,5
+2004;Götzendorf an der Leitha <30709>;1892
+2004;Gramatneusiedl <30731>;-
+2004;Hainburg a.d. Donau <30710>;5606,875
+2004;Haslau-Maria Ellend <30711>;1490,75
+2004;Himberg <30732>;-
+2004;Hof am Leithaberge <30713>;1390
+2004;Höflein <30712>;1135,5
+2004;Hundsheim <30715>;569,5
+2004;Klein-Neusiedl <30733>;-
+2004;Lanzendorf <30734>;-
+2004;Leopoldsdorf <30735>;-
+2004;Mannersdorf am Leithagebirge <30716>;3737,625
+2004;Maria-Lanzendorf <30736>;-
+2004;Moosbrunn <30737>;-
+2004;Petronell-Carnuntum <30718>;1181,75
+2004;Prellenkirchen <30719>;1326
+2004;Rauchenwarth <30738>;-
+2004;Rohrau <30721>;1495,25
+2004;Scharndorf <30722>;1065,625
+2004;Schwadorf <30739>;-
+2004;Schwechat <30740>;-
+2004;Sommerein <30724>;1851,625
+2004;Trautmannsdorf an der Leitha <30726>;2678,125
+2004;Wolfsthal <30728>;737,875
+2004;Zwölfaxing <30741>;-
+2005;Allhartsberg <30501>;1902,5
+2005;Amstetten <30502>;22935,625
+2005;Ardagger <30503>;3287,125
+2005;Aschbach-Markt <30504>;3635,5
+2005;Behamberg <30506>;3181,375
+2005;Biberbach <30507>;2133
+2005;Ennsdorf <30508>;2509,125
+2005;Ernsthofen <30509>;2145,25
+2005;Ertl <30510>;1294,875
+2005;Euratsfeld <30511>;2420
+2005;Ferschnitz <30512>;1620,25
+2005;Haag <30514>;5308
+2005;Haidershofen <30515>;3470,75
+2005;Hollenstein an der Ybbs <30516>;1822,5
+2005;Kematen an der Ybbs <30517>;2467,75
+2005;Neuhofen an der Ybbs <30520>;2619,75
+2005;Neustadtl an der Donau <30521>;2089,625
+2005;Oed-Oehling <30522>;1527,375
+2005;Opponitz <30524>;1002,375
+2005;St. Georgen am Reith <30526>;566,5
+2005;St. Georgen am Ybbsfelde <30527>;2588,25
+2005;St. Pantaleon-Erla <30529>;2527,25
+2005;St. Peter in der Au <30530>;4929
+2005;St. Valentin <30531>;9097,375
+2005;Seitenstetten <30532>;3164,75
+2005;Sonntagberg <30533>;4063,5
+2005;Strengberg <30534>;2044,875
+2005;Viehdorf <30536>;1184
+2005;Wallsee-Sindelburg <30538>;2112,375
+2005;Weistrach <30539>;2228,25
+2005;Winklarn <30541>;1468,625
+2005;Wolfsbach <30542>;1828,125
+2005;Ybbsitz <30543>;3711,625
+2005;Zeillern <30544>;1711,75
+2005;Alland <30601>;2389
+2005;Altenmarkt an der Triesting <30602>;2109,625
+2005;Bad Vöslau <30603>;11114,75
+2005;Baden <30604>;25112,375
+2005;Berndorf <30605>;8649,25
+2005;Blumau-Neurißhof <30646>;1707,875
+2005;Ebreichsdorf <30607>;9276,875
+2005;Enzesfeld-Lindabrunn <30608>;4058,375
+2005;Furth an der Triesting <30609>;811,25
+2005;Günselsdorf <30612>;1754,875
+2005;Heiligenkreuz <30613>;1400,625
+2005;Hernstein <30614>;1407,875
+2005;Hirtenberg <30615>;2502,375
+2005;Klausen-Leopoldsdorf <30616>;1471,5
+2005;Kottingbrunn <30618>;6975,75
+2005;Leobersdorf <30620>;4380
+2005;Mitterndorf an der Fischa <30621>;1773
+2005;Oberwaltersdorf <30623>;3600
+2005;Pfaffstätten <30625>;2940,75
+2005;Pottendorf <30626>;6039,25
+2005;Pottenstein <30627>;2962,375
+2005;Reisenberg <30629>;1471,625
+2005;Schönau an der Triesting <30631>;1881,25
+2005;Seibersdorf <30633>;1314,625
+2005;Sooß <30635>;1132,375
+2005;Tattendorf <30636>;1275,75
+2005;Teesdorf <30637>;1626,25
+2005;Traiskirchen <30639>;15989,375
+2005;Trumau <30641>;2663,5
+2005;Weissenbach an der Triesting <30645>;1672,375
+2005;Aderklaa <30801>;198,125
+2005;Andlersdorf <30802>;120
+2005;Angern an der March <30803>;3290,875
+2005;Auersthal <30804>;1859,375
+2005;Bad Pirawarth <30805>;1523,75
+2005;Baumgarten ^<30806>;-
+2005;Deutsch-Wagram <30808>;7127,875
+2005;Drösing <30810>;1166,875
+2005;Dürnkrut <30811>;2246,125
+2005;Ebenthal <30812>;839,375
+2005;Eckartsau <30813>;1137,25
+2005;Engelhartstetten <30814>;1884,625
+2005;Gänserndorf <30817>;8933
+2005;Glinzendorf <30819>;238,875
+2005;Groß-Enzersdorf <30821>;8591,625
+2005;Großhofen <30822>;85,75
+2005;Groß-Schweinbarth <30824>;1327
+2005;Haringsee <30825>;1164,125
+2005;Hauskirchen <30826>;1255,125
+2005;Hohenau an der March <30827>;2789,875
+2005;Hohenruppersdorf <30828>;899
+2005;Jedenspeigen <30829>;1119
+2005;Lassee <30830>;2417,625
+2005;Leopoldsdorf im Marchfeld <30831>;2421,75
+2005;Mannsdorf an der Donau <30834>;413
+2005;Marchegg <30835>;2860,875
+2005;Markgrafneusiedl <30836>;827,125
+2005;Matzen-Raggendorf <30838>;2571,25
+2005;Neusiedl an der Zaya <30841>;1251,375
+2005;Obersiebenbrunn <30842>;1578,375
+2005;Orth an der Donau <30844>;1979,75
+2005;Palterndorf-Dobermannsdorf <30845>;1240,625
+2005;Parbasdorf <30846>;145,5
+2005;Prottes <30848>;1300
+2005;Raasdorf <30849>;582,25
+2005;Ringelsdorf-Niederabsdorf <30850>;1389,75
+2005;Schönkirchen-Reyersdorf <30852>;1881,125
+2005;Spannberg <30854>;960,25
+2005;Strasshof an der Nordbahn <30856>;7645,5
+2005;Sulz im Weinviertel <30857>;1165,375
+2005;Untersiebenbrunn <30858>;1446,375
+2005;Velm-Götzendorf <30859>;757,5
+2005;Weiden an der March <30865>;920,125
+2005;Weikendorf <30860>;1915,75
+2005;Zistersdorf <30863>;5482
+2005;Zwerndorf ^<30864>;-
+2005;Amaliendorf-Aalfang <30902>;1166,25
+2005;Bad Großpertholz <30910>;1544,375
+2005;Brand-Nagelberg <30903>;1771
+2005;Eggern <30904>;759,125
+2005;Eisgarn <30906>;668
+2005;Gmünd <30908>;5737
+2005;Großdietmanns <30909>;2169
+2005;Großschönau <30912>;1268,875
+2005;Haugschlag <30915>;509,75
+2005;Heidenreichstein <30916>;4347,875
+2005;Hirschbach <30917>;607,5
+2005;Hoheneich <30920>;1538,625
+2005;Kirchberg am Walde <30921>;1440,375
+2005;Litschau <30925>;2367
+2005;Moorbad Harbach <30913>;694,25
+2005;Reingers <30929>;706,875
+2005;St. Martin <30932>;1155,75
+2005;Schrems <30935>;5690,375
+2005;Seyfrieds ^<30936>;-
+2005;Unserfrau-Altweitra <30939>;1019,375
+2005;Waldenstein <30940>;1214
+2005;Weitra <30942>;2826
+2005;Wolfsegg ^<30944>;-
+2005;Alberndorf im Pulkautal <31001>;713,5
+2005;Göllersdorf <31008>;2933,125
+2005;Grabern <31009>;1352,625
+2005;Guntersdorf <31014>;1112
+2005;Hadres <31015>;1695,625
+2005;Hardegg <31016>;1448,75
+2005;Haugsdorf <31018>;1650,875
+2005;Heldenberg <31019>;1103,25
+2005;Hofern ^<31020>;-
+2005;Hohenwarth-Mühlbach a.M. <31021>;1267,375
+2005;Hollabrunn <31022>;11092,125
+2005;Mailberg <31025>;591,25
+2005;Maissau <31026>;1857
+2005;Nappersdorf-Kammersdorf <31028>;1295,375
+2005;Niederfladnitz ^<31029>;-
+2005;Pernersdorf <31033>;1016,875
+2005;Pulkau <31035>;1545,25
+2005;Ravelsbach <31036>;1735,75
+2005;Retz <31037>;4135,375
+2005;Retzbach <31038>;1078,875
+2005;Schrattenthal <31041>;898,625
+2005;Seefeld-Kadolz <31042>;969,5
+2005;Sitzendorf an der Schmida <31043>;2235,25
+2005;Wullersdorf <31051>;2392
+2005;Zellerndorf <31052>;2617,5
+2005;Ziersdorf <31053>;3325,5
+2005;Au am Leithaberge <30701>;898,875
+2005;Bad Deutsch-Altenburg <30702>;1370,125
+2005;Berg <30703>;676,125
+2005;Bruck an der Leitha <30704>;7590,625
+2005;Ebergassing <30729>;-
+2005;Enzersdorf an der Fischa <30706>;2830,5
+2005;Fischamend <30730>;-
+2005;Göttlesbrunn-Arbesthal <30708>;1357,125
+2005;Götzendorf an der Leitha <30709>;1934,875
+2005;Gramatneusiedl <30731>;-
+2005;Hainburg a.d. Donau <30710>;5655,25
+2005;Haslau-Maria Ellend <30711>;1606,75
+2005;Himberg <30732>;-
+2005;Hof am Leithaberge <30713>;1422,5
+2005;Höflein <30712>;1139
+2005;Hundsheim <30715>;574,125
+2005;Klein-Neusiedl <30733>;-
+2005;Lanzendorf <30734>;-
+2005;Leopoldsdorf <30735>;-
+2005;Mannersdorf am Leithagebirge <30716>;3760,25
+2005;Maria-Lanzendorf <30736>;-
+2005;Moosbrunn <30737>;-
+2005;Petronell-Carnuntum <30718>;1188,25
+2005;Prellenkirchen <30719>;1328,875
+2005;Rauchenwarth <30738>;-
+2005;Rohrau <30721>;1532,375
+2005;Scharndorf <30722>;1063,5
+2005;Schwadorf <30739>;-
+2005;Schwechat <30740>;-
+2005;Sommerein <30724>;1864,5
+2005;Trautmannsdorf an der Leitha <30726>;2709,625
+2005;Wolfsthal <30728>;728,875
+2005;Zwölfaxing <30741>;-
+2006;Allhartsberg <30501>;1920,125
+2006;Amstetten <30502>;23042,625
+2006;Ardagger <30503>;3303
+2006;Aschbach-Markt <30504>;3628,875
+2006;Behamberg <30506>;3214,75
+2006;Biberbach <30507>;2144,5
+2006;Ennsdorf <30508>;2594,75
+2006;Ernsthofen <30509>;2184,875
+2006;Ertl <30510>;1298,5
+2006;Euratsfeld <30511>;2468,125
+2006;Ferschnitz <30512>;1617,75
+2006;Haag <30514>;5296,5
+2006;Haidershofen <30515>;3472,25
+2006;Hollenstein an der Ybbs <30516>;1805,125
+2006;Kematen an der Ybbs <30517>;2516
+2006;Neuhofen an der Ybbs <30520>;2641,375
+2006;Neustadtl an der Donau <30521>;2100,5
+2006;Oed-Oehling <30522>;1584,25
+2006;Opponitz <30524>;1012
+2006;St. Georgen am Reith <30526>;573,875
+2006;St. Georgen am Ybbsfelde <30527>;2631,625
+2006;St. Pantaleon-Erla <30529>;2494,625
+2006;St. Peter in der Au <30530>;4960,25
+2006;St. Valentin <30531>;9144,25
+2006;Seitenstetten <30532>;3182,125
+2006;Sonntagberg <30533>;4044,375
+2006;Strengberg <30534>;2035,375
+2006;Viehdorf <30536>;1186,625
+2006;Wallsee-Sindelburg <30538>;2145
+2006;Weistrach <30539>;2237,875
+2006;Winklarn <30541>;1494,25
+2006;Wolfsbach <30542>;1843
+2006;Ybbsitz <30543>;3702,5
+2006;Zeillern <30544>;1723,5
+2006;Alland <30601>;2398,625
+2006;Altenmarkt an der Triesting <30602>;2104,125
+2006;Bad Vöslau <30603>;11207,625
+2006;Baden <30604>;25239,5
+2006;Berndorf <30605>;8680,125
+2006;Blumau-Neurißhof <30646>;1735,625
+2006;Ebreichsdorf <30607>;9389,875
+2006;Enzesfeld-Lindabrunn <30608>;4079,875
+2006;Furth an der Triesting <30609>;816,75
+2006;Günselsdorf <30612>;1760
+2006;Heiligenkreuz <30613>;1433
+2006;Hernstein <30614>;1400,75
+2006;Hirtenberg <30615>;2544,5
+2006;Klausen-Leopoldsdorf <30616>;1498,625
+2006;Kottingbrunn <30618>;7190,875
+2006;Leobersdorf <30620>;4396,875
+2006;Mitterndorf an der Fischa <30621>;1826
+2006;Oberwaltersdorf <30623>;3638,375
+2006;Pfaffstätten <30625>;3041,125
+2006;Pottendorf <30626>;6070,625
+2006;Pottenstein <30627>;2975,25
+2006;Reisenberg <30629>;1500,75
+2006;Schönau an der Triesting <30631>;1902
+2006;Seibersdorf <30633>;1354
+2006;Sooß <30635>;1130,875
+2006;Tattendorf <30636>;1266,625
+2006;Teesdorf <30637>;1659,625
+2006;Traiskirchen <30639>;16308,375
+2006;Trumau <30641>;2750,625
+2006;Weissenbach an der Triesting <30645>;1687,25
+2006;Aderklaa <30801>;193,875
+2006;Andlersdorf <30802>;116,75
+2006;Angern an der March <30803>;3287,375
+2006;Auersthal <30804>;1851,375
+2006;Bad Pirawarth <30805>;1542,25
+2006;Baumgarten ^<30806>;-
+2006;Deutsch-Wagram <30808>;7289,5
+2006;Drösing <30810>;1159,625
+2006;Dürnkrut <30811>;2225,125
+2006;Ebenthal <30812>;846,625
+2006;Eckartsau <30813>;1131,75
+2006;Engelhartstetten <30814>;1889,625
+2006;Gänserndorf <30817>;9255,25
+2006;Glinzendorf <30819>;245,875
+2006;Groß-Enzersdorf <30821>;8783,875
+2006;Großhofen <30822>;87,25
+2006;Groß-Schweinbarth <30824>;1311,375
+2006;Haringsee <30825>;1180,625
+2006;Hauskirchen <30826>;1236,25
+2006;Hohenau an der March <30827>;2748,375
+2006;Hohenruppersdorf <30828>;896,625
+2006;Jedenspeigen <30829>;1110,75
+2006;Lassee <30830>;2485,875
+2006;Leopoldsdorf im Marchfeld <30831>;2436,875
+2006;Mannsdorf an der Donau <30834>;403,625
+2006;Marchegg <30835>;2882,625
+2006;Markgrafneusiedl <30836>;841,875
+2006;Matzen-Raggendorf <30838>;2610,75
+2006;Neusiedl an der Zaya <30841>;1230,625
+2006;Obersiebenbrunn <30842>;1624,75
+2006;Orth an der Donau <30844>;1994,5
+2006;Palterndorf-Dobermannsdorf <30845>;1227,75
+2006;Parbasdorf <30846>;148,875
+2006;Prottes <30848>;1322
+2006;Raasdorf <30849>;613,5
+2006;Ringelsdorf-Niederabsdorf <30850>;1371,5
+2006;Schönkirchen-Reyersdorf <30852>;1903,875
+2006;Spannberg <30854>;950,25
+2006;Strasshof an der Nordbahn <30856>;7909,25
+2006;Sulz im Weinviertel <30857>;1183,25
+2006;Untersiebenbrunn <30858>;1448
+2006;Velm-Götzendorf <30859>;762,5
+2006;Weiden an der March <30865>;936,125
+2006;Weikendorf <30860>;1928,75
+2006;Zistersdorf <30863>;5512,75
+2006;Zwerndorf ^<30864>;-
+2006;Amaliendorf-Aalfang <30902>;1163,5
+2006;Bad Großpertholz <30910>;1516,25
+2006;Brand-Nagelberg <30903>;1736,875
+2006;Eggern <30904>;767,375
+2006;Eisgarn <30906>;667
+2006;Gmünd <30908>;5694,875
+2006;Großdietmanns <30909>;2194,5
+2006;Großschönau <30912>;1257,375
+2006;Haugschlag <30915>;508
+2006;Heidenreichstein <30916>;4291,875
+2006;Hirschbach <30917>;598,5
+2006;Hoheneich <30920>;1530,375
+2006;Kirchberg am Walde <30921>;1434,5
+2006;Litschau <30925>;2356
+2006;Moorbad Harbach <30913>;699,875
+2006;Reingers <30929>;700,625
+2006;St. Martin <30932>;1167,25
+2006;Schrems <30935>;5752,625
+2006;Seyfrieds ^<30936>;-
+2006;Unserfrau-Altweitra <30939>;1021
+2006;Waldenstein <30940>;1209,25
+2006;Weitra <30942>;2833,625
+2006;Wolfsegg ^<30944>;-
+2006;Alberndorf im Pulkautal <31001>;713,375
+2006;Göllersdorf <31008>;2931,5
+2006;Grabern <31009>;1360,875
+2006;Guntersdorf <31014>;1122,25
+2006;Hadres <31015>;1695,75
+2006;Hardegg <31016>;1445,5
+2006;Haugsdorf <31018>;1668,5
+2006;Heldenberg <31019>;1125,5
+2006;Hofern ^<31020>;-
+2006;Hohenwarth-Mühlbach a.M. <31021>;1266,75
+2006;Hollabrunn <31022>;11169,875
+2006;Mailberg <31025>;593,125
+2006;Maissau <31026>;1860,625
+2006;Nappersdorf-Kammersdorf <31028>;1302,125
+2006;Niederfladnitz ^<31029>;-
+2006;Pernersdorf <31033>;1019,125
+2006;Pulkau <31035>;1543,5
+2006;Ravelsbach <31036>;1739
+2006;Retz <31037>;4151,625
+2006;Retzbach <31038>;1069,875
+2006;Schrattenthal <31041>;881,625
+2006;Seefeld-Kadolz <31042>;956,75
+2006;Sitzendorf an der Schmida <31043>;2224
+2006;Wullersdorf <31051>;2394,625
+2006;Zellerndorf <31052>;2605,375
+2006;Ziersdorf <31053>;3332,125
+2006;Au am Leithaberge <30701>;909,5
+2006;Bad Deutsch-Altenburg <30702>;1403
+2006;Berg <30703>;685,5
+2006;Bruck an der Leitha <30704>;7584,75
+2006;Ebergassing <30729>;-
+2006;Enzersdorf an der Fischa <30706>;2866,625
+2006;Fischamend <30730>;-
+2006;Göttlesbrunn-Arbesthal <30708>;1360,375
+2006;Götzendorf an der Leitha <30709>;1962,875
+2006;Gramatneusiedl <30731>;-
+2006;Hainburg a.d. Donau <30710>;5719,625
+2006;Haslau-Maria Ellend <30711>;1678,125
+2006;Himberg <30732>;-
+2006;Hof am Leithaberge <30713>;1419,875
+2006;Höflein <30712>;1140
+2006;Hundsheim <30715>;582,625
+2006;Klein-Neusiedl <30733>;-
+2006;Lanzendorf <30734>;-
+2006;Leopoldsdorf <30735>;-
+2006;Mannersdorf am Leithagebirge <30716>;3759,125
+2006;Maria-Lanzendorf <30736>;-
+2006;Moosbrunn <30737>;-
+2006;Petronell-Carnuntum <30718>;1198,25
+2006;Prellenkirchen <30719>;1335,25
+2006;Rauchenwarth <30738>;-
+2006;Rohrau <30721>;1546,75
+2006;Scharndorf <30722>;1062,25
+2006;Schwadorf <30739>;-
+2006;Schwechat <30740>;-
+2006;Sommerein <30724>;1883,375
+2006;Trautmannsdorf an der Leitha <30726>;2701,75
+2006;Wolfsthal <30728>;746,625
+2006;Zwölfaxing <30741>;-
+2007;Allhartsberg <30501>;1941,5
+2007;Amstetten <30502>;23050,75
+2007;Ardagger <30503>;3280,625
+2007;Aschbach-Markt <30504>;3637
+2007;Behamberg <30506>;3232,125
+2007;Biberbach <30507>;2131,25
+2007;Ennsdorf <30508>;2661,75
+2007;Ernsthofen <30509>;2197,375
+2007;Ertl <30510>;1298
+2007;Euratsfeld <30511>;2511,25
+2007;Ferschnitz <30512>;1635,5
+2007;Haag <30514>;5328,375
+2007;Haidershofen <30515>;3511,625
+2007;Hollenstein an der Ybbs <30516>;1794,25
+2007;Kematen an der Ybbs <30517>;2531,875
+2007;Neuhofen an der Ybbs <30520>;2681,875
+2007;Neustadtl an der Donau <30521>;2114,5
+2007;Oed-Oehling <30522>;1630
+2007;Opponitz <30524>;1013,75
+2007;St. Georgen am Reith <30526>;565,5
+2007;St. Georgen am Ybbsfelde <30527>;2662,75
+2007;St. Pantaleon-Erla <30529>;2480,625
+2007;St. Peter in der Au <30530>;4979,25
+2007;St. Valentin <30531>;9193
+2007;Seitenstetten <30532>;3190,875
+2007;Sonntagberg <30533>;4024,75
+2007;Strengberg <30534>;2009,375
+2007;Viehdorf <30536>;1201,375
+2007;Wallsee-Sindelburg <30538>;2151,25
+2007;Weistrach <30539>;2218,75
+2007;Winklarn <30541>;1497,75
+2007;Wolfsbach <30542>;1848,75
+2007;Ybbsitz <30543>;3680
+2007;Zeillern <30544>;1719,75
+2007;Alland <30601>;2412,75
+2007;Altenmarkt an der Triesting <30602>;2094,75
+2007;Bad Vöslau <30603>;11202,75
+2007;Baden <30604>;25254
+2007;Berndorf <30605>;8669,875
+2007;Blumau-Neurißhof <30646>;1787,875
+2007;Ebreichsdorf <30607>;9470,625
+2007;Enzesfeld-Lindabrunn <30608>;4082,125
+2007;Furth an der Triesting <30609>;807,5
+2007;Günselsdorf <30612>;1754
+2007;Heiligenkreuz <30613>;1456,375
+2007;Hernstein <30614>;1412,25
+2007;Hirtenberg <30615>;2597,125
+2007;Klausen-Leopoldsdorf <30616>;1540,75
+2007;Kottingbrunn <30618>;7346,375
+2007;Leobersdorf <30620>;4393,25
+2007;Mitterndorf an der Fischa <30621>;1887,625
+2007;Oberwaltersdorf <30623>;3756,625
+2007;Pfaffstätten <30625>;3129,125
+2007;Pottendorf <30626>;6137,625
+2007;Pottenstein <30627>;3016,375
+2007;Reisenberg <30629>;1502,875
+2007;Schönau an der Triesting <30631>;1937,375
+2007;Seibersdorf <30633>;1373,5
+2007;Sooß <30635>;1138,25
+2007;Tattendorf <30636>;1267,5
+2007;Teesdorf <30637>;1697,125
+2007;Traiskirchen <30639>;16626,875
+2007;Trumau <30641>;2814,875
+2007;Weissenbach an der Triesting <30645>;1708,375
+2007;Aderklaa <30801>;204,5
+2007;Andlersdorf <30802>;120,625
+2007;Angern an der March <30803>;3259,375
+2007;Auersthal <30804>;1847,625
+2007;Bad Pirawarth <30805>;1562,75
+2007;Baumgarten ^<30806>;-
+2007;Deutsch-Wagram <30808>;7418,375
+2007;Drösing <30810>;1168,375
+2007;Dürnkrut <30811>;2225,125
+2007;Ebenthal <30812>;839
+2007;Eckartsau <30813>;1132,75
+2007;Engelhartstetten <30814>;1888,75
+2007;Gänserndorf <30817>;9509,875
+2007;Glinzendorf <30819>;247,875
+2007;Groß-Enzersdorf <30821>;8972,75
+2007;Großhofen <30822>;87,375
+2007;Groß-Schweinbarth <30824>;1303,75
+2007;Haringsee <30825>;1180,875
+2007;Hauskirchen <30826>;1209,875
+2007;Hohenau an der March <30827>;2729,625
+2007;Hohenruppersdorf <30828>;894,125
+2007;Jedenspeigen <30829>;1116
+2007;Lassee <30830>;2505,375
+2007;Leopoldsdorf im Marchfeld <30831>;2426,75
+2007;Mannsdorf an der Donau <30834>;405,75
+2007;Marchegg <30835>;2891,875
+2007;Markgrafneusiedl <30836>;839,875
+2007;Matzen-Raggendorf <30838>;2638,125
+2007;Neusiedl an der Zaya <30841>;1218,5
+2007;Obersiebenbrunn <30842>;1656,375
+2007;Orth an der Donau <30844>;2015,125
+2007;Palterndorf-Dobermannsdorf <30845>;1233,125
+2007;Parbasdorf <30846>;153
+2007;Prottes <30848>;1326,5
+2007;Raasdorf <30849>;651
+2007;Ringelsdorf-Niederabsdorf <30850>;1329,125
+2007;Schönkirchen-Reyersdorf <30852>;1925,875
+2007;Spannberg <30854>;958,625
+2007;Strasshof an der Nordbahn <30856>;8087,75
+2007;Sulz im Weinviertel <30857>;1189,125
+2007;Untersiebenbrunn <30858>;1462,75
+2007;Velm-Götzendorf <30859>;764,375
+2007;Weiden an der March <30865>;956,75
+2007;Weikendorf <30860>;1935,625
+2007;Zistersdorf <30863>;5499,25
+2007;Zwerndorf ^<30864>;-
+2007;Amaliendorf-Aalfang <30902>;1152,625
+2007;Bad Großpertholz <30910>;1466,75
+2007;Brand-Nagelberg <30903>;1708,25
+2007;Eggern <30904>;770,5
+2007;Eisgarn <30906>;673
+2007;Gmünd <30908>;5657,125
+2007;Großdietmanns <30909>;2220,125
+2007;Großschönau <30912>;1245,75
+2007;Haugschlag <30915>;505,625
+2007;Heidenreichstein <30916>;4229,25
+2007;Hirschbach <30917>;600,75
+2007;Hoheneich <30920>;1496,25
+2007;Kirchberg am Walde <30921>;1407,125
+2007;Litschau <30925>;2339,25
+2007;Moorbad Harbach <30913>;708
+2007;Reingers <30929>;695,5
+2007;St. Martin <30932>;1155,5
+2007;Schrems <30935>;5719,75
+2007;Seyfrieds ^<30936>;-
+2007;Unserfrau-Altweitra <30939>;1017,625
+2007;Waldenstein <30940>;1203,25
+2007;Weitra <30942>;2830,875
+2007;Wolfsegg ^<30944>;-
+2007;Alberndorf im Pulkautal <31001>;706,875
+2007;Göllersdorf <31008>;2945
+2007;Grabern <31009>;1378,125
+2007;Guntersdorf <31014>;1127,125
+2007;Hadres <31015>;1711,75
+2007;Hardegg <31016>;1422,25
+2007;Haugsdorf <31018>;1660,375
+2007;Heldenberg <31019>;1137,625
+2007;Hofern ^<31020>;-
+2007;Hohenwarth-Mühlbach a.M. <31021>;1266,75
+2007;Hollabrunn <31022>;11204
+2007;Mailberg <31025>;599,25
+2007;Maissau <31026>;1873,625
+2007;Nappersdorf-Kammersdorf <31028>;1305,125
+2007;Niederfladnitz ^<31029>;-
+2007;Pernersdorf <31033>;1026,75
+2007;Pulkau <31035>;1549,25
+2007;Ravelsbach <31036>;1734
+2007;Retz <31037>;4177,375
+2007;Retzbach <31038>;1066,125
+2007;Schrattenthal <31041>;869,75
+2007;Seefeld-Kadolz <31042>;964,5
+2007;Sitzendorf an der Schmida <31043>;2205,75
+2007;Wullersdorf <31051>;2408,5
+2007;Zellerndorf <31052>;2597,875
+2007;Ziersdorf <31053>;3331,125
+2007;Au am Leithaberge <30701>;899
+2007;Bad Deutsch-Altenburg <30702>;1408
+2007;Berg <30703>;696,625
+2007;Bruck an der Leitha <30704>;7612,625
+2007;Ebergassing <30729>;-
+2007;Enzersdorf an der Fischa <30706>;2918,625
+2007;Fischamend <30730>;-
+2007;Göttlesbrunn-Arbesthal <30708>;1356,25
+2007;Götzendorf an der Leitha <30709>;1960,25
+2007;Gramatneusiedl <30731>;-
+2007;Hainburg a.d. Donau <30710>;5710,25
+2007;Haslau-Maria Ellend <30711>;1770,625
+2007;Himberg <30732>;-
+2007;Hof am Leithaberge <30713>;1413
+2007;Höflein <30712>;1144,5
+2007;Hundsheim <30715>;591
+2007;Klein-Neusiedl <30733>;-
+2007;Lanzendorf <30734>;-
+2007;Leopoldsdorf <30735>;-
+2007;Mannersdorf am Leithagebirge <30716>;3766,875
+2007;Maria-Lanzendorf <30736>;-
+2007;Moosbrunn <30737>;-
+2007;Petronell-Carnuntum <30718>;1205
+2007;Prellenkirchen <30719>;1358,75
+2007;Rauchenwarth <30738>;-
+2007;Rohrau <30721>;1547,875
+2007;Scharndorf <30722>;1098,25
+2007;Schwadorf <30739>;-
+2007;Schwechat <30740>;-
+2007;Sommerein <30724>;1912,875
+2007;Trautmannsdorf an der Leitha <30726>;2720
+2007;Wolfsthal <30728>;783,125
+2007;Zwölfaxing <30741>;-
+2008;Allhartsberg <30501>;1987,625
+2008;Amstetten <30502>;23043,5
+2008;Ardagger <30503>;3286,25
+2008;Aschbach-Markt <30504>;3668,375
+2008;Behamberg <30506>;3229,25
+2008;Biberbach <30507>;2144,75
+2008;Ennsdorf <30508>;2738,25
+2008;Ernsthofen <30509>;2188,25
+2008;Ertl <30510>;1294,625
+2008;Euratsfeld <30511>;2507,875
+2008;Ferschnitz <30512>;1647,5
+2008;Haag <30514>;5379,75
+2008;Haidershofen <30515>;3552,5
+2008;Hollenstein an der Ybbs <30516>;1788,125
+2008;Kematen an der Ybbs <30517>;2536,875
+2008;Neuhofen an der Ybbs <30520>;2694
+2008;Neustadtl an der Donau <30521>;2120
+2008;Oed-Oehling <30522>;1653,625
+2008;Opponitz <30524>;1019,75
+2008;St. Georgen am Reith <30526>;572,125
+2008;St. Georgen am Ybbsfelde <30527>;2696,75
+2008;St. Pantaleon-Erla <30529>;2464
+2008;St. Peter in der Au <30530>;4997
+2008;St. Valentin <30531>;9251
+2008;Seitenstetten <30532>;3216,25
+2008;Sonntagberg <30533>;3952,375
+2008;Strengberg <30534>;2022,625
+2008;Viehdorf <30536>;1209,125
+2008;Wallsee-Sindelburg <30538>;2149,875
+2008;Weistrach <30539>;2196
+2008;Winklarn <30541>;1504
+2008;Wolfsbach <30542>;1844,625
+2008;Ybbsitz <30543>;3678,125
+2008;Zeillern <30544>;1722,25
+2008;Alland <30601>;2461
+2008;Altenmarkt an der Triesting <30602>;2083,625
+2008;Bad Vöslau <30603>;11281,625
+2008;Baden <30604>;25209,5
+2008;Berndorf <30605>;8720
+2008;Blumau-Neurißhof <30646>;1817,5
+2008;Ebreichsdorf <30607>;9510
+2008;Enzesfeld-Lindabrunn <30608>;4089,875
+2008;Furth an der Triesting <30609>;805,5
+2008;Günselsdorf <30612>;1751,125
+2008;Heiligenkreuz <30613>;1476,375
+2008;Hernstein <30614>;1431,5
+2008;Hirtenberg <30615>;2626,625
+2008;Klausen-Leopoldsdorf <30616>;1557,875
+2008;Kottingbrunn <30618>;7378
+2008;Leobersdorf <30620>;4441,625
+2008;Mitterndorf an der Fischa <30621>;1978,375
+2008;Oberwaltersdorf <30623>;3817,75
+2008;Pfaffstätten <30625>;3172,375
+2008;Pottendorf <30626>;6211,375
+2008;Pottenstein <30627>;3023
+2008;Reisenberg <30629>;1527,125
+2008;Schönau an der Triesting <30631>;1978,125
+2008;Seibersdorf <30633>;1387,5
+2008;Sooß <30635>;1126,375
+2008;Tattendorf <30636>;1289,375
+2008;Teesdorf <30637>;1729
+2008;Traiskirchen <30639>;16868,625
+2008;Trumau <30641>;2916,5
+2008;Weissenbach an der Triesting <30645>;1735,875
+2008;Aderklaa <30801>;209,25
+2008;Andlersdorf <30802>;127,125
+2008;Angern an der March <30803>;3242,375
+2008;Auersthal <30804>;1849
+2008;Bad Pirawarth <30805>;1633,75
+2008;Baumgarten ^<30806>;-
+2008;Deutsch-Wagram <30808>;7558,125
+2008;Drösing <30810>;1176,875
+2008;Dürnkrut <30811>;2242,5
+2008;Ebenthal <30812>;848,25
+2008;Eckartsau <30813>;1141,375
+2008;Engelhartstetten <30814>;1902,625
+2008;Gänserndorf <30817>;9771
+2008;Glinzendorf <30819>;254,375
+2008;Groß-Enzersdorf <30821>;9175,125
+2008;Großhofen <30822>;89
+2008;Groß-Schweinbarth <30824>;1300,75
+2008;Haringsee <30825>;1185,875
+2008;Hauskirchen <30826>;1207,125
+2008;Hohenau an der March <30827>;2738
+2008;Hohenruppersdorf <30828>;886,125
+2008;Jedenspeigen <30829>;1105
+2008;Lassee <30830>;2544,75
+2008;Leopoldsdorf im Marchfeld <30831>;2458,875
+2008;Mannsdorf an der Donau <30834>;408,625
+2008;Marchegg <30835>;2921,625
+2008;Markgrafneusiedl <30836>;843,875
+2008;Matzen-Raggendorf <30838>;2669,5
+2008;Neusiedl an der Zaya <30841>;1212,375
+2008;Obersiebenbrunn <30842>;1681,875
+2008;Orth an der Donau <30844>;2016,25
+2008;Palterndorf-Dobermannsdorf <30845>;1234
+2008;Parbasdorf <30846>;157,625
+2008;Prottes <30848>;1317
+2008;Raasdorf <30849>;670,875
+2008;Ringelsdorf-Niederabsdorf <30850>;1318,375
+2008;Schönkirchen-Reyersdorf <30852>;1931,5
+2008;Spannberg <30854>;939,75
+2008;Strasshof an der Nordbahn <30856>;8196
+2008;Sulz im Weinviertel <30857>;1183,25
+2008;Untersiebenbrunn <30858>;1470
+2008;Velm-Götzendorf <30859>;762,375
+2008;Weiden an der March <30865>;945,625
+2008;Weikendorf <30860>;1918,25
+2008;Zistersdorf <30863>;5514,875
+2008;Zwerndorf ^<30864>;-
+2008;Amaliendorf-Aalfang <30902>;1140,125
+2008;Bad Großpertholz <30910>;1448,75
+2008;Brand-Nagelberg <30903>;1703,25
+2008;Eggern <30904>;763,75
+2008;Eisgarn <30906>;669
+2008;Gmünd <30908>;5600,375
+2008;Großdietmanns <30909>;2241,875
+2008;Großschönau <30912>;1244,75
+2008;Haugschlag <30915>;507,375
+2008;Heidenreichstein <30916>;4194,875
+2008;Hirschbach <30917>;596,375
+2008;Hoheneich <30920>;1475
+2008;Kirchberg am Walde <30921>;1393,75
+2008;Litschau <30925>;2315,5
+2008;Moorbad Harbach <30913>;713,5
+2008;Reingers <30929>;684,375
+2008;St. Martin <30932>;1148,5
+2008;Schrems <30935>;5688,25
+2008;Seyfrieds ^<30936>;-
+2008;Unserfrau-Altweitra <30939>;1022,125
+2008;Waldenstein <30940>;1189,125
+2008;Weitra <30942>;2795,5
+2008;Wolfsegg ^<30944>;-
+2008;Alberndorf im Pulkautal <31001>;722,875
+2008;Göllersdorf <31008>;2950,75
+2008;Grabern <31009>;1406,5
+2008;Guntersdorf <31014>;1125,125
+2008;Hadres <31015>;1714,125
+2008;Hardegg <31016>;1401,375
+2008;Haugsdorf <31018>;1652,5
+2008;Heldenberg <31019>;1143,5
+2008;Hofern ^<31020>;-
+2008;Hohenwarth-Mühlbach a.M. <31021>;1273
+2008;Hollabrunn <31022>;11302,125
+2008;Mailberg <31025>;599,5
+2008;Maissau <31026>;1889,125
+2008;Nappersdorf-Kammersdorf <31028>;1302,125
+2008;Niederfladnitz ^<31029>;-
+2008;Pernersdorf <31033>;1041,875
+2008;Pulkau <31035>;1545
+2008;Ravelsbach <31036>;1726,5
+2008;Retz <31037>;4189,25
+2008;Retzbach <31038>;1059,375
+2008;Schrattenthal <31041>;873,875
+2008;Seefeld-Kadolz <31042>;966,875
+2008;Sitzendorf an der Schmida <31043>;2195,125
+2008;Wullersdorf <31051>;2394,875
+2008;Zellerndorf <31052>;2581,5
+2008;Ziersdorf <31053>;3301
+2008;Au am Leithaberge <30701>;902,625
+2008;Bad Deutsch-Altenburg <30702>;1420,375
+2008;Berg <30703>;709,125
+2008;Bruck an der Leitha <30704>;7644,875
+2008;Ebergassing <30729>;-
+2008;Enzersdorf an der Fischa <30706>;2943,375
+2008;Fischamend <30730>;-
+2008;Göttlesbrunn-Arbesthal <30708>;1359
+2008;Götzendorf an der Leitha <30709>;1962
+2008;Gramatneusiedl <30731>;-
+2008;Hainburg a.d. Donau <30710>;5723,625
+2008;Haslau-Maria Ellend <30711>;1830,5
+2008;Himberg <30732>;-
+2008;Hof am Leithaberge <30713>;1407,75
+2008;Höflein <30712>;1165,5
+2008;Hundsheim <30715>;592,25
+2008;Klein-Neusiedl <30733>;-
+2008;Lanzendorf <30734>;-
+2008;Leopoldsdorf <30735>;-
+2008;Mannersdorf am Leithagebirge <30716>;3787,375
+2008;Maria-Lanzendorf <30736>;-
+2008;Moosbrunn <30737>;-
+2008;Petronell-Carnuntum <30718>;1208,5
+2008;Prellenkirchen <30719>;1377,25
+2008;Rauchenwarth <30738>;-
+2008;Rohrau <30721>;1555,875
+2008;Scharndorf <30722>;1118,5
+2008;Schwadorf <30739>;-
+2008;Schwechat <30740>;-
+2008;Sommerein <30724>;1917,875
+2008;Trautmannsdorf an der Leitha <30726>;2734,375
+2008;Wolfsthal <30728>;795,875
+2008;Zwölfaxing <30741>;-
+2009;Allhartsberg <30501>;2014,125
+2009;Amstetten <30502>;22961,375
+2009;Ardagger <30503>;3314
+2009;Aschbach-Markt <30504>;3668,125
+2009;Behamberg <30506>;3227,5
+2009;Biberbach <30507>;2138,875
+2009;Ennsdorf <30508>;2793
+2009;Ernsthofen <30509>;2194,625
+2009;Ertl <30510>;1291,375
+2009;Euratsfeld <30511>;2511,875
+2009;Ferschnitz <30512>;1645
+2009;Haag <30514>;5391,875
+2009;Haidershofen <30515>;3571,875
+2009;Hollenstein an der Ybbs <30516>;1756,375
+2009;Kematen an der Ybbs <30517>;2520
+2009;Neuhofen an der Ybbs <30520>;2725,25
+2009;Neustadtl an der Donau <30521>;2108,25
+2009;Oed-Oehling <30522>;1674,625
+2009;Opponitz <30524>;1032
+2009;St. Georgen am Reith <30526>;572,75
+2009;St. Georgen am Ybbsfelde <30527>;2743,375
+2009;St. Pantaleon-Erla <30529>;2484,375
+2009;St. Peter in der Au <30530>;4990,875
+2009;St. Valentin <30531>;9297,75
+2009;Seitenstetten <30532>;3209,875
+2009;Sonntagberg <30533>;3884,625
+2009;Strengberg <30534>;2031,75
+2009;Viehdorf <30536>;1219
+2009;Wallsee-Sindelburg <30538>;2169,5
+2009;Weistrach <30539>;2202,5
+2009;Winklarn <30541>;1509,75
+2009;Wolfsbach <30542>;1858,625
+2009;Ybbsitz <30543>;3692,75
+2009;Zeillern <30544>;1715,875
+2009;Alland <30601>;2489,5
+2009;Altenmarkt an der Triesting <30602>;2090,125
+2009;Bad Vöslau <30603>;11265,375
+2009;Baden <30604>;25121
+2009;Berndorf <30605>;8736,125
+2009;Blumau-Neurißhof <30646>;1792,875
+2009;Ebreichsdorf <30607>;9591,25
+2009;Enzesfeld-Lindabrunn <30608>;4101,375
+2009;Furth an der Triesting <30609>;809
+2009;Günselsdorf <30612>;1748,75
+2009;Heiligenkreuz <30613>;1498,375
+2009;Hernstein <30614>;1456,125
+2009;Hirtenberg <30615>;2640,625
+2009;Klausen-Leopoldsdorf <30616>;1566
+2009;Kottingbrunn <30618>;7410
+2009;Leobersdorf <30620>;4522,875
+2009;Mitterndorf an der Fischa <30621>;2049,125
+2009;Oberwaltersdorf <30623>;3871,25
+2009;Pfaffstätten <30625>;3308,875
+2009;Pottendorf <30626>;6269,625
+2009;Pottenstein <30627>;3004,875
+2009;Reisenberg <30629>;1543,125
+2009;Schönau an der Triesting <30631>;2020,125
+2009;Seibersdorf <30633>;1374,125
+2009;Sooß <30635>;1100
+2009;Tattendorf <30636>;1285
+2009;Teesdorf <30637>;1727,75
+2009;Traiskirchen <30639>;17092,125
+2009;Trumau <30641>;3062,375
+2009;Weissenbach an der Triesting <30645>;1716,875
+2009;Aderklaa <30801>;204,375
+2009;Andlersdorf <30802>;142,75
+2009;Angern an der March <30803>;3244
+2009;Auersthal <30804>;1830,375
+2009;Bad Pirawarth <30805>;1637,5
+2009;Baumgarten ^<30806>;-
+2009;Deutsch-Wagram <30808>;7672,25
+2009;Drösing <30810>;1182
+2009;Dürnkrut <30811>;2239,625
+2009;Ebenthal <30812>;845,25
+2009;Eckartsau <30813>;1140,5
+2009;Engelhartstetten <30814>;1899,25
+2009;Gänserndorf <30817>;9901,875
+2009;Glinzendorf <30819>;253,375
+2009;Groß-Enzersdorf <30821>;9293,875
+2009;Großhofen <30822>;88
+2009;Groß-Schweinbarth <30824>;1296,75
+2009;Haringsee <30825>;1190,5
+2009;Hauskirchen <30826>;1203,375
+2009;Hohenau an der March <30827>;2702,5
+2009;Hohenruppersdorf <30828>;895,375
+2009;Jedenspeigen <30829>;1083,75
+2009;Lassee <30830>;2557,25
+2009;Leopoldsdorf im Marchfeld <30831>;2493,5
+2009;Mannsdorf an der Donau <30834>;416,5
+2009;Marchegg <30835>;2931,5
+2009;Markgrafneusiedl <30836>;848,625
+2009;Matzen-Raggendorf <30838>;2698,25
+2009;Neusiedl an der Zaya <30841>;1199,25
+2009;Obersiebenbrunn <30842>;1711,125
+2009;Orth an der Donau <30844>;2015,625
+2009;Palterndorf-Dobermannsdorf <30845>;1234,75
+2009;Parbasdorf <30846>;160,875
+2009;Prottes <30848>;1338,875
+2009;Raasdorf <30849>;692,75
+2009;Ringelsdorf-Niederabsdorf <30850>;1308,75
+2009;Schönkirchen-Reyersdorf <30852>;1953,375
+2009;Spannberg <30854>;933,25
+2009;Strasshof an der Nordbahn <30856>;8350,25
+2009;Sulz im Weinviertel <30857>;1187,25
+2009;Untersiebenbrunn <30858>;1466
+2009;Velm-Götzendorf <30859>;766,5
+2009;Weiden an der March <30865>;952
+2009;Weikendorf <30860>;1935,5
+2009;Zistersdorf <30863>;5528,5
+2009;Zwerndorf ^<30864>;-
+2009;Amaliendorf-Aalfang <30902>;1139
+2009;Bad Großpertholz <30910>;1416,875
+2009;Brand-Nagelberg <30903>;1685,75
+2009;Eggern <30904>;754,125
+2009;Eisgarn <30906>;668,5
+2009;Gmünd <30908>;5583,75
+2009;Großdietmanns <30909>;2249,875
+2009;Großschönau <30912>;1244,875
+2009;Haugschlag <30915>;510
+2009;Heidenreichstein <30916>;4162,375
+2009;Hirschbach <30917>;581,25
+2009;Hoheneich <30920>;1478,25
+2009;Kirchberg am Walde <30921>;1392,125
+2009;Litschau <30925>;2293,125
+2009;Moorbad Harbach <30913>;701,125
+2009;Reingers <30929>;689,5
+2009;St. Martin <30932>;1156,375
+2009;Schrems <30935>;5678,75
+2009;Seyfrieds ^<30936>;-
+2009;Unserfrau-Altweitra <30939>;1014,5
+2009;Waldenstein <30940>;1185,75
+2009;Weitra <30942>;2766,375
+2009;Wolfsegg ^<30944>;-
+2009;Alberndorf im Pulkautal <31001>;734,75
+2009;Göllersdorf <31008>;2961,25
+2009;Grabern <31009>;1406,75
+2009;Guntersdorf <31014>;1122,125
+2009;Hadres <31015>;1716,25
+2009;Hardegg <31016>;1384,625
+2009;Haugsdorf <31018>;1634,625
+2009;Heldenberg <31019>;1173,5
+2009;Hofern ^<31020>;-
+2009;Hohenwarth-Mühlbach a.M. <31021>;1275,625
+2009;Hollabrunn <31022>;11361,375
+2009;Mailberg <31025>;579,5
+2009;Maissau <31026>;1883,25
+2009;Nappersdorf-Kammersdorf <31028>;1281,125
+2009;Niederfladnitz ^<31029>;-
+2009;Pernersdorf <31033>;1025
+2009;Pulkau <31035>;1544,75
+2009;Ravelsbach <31036>;1706,625
+2009;Retz <31037>;4204,875
+2009;Retzbach <31038>;1059,625
+2009;Schrattenthal <31041>;866,5
+2009;Seefeld-Kadolz <31042>;962,5
+2009;Sitzendorf an der Schmida <31043>;2168,875
+2009;Wullersdorf <31051>;2391,375
+2009;Zellerndorf <31052>;2586,5
+2009;Ziersdorf <31053>;3275
+2009;Au am Leithaberge <30701>;898,875
+2009;Bad Deutsch-Altenburg <30702>;1437,875
+2009;Berg <30703>;703,5
+2009;Bruck an der Leitha <30704>;7668
+2009;Ebergassing <30729>;-
+2009;Enzersdorf an der Fischa <30706>;2945,375
+2009;Fischamend <30730>;-
+2009;Göttlesbrunn-Arbesthal <30708>;1370,25
+2009;Götzendorf an der Leitha <30709>;1988,125
+2009;Gramatneusiedl <30731>;-
+2009;Hainburg a.d. Donau <30710>;5855
+2009;Haslau-Maria Ellend <30711>;1857,875
+2009;Himberg <30732>;-
+2009;Hof am Leithaberge <30713>;1428,875
+2009;Höflein <30712>;1183,625
+2009;Hundsheim <30715>;611
+2009;Klein-Neusiedl <30733>;-
+2009;Lanzendorf <30734>;-
+2009;Leopoldsdorf <30735>;-
+2009;Mannersdorf am Leithagebirge <30716>;3784,25
+2009;Maria-Lanzendorf <30736>;-
+2009;Moosbrunn <30737>;-
+2009;Petronell-Carnuntum <30718>;1186
+2009;Prellenkirchen <30719>;1368,5
+2009;Rauchenwarth <30738>;-
+2009;Rohrau <30721>;1558,5
+2009;Scharndorf <30722>;1133,875
+2009;Schwadorf <30739>;-
+2009;Schwechat <30740>;-
+2009;Sommerein <30724>;1911,625
+2009;Trautmannsdorf an der Leitha <30726>;2741,375
+2009;Wolfsthal <30728>;833,75
+2009;Zwölfaxing <30741>;-
+2010;Allhartsberg <30501>;2025
+2010;Amstetten <30502>;22916,375
+2010;Ardagger <30503>;3340,125
+2010;Aschbach-Markt <30504>;3641,125
+2010;Behamberg <30506>;3229,875
+2010;Biberbach <30507>;2154,875
+2010;Ennsdorf <30508>;2877,125
+2010;Ernsthofen <30509>;2210,5
+2010;Ertl <30510>;1283,5
+2010;Euratsfeld <30511>;2517,875
+2010;Ferschnitz <30512>;1654,625
+2010;Haag <30514>;5380,75
+2010;Haidershofen <30515>;3570,625
+2010;Hollenstein an der Ybbs <30516>;1737,25
+2010;Kematen an der Ybbs <30517>;2497,625
+2010;Neuhofen an der Ybbs <30520>;2760
+2010;Neustadtl an der Donau <30521>;2096,875
+2010;Oed-Oehling <30522>;1679,5
+2010;Opponitz <30524>;997,5
+2010;St. Georgen am Reith <30526>;576,25
+2010;St. Georgen am Ybbsfelde <30527>;2741,625
+2010;St. Pantaleon-Erla <30529>;2506
+2010;St. Peter in der Au <30530>;5008,875
+2010;St. Valentin <30531>;9233,25
+2010;Seitenstetten <30532>;3208,875
+2010;Sonntagberg <30533>;3841,875
+2010;Strengberg <30534>;2027,625
+2010;Viehdorf <30536>;1246
+2010;Wallsee-Sindelburg <30538>;2152,75
+2010;Weistrach <30539>;2194,875
+2010;Winklarn <30541>;1523,5
+2010;Wolfsbach <30542>;1861,25
+2010;Ybbsitz <30543>;3678
+2010;Zeillern <30544>;1725,5
+2010;Alland <30601>;2496,375
+2010;Altenmarkt an der Triesting <30602>;2078,875
+2010;Bad Vöslau <30603>;11239,25
+2010;Baden <30604>;25059,25
+2010;Berndorf <30605>;8750,125
+2010;Blumau-Neurißhof <30646>;1801,5
+2010;Ebreichsdorf <30607>;9684,5
+2010;Enzesfeld-Lindabrunn <30608>;4132,375
+2010;Furth an der Triesting <30609>;822,5
+2010;Günselsdorf <30612>;1755,375
+2010;Heiligenkreuz <30613>;1517,375
+2010;Hernstein <30614>;1472,875
+2010;Hirtenberg <30615>;2600,875
+2010;Klausen-Leopoldsdorf <30616>;1578,875
+2010;Kottingbrunn <30618>;7455,875
+2010;Leobersdorf <30620>;4619,25
+2010;Mitterndorf an der Fischa <30621>;2094,75
+2010;Oberwaltersdorf <30623>;3934,125
+2010;Pfaffstätten <30625>;3380,375
+2010;Pottendorf <30626>;6330,125
+2010;Pottenstein <30627>;3019,125
+2010;Reisenberg <30629>;1533,625
+2010;Schönau an der Triesting <30631>;2100,375
+2010;Seibersdorf <30633>;1380,125
+2010;Sooß <30635>;1100,125
+2010;Tattendorf <30636>;1306,125
+2010;Teesdorf <30637>;1744,25
+2010;Traiskirchen <30639>;17101,875
+2010;Trumau <30641>;3271,125
+2010;Weissenbach an der Triesting <30645>;1722,625
+2010;Aderklaa <30801>;202,25
+2010;Andlersdorf <30802>;140
+2010;Angern an der March <30803>;3267,125
+2010;Auersthal <30804>;1820,125
+2010;Bad Pirawarth <30805>;1647
+2010;Baumgarten ^<30806>;-
+2010;Deutsch-Wagram <30808>;7790,125
+2010;Drösing <30810>;1173,75
+2010;Dürnkrut <30811>;2249
+2010;Ebenthal <30812>;843,125
+2010;Eckartsau <30813>;1150,625
+2010;Engelhartstetten <30814>;1884,375
+2010;Gänserndorf <30817>;10017,75
+2010;Glinzendorf <30819>;268
+2010;Groß-Enzersdorf <30821>;9427,75
+2010;Großhofen <30822>;92,25
+2010;Groß-Schweinbarth <30824>;1296,75
+2010;Haringsee <30825>;1197,5
+2010;Hauskirchen <30826>;1201
+2010;Hohenau an der March <30827>;2700,625
+2010;Hohenruppersdorf <30828>;900,875
+2010;Jedenspeigen <30829>;1062,25
+2010;Lassee <30830>;2600,5
+2010;Leopoldsdorf im Marchfeld <30831>;2523,375
+2010;Mannsdorf an der Donau <30834>;408,75
+2010;Marchegg <30835>;2929,25
+2010;Markgrafneusiedl <30836>;849,25
+2010;Matzen-Raggendorf <30838>;2692,125
+2010;Neusiedl an der Zaya <30841>;1208,75
+2010;Obersiebenbrunn <30842>;1690,875
+2010;Orth an der Donau <30844>;2020,25
+2010;Palterndorf-Dobermannsdorf <30845>;1230,25
+2010;Parbasdorf <30846>;160,625
+2010;Prottes <30848>;1365,375
+2010;Raasdorf <30849>;673,75
+2010;Ringelsdorf-Niederabsdorf <30850>;1297,125
+2010;Schönkirchen-Reyersdorf <30852>;1959,25
+2010;Spannberg <30854>;925,75
+2010;Strasshof an der Nordbahn <30856>;8459,875
+2010;Sulz im Weinviertel <30857>;1181,625
+2010;Untersiebenbrunn <30858>;1461,75
+2010;Velm-Götzendorf <30859>;769
+2010;Weiden an der March <30865>;976,75
+2010;Weikendorf <30860>;1919,125
+2010;Zistersdorf <30863>;5462,625
+2010;Zwerndorf ^<30864>;-
+2010;Amaliendorf-Aalfang <30902>;1125
+2010;Bad Großpertholz <30910>;1380,625
+2010;Brand-Nagelberg <30903>;1675,625
+2010;Eggern <30904>;739,875
+2010;Eisgarn <30906>;679,125
+2010;Gmünd <30908>;5526
+2010;Großdietmanns <30909>;2234,25
+2010;Großschönau <30912>;1228,5
+2010;Haugschlag <30915>;505,375
+2010;Heidenreichstein <30916>;4126
+2010;Hirschbach <30917>;571,375
+2010;Hoheneich <30920>;1460,375
+2010;Kirchberg am Walde <30921>;1385,625
+2010;Litschau <30925>;2265,5
+2010;Moorbad Harbach <30913>;681,25
+2010;Reingers <30929>;687
+2010;St. Martin <30932>;1146,25
+2010;Schrems <30935>;5690,25
+2010;Seyfrieds ^<30936>;-
+2010;Unserfrau-Altweitra <30939>;1004,375
+2010;Waldenstein <30940>;1188,375
+2010;Weitra <30942>;2766,5
+2010;Wolfsegg ^<30944>;-
+2010;Alberndorf im Pulkautal <31001>;740,125
+2010;Göllersdorf <31008>;2988,625
+2010;Grabern <31009>;1405,375
+2010;Guntersdorf <31014>;1133,25
+2010;Hadres <31015>;1694,375
+2010;Hardegg <31016>;1383,875
+2010;Haugsdorf <31018>;1602,25
+2010;Heldenberg <31019>;1210,625
+2010;Hofern ^<31020>;-
+2010;Hohenwarth-Mühlbach a.M. <31021>;1258
+2010;Hollabrunn <31022>;11536,25
+2010;Mailberg <31025>;575,5
+2010;Maissau <31026>;1874,5
+2010;Nappersdorf-Kammersdorf <31028>;1273,625
+2010;Niederfladnitz ^<31029>;-
+2010;Pernersdorf <31033>;1024,125
+2010;Pulkau <31035>;1560,375
+2010;Ravelsbach <31036>;1690,5
+2010;Retz <31037>;4181,5
+2010;Retzbach <31038>;1070,875
+2010;Schrattenthal <31041>;864,375
+2010;Seefeld-Kadolz <31042>;958,375
+2010;Sitzendorf an der Schmida <31043>;2138,375
+2010;Wullersdorf <31051>;2373,25
+2010;Zellerndorf <31052>;2559,375
+2010;Ziersdorf <31053>;3260,125
+2010;Au am Leithaberge <30701>;898,625
+2010;Bad Deutsch-Altenburg <30702>;1433,375
+2010;Berg <30703>;743,75
+2010;Bruck an der Leitha <30704>;7668,625
+2010;Ebergassing <30729>;-
+2010;Enzersdorf an der Fischa <30706>;2947,625
+2010;Fischamend <30730>;-
+2010;Göttlesbrunn-Arbesthal <30708>;1384,25
+2010;Götzendorf an der Leitha <30709>;2037,375
+2010;Gramatneusiedl <30731>;-
+2010;Hainburg a.d. Donau <30710>;5901,75
+2010;Haslau-Maria Ellend <30711>;1853,375
+2010;Himberg <30732>;-
+2010;Hof am Leithaberge <30713>;1451,125
+2010;Höflein <30712>;1186,25
+2010;Hundsheim <30715>;608,125
+2010;Klein-Neusiedl <30733>;-
+2010;Lanzendorf <30734>;-
+2010;Leopoldsdorf <30735>;-
+2010;Mannersdorf am Leithagebirge <30716>;3767,375
+2010;Maria-Lanzendorf <30736>;-
+2010;Moosbrunn <30737>;-
+2010;Petronell-Carnuntum <30718>;1187,25
+2010;Prellenkirchen <30719>;1383,25
+2010;Rauchenwarth <30738>;-
+2010;Rohrau <30721>;1549,125
+2010;Scharndorf <30722>;1142
+2010;Schwadorf <30739>;-
+2010;Schwechat <30740>;-
+2010;Sommerein <30724>;1942
+2010;Trautmannsdorf an der Leitha <30726>;2752,125
+2010;Wolfsthal <30728>;856
+2010;Zwölfaxing <30741>;-
+2011;Allhartsberg <30501>;2013,75
+2011;Amstetten <30502>;22862
+2011;Ardagger <30503>;3359,625
+2011;Aschbach-Markt <30504>;3651,875
+2011;Behamberg <30506>;3238
+2011;Biberbach <30507>;2184,125
+2011;Ennsdorf <30508>;2923,75
+2011;Ernsthofen <30509>;2197,25
+2011;Ertl <30510>;1290,75
+2011;Euratsfeld <30511>;2543,125
+2011;Ferschnitz <30512>;1670,75
+2011;Haag <30514>;5378,75
+2011;Haidershofen <30515>;3570,375
+2011;Hollenstein an der Ybbs <30516>;1731,5
+2011;Kematen an der Ybbs <30517>;2473,5
+2011;Neuhofen an der Ybbs <30520>;2804,25
+2011;Neustadtl an der Donau <30521>;2084,625
+2011;Oed-Oehling <30522>;1670,875
+2011;Opponitz <30524>;987,25
+2011;St. Georgen am Reith <30526>;577,375
+2011;St. Georgen am Ybbsfelde <30527>;2746
+2011;St. Pantaleon-Erla <30529>;2526,125
+2011;St. Peter in der Au <30530>;5017,25
+2011;St. Valentin <30531>;9210,5
+2011;Seitenstetten <30532>;3238,375
+2011;Sonntagberg <30533>;3829,5
+2011;Strengberg <30534>;2020,875
+2011;Viehdorf <30536>;1282,625
+2011;Wallsee-Sindelburg <30538>;2151,375
+2011;Weistrach <30539>;2182,75
+2011;Winklarn <30541>;1537,5
+2011;Wolfsbach <30542>;1861,375
+2011;Ybbsitz <30543>;3637,875
+2011;Zeillern <30544>;1763,25
+2011;Alland <30601>;2474
+2011;Altenmarkt an der Triesting <30602>;2134,375
+2011;Bad Vöslau <30603>;11297,625
+2011;Baden <30604>;25086,5
+2011;Berndorf <30605>;8796
+2011;Blumau-Neurißhof <30646>;1813,375
+2011;Ebreichsdorf <30607>;9879,125
+2011;Enzesfeld-Lindabrunn <30608>;4168,25
+2011;Furth an der Triesting <30609>;824,125
+2011;Günselsdorf <30612>;1755,5
+2011;Heiligenkreuz <30613>;1543,125
+2011;Hernstein <30614>;1493,75
+2011;Hirtenberg <30615>;2640,375
+2011;Klausen-Leopoldsdorf <30616>;1602,25
+2011;Kottingbrunn <30618>;7466,25
+2011;Leobersdorf <30620>;4683,375
+2011;Mitterndorf an der Fischa <30621>;2119,875
+2011;Oberwaltersdorf <30623>;3961,125
+2011;Pfaffstätten <30625>;3429,5
+2011;Pottendorf <30626>;6356,375
+2011;Pottenstein <30627>;2999,75
+2011;Reisenberg <30629>;1559,875
+2011;Schönau an der Triesting <30631>;2133,125
+2011;Seibersdorf <30633>;1410,125
+2011;Sooß <30635>;1112
+2011;Tattendorf <30636>;1336,125
+2011;Teesdorf <30637>;1748,125
+2011;Traiskirchen <30639>;17208
+2011;Trumau <30641>;3395,625
+2011;Weissenbach an der Triesting <30645>;1734,125
+2011;Aderklaa <30801>;195,875
+2011;Andlersdorf <30802>;146,5
+2011;Angern an der March <30803>;3280,625
+2011;Auersthal <30804>;1836,875
+2011;Bad Pirawarth <30805>;1669,75
+2011;Baumgarten ^<30806>;-
+2011;Deutsch-Wagram <30808>;7879,625
+2011;Drösing <30810>;1133,125
+2011;Dürnkrut <30811>;2270,625
+2011;Ebenthal <30812>;843
+2011;Eckartsau <30813>;1155,75
+2011;Engelhartstetten <30814>;1887,875
+2011;Gänserndorf <30817>;10231,375
+2011;Glinzendorf <30819>;265,75
+2011;Groß-Enzersdorf <30821>;9567,5
+2011;Großhofen <30822>;92,75
+2011;Groß-Schweinbarth <30824>;1290,625
+2011;Haringsee <30825>;1195,5
+2011;Hauskirchen <30826>;1212,625
+2011;Hohenau an der March <30827>;2687,625
+2011;Hohenruppersdorf <30828>;892,625
+2011;Jedenspeigen <30829>;1063,875
+2011;Lassee <30830>;2568
+2011;Leopoldsdorf im Marchfeld <30831>;2525,75
+2011;Mannsdorf an der Donau <30834>;401,25
+2011;Marchegg <30835>;2924,5
+2011;Markgrafneusiedl <30836>;836,875
+2011;Matzen-Raggendorf <30838>;2669,5
+2011;Neusiedl an der Zaya <30841>;1222,25
+2011;Obersiebenbrunn <30842>;1680,75
+2011;Orth an der Donau <30844>;2055,75
+2011;Palterndorf-Dobermannsdorf <30845>;1232,25
+2011;Parbasdorf <30846>;159,25
+2011;Prottes <30848>;1382,25
+2011;Raasdorf <30849>;679,75
+2011;Ringelsdorf-Niederabsdorf <30850>;1306,375
+2011;Schönkirchen-Reyersdorf <30852>;1960,5
+2011;Spannberg <30854>;906,25
+2011;Strasshof an der Nordbahn <30856>;8574,125
+2011;Sulz im Weinviertel <30857>;1181,375
+2011;Untersiebenbrunn <30858>;1432,375
+2011;Velm-Götzendorf <30859>;773,625
+2011;Weiden an der March <30865>;988,25
+2011;Weikendorf <30860>;1918,75
+2011;Zistersdorf <30863>;5438,75
+2011;Zwerndorf ^<30864>;-
+2011;Amaliendorf-Aalfang <30902>;1119,875
+2011;Bad Großpertholz <30910>;1364,5
+2011;Brand-Nagelberg <30903>;1666,875
+2011;Eggern <30904>;727,75
+2011;Eisgarn <30906>;680,5
+2011;Gmünd <30908>;5415,25
+2011;Großdietmanns <30909>;2246,75
+2011;Großschönau <30912>;1225,5
+2011;Haugschlag <30915>;496,5
+2011;Heidenreichstein <30916>;4088,75
+2011;Hirschbach <30917>;574,375
+2011;Hoheneich <30920>;1471,75
+2011;Kirchberg am Walde <30921>;1377,375
+2011;Litschau <30925>;2268,875
+2011;Moorbad Harbach <30913>;669,5
+2011;Reingers <30929>;689,25
+2011;St. Martin <30932>;1147,875
+2011;Schrems <30935>;5649,125
+2011;Seyfrieds ^<30936>;-
+2011;Unserfrau-Altweitra <30939>;1002,875
+2011;Waldenstein <30940>;1191,875
+2011;Weitra <30942>;2756
+2011;Wolfsegg ^<30944>;-
+2011;Alberndorf im Pulkautal <31001>;737
+2011;Göllersdorf <31008>;2976,75
+2011;Grabern <31009>;1416
+2011;Guntersdorf <31014>;1150,125
+2011;Hadres <31015>;1686,875
+2011;Hardegg <31016>;1377,5
+2011;Haugsdorf <31018>;1611,75
+2011;Heldenberg <31019>;1209,125
+2011;Hofern ^<31020>;-
+2011;Hohenwarth-Mühlbach a.M. <31021>;1262,25
+2011;Hollabrunn <31022>;11531,375
+2011;Mailberg <31025>;577,75
+2011;Maissau <31026>;1875,125
+2011;Nappersdorf-Kammersdorf <31028>;1259,125
+2011;Niederfladnitz ^<31029>;-
+2011;Pernersdorf <31033>;1011,625
+2011;Pulkau <31035>;1567,25
+2011;Ravelsbach <31036>;1663,875
+2011;Retz <31037>;4176,625
+2011;Retzbach <31038>;1053,875
+2011;Schrattenthal <31041>;855,25
+2011;Seefeld-Kadolz <31042>;941,5
+2011;Sitzendorf an der Schmida <31043>;2151,875
+2011;Wullersdorf <31051>;2364,5
+2011;Zellerndorf <31052>;2558,125
+2011;Ziersdorf <31053>;3283,75
+2011;Au am Leithaberge <30701>;911,5
+2011;Bad Deutsch-Altenburg <30702>;1424,25
+2011;Berg <30703>;739,5
+2011;Bruck an der Leitha <30704>;7657,5
+2011;Ebergassing <30729>;-
+2011;Enzersdorf an der Fischa <30706>;2955,5
+2011;Fischamend <30730>;-
+2011;Göttlesbrunn-Arbesthal <30708>;1384,125
+2011;Götzendorf an der Leitha <30709>;2043,375
+2011;Gramatneusiedl <30731>;-
+2011;Hainburg a.d. Donau <30710>;5915,25
+2011;Haslau-Maria Ellend <30711>;1851,625
+2011;Himberg <30732>;-
+2011;Hof am Leithaberge <30713>;1469,5
+2011;Höflein <30712>;1203
+2011;Hundsheim <30715>;601,75
+2011;Klein-Neusiedl <30733>;-
+2011;Lanzendorf <30734>;-
+2011;Leopoldsdorf <30735>;-
+2011;Mannersdorf am Leithagebirge <30716>;3815,125
+2011;Maria-Lanzendorf <30736>;-
+2011;Moosbrunn <30737>;-
+2011;Petronell-Carnuntum <30718>;1187,25
+2011;Prellenkirchen <30719>;1426
+2011;Rauchenwarth <30738>;-
+2011;Rohrau <30721>;1537,25
+2011;Scharndorf <30722>;1132,375
+2011;Schwadorf <30739>;-
+2011;Schwechat <30740>;-
+2011;Sommerein <30724>;1935,5
+2011;Trautmannsdorf an der Leitha <30726>;2769,125
+2011;Wolfsthal <30728>;863,5
+2011;Zwölfaxing <30741>;-
+2012;Allhartsberg <30501>;2026
+2012;Amstetten <30502>;22872,375
+2012;Ardagger <30503>;3359
+2012;Aschbach-Markt <30504>;3671,625
+2012;Behamberg <30506>;3240,5
+2012;Biberbach <30507>;2207,25
+2012;Ennsdorf <30508>;2932,125
+2012;Ernsthofen <30509>;2179,25
+2012;Ertl <30510>;1295,25
+2012;Euratsfeld <30511>;2536,375
+2012;Ferschnitz <30512>;1677,875
+2012;Haag <30514>;5420,5
+2012;Haidershofen <30515>;3551,25
+2012;Hollenstein an der Ybbs <30516>;1713,5
+2012;Kematen an der Ybbs <30517>;2521,25
+2012;Neuhofen an der Ybbs <30520>;2825,875
+2012;Neustadtl an der Donau <30521>;2098,75
+2012;Oed-Oehling <30522>;1732,375
+2012;Opponitz <30524>;983,5
+2012;St. Georgen am Reith <30526>;577,5
+2012;St. Georgen am Ybbsfelde <30527>;2760,625
+2012;St. Pantaleon-Erla <30529>;2525,625
+2012;St. Peter in der Au <30530>;5031,625
+2012;St. Valentin <30531>;9192,25
+2012;Seitenstetten <30532>;3287
+2012;Sonntagberg <30533>;3797,125
+2012;Strengberg <30534>;2012,25
+2012;Viehdorf <30536>;1312,375
+2012;Wallsee-Sindelburg <30538>;2151,375
+2012;Weistrach <30539>;2178,5
+2012;Winklarn <30541>;1531,875
+2012;Wolfsbach <30542>;1844,25
+2012;Ybbsitz <30543>;3594,625
+2012;Zeillern <30544>;1774,875
+2012;Alland <30601>;2488,5
+2012;Altenmarkt an der Triesting <30602>;2166,125
+2012;Bad Vöslau <30603>;11342
+2012;Baden <30604>;25149,75
+2012;Berndorf <30605>;8844,625
+2012;Blumau-Neurißhof <30646>;1785,875
+2012;Ebreichsdorf <30607>;10010,25
+2012;Enzesfeld-Lindabrunn <30608>;4180
+2012;Furth an der Triesting <30609>;825,875
+2012;Günselsdorf <30612>;1735,75
+2012;Heiligenkreuz <30613>;1546,125
+2012;Hernstein <30614>;1498,375
+2012;Hirtenberg <30615>;2647,625
+2012;Klausen-Leopoldsdorf <30616>;1619,5
+2012;Kottingbrunn <30618>;7445,375
+2012;Leobersdorf <30620>;4755,5
+2012;Mitterndorf an der Fischa <30621>;2163,5
+2012;Oberwaltersdorf <30623>;4025,25
+2012;Pfaffstätten <30625>;3469,625
+2012;Pottendorf <30626>;6390,5
+2012;Pottenstein <30627>;2970,375
+2012;Reisenberg <30629>;1585,625
+2012;Schönau an der Triesting <30631>;2106,875
+2012;Seibersdorf <30633>;1413,625
+2012;Sooß <30635>;1105,5
+2012;Tattendorf <30636>;1326
+2012;Teesdorf <30637>;1751,5
+2012;Traiskirchen <30639>;17512,375
+2012;Trumau <30641>;3475,5
+2012;Weissenbach an der Triesting <30645>;1734,75
+2012;Aderklaa <30801>;197,25
+2012;Andlersdorf <30802>;151,5
+2012;Angern an der March <30803>;3274,375
+2012;Auersthal <30804>;1856,125
+2012;Bad Pirawarth <30805>;1679,125
+2012;Baumgarten ^<30806>;-
+2012;Deutsch-Wagram <30808>;7952,875
+2012;Drösing <30810>;1131,625
+2012;Dürnkrut <30811>;2256,25
+2012;Ebenthal <30812>;845,5
+2012;Eckartsau <30813>;1181,875
+2012;Engelhartstetten <30814>;1890,25
+2012;Gänserndorf <30817>;10481,375
+2012;Glinzendorf <30819>;261
+2012;Groß-Enzersdorf <30821>;9727,125
+2012;Großhofen <30822>;92,875
+2012;Groß-Schweinbarth <30824>;1290,375
+2012;Haringsee <30825>;1171,25
+2012;Hauskirchen <30826>;1226,875
+2012;Hohenau an der March <30827>;2674,625
+2012;Hohenruppersdorf <30828>;887,375
+2012;Jedenspeigen <30829>;1061,625
+2012;Lassee <30830>;2563,5
+2012;Leopoldsdorf im Marchfeld <30831>;2566,625
+2012;Mannsdorf an der Donau <30834>;404,5
+2012;Marchegg <30835>;2911,25
+2012;Markgrafneusiedl <30836>;837,125
+2012;Matzen-Raggendorf <30838>;2692,875
+2012;Neusiedl an der Zaya <30841>;1232,125
+2012;Obersiebenbrunn <30842>;1704,125
+2012;Orth an der Donau <30844>;2045,25
+2012;Palterndorf-Dobermannsdorf <30845>;1248,75
+2012;Parbasdorf <30846>;163,375
+2012;Prottes <30848>;1382,375
+2012;Raasdorf <30849>;666
+2012;Ringelsdorf-Niederabsdorf <30850>;1306,625
+2012;Schönkirchen-Reyersdorf <30852>;1977,25
+2012;Spannberg <30854>;912
+2012;Strasshof an der Nordbahn <30856>;8672,25
+2012;Sulz im Weinviertel <30857>;1175,875
+2012;Untersiebenbrunn <30858>;1430,5
+2012;Velm-Götzendorf <30859>;766,25
+2012;Weiden an der March <30865>;992,125
+2012;Weikendorf <30860>;1912,375
+2012;Zistersdorf <30863>;5400,75
+2012;Zwerndorf ^<30864>;-
+2012;Amaliendorf-Aalfang <30902>;1121,125
+2012;Bad Großpertholz <30910>;1344
+2012;Brand-Nagelberg <30903>;1658
+2012;Eggern <30904>;719,875
+2012;Eisgarn <30906>;666,75
+2012;Gmünd <30908>;5366,25
+2012;Großdietmanns <30909>;2247,375
+2012;Großschönau <30912>;1238,125
+2012;Haugschlag <30915>;499,125
+2012;Heidenreichstein <30916>;4055,125
+2012;Hirschbach <30917>;570,25
+2012;Hoheneich <30920>;1459,5
+2012;Kirchberg am Walde <30921>;1364,125
+2012;Litschau <30925>;2253,875
+2012;Moorbad Harbach <30913>;668,25
+2012;Reingers <30929>;681,25
+2012;St. Martin <30932>;1141,625
+2012;Schrems <30935>;5614,125
+2012;Seyfrieds ^<30936>;-
+2012;Unserfrau-Altweitra <30939>;1003,125
+2012;Waldenstein <30940>;1192,25
+2012;Weitra <30942>;2737,75
+2012;Wolfsegg ^<30944>;-
+2012;Alberndorf im Pulkautal <31001>;720,75
+2012;Göllersdorf <31008>;2979,625
+2012;Grabern <31009>;1408,75
+2012;Guntersdorf <31014>;1159
+2012;Hadres <31015>;1691,625
+2012;Hardegg <31016>;1359,875
+2012;Haugsdorf <31018>;1597
+2012;Heldenberg <31019>;1220,5
+2012;Hofern ^<31020>;-
+2012;Hohenwarth-Mühlbach a.M. <31021>;1271,25
+2012;Hollabrunn <31022>;11581,625
+2012;Mailberg <31025>;570,375
+2012;Maissau <31026>;1886,75
+2012;Nappersdorf-Kammersdorf <31028>;1240,625
+2012;Niederfladnitz ^<31029>;-
+2012;Pernersdorf <31033>;1001,5
+2012;Pulkau <31035>;1572
+2012;Ravelsbach <31036>;1651,75
+2012;Retz <31037>;4141
+2012;Retzbach <31038>;1043,5
+2012;Schrattenthal <31041>;847,25
+2012;Seefeld-Kadolz <31042>;932,75
+2012;Sitzendorf an der Schmida <31043>;2154,5
+2012;Wullersdorf <31051>;2361
+2012;Zellerndorf <31052>;2527
+2012;Ziersdorf <31053>;3315,5
+2012;Au am Leithaberge <30701>;917,625
+2012;Bad Deutsch-Altenburg <30702>;1413,375
+2012;Berg <30703>;737,875
+2012;Bruck an der Leitha <30704>;7681,25
+2012;Ebergassing <30729>;-
+2012;Enzersdorf an der Fischa <30706>;2961,125
+2012;Fischamend <30730>;-
+2012;Göttlesbrunn-Arbesthal <30708>;1383,625
+2012;Götzendorf an der Leitha <30709>;2048,125
+2012;Gramatneusiedl <30731>;-
+2012;Hainburg a.d. Donau <30710>;5972,875
+2012;Haslau-Maria Ellend <30711>;1864,625
+2012;Himberg <30732>;-
+2012;Hof am Leithaberge <30713>;1472,75
+2012;Höflein <30712>;1206,875
+2012;Hundsheim <30715>;607,5
+2012;Klein-Neusiedl <30733>;-
+2012;Lanzendorf <30734>;-
+2012;Leopoldsdorf <30735>;-
+2012;Mannersdorf am Leithagebirge <30716>;3856,5
+2012;Maria-Lanzendorf <30736>;-
+2012;Moosbrunn <30737>;-
+2012;Petronell-Carnuntum <30718>;1220,375
+2012;Prellenkirchen <30719>;1468,25
+2012;Rauchenwarth <30738>;-
+2012;Rohrau <30721>;1547
+2012;Scharndorf <30722>;1135,125
+2012;Schwadorf <30739>;-
+2012;Schwechat <30740>;-
+2012;Sommerein <30724>;1945,25
+2012;Trautmannsdorf an der Leitha <30726>;2785,75
+2012;Wolfsthal <30728>;883,5
+2012;Zwölfaxing <30741>;-
+2013;Allhartsberg <30501>;2043,875
+2013;Amstetten <30502>;22953,25
+2013;Ardagger <30503>;3380,75
+2013;Aschbach-Markt <30504>;3685,625
+2013;Behamberg <30506>;3220,25
+2013;Biberbach <30507>;2206,125
+2013;Ennsdorf <30508>;2958,5
+2013;Ernsthofen <30509>;2171,375
+2013;Ertl <30510>;1292,75
+2013;Euratsfeld <30511>;2550,5
+2013;Ferschnitz <30512>;1687,375
+2013;Haag <30514>;5453,125
+2013;Haidershofen <30515>;3564
+2013;Hollenstein an der Ybbs <30516>;1702,5
+2013;Kematen an der Ybbs <30517>;2558
+2013;Neuhofen an der Ybbs <30520>;2862,375
+2013;Neustadtl an der Donau <30521>;2097,75
+2013;Oed-Oehling <30522>;1772,25
+2013;Opponitz <30524>;965,75
+2013;St. Georgen am Reith <30526>;573,5
+2013;St. Georgen am Ybbsfelde <30527>;2775,125
+2013;St. Pantaleon-Erla <30529>;2526,875
+2013;St. Peter in der Au <30530>;5013,875
+2013;St. Valentin <30531>;9170,25
+2013;Seitenstetten <30532>;3303
+2013;Sonntagberg <30533>;3777,625
+2013;Strengberg <30534>;1999,75
+2013;Viehdorf <30536>;1343,625
+2013;Wallsee-Sindelburg <30538>;2168,875
+2013;Weistrach <30539>;2191
+2013;Winklarn <30541>;1509,375
+2013;Wolfsbach <30542>;1887,375
+2013;Ybbsitz <30543>;3571,875
+2013;Zeillern <30544>;1785,5
+2013;Alland <30601>;2485
+2013;Altenmarkt an der Triesting <30602>;2166,25
+2013;Bad Vöslau <30603>;11350,375
+2013;Baden <30604>;25232,875
+2013;Berndorf <30605>;8897,25
+2013;Blumau-Neurißhof <30646>;1803,125
+2013;Ebreichsdorf <30607>;10141,875
+2013;Enzesfeld-Lindabrunn <30608>;4171
+2013;Furth an der Triesting <30609>;830,5
+2013;Günselsdorf <30612>;1743
+2013;Heiligenkreuz <30613>;1537,625
+2013;Hernstein <30614>;1501,125
+2013;Hirtenberg <30615>;2619,625
+2013;Klausen-Leopoldsdorf <30616>;1626,625
+2013;Kottingbrunn <30618>;7407,125
+2013;Leobersdorf <30620>;4806,125
+2013;Mitterndorf an der Fischa <30621>;2214,75
+2013;Oberwaltersdorf <30623>;4107,875
+2013;Pfaffstätten <30625>;3487,5
+2013;Pottendorf <30626>;6440,5
+2013;Pottenstein <30627>;2968,875
+2013;Reisenberg <30629>;1617,625
+2013;Schönau an der Triesting <30631>;2106,75
+2013;Seibersdorf <30633>;1423,375
+2013;Sooß <30635>;1086,625
+2013;Tattendorf <30636>;1368,125
+2013;Teesdorf <30637>;1744,375
+2013;Traiskirchen <30639>;17560,625
+2013;Trumau <30641>;3493,125
+2013;Weissenbach an der Triesting <30645>;1734,125
+2013;Aderklaa <30801>;198,375
+2013;Andlersdorf <30802>;156,375
+2013;Angern an der March <30803>;3328,5
+2013;Auersthal <30804>;1865,625
+2013;Bad Pirawarth <30805>;1674,625
+2013;Baumgarten ^<30806>;-
+2013;Deutsch-Wagram <30808>;8058,875
+2013;Drösing <30810>;1127,125
+2013;Dürnkrut <30811>;2273,375
+2013;Ebenthal <30812>;858,125
+2013;Eckartsau <30813>;1198
+2013;Engelhartstetten <30814>;1900,875
+2013;Gänserndorf <30817>;10624
+2013;Glinzendorf <30819>;268,625
+2013;Groß-Enzersdorf <30821>;9936
+2013;Großhofen <30822>;89,375
+2013;Groß-Schweinbarth <30824>;1281,375
+2013;Haringsee <30825>;1159,5
+2013;Hauskirchen <30826>;1223,75
+2013;Hohenau an der March <30827>;2674
+2013;Hohenruppersdorf <30828>;905,25
+2013;Jedenspeigen <30829>;1063
+2013;Lassee <30830>;2579,75
+2013;Leopoldsdorf im Marchfeld <30831>;2600,25
+2013;Mannsdorf an der Donau <30834>;405,25
+2013;Marchegg <30835>;2887,75
+2013;Markgrafneusiedl <30836>;835,25
+2013;Matzen-Raggendorf <30838>;2724
+2013;Neusiedl an der Zaya <30841>;1233
+2013;Obersiebenbrunn <30842>;1695,625
+2013;Orth an der Donau <30844>;2026,75
+2013;Palterndorf-Dobermannsdorf <30845>;1264,625
+2013;Parbasdorf <30846>;157,625
+2013;Prottes <30848>;1385,375
+2013;Raasdorf <30849>;665,625
+2013;Ringelsdorf-Niederabsdorf <30850>;1293,625
+2013;Schönkirchen-Reyersdorf <30852>;1974,25
+2013;Spannberg <30854>;920,75
+2013;Strasshof an der Nordbahn <30856>;8814,375
+2013;Sulz im Weinviertel <30857>;1183,25
+2013;Untersiebenbrunn <30858>;1469,875
+2013;Velm-Götzendorf <30859>;748,125
+2013;Weiden an der March <30865>;996,875
+2013;Weikendorf <30860>;1905
+2013;Zistersdorf <30863>;5361,625
+2013;Zwerndorf ^<30864>;-
+2013;Amaliendorf-Aalfang <30902>;1124,375
+2013;Bad Großpertholz <30910>;1346,75
+2013;Brand-Nagelberg <30903>;1635,75
+2013;Eggern <30904>;718,375
+2013;Eisgarn <30906>;667,25
+2013;Gmünd <30908>;5350,125
+2013;Großdietmanns <30909>;2258,375
+2013;Großschönau <30912>;1235,75
+2013;Haugschlag <30915>;492,375
+2013;Heidenreichstein <30916>;4038,875
+2013;Hirschbach <30917>;565,75
+2013;Hoheneich <30920>;1432,25
+2013;Kirchberg am Walde <30921>;1366,125
+2013;Litschau <30925>;2285,875
+2013;Moorbad Harbach <30913>;668,875
+2013;Reingers <30929>;673,625
+2013;St. Martin <30932>;1129,125
+2013;Schrems <30935>;5584,125
+2013;Seyfrieds ^<30936>;-
+2013;Unserfrau-Altweitra <30939>;993,5
+2013;Waldenstein <30940>;1198,25
+2013;Weitra <30942>;2719,75
+2013;Wolfsegg ^<30944>;-
+2013;Alberndorf im Pulkautal <31001>;713,875
+2013;Göllersdorf <31008>;2977,375
+2013;Grabern <31009>;1436,875
+2013;Guntersdorf <31014>;1161,125
+2013;Hadres <31015>;1694,25
+2013;Hardegg <31016>;1352,625
+2013;Haugsdorf <31018>;1584,25
+2013;Heldenberg <31019>;1236,875
+2013;Hofern ^<31020>;-
+2013;Hohenwarth-Mühlbach a.M. <31021>;1268,75
+2013;Hollabrunn <31022>;11583,125
+2013;Mailberg <31025>;575,5
+2013;Maissau <31026>;1899,75
+2013;Nappersdorf-Kammersdorf <31028>;1226,875
+2013;Niederfladnitz ^<31029>;-
+2013;Pernersdorf <31033>;999,375
+2013;Pulkau <31035>;1557,25
+2013;Ravelsbach <31036>;1627,125
+2013;Retz <31037>;4146
+2013;Retzbach <31038>;1017,625
+2013;Schrattenthal <31041>;852,375
+2013;Seefeld-Kadolz <31042>;925,625
+2013;Sitzendorf an der Schmida <31043>;2130,375
+2013;Wullersdorf <31051>;2335,625
+2013;Zellerndorf <31052>;2500
+2013;Ziersdorf <31053>;3295,25
+2013;Au am Leithaberge <30701>;911
+2013;Bad Deutsch-Altenburg <30702>;1458,25
+2013;Berg <30703>;752,375
+2013;Bruck an der Leitha <30704>;7682,5
+2013;Ebergassing <30729>;-
+2013;Enzersdorf an der Fischa <30706>;3002
+2013;Fischamend <30730>;-
+2013;Göttlesbrunn-Arbesthal <30708>;1380,5
+2013;Götzendorf an der Leitha <30709>;2062,5
+2013;Gramatneusiedl <30731>;-
+2013;Hainburg a.d. Donau <30710>;6105,75
+2013;Haslau-Maria Ellend <30711>;1889,875
+2013;Himberg <30732>;-
+2013;Hof am Leithaberge <30713>;1489,125
+2013;Höflein <30712>;1203,625
+2013;Hundsheim <30715>;604,875
+2013;Klein-Neusiedl <30733>;-
+2013;Lanzendorf <30734>;-
+2013;Leopoldsdorf <30735>;-
+2013;Mannersdorf am Leithagebirge <30716>;3870,5
+2013;Maria-Lanzendorf <30736>;-
+2013;Moosbrunn <30737>;-
+2013;Petronell-Carnuntum <30718>;1221,125
+2013;Prellenkirchen <30719>;1463,625
+2013;Rauchenwarth <30738>;-
+2013;Rohrau <30721>;1544,625
+2013;Scharndorf <30722>;1146,5
+2013;Schwadorf <30739>;-
+2013;Schwechat <30740>;-
+2013;Sommerein <30724>;1934,125
+2013;Trautmannsdorf an der Leitha <30726>;2786,625
+2013;Wolfsthal <30728>;920,125
+2013;Zwölfaxing <30741>;-
+2014;Allhartsberg <30501>;2064
+2014;Amstetten <30502>;23138,5
+2014;Ardagger <30503>;3405,5
+2014;Aschbach-Markt <30504>;3669,875
+2014;Behamberg <30506>;3221,375
+2014;Biberbach <30507>;2228,125
+2014;Ennsdorf <30508>;2978,125
+2014;Ernsthofen <30509>;2169,125
+2014;Ertl <30510>;1276,75
+2014;Euratsfeld <30511>;2544,875
+2014;Ferschnitz <30512>;1696,625
+2014;Haag <30514>;5478,25
+2014;Haidershofen <30515>;3565,375
+2014;Hollenstein an der Ybbs <30516>;1716,875
+2014;Kematen an der Ybbs <30517>;2533,5
+2014;Neuhofen an der Ybbs <30520>;2888,125
+2014;Neustadtl an der Donau <30521>;2111,5
+2014;Oed-Oehling <30522>;1813,875
+2014;Opponitz <30524>;961,75
+2014;St. Georgen am Reith <30526>;561,625
+2014;St. Georgen am Ybbsfelde <30527>;2766,75
+2014;St. Pantaleon-Erla <30529>;2562,25
+2014;St. Peter in der Au <30530>;5026,875
+2014;St. Valentin <30531>;9198,875
+2014;Seitenstetten <30532>;3315
+2014;Sonntagberg <30533>;3801,875
+2014;Strengberg <30534>;2002,75
+2014;Viehdorf <30536>;1377,5
+2014;Wallsee-Sindelburg <30538>;2175
+2014;Weistrach <30539>;2207,625
+2014;Winklarn <30541>;1553,5
+2014;Wolfsbach <30542>;1900,25
+2014;Ybbsitz <30543>;3532,25
+2014;Zeillern <30544>;1816,375
+2014;Alland <30601>;2510,375
+2014;Altenmarkt an der Triesting <30602>;2189,25
+2014;Bad Vöslau <30603>;11434,25
+2014;Baden <30604>;25263,25
+2014;Berndorf <30605>;8936,875
+2014;Blumau-Neurißhof <30646>;1827,5
+2014;Ebreichsdorf <30607>;10347,25
+2014;Enzesfeld-Lindabrunn <30608>;4170,5
+2014;Furth an der Triesting <30609>;820
+2014;Günselsdorf <30612>;1736,875
+2014;Heiligenkreuz <30613>;1554,125
+2014;Hernstein <30614>;1499,625
+2014;Hirtenberg <30615>;2609,125
+2014;Klausen-Leopoldsdorf <30616>;1639,375
+2014;Kottingbrunn <30618>;7421,875
+2014;Leobersdorf <30620>;4891,375
+2014;Mitterndorf an der Fischa <30621>;2275,375
+2014;Oberwaltersdorf <30623>;4199
+2014;Pfaffstätten <30625>;3508,375
+2014;Pottendorf <30626>;6511
+2014;Pottenstein <30627>;2952,25
+2014;Reisenberg <30629>;1635,5
+2014;Schönau an der Triesting <30631>;2115,375
+2014;Seibersdorf <30633>;1431,875
+2014;Sooß <30635>;1080
+2014;Tattendorf <30636>;1400,625
+2014;Teesdorf <30637>;1754,25
+2014;Traiskirchen <30639>;17989,5
+2014;Trumau <30641>;3538,25
+2014;Weissenbach an der Triesting <30645>;1719,5
+2014;Aderklaa <30801>;199
+2014;Andlersdorf <30802>;162,125
+2014;Angern an der March <30803>;3355
+2014;Auersthal <30804>;1880,625
+2014;Bad Pirawarth <30805>;1659,375
+2014;Baumgarten ^<30806>;-
+2014;Deutsch-Wagram <30808>;8138,5
+2014;Drösing <30810>;1117,625
+2014;Dürnkrut <30811>;2250,125
+2014;Ebenthal <30812>;867,625
+2014;Eckartsau <30813>;1224,5
+2014;Engelhartstetten <30814>;1932,375
+2014;Gänserndorf <30817>;10781,875
+2014;Glinzendorf <30819>;272,875
+2014;Groß-Enzersdorf <30821>;10152,125
+2014;Großhofen <30822>;88
+2014;Groß-Schweinbarth <30824>;1277
+2014;Haringsee <30825>;1165
+2014;Hauskirchen <30826>;1233
+2014;Hohenau an der March <30827>;2697,75
+2014;Hohenruppersdorf <30828>;913,125
+2014;Jedenspeigen <30829>;1078,125
+2014;Lassee <30830>;2620,25
+2014;Leopoldsdorf im Marchfeld <30831>;2627,625
+2014;Mannsdorf an der Donau <30834>;413,75
+2014;Marchegg <30835>;2924,5
+2014;Markgrafneusiedl <30836>;834,625
+2014;Matzen-Raggendorf <30838>;2757,625
+2014;Neusiedl an der Zaya <30841>;1226,875
+2014;Obersiebenbrunn <30842>;1682,75
+2014;Orth an der Donau <30844>;2032,5
+2014;Palterndorf-Dobermannsdorf <30845>;1276,875
+2014;Parbasdorf <30846>;155,75
+2014;Prottes <30848>;1378,25
+2014;Raasdorf <30849>;665,25
+2014;Ringelsdorf-Niederabsdorf <30850>;1293,75
+2014;Schönkirchen-Reyersdorf <30852>;1967,25
+2014;Spannberg <30854>;933
+2014;Strasshof an der Nordbahn <30856>;9030,625
+2014;Sulz im Weinviertel <30857>;1189,875
+2014;Untersiebenbrunn <30858>;1575
+2014;Velm-Götzendorf <30859>;751,5
+2014;Weiden an der March <30865>;1007,875
+2014;Weikendorf <30860>;1950
+2014;Zistersdorf <30863>;5383,875
+2014;Zwerndorf ^<30864>;-
+2014;Amaliendorf-Aalfang <30902>;1115,75
+2014;Bad Großpertholz <30910>;1331,375
+2014;Brand-Nagelberg <30903>;1624,5
+2014;Eggern <30904>;718,125
+2014;Eisgarn <30906>;687,75
+2014;Gmünd <30908>;5358,125
+2014;Großdietmanns <30909>;2279,5
+2014;Großschönau <30912>;1239,625
+2014;Haugschlag <30915>;491,375
+2014;Heidenreichstein <30916>;4006,75
+2014;Hirschbach <30917>;568,5
+2014;Hoheneich <30920>;1409,875
+2014;Kirchberg am Walde <30921>;1347,5
+2014;Litschau <30925>;2279,75
+2014;Moorbad Harbach <30913>;677
+2014;Reingers <30929>;665,125
+2014;St. Martin <30932>;1119
+2014;Schrems <30935>;5575
+2014;Seyfrieds ^<30936>;-
+2014;Unserfrau-Altweitra <30939>;997,25
+2014;Waldenstein <30940>;1198
+2014;Weitra <30942>;2708,625
+2014;Wolfsegg ^<30944>;-
+2014;Alberndorf im Pulkautal <31001>;706,625
+2014;Göllersdorf <31008>;2976,125
+2014;Grabern <31009>;1472
+2014;Guntersdorf <31014>;1158,625
+2014;Hadres <31015>;1690,875
+2014;Hardegg <31016>;1320
+2014;Haugsdorf <31018>;1566
+2014;Heldenberg <31019>;1237,125
+2014;Hofern ^<31020>;-
+2014;Hohenwarth-Mühlbach a.M. <31021>;1267
+2014;Hollabrunn <31022>;11563,375
+2014;Mailberg <31025>;577,375
+2014;Maissau <31026>;1886,625
+2014;Nappersdorf-Kammersdorf <31028>;1239
+2014;Niederfladnitz ^<31029>;-
+2014;Pernersdorf <31033>;1008,625
+2014;Pulkau <31035>;1553,375
+2014;Ravelsbach <31036>;1617,125
+2014;Retz <31037>;4199,75
+2014;Retzbach <31038>;987,75
+2014;Schrattenthal <31041>;858,125
+2014;Seefeld-Kadolz <31042>;920,875
+2014;Sitzendorf an der Schmida <31043>;2130,25
+2014;Wullersdorf <31051>;2340,875
+2014;Zellerndorf <31052>;2470
+2014;Ziersdorf <31053>;3331,125
+2014;Au am Leithaberge <30701>;906,25
+2014;Bad Deutsch-Altenburg <30702>;1524,125
+2014;Berg <30703>;772,25
+2014;Bruck an der Leitha <30704>;7720,125
+2014;Ebergassing <30729>;-
+2014;Enzersdorf an der Fischa <30706>;3057,375
+2014;Fischamend <30730>;-
+2014;Göttlesbrunn-Arbesthal <30708>;1391,5
+2014;Götzendorf an der Leitha <30709>;2074,875
+2014;Gramatneusiedl <30731>;-
+2014;Hainburg a.d. Donau <30710>;6143,375
+2014;Haslau-Maria Ellend <30711>;1914,875
+2014;Himberg <30732>;-
+2014;Hof am Leithaberge <30713>;1502
+2014;Höflein <30712>;1212,125
+2014;Hundsheim <30715>;590,625
+2014;Klein-Neusiedl <30733>;-
+2014;Lanzendorf <30734>;-
+2014;Leopoldsdorf <30735>;-
+2014;Mannersdorf am Leithagebirge <30716>;3937,875
+2014;Maria-Lanzendorf <30736>;-
+2014;Moosbrunn <30737>;-
+2014;Petronell-Carnuntum <30718>;1217,5
+2014;Prellenkirchen <30719>;1472,25
+2014;Rauchenwarth <30738>;-
+2014;Rohrau <30721>;1557,75
+2014;Scharndorf <30722>;1164,25
+2014;Schwadorf <30739>;-
+2014;Schwechat <30740>;-
+2014;Sommerein <30724>;1923,25
+2014;Trautmannsdorf an der Leitha <30726>;2814,625
+2014;Wolfsthal <30728>;949
+2014;Zwölfaxing <30741>;-
+2015;Allhartsberg <30501>;2100
+2015;Amstetten <30502>;23254,375
+2015;Ardagger <30503>;3427,875
+2015;Aschbach-Markt <30504>;3713,5
+2015;Behamberg <30506>;3269,125
+2015;Biberbach <30507>;2250,125
+2015;Ennsdorf <30508>;2978,5
+2015;Ernsthofen <30509>;2157,875
+2015;Ertl <30510>;1259,875
+2015;Euratsfeld <30511>;2567
+2015;Ferschnitz <30512>;1711,125
+2015;Haag <30514>;5505,5
+2015;Haidershofen <30515>;3575
+2015;Hollenstein an der Ybbs <30516>;1689,5
+2015;Kematen an der Ybbs <30517>;2560,25
+2015;Neuhofen an der Ybbs <30520>;2908,125
+2015;Neustadtl an der Donau <30521>;2140
+2015;Oed-Oehling <30522>;1866,25
+2015;Opponitz <30524>;964,125
+2015;St. Georgen am Reith <30526>;557
+2015;St. Georgen am Ybbsfelde <30527>;2784,25
+2015;St. Pantaleon-Erla <30529>;2589,75
+2015;St. Peter in der Au <30530>;5088,5
+2015;St. Valentin <30531>;9206,75
+2015;Seitenstetten <30532>;3331,875
+2015;Sonntagberg <30533>;3820
+2015;Strengberg <30534>;2011,5
+2015;Viehdorf <30536>;1372,875
+2015;Wallsee-Sindelburg <30538>;2175,25
+2015;Weistrach <30539>;2190,125
+2015;Winklarn <30541>;1594,5
+2015;Wolfsbach <30542>;1947,25
+2015;Ybbsitz <30543>;3510
+2015;Zeillern <30544>;1819,75
+2015;Alland <30601>;2546,5
+2015;Altenmarkt an der Triesting <30602>;2197,875
+2015;Bad Vöslau <30603>;11559,125
+2015;Baden <30604>;25469,375
+2015;Berndorf <30605>;8993,375
+2015;Blumau-Neurißhof <30646>;1825
+2015;Ebreichsdorf <30607>;10562,375
+2015;Enzesfeld-Lindabrunn <30608>;4218,75
+2015;Furth an der Triesting <30609>;825,625
+2015;Günselsdorf <30612>;1733,625
+2015;Heiligenkreuz <30613>;1556,75
+2015;Hernstein <30614>;1514,125
+2015;Hirtenberg <30615>;2592
+2015;Klausen-Leopoldsdorf <30616>;1643,125
+2015;Kottingbrunn <30618>;7415,75
+2015;Leobersdorf <30620>;4910,625
+2015;Mitterndorf an der Fischa <30621>;2404,875
+2015;Oberwaltersdorf <30623>;4275,75
+2015;Pfaffstätten <30625>;3509,625
+2015;Pottendorf <30626>;6691,875
+2015;Pottenstein <30627>;2936,25
+2015;Reisenberg <30629>;1650,125
+2015;Schönau an der Triesting <30631>;2103,5
+2015;Seibersdorf <30633>;1435,5
+2015;Sooß <30635>;1053,5
+2015;Tattendorf <30636>;1424,625
+2015;Teesdorf <30637>;1760,125
+2015;Traiskirchen <30639>;18434,875
+2015;Trumau <30641>;3627,625
+2015;Weissenbach an der Triesting <30645>;1735
+2015;Aderklaa <30801>;208,625
+2015;Andlersdorf <30802>;138,875
+2015;Angern an der March <30803>;3344,875
+2015;Auersthal <30804>;1883,25
+2015;Bad Pirawarth <30805>;1661,375
+2015;Baumgarten ^<30806>;-
+2015;Deutsch-Wagram <30808>;8171,5
+2015;Drösing <30810>;1105,125
+2015;Dürnkrut <30811>;2270,75
+2015;Ebenthal <30812>;864,125
+2015;Eckartsau <30813>;1228,25
+2015;Engelhartstetten <30814>;1950
+2015;Gänserndorf <30817>;10884,625
+2015;Glinzendorf <30819>;274,625
+2015;Groß-Enzersdorf <30821>;10354,125
+2015;Großhofen <30822>;89,75
+2015;Groß-Schweinbarth <30824>;1290,875
+2015;Haringsee <30825>;1180,75
+2015;Hauskirchen <30826>;1240,625
+2015;Hohenau an der March <30827>;2697,75
+2015;Hohenruppersdorf <30828>;910,125
+2015;Jedenspeigen <30829>;1077,5
+2015;Lassee <30830>;2670,5
+2015;Leopoldsdorf im Marchfeld <30831>;2683,875
+2015;Mannsdorf an der Donau <30834>;373,625
+2015;Marchegg <30835>;2940,125
+2015;Markgrafneusiedl <30836>;834,375
+2015;Matzen-Raggendorf <30838>;2797,625
+2015;Neusiedl an der Zaya <30841>;1239
+2015;Obersiebenbrunn <30842>;1681
+2015;Orth an der Donau <30844>;2048,25
+2015;Palterndorf-Dobermannsdorf <30845>;1289,375
+2015;Parbasdorf <30846>;164,375
+2015;Prottes <30848>;1382,125
+2015;Raasdorf <30849>;655,75
+2015;Ringelsdorf-Niederabsdorf <30850>;1282,875
+2015;Schönkirchen-Reyersdorf <30852>;1966,75
+2015;Spannberg <30854>;963,75
+2015;Strasshof an der Nordbahn <30856>;9235
+2015;Sulz im Weinviertel <30857>;1202,625
+2015;Untersiebenbrunn <30858>;1659,875
+2015;Velm-Götzendorf <30859>;738
+2015;Weiden an der March <30865>;1012
+2015;Weikendorf <30860>;1984,625
+2015;Zistersdorf <30863>;5409,875
+2015;Zwerndorf ^<30864>;-
+2015;Amaliendorf-Aalfang <30902>;1117
+2015;Bad Großpertholz <30910>;1352,625
+2015;Brand-Nagelberg <30903>;1597,875
+2015;Eggern <30904>;703,75
+2015;Eisgarn <30906>;678,75
+2015;Gmünd <30908>;5455,625
+2015;Großdietmanns <30909>;2249,875
+2015;Großschönau <30912>;1233,25
+2015;Haugschlag <30915>;486,75
+2015;Heidenreichstein <30916>;4058,375
+2015;Hirschbach <30917>;566,125
+2015;Hoheneich <30920>;1386,25
+2015;Kirchberg am Walde <30921>;1353,5
+2015;Litschau <30925>;2281,875
+2015;Moorbad Harbach <30913>;690,5
+2015;Reingers <30929>;660,25
+2015;St. Martin <30932>;1119,25
+2015;Schrems <30935>;5521,25
+2015;Seyfrieds ^<30936>;-
+2015;Unserfrau-Altweitra <30939>;990,5
+2015;Waldenstein <30940>;1209,625
+2015;Weitra <30942>;2703,125
+2015;Wolfsegg ^<30944>;-
+2015;Alberndorf im Pulkautal <31001>;718,375
+2015;Göllersdorf <31008>;2985
+2015;Grabern <31009>;1499,125
+2015;Guntersdorf <31014>;1143,25
+2015;Hadres <31015>;1702
+2015;Hardegg <31016>;1306,25
+2015;Haugsdorf <31018>;1555,75
+2015;Heldenberg <31019>;1252,625
+2015;Hofern ^<31020>;-
+2015;Hohenwarth-Mühlbach a.M. <31021>;1275,125
+2015;Hollabrunn <31022>;11677,5
+2015;Mailberg <31025>;570,25
+2015;Maissau <31026>;1919,75
+2015;Nappersdorf-Kammersdorf <31028>;1241,875
+2015;Niederfladnitz ^<31029>;-
+2015;Pernersdorf <31033>;1010,75
+2015;Pulkau <31035>;1548,875
+2015;Ravelsbach <31036>;1604,25
+2015;Retz <31037>;4238,25
+2015;Retzbach <31038>;991,75
+2015;Schrattenthal <31041>;865
+2015;Seefeld-Kadolz <31042>;923,875
+2015;Sitzendorf an der Schmida <31043>;2152,625
+2015;Wullersdorf <31051>;2373
+2015;Zellerndorf <31052>;2455,375
+2015;Ziersdorf <31053>;3365,5
+2015;Au am Leithaberge <30701>;937,125
+2015;Bad Deutsch-Altenburg <30702>;1566,625
+2015;Berg <30703>;817
+2015;Bruck an der Leitha <30704>;7775
+2015;Ebergassing <30729>;-
+2015;Enzersdorf an der Fischa <30706>;3091,375
+2015;Fischamend <30730>;-
+2015;Göttlesbrunn-Arbesthal <30708>;1404,5
+2015;Götzendorf an der Leitha <30709>;2092,5
+2015;Gramatneusiedl <30731>;-
+2015;Hainburg a.d. Donau <30710>;6288,125
+2015;Haslau-Maria Ellend <30711>;1937,875
+2015;Himberg <30732>;-
+2015;Hof am Leithaberge <30713>;1512,25
+2015;Höflein <30712>;1226,375
+2015;Hundsheim <30715>;581,625
+2015;Klein-Neusiedl <30733>;-
+2015;Lanzendorf <30734>;-
+2015;Leopoldsdorf <30735>;-
+2015;Mannersdorf am Leithagebirge <30716>;3955,5
+2015;Maria-Lanzendorf <30736>;-
+2015;Moosbrunn <30737>;-
+2015;Petronell-Carnuntum <30718>;1241,125
+2015;Prellenkirchen <30719>;1508,625
+2015;Rauchenwarth <30738>;-
+2015;Rohrau <30721>;1579
+2015;Scharndorf <30722>;1162,625
+2015;Schwadorf <30739>;-
+2015;Schwechat <30740>;-
+2015;Sommerein <30724>;1945,625
+2015;Trautmannsdorf an der Leitha <30726>;2807,875
+2015;Wolfsthal <30728>;969,5
+2015;Zwölfaxing <30741>;-
+2016;Allhartsberg <30501>;2105,375
+2016;Amstetten <30502>;23585,75
+2016;Ardagger <30503>;3478
+2016;Aschbach-Markt <30504>;3753,25
+2016;Behamberg <30506>;3304,125
+2016;Biberbach <30507>;2263,5
+2016;Ennsdorf <30508>;3015,625
+2016;Ernsthofen <30509>;2182,625
+2016;Ertl <30510>;1257,375
+2016;Euratsfeld <30511>;2604,5
+2016;Ferschnitz <30512>;1730
+2016;Haag <30514>;5511,75
+2016;Haidershofen <30515>;3646,125
+2016;Hollenstein an der Ybbs <30516>;1703
+2016;Kematen an der Ybbs <30517>;2622,625
+2016;Neuhofen an der Ybbs <30520>;2923,5
+2016;Neustadtl an der Donau <30521>;2148,5
+2016;Oed-Oehling <30522>;1901,375
+2016;Opponitz <30524>;966,5
+2016;St. Georgen am Reith <30526>;598,125
+2016;St. Georgen am Ybbsfelde <30527>;2836,125
+2016;St. Pantaleon-Erla <30529>;2588,875
+2016;St. Peter in der Au <30530>;5122,5
+2016;St. Valentin <30531>;9298,625
+2016;Seitenstetten <30532>;3366,25
+2016;Sonntagberg <30533>;3839,25
+2016;Strengberg <30534>;2038,75
+2016;Viehdorf <30536>;1391,375
+2016;Wallsee-Sindelburg <30538>;2167,125
+2016;Weistrach <30539>;2187,25
+2016;Winklarn <30541>;1621,75
+2016;Wolfsbach <30542>;1984,875
+2016;Ybbsitz <30543>;3482,875
+2016;Zeillern <30544>;1857
+2016;Alland <30601>;2663,25
+2016;Altenmarkt an der Triesting <30602>;2205,625
+2016;Bad Vöslau <30603>;11781,375
+2016;Baden <30604>;26060,5
+2016;Berndorf <30605>;9074,125
+2016;Blumau-Neurißhof <30646>;1835,75
+2016;Ebreichsdorf <30607>;10690,375
+2016;Enzesfeld-Lindabrunn <30608>;4215,375
+2016;Furth an der Triesting <30609>;854,25
+2016;Günselsdorf <30612>;1741,375
+2016;Heiligenkreuz <30613>;1579,5
+2016;Hernstein <30614>;1538,125
+2016;Hirtenberg <30615>;2616,75
+2016;Klausen-Leopoldsdorf <30616>;1664,75
+2016;Kottingbrunn <30618>;7413,5
+2016;Leobersdorf <30620>;4927,5
+2016;Mitterndorf an der Fischa <30621>;2520,5
+2016;Oberwaltersdorf <30623>;4413
+2016;Pfaffstätten <30625>;3531,75
+2016;Pottendorf <30626>;6873
+2016;Pottenstein <30627>;2918
+2016;Reisenberg <30629>;1654,5
+2016;Schönau an der Triesting <30631>;2101,75
+2016;Seibersdorf <30633>;1448,875
+2016;Sooß <30635>;1057
+2016;Tattendorf <30636>;1445,875
+2016;Teesdorf <30637>;1826,75
+2016;Traiskirchen <30639>;18635,375
+2016;Trumau <30641>;3644,125
+2016;Weissenbach an der Triesting <30645>;1732
+2016;Aderklaa <30801>;201,75
+2016;Andlersdorf <30802>;131,125
+2016;Angern an der March <30803>;3359,25
+2016;Auersthal <30804>;1931,875
+2016;Bad Pirawarth <30805>;1658,5
+2016;Baumgarten ^<30806>;-
+2016;Deutsch-Wagram <30808>;8396,75
+2016;Drösing <30810>;1117,375
+2016;Dürnkrut <30811>;2249,375
+2016;Ebenthal <30812>;888,625
+2016;Eckartsau <30813>;1255,875
+2016;Engelhartstetten <30814>;1962,875
+2016;Gänserndorf <30817>;11123,875
+2016;Glinzendorf <30819>;273,875
+2016;Groß-Enzersdorf <30821>;10667
+2016;Großhofen <30822>;93,875
+2016;Groß-Schweinbarth <30824>;1272,875
+2016;Haringsee <30825>;1175,25
+2016;Hauskirchen <30826>;1244,25
+2016;Hohenau an der March <30827>;2731,625
+2016;Hohenruppersdorf <30828>;909,625
+2016;Jedenspeigen <30829>;1064,875
+2016;Lassee <30830>;2717
+2016;Leopoldsdorf im Marchfeld <30831>;2775,875
+2016;Mannsdorf an der Donau <30834>;363,75
+2016;Marchegg <30835>;2925,5
+2016;Markgrafneusiedl <30836>;837,5
+2016;Matzen-Raggendorf <30838>;2775,625
+2016;Neusiedl an der Zaya <30841>;1247,625
+2016;Obersiebenbrunn <30842>;1692,125
+2016;Orth an der Donau <30844>;2078,75
+2016;Palterndorf-Dobermannsdorf <30845>;1315,125
+2016;Parbasdorf <30846>;167,5
+2016;Prottes <30848>;1425,625
+2016;Raasdorf <30849>;658,125
+2016;Ringelsdorf-Niederabsdorf <30850>;1263,75
+2016;Schönkirchen-Reyersdorf <30852>;1970,5
+2016;Spannberg <30854>;994,625
+2016;Strasshof an der Nordbahn <30856>;9571
+2016;Sulz im Weinviertel <30857>;1194,75
+2016;Untersiebenbrunn <30858>;1720,875
+2016;Velm-Götzendorf <30859>;731,875
+2016;Weiden an der March <30865>;994,75
+2016;Weikendorf <30860>;2010,25
+2016;Zistersdorf <30863>;5376,375
+2016;Zwerndorf ^<30864>;-
+2016;Amaliendorf-Aalfang <30902>;1120,5
+2016;Bad Großpertholz <30910>;1372
+2016;Brand-Nagelberg <30903>;1603
+2016;Eggern <30904>;691,25
+2016;Eisgarn <30906>;682,5
+2016;Gmünd <30908>;5538,125
+2016;Großdietmanns <30909>;2229,875
+2016;Großschönau <30912>;1228,625
+2016;Haugschlag <30915>;487
+2016;Heidenreichstein <30916>;4100,375
+2016;Hirschbach <30917>;580,75
+2016;Hoheneich <30920>;1399,5
+2016;Kirchberg am Walde <30921>;1347,375
+2016;Litschau <30925>;2298,5
+2016;Moorbad Harbach <30913>;707,875
+2016;Reingers <30929>;650,25
+2016;St. Martin <30932>;1133,875
+2016;Schrems <30935>;5482,5
+2016;Seyfrieds ^<30936>;-
+2016;Unserfrau-Altweitra <30939>;1002
+2016;Waldenstein <30940>;1199,875
+2016;Weitra <30942>;2713,625
+2016;Wolfsegg ^<30944>;-
+2016;Alberndorf im Pulkautal <31001>;738
+2016;Göllersdorf <31008>;3005,5
+2016;Grabern <31009>;1553,875
+2016;Guntersdorf <31014>;1138,125
+2016;Hadres <31015>;1678,5
+2016;Hardegg <31016>;1290,375
+2016;Haugsdorf <31018>;1594,125
+2016;Heldenberg <31019>;1261
+2016;Hofern ^<31020>;-
+2016;Hohenwarth-Mühlbach a.M. <31021>;1290
+2016;Hollabrunn <31022>;11708,875
+2016;Mailberg <31025>;558,375
+2016;Maissau <31026>;1940,75
+2016;Nappersdorf-Kammersdorf <31028>;1248,375
+2016;Niederfladnitz ^<31029>;-
+2016;Pernersdorf <31033>;1023,75
+2016;Pulkau <31035>;1544,375
+2016;Ravelsbach <31036>;1596
+2016;Retz <31037>;4321,5
+2016;Retzbach <31038>;1012,5
+2016;Schrattenthal <31041>;853,875
+2016;Seefeld-Kadolz <31042>;930,625
+2016;Sitzendorf an der Schmida <31043>;2152,125
+2016;Wullersdorf <31051>;2393,5
+2016;Zellerndorf <31052>;2446,5
+2016;Ziersdorf <31053>;3439,875
+2016;Au am Leithaberge <30701>;939,375
+2016;Bad Deutsch-Altenburg <30702>;1695
+2016;Berg <30703>;870,375
+2016;Bruck an der Leitha <30704>;7940,375
+2016;Ebergassing <30729>;-
+2016;Enzersdorf an der Fischa <30706>;3117
+2016;Fischamend <30730>;-
+2016;Göttlesbrunn-Arbesthal <30708>;1396,875
+2016;Götzendorf an der Leitha <30709>;2092,25
+2016;Gramatneusiedl <30731>;-
+2016;Hainburg a.d. Donau <30710>;6449,875
+2016;Haslau-Maria Ellend <30711>;1941,875
+2016;Himberg <30732>;-
+2016;Hof am Leithaberge <30713>;1538,625
+2016;Höflein <30712>;1233,875
+2016;Hundsheim <30715>;580,875
+2016;Klein-Neusiedl <30733>;-
+2016;Lanzendorf <30734>;-
+2016;Leopoldsdorf <30735>;-
+2016;Mannersdorf am Leithagebirge <30716>;4034,625
+2016;Maria-Lanzendorf <30736>;-
+2016;Moosbrunn <30737>;-
+2016;Petronell-Carnuntum <30718>;1264,375
+2016;Prellenkirchen <30719>;1543,5
+2016;Rauchenwarth <30738>;-
+2016;Rohrau <30721>;1599,125
+2016;Scharndorf <30722>;1154,375
+2016;Schwadorf <30739>;-
+2016;Schwechat <30740>;-
+2016;Sommerein <30724>;1959,875
+2016;Trautmannsdorf an der Leitha <30726>;2840,5
+2016;Wolfsthal <30728>;1003,125
+2016;Zwölfaxing <30741>;-
+2017;Allhartsberg <30501>;2111,5
+2017;Amstetten <30502>;23617,125
+2017;Ardagger <30503>;3504,25
+2017;Aschbach-Markt <30504>;3784,75
+2017;Behamberg <30506>;3342,375
+2017;Biberbach <30507>;2258,625
+2017;Ennsdorf <30508>;3048,625
+2017;Ernsthofen <30509>;2204,625
+2017;Ertl <30510>;1256,625
+2017;Euratsfeld <30511>;2631,375
+2017;Ferschnitz <30512>;1758,5
+2017;Haag <30514>;5538,125
+2017;Haidershofen <30515>;3663,25
+2017;Hollenstein an der Ybbs <30516>;1701
+2017;Kematen an der Ybbs <30517>;2609,875
+2017;Neuhofen an der Ybbs <30520>;2921
+2017;Neustadtl an der Donau <30521>;2145,375
+2017;Oed-Oehling <30522>;1888,25
+2017;Opponitz <30524>;938,625
+2017;St. Georgen am Reith <30526>;584
+2017;St. Georgen am Ybbsfelde <30527>;2876,625
+2017;St. Pantaleon-Erla <30529>;2594,625
+2017;St. Peter in der Au <30530>;5148,25
+2017;St. Valentin <30531>;9318,625
+2017;Seitenstetten <30532>;3379,5
+2017;Sonntagberg <30533>;3841,625
+2017;Strengberg <30534>;2053,375
+2017;Viehdorf <30536>;1381,875
+2017;Wallsee-Sindelburg <30538>;2182,5
+2017;Weistrach <30539>;2207,25
+2017;Winklarn <30541>;1682
+2017;Wolfsbach <30542>;2019,5
+2017;Ybbsitz <30543>;3452,5
+2017;Zeillern <30544>;1872,5
+2017;Alland <30601>;2659,125
+2017;Altenmarkt an der Triesting <30602>;2106,625
+2017;Bad Vöslau <30603>;11911,375
+2017;Baden <30604>;26220
+2017;Berndorf <30605>;9096,375
+2017;Blumau-Neurißhof <30646>;1850
+2017;Ebreichsdorf <30607>;10836,75
+2017;Enzesfeld-Lindabrunn <30608>;4189,625
+2017;Furth an der Triesting <30609>;853,625
+2017;Günselsdorf <30612>;1714,25
+2017;Heiligenkreuz <30613>;1530,5
+2017;Hernstein <30614>;1531,625
+2017;Hirtenberg <30615>;2597
+2017;Klausen-Leopoldsdorf <30616>;1672,875
+2017;Kottingbrunn <30618>;7418
+2017;Leobersdorf <30620>;4904,875
+2017;Mitterndorf an der Fischa <30621>;2667,5
+2017;Oberwaltersdorf <30623>;4514,125
+2017;Pfaffstätten <30625>;3560,25
+2017;Pottendorf <30626>;6969,625
+2017;Pottenstein <30627>;2919,125
+2017;Reisenberg <30629>;1660,25
+2017;Schönau an der Triesting <30631>;2113
+2017;Seibersdorf <30633>;1464,875
+2017;Sooß <30635>;1059,375
+2017;Tattendorf <30636>;1439,375
+2017;Teesdorf <30637>;1825,375
+2017;Traiskirchen <30639>;18735
+2017;Trumau <30641>;3651,25
+2017;Weissenbach an der Triesting <30645>;1729
+2017;Aderklaa <30801>;207,875
+2017;Andlersdorf <30802>;137,5
+2017;Angern an der March <30803>;3380,875
+2017;Auersthal <30804>;1935
+2017;Bad Pirawarth <30805>;1670,25
+2017;Baumgarten ^<30806>;-
+2017;Deutsch-Wagram <30808>;8572,5
+2017;Drösing <30810>;1131,5
+2017;Dürnkrut <30811>;2255,25
+2017;Ebenthal <30812>;914,875
+2017;Eckartsau <30813>;1278,5
+2017;Engelhartstetten <30814>;2004,25
+2017;Gänserndorf <30817>;11274,75
+2017;Glinzendorf <30819>;284,5
+2017;Groß-Enzersdorf <30821>;11039,125
+2017;Großhofen <30822>;96,625
+2017;Groß-Schweinbarth <30824>;1249,875
+2017;Haringsee <30825>;1190
+2017;Hauskirchen <30826>;1237,25
+2017;Hohenau an der March <30827>;2723,25
+2017;Hohenruppersdorf <30828>;902,25
+2017;Jedenspeigen <30829>;1067,75
+2017;Lassee <30830>;2752,625
+2017;Leopoldsdorf im Marchfeld <30831>;2846,125
+2017;Mannsdorf an der Donau <30834>;346,375
+2017;Marchegg <30835>;2921,75
+2017;Markgrafneusiedl <30836>;835,625
+2017;Matzen-Raggendorf <30838>;2786,375
+2017;Neusiedl an der Zaya <30841>;1257,625
+2017;Obersiebenbrunn <30842>;1695
+2017;Orth an der Donau <30844>;2078,125
+2017;Palterndorf-Dobermannsdorf <30845>;1331,375
+2017;Parbasdorf <30846>;170
+2017;Prottes <30848>;1436,375
+2017;Raasdorf <30849>;667,5
+2017;Ringelsdorf-Niederabsdorf <30850>;1264,625
+2017;Schönkirchen-Reyersdorf <30852>;1967,875
+2017;Spannberg <30854>;1005,75
+2017;Strasshof an der Nordbahn <30856>;9887,25
+2017;Sulz im Weinviertel <30857>;1186,875
+2017;Untersiebenbrunn <30858>;1726,625
+2017;Velm-Götzendorf <30859>;728,75
+2017;Weiden an der March <30865>;991,375
+2017;Weikendorf <30860>;2023,5
+2017;Zistersdorf <30863>;5377,375
+2017;Zwerndorf ^<30864>;-
+2017;Amaliendorf-Aalfang <30902>;1116,125
+2017;Bad Großpertholz <30910>;1366,25
+2017;Brand-Nagelberg <30903>;1566,875
+2017;Eggern <30904>;697,625
+2017;Eisgarn <30906>;681,75
+2017;Gmünd <30908>;5445
+2017;Großdietmanns <30909>;2212,25
+2017;Großschönau <30912>;1212,375
+2017;Haugschlag <30915>;487,25
+2017;Heidenreichstein <30916>;4060,25
+2017;Hirschbach <30917>;585,75
+2017;Hoheneich <30920>;1420,375
+2017;Kirchberg am Walde <30921>;1319,75
+2017;Litschau <30925>;2288,125
+2017;Moorbad Harbach <30913>;716,5
+2017;Reingers <30929>;642,5
+2017;St. Martin <30932>;1129
+2017;Schrems <30935>;5437,5
+2017;Seyfrieds ^<30936>;-
+2017;Unserfrau-Altweitra <30939>;1002,875
+2017;Waldenstein <30940>;1189,5
+2017;Weitra <30942>;2691,625
+2017;Wolfsegg ^<30944>;-
+2017;Alberndorf im Pulkautal <31001>;751,125
+2017;Göllersdorf <31008>;3002,75
+2017;Grabern <31009>;1612,25
+2017;Guntersdorf <31014>;1140,25
+2017;Hadres <31015>;1679,75
+2017;Hardegg <31016>;1296,875
+2017;Haugsdorf <31018>;1580
+2017;Heldenberg <31019>;1262,625
+2017;Hofern ^<31020>;-
+2017;Hohenwarth-Mühlbach a.M. <31021>;1293,125
+2017;Hollabrunn <31022>;11658
+2017;Mailberg <31025>;559,5
+2017;Maissau <31026>;1933,875
+2017;Nappersdorf-Kammersdorf <31028>;1249
+2017;Niederfladnitz ^<31029>;-
+2017;Pernersdorf <31033>;1021,125
+2017;Pulkau <31035>;1547,625
+2017;Ravelsbach <31036>;1593,375
+2017;Retz <31037>;4285,75
+2017;Retzbach <31038>;1010
+2017;Schrattenthal <31041>;866,375
+2017;Seefeld-Kadolz <31042>;930,375
+2017;Sitzendorf an der Schmida <31043>;2158,625
+2017;Wullersdorf <31051>;2388,5
+2017;Zellerndorf <31052>;2427
+2017;Ziersdorf <31053>;3453,375
+2017;Au am Leithaberge <30701>;935,75
+2017;Bad Deutsch-Altenburg <30702>;1748
+2017;Berg <30703>;845,125
+2017;Bruck an der Leitha <30704>;7989,75
+2017;Ebergassing <30729>;3919,75
+2017;Enzersdorf an der Fischa <30706>;3115
+2017;Fischamend <30730>;5533,75
+2017;Göttlesbrunn-Arbesthal <30708>;1396,875
+2017;Götzendorf an der Leitha <30709>;2073,625
+2017;Gramatneusiedl <30731>;3321,625
+2017;Hainburg a.d. Donau <30710>;6532,125
+2017;Haslau-Maria Ellend <30711>;1978,625
+2017;Himberg <30732>;7378
+2017;Hof am Leithaberge <30713>;1540,125
+2017;Höflein <30712>;1229,875
+2017;Hundsheim <30715>;588,75
+2017;Klein-Neusiedl <30733>;916,125
+2017;Lanzendorf <30734>;1865
+2017;Leopoldsdorf <30735>;5085,875
+2017;Mannersdorf am Leithagebirge <30716>;4059,25
+2017;Maria-Lanzendorf <30736>;2116,25
+2017;Moosbrunn <30737>;1775,75
+2017;Petronell-Carnuntum <30718>;1253,25
+2017;Prellenkirchen <30719>;1559,25
+2017;Rauchenwarth <30738>;737
+2017;Rohrau <30721>;1607,625
+2017;Scharndorf <30722>;1154,375
+2017;Schwadorf <30739>;2153,875
+2017;Schwechat <30740>;18067,125
+2017;Sommerein <30724>;1958,375
+2017;Trautmannsdorf an der Leitha <30726>;2868,625
+2017;Wolfsthal <30728>;1014,5
+2017;Zwölfaxing <30741>;1747,25
+2018;Allhartsberg <30501>;2118,125
+2018;Amstetten <30502>;23661,125
+2018;Ardagger <30503>;3543,625
+2018;Aschbach-Markt <30504>;3811
+2018;Behamberg <30506>;3393,25
+2018;Biberbach <30507>;2253,125
+2018;Ennsdorf <30508>;3016,25
+2018;Ernsthofen <30509>;2236,25
+2018;Ertl <30510>;1246,75
+2018;Euratsfeld <30511>;2657,375
+2018;Ferschnitz <30512>;1777,375
+2018;Haag <30514>;5561,125
+2018;Haidershofen <30515>;3682,25
+2018;Hollenstein an der Ybbs <30516>;1700,625
+2018;Kematen an der Ybbs <30517>;2630,375
+2018;Neuhofen an der Ybbs <30520>;2948
+2018;Neustadtl an der Donau <30521>;2137,75
+2018;Oed-Oehling <30522>;1910
+2018;Opponitz <30524>;918,375
+2018;St. Georgen am Reith <30526>;567,625
+2018;St. Georgen am Ybbsfelde <30527>;2879,375
+2018;St. Pantaleon-Erla <30529>;2606,75
+2018;St. Peter in der Au <30530>;5162,625
+2018;St. Valentin <30531>;9319,75
+2018;Seitenstetten <30532>;3424,75
+2018;Sonntagberg <30533>;3846,25
+2018;Strengberg <30534>;2070,25
+2018;Viehdorf <30536>;1362,25
+2018;Wallsee-Sindelburg <30538>;2178
+2018;Weistrach <30539>;2217,5
+2018;Winklarn <30541>;1702,375
+2018;Wolfsbach <30542>;2015,875
+2018;Ybbsitz <30543>;3432,5
+2018;Zeillern <30544>;1869,625
+2018;Alland <30601>;2582
+2018;Altenmarkt an der Triesting <30602>;2099,5
+2018;Bad Vöslau <30603>;12020,875
+2018;Baden <30604>;26135,25
+2018;Berndorf <30605>;9074,875
+2018;Blumau-Neurißhof <30646>;1827,375
+2018;Ebreichsdorf <30607>;11030,75
+2018;Enzesfeld-Lindabrunn <30608>;4171,875
+2018;Furth an der Triesting <30609>;866,875
+2018;Günselsdorf <30612>;1716,125
+2018;Heiligenkreuz <30613>;1533
+2018;Hernstein <30614>;1552,125
+2018;Hirtenberg <30615>;2606,25
+2018;Klausen-Leopoldsdorf <30616>;1684,875
+2018;Kottingbrunn <30618>;7354,125
+2018;Leobersdorf <30620>;4894,75
+2018;Mitterndorf an der Fischa <30621>;2742,375
+2018;Oberwaltersdorf <30623>;4639
+2018;Pfaffstätten <30625>;3558,125
+2018;Pottendorf <30626>;7086,875
+2018;Pottenstein <30627>;2931
+2018;Reisenberg <30629>;1705,25
+2018;Schönau an der Triesting <30631>;2124,75
+2018;Seibersdorf <30633>;1480,625
+2018;Sooß <30635>;1035
+2018;Tattendorf <30636>;1448,125
+2018;Teesdorf <30637>;1817,375
+2018;Traiskirchen <30639>;18848,625
+2018;Trumau <30641>;3688,25
+2018;Weissenbach an der Triesting <30645>;1740,25
+2018;Aderklaa <30801>;209
+2018;Andlersdorf <30802>;152,5
+2018;Angern an der March <30803>;3366,75
+2018;Auersthal <30804>;1950,5
+2018;Bad Pirawarth <30805>;1669,25
+2018;Baumgarten ^<30806>;-
+2018;Deutsch-Wagram <30808>;8753,375
+2018;Drösing <30810>;1117,25
+2018;Dürnkrut <30811>;2250,875
+2018;Ebenthal <30812>;916,5
+2018;Eckartsau <30813>;1273,625
+2018;Engelhartstetten <30814>;2057,125
+2018;Gänserndorf <30817>;11515,375
+2018;Glinzendorf <30819>;300,5
+2018;Groß-Enzersdorf <30821>;11296,875
+2018;Großhofen <30822>;98,5
+2018;Groß-Schweinbarth <30824>;1255,375
+2018;Haringsee <30825>;1184,875
+2018;Hauskirchen <30826>;1253,75
+2018;Hohenau an der March <30827>;2751,875
+2018;Hohenruppersdorf <30828>;911,5
+2018;Jedenspeigen <30829>;1068,75
+2018;Lassee <30830>;2801,375
+2018;Leopoldsdorf im Marchfeld <30831>;2857,875
+2018;Mannsdorf an der Donau <30834>;357,75
+2018;Marchegg <30835>;2960,875
+2018;Markgrafneusiedl <30836>;857,125
+2018;Matzen-Raggendorf <30838>;2800,375
+2018;Neusiedl an der Zaya <30841>;1246,375
+2018;Obersiebenbrunn <30842>;1694,375
+2018;Orth an der Donau <30844>;2109,625
+2018;Palterndorf-Dobermannsdorf <30845>;1341,75
+2018;Parbasdorf <30846>;166,75
+2018;Prottes <30848>;1433,75
+2018;Raasdorf <30849>;642,25
+2018;Ringelsdorf-Niederabsdorf <30850>;1257,125
+2018;Schönkirchen-Reyersdorf <30852>;1958,125
+2018;Spannberg <30854>;1008,125
+2018;Strasshof an der Nordbahn <30856>;10201,125
+2018;Sulz im Weinviertel <30857>;1193,375
+2018;Untersiebenbrunn <30858>;1753,25
+2018;Velm-Götzendorf <30859>;736
+2018;Weiden an der March <30865>;998,25
+2018;Weikendorf <30860>;2031,5
+2018;Zistersdorf <30863>;5390,5
+2018;Zwerndorf ^<30864>;-
+2018;Amaliendorf-Aalfang <30902>;1105,25
+2018;Bad Großpertholz <30910>;1337,375
+2018;Brand-Nagelberg <30903>;1535
+2018;Eggern <30904>;691,5
+2018;Eisgarn <30906>;676,375
+2018;Gmünd <30908>;5369,875
+2018;Großdietmanns <30909>;2199,5
+2018;Großschönau <30912>;1211,625
+2018;Haugschlag <30915>;486,5
+2018;Heidenreichstein <30916>;3971
+2018;Hirschbach <30917>;579,875
+2018;Hoheneich <30920>;1412,125
+2018;Kirchberg am Walde <30921>;1304,5
+2018;Litschau <30925>;2244,625
+2018;Moorbad Harbach <30913>;713,875
+2018;Reingers <30929>;638,75
+2018;St. Martin <30932>;1115,125
+2018;Schrems <30935>;5397,25
+2018;Seyfrieds ^<30936>;-
+2018;Unserfrau-Altweitra <30939>;1005,75
+2018;Waldenstein <30940>;1200,75
+2018;Weitra <30942>;2676,75
+2018;Wolfsegg ^<30944>;-
+2018;Alberndorf im Pulkautal <31001>;741,625
+2018;Göllersdorf <31008>;3014,5
+2018;Grabern <31009>;1658,875
+2018;Guntersdorf <31014>;1146
+2018;Hadres <31015>;1685,5
+2018;Hardegg <31016>;1307,875
+2018;Haugsdorf <31018>;1563,625
+2018;Heldenberg <31019>;1301,75
+2018;Hofern ^<31020>;-
+2018;Hohenwarth-Mühlbach a.M. <31021>;1301,875
+2018;Hollabrunn <31022>;11728,125
+2018;Mailberg <31025>;559,625
+2018;Maissau <31026>;1934,375
+2018;Nappersdorf-Kammersdorf <31028>;1222,5
+2018;Niederfladnitz ^<31029>;-
+2018;Pernersdorf <31033>;1021,25
+2018;Pulkau <31035>;1549
+2018;Ravelsbach <31036>;1581,5
+2018;Retz <31037>;4235,875
+2018;Retzbach <31038>;993,125
+2018;Schrattenthal <31041>;867,375
+2018;Seefeld-Kadolz <31042>;934,75
+2018;Sitzendorf an der Schmida <31043>;2154,625
+2018;Wullersdorf <31051>;2376,875
+2018;Zellerndorf <31052>;2443,625
+2018;Ziersdorf <31053>;3421,625
+2018;Au am Leithaberge <30701>;932
+2018;Bad Deutsch-Altenburg <30702>;1762,375
+2018;Berg <30703>;879,5
+2018;Bruck an der Leitha <30704>;7998,125
+2018;Ebergassing <30729>;3909,75
+2018;Enzersdorf an der Fischa <30706>;3183,5
+2018;Fischamend <30730>;5628,375
+2018;Göttlesbrunn-Arbesthal <30708>;1418,375
+2018;Götzendorf an der Leitha <30709>;2080,75
+2018;Gramatneusiedl <30731>;3517,25
+2018;Hainburg a.d. Donau <30710>;6640,875
+2018;Haslau-Maria Ellend <30711>;2007,625
+2018;Himberg <30732>;7388,25
+2018;Hof am Leithaberge <30713>;1539,25
+2018;Höflein <30712>;1235,25
+2018;Hundsheim <30715>;591
+2018;Klein-Neusiedl <30733>;909,25
+2018;Lanzendorf <30734>;1904,625
+2018;Leopoldsdorf <30735>;5128,875
+2018;Mannersdorf am Leithagebirge <30716>;4094,125
+2018;Maria-Lanzendorf <30736>;2163,875
+2018;Moosbrunn <30737>;1788,125
+2018;Petronell-Carnuntum <30718>;1237,375
+2018;Prellenkirchen <30719>;1587,375
+2018;Rauchenwarth <30738>;747,75
+2018;Rohrau <30721>;1598,625
+2018;Scharndorf <30722>;1169
+2018;Schwadorf <30739>;2178,375
+2018;Schwechat <30740>;18253,25
+2018;Sommerein <30724>;1965,25
+2018;Trautmannsdorf an der Leitha <30726>;2895
+2018;Wolfsthal <30728>;1059,75
+2018;Zwölfaxing <30741>;1742,75
+2019;Allhartsberg <30501>;2148,125
+2019;Amstetten <30502>;23776,625
+2019;Ardagger <30503>;3549,25
+2019;Aschbach-Markt <30504>;3817,875
+2019;Behamberg <30506>;3425,875
+2019;Biberbach <30507>;2253,75
+2019;Ennsdorf <30508>;3041,125
+2019;Ernsthofen <30509>;2254,75
+2019;Ertl <30510>;1260
+2019;Euratsfeld <30511>;2674,5
+2019;Ferschnitz <30512>;1818
+2019;Haag <30514>;5591,75
+2019;Haidershofen <30515>;3686,25
+2019;Hollenstein an der Ybbs <30516>;1695,125
+2019;Kematen an der Ybbs <30517>;2619,125
+2019;Neuhofen an der Ybbs <30520>;2979,875
+2019;Neustadtl an der Donau <30521>;2138,125
+2019;Oed-Oehling <30522>;1940,625
+2019;Opponitz <30524>;906,25
+2019;St. Georgen am Reith <30526>;546,375
+2019;St. Georgen am Ybbsfelde <30527>;2863,625
+2019;St. Pantaleon-Erla <30529>;2622
+2019;St. Peter in der Au <30530>;5199,875
+2019;St. Valentin <30531>;9305,25
+2019;Seitenstetten <30532>;3447,25
+2019;Sonntagberg <30533>;3825,5
+2019;Strengberg <30534>;2082,375
+2019;Viehdorf <30536>;1366,75
+2019;Wallsee-Sindelburg <30538>;2180
+2019;Weistrach <30539>;2243,75
+2019;Winklarn <30541>;1746,75
+2019;Wolfsbach <30542>;2023,875
+2019;Ybbsitz <30543>;3404,75
+2019;Zeillern <30544>;1878,875
+2019;Alland <30601>;2566,375
+2019;Altenmarkt an der Triesting <30602>;2112,875
+2019;Bad Vöslau <30603>;12058
+2019;Baden <30604>;25959
+2019;Berndorf <30605>;9084,375
+2019;Blumau-Neurißhof <30646>;1848,25
+2019;Ebreichsdorf <30607>;11178,375
+2019;Enzesfeld-Lindabrunn <30608>;4209,625
+2019;Furth an der Triesting <30609>;863,5
+2019;Günselsdorf <30612>;1722,25
+2019;Heiligenkreuz <30613>;1544,625
+2019;Hernstein <30614>;1541,25
+2019;Hirtenberg <30615>;2640,625
+2019;Klausen-Leopoldsdorf <30616>;1697,25
+2019;Kottingbrunn <30618>;7384,25
+2019;Leobersdorf <30620>;4884,5
+2019;Mitterndorf an der Fischa <30621>;2844,125
+2019;Oberwaltersdorf <30623>;4731
+2019;Pfaffstätten <30625>;3576,625
+2019;Pottendorf <30626>;7183,375
+2019;Pottenstein <30627>;2941,375
+2019;Reisenberg <30629>;1739,875
+2019;Schönau an der Triesting <30631>;2126,375
+2019;Seibersdorf <30633>;1499,5
+2019;Sooß <30635>;1054,25
+2019;Tattendorf <30636>;1466,5
+2019;Teesdorf <30637>;1809,875
+2019;Traiskirchen <30639>;18852,375
+2019;Trumau <30641>;3723,875
+2019;Weissenbach an der Triesting <30645>;1715
+2019;Aderklaa <30801>;198,875
+2019;Andlersdorf <30802>;153,5
+2019;Angern an der March <30803>;3386,125
+2019;Auersthal <30804>;1943,75
+2019;Bad Pirawarth <30805>;1666,5
+2019;Baumgarten ^<30806>;-
+2019;Deutsch-Wagram <30808>;8866,75
+2019;Drösing <30810>;1120,5
+2019;Dürnkrut <30811>;2235,125
+2019;Ebenthal <30812>;899,75
+2019;Eckartsau <30813>;1272,75
+2019;Engelhartstetten <30814>;2088,125
+2019;Gänserndorf <30817>;11626,75
+2019;Glinzendorf <30819>;304,375
+2019;Groß-Enzersdorf <30821>;11512,625
+2019;Großhofen <30822>;102,75
+2019;Groß-Schweinbarth <30824>;1277,75
+2019;Haringsee <30825>;1188,875
+2019;Hauskirchen <30826>;1257,375
+2019;Hohenau an der March <30827>;2710,875
+2019;Hohenruppersdorf <30828>;923,75
+2019;Jedenspeigen <30829>;1088,375
+2019;Lassee <30830>;2850,125
+2019;Leopoldsdorf im Marchfeld <30831>;2908,5
+2019;Mannsdorf an der Donau <30834>;389,125
+2019;Marchegg <30835>;2985,75
+2019;Markgrafneusiedl <30836>;896,875
+2019;Matzen-Raggendorf <30838>;2799,125
+2019;Neusiedl an der Zaya <30841>;1242,375
+2019;Obersiebenbrunn <30842>;1698,5
+2019;Orth an der Donau <30844>;2138,5
+2019;Palterndorf-Dobermannsdorf <30845>;1335,875
+2019;Parbasdorf <30846>;164,5
+2019;Prottes <30848>;1445,625
+2019;Raasdorf <30849>;637,625
+2019;Ringelsdorf-Niederabsdorf <30850>;1237
+2019;Schönkirchen-Reyersdorf <30852>;1960,375
+2019;Spannberg <30854>;1002,125
+2019;Strasshof an der Nordbahn <30856>;10587,125
+2019;Sulz im Weinviertel <30857>;1204
+2019;Untersiebenbrunn <30858>;1747,375
+2019;Velm-Götzendorf <30859>;759,5
+2019;Weiden an der March <30865>;995,625
+2019;Weikendorf <30860>;2028,375
+2019;Zistersdorf <30863>;5397,75
+2019;Zwerndorf ^<30864>;-
+2019;Amaliendorf-Aalfang <30902>;1106
+2019;Bad Großpertholz <30910>;1308
+2019;Brand-Nagelberg <30903>;1516
+2019;Eggern <30904>;684,25
+2019;Eisgarn <30906>;680,375
+2019;Gmünd <30908>;5348,5
+2019;Großdietmanns <30909>;2215,875
+2019;Großschönau <30912>;1208,125
+2019;Haugschlag <30915>;484,5
+2019;Heidenreichstein <30916>;3925,25
+2019;Hirschbach <30917>;573
+2019;Hoheneich <30920>;1403
+2019;Kirchberg am Walde <30921>;1303,25
+2019;Litschau <30925>;2210,5
+2019;Moorbad Harbach <30913>;722,25
+2019;Reingers <30929>;617
+2019;St. Martin <30932>;1094
+2019;Schrems <30935>;5393,375
+2019;Seyfrieds ^<30936>;-
+2019;Unserfrau-Altweitra <30939>;991,875
+2019;Waldenstein <30940>;1201,125
+2019;Weitra <30942>;2649
+2019;Wolfsegg ^<30944>;-
+2019;Alberndorf im Pulkautal <31001>;742,25
+2019;Göllersdorf <31008>;3047,375
+2019;Grabern <31009>;1677,375
+2019;Guntersdorf <31014>;1138,125
+2019;Hadres <31015>;1702,625
+2019;Hardegg <31016>;1307,125
+2019;Haugsdorf <31018>;1558
+2019;Heldenberg <31019>;1332,375
+2019;Hofern ^<31020>;-
+2019;Hohenwarth-Mühlbach a.M. <31021>;1312,875
+2019;Hollabrunn <31022>;11852,5
+2019;Mailberg <31025>;564
+2019;Maissau <31026>;1936
+2019;Nappersdorf-Kammersdorf <31028>;1217,625
+2019;Niederfladnitz ^<31029>;-
+2019;Pernersdorf <31033>;1026,625
+2019;Pulkau <31035>;1535
+2019;Ravelsbach <31036>;1589,375
+2019;Retz <31037>;4235,625
+2019;Retzbach <31038>;1008,125
+2019;Schrattenthal <31041>;872,5
+2019;Seefeld-Kadolz <31042>;944
+2019;Sitzendorf an der Schmida <31043>;2147
+2019;Wullersdorf <31051>;2369,25
+2019;Zellerndorf <31052>;2438
+2019;Ziersdorf <31053>;3394,625
+2019;Au am Leithaberge <30701>;941,75
+2019;Bad Deutsch-Altenburg <30702>;1769,875
+2019;Berg <30703>;892
+2019;Bruck an der Leitha <30704>;8017,375
+2019;Ebergassing <30729>;3939,75
+2019;Enzersdorf an der Fischa <30706>;3290,875
+2019;Fischamend <30730>;5617,75
+2019;Göttlesbrunn-Arbesthal <30708>;1441,125
+2019;Götzendorf an der Leitha <30709>;2082,5
+2019;Gramatneusiedl <30731>;3564,875
+2019;Hainburg a.d. Donau <30710>;6805,25
+2019;Haslau-Maria Ellend <30711>;1995,375
+2019;Himberg <30732>;7431,5
+2019;Hof am Leithaberge <30713>;1546,125
+2019;Höflein <30712>;1241
+2019;Hundsheim <30715>;615,625
+2019;Klein-Neusiedl <30733>;906,375
+2019;Lanzendorf <30734>;1918,875
+2019;Leopoldsdorf <30735>;5165,625
+2019;Mannersdorf am Leithagebirge <30716>;4132,75
+2019;Maria-Lanzendorf <30736>;2186,125
+2019;Moosbrunn <30737>;1790,875
+2019;Petronell-Carnuntum <30718>;1255,625
+2019;Prellenkirchen <30719>;1612,5
+2019;Rauchenwarth <30738>;761,5
+2019;Rohrau <30721>;1611,5
+2019;Scharndorf <30722>;1178
+2019;Schwadorf <30739>;2195,125
+2019;Schwechat <30740>;19014
+2019;Sommerein <30724>;2016,125
+2019;Trautmannsdorf an der Leitha <30726>;2951,5
+2019;Wolfsthal <30728>;1114,75
+2019;Zwölfaxing <30741>;1747,125
+2020;Allhartsberg <30501>;2162
+2020;Amstetten <30502>;23687,625
+2020;Ardagger <30503>;3539,5
+2020;Aschbach-Markt <30504>;3799,625
+2020;Behamberg <30506>;3454,625
+2020;Biberbach <30507>;2270,375
+2020;Ennsdorf <30508>;3087,25
+2020;Ernsthofen <30509>;2289,5
+2020;Ertl <30510>;1260,375
+2020;Euratsfeld <30511>;2684
+2020;Ferschnitz <30512>;1839,375
+2020;Haag <30514>;5646,125
+2020;Haidershofen <30515>;3717,5
+2020;Hollenstein an der Ybbs <30516>;1685,25
+2020;Kematen an der Ybbs <30517>;2659,125
+2020;Neuhofen an der Ybbs <30520>;2970,125
+2020;Neustadtl an der Donau <30521>;2139,875
+2020;Oed-Oehling <30522>;1953,375
+2020;Opponitz <30524>;887,375
+2020;St. Georgen am Reith <30526>;540,75
+2020;St. Georgen am Ybbsfelde <30527>;2896
+2020;St. Pantaleon-Erla <30529>;2643,125
+2020;St. Peter in der Au <30530>;5176,75
+2020;St. Valentin <30531>;9313
+2020;Seitenstetten <30532>;3432,125
+2020;Sonntagberg <30533>;3778
+2020;Strengberg <30534>;2100,125
+2020;Viehdorf <30536>;1362,625
+2020;Wallsee-Sindelburg <30538>;2190
+2020;Weistrach <30539>;2270,5
+2020;Winklarn <30541>;1797,125
+2020;Wolfsbach <30542>;2068,875
+2020;Ybbsitz <30543>;3398,125
+2020;Zeillern <30544>;1875,375
+2020;Alland <30601>;2593,875
+2020;Altenmarkt an der Triesting <30602>;2080,125
+2020;Bad Vöslau <30603>;12236
+2020;Baden <30604>;25908,125
+2020;Berndorf <30605>;9061,25
+2020;Blumau-Neurißhof <30646>;1878,25
+2020;Ebreichsdorf <30607>;11326,125
+2020;Enzesfeld-Lindabrunn <30608>;4208,125
+2020;Furth an der Triesting <30609>;863
+2020;Günselsdorf <30612>;1706,125
+2020;Heiligenkreuz <30613>;1546
+2020;Hernstein <30614>;1555
+2020;Hirtenberg <30615>;2588,75
+2020;Klausen-Leopoldsdorf <30616>;1724,875
+2020;Kottingbrunn <30618>;7341,125
+2020;Leobersdorf <30620>;4917,125
+2020;Mitterndorf an der Fischa <30621>;2918,25
+2020;Oberwaltersdorf <30623>;4845,75
+2020;Pfaffstätten <30625>;3576,5
+2020;Pottendorf <30626>;7288,375
+2020;Pottenstein <30627>;2914,625
+2020;Reisenberg <30629>;1759,5
+2020;Schönau an der Triesting <30631>;2134,375
+2020;Seibersdorf <30633>;1511,5
+2020;Sooß <30635>;1044,5
+2020;Tattendorf <30636>;1461,25
+2020;Teesdorf <30637>;1813,375
+2020;Traiskirchen <30639>;18812
+2020;Trumau <30641>;3709,125
+2020;Weissenbach an der Triesting <30645>;1722,5
+2020;Aderklaa <30801>;195,25
+2020;Andlersdorf <30802>;147,25
+2020;Angern an der March <30803>;3426,875
+2020;Auersthal <30804>;1929
+2020;Bad Pirawarth <30805>;1713,125
+2020;Baumgarten ^<30806>;-
+2020;Deutsch-Wagram <30808>;8995,5
+2020;Drösing <30810>;1111
+2020;Dürnkrut <30811>;2237,625
+2020;Ebenthal <30812>;891,5
+2020;Eckartsau <30813>;1325,125
+2020;Engelhartstetten <30814>;2085,5
+2020;Gänserndorf <30817>;11750,125
+2020;Glinzendorf <30819>;321,375
+2020;Groß-Enzersdorf <30821>;11637,25
+2020;Großhofen <30822>;109,25
+2020;Groß-Schweinbarth <30824>;1305,125
+2020;Haringsee <30825>;1179,375
+2020;Hauskirchen <30826>;1268,25
+2020;Hohenau an der March <30827>;2723,375
+2020;Hohenruppersdorf <30828>;936,125
+2020;Jedenspeigen <30829>;1104,875
+2020;Lassee <30830>;2908,625
+2020;Leopoldsdorf im Marchfeld <30831>;2913
+2020;Mannsdorf an der Donau <30834>;404,5
+2020;Marchegg <30835>;2987,375
+2020;Markgrafneusiedl <30836>;893,25
+2020;Matzen-Raggendorf <30838>;2788,875
+2020;Neusiedl an der Zaya <30841>;1251,75
+2020;Obersiebenbrunn <30842>;1731,625
+2020;Orth an der Donau <30844>;2165,75
+2020;Palterndorf-Dobermannsdorf <30845>;1346,875
+2020;Parbasdorf <30846>;171,25
+2020;Prottes <30848>;1453,625
+2020;Raasdorf <30849>;653,625
+2020;Ringelsdorf-Niederabsdorf <30850>;1228,875
+2020;Schönkirchen-Reyersdorf <30852>;1982,5
+2020;Spannberg <30854>;999,125
+2020;Strasshof an der Nordbahn <30856>;10904,5
+2020;Sulz im Weinviertel <30857>;1203,125
+2020;Untersiebenbrunn <30858>;1753,875
+2020;Velm-Götzendorf <30859>;770,5
+2020;Weiden an der March <30865>;988,875
+2020;Weikendorf <30860>;2030,75
+2020;Zistersdorf <30863>;5385,625
+2020;Zwerndorf ^<30864>;-
+2020;Amaliendorf-Aalfang <30902>;1096,5
+2020;Bad Großpertholz <30910>;1316,5
+2020;Brand-Nagelberg <30903>;1494,625
+2020;Eggern <30904>;671
+2020;Eisgarn <30906>;681,875
+2020;Gmünd <30908>;5292,25
+2020;Großdietmanns <30909>;2216,625
+2020;Großschönau <30912>;1212
+2020;Haugschlag <30915>;483,25
+2020;Heidenreichstein <30916>;3902,25
+2020;Hirschbach <30917>;578,5
+2020;Hoheneich <30920>;1392,25
+2020;Kirchberg am Walde <30921>;1304,75
+2020;Litschau <30925>;2187
+2020;Moorbad Harbach <30913>;721,625
+2020;Reingers <30929>;614,875
+2020;St. Martin <30932>;1081,625
+2020;Schrems <30935>;5377,875
+2020;Seyfrieds ^<30936>;-
+2020;Unserfrau-Altweitra <30939>;978,875
+2020;Waldenstein <30940>;1184,75
+2020;Weitra <30942>;2634,5
+2020;Wolfsegg ^<30944>;-
+2020;Alberndorf im Pulkautal <31001>;748
+2020;Göllersdorf <31008>;3070
+2020;Grabern <31009>;1714
+2020;Guntersdorf <31014>;1156,75
+2020;Hadres <31015>;1700,875
+2020;Hardegg <31016>;1302,5
+2020;Haugsdorf <31018>;1577
+2020;Heldenberg <31019>;1359
+2020;Hofern ^<31020>;-
+2020;Hohenwarth-Mühlbach a.M. <31021>;1309,25
+2020;Hollabrunn <31022>;11927
+2020;Mailberg <31025>;582,625
+2020;Maissau <31026>;1934,875
+2020;Nappersdorf-Kammersdorf <31028>;1213,5
+2020;Niederfladnitz ^<31029>;-
+2020;Pernersdorf <31033>;1027,875
+2020;Pulkau <31035>;1518
+2020;Ravelsbach <31036>;1618
+2020;Retz <31037>;4244,125
+2020;Retzbach <31038>;1011,25
+2020;Schrattenthal <31041>;885,375
+2020;Seefeld-Kadolz <31042>;967,875
+2020;Sitzendorf an der Schmida <31043>;2143,5
+2020;Wullersdorf <31051>;2367,5
+2020;Zellerndorf <31052>;2410,875
+2020;Ziersdorf <31053>;3363,875
+2020;Au am Leithaberge <30701>;949,375
+2020;Bad Deutsch-Altenburg <30702>;1822,875
+2020;Berg <30703>;902,625
+2020;Bruck an der Leitha <30704>;8090,125
+2020;Ebergassing <30729>;3989,75
+2020;Enzersdorf an der Fischa <30706>;3385,5
+2020;Fischamend <30730>;5591
+2020;Göttlesbrunn-Arbesthal <30708>;1452,375
+2020;Götzendorf an der Leitha <30709>;2136,125
+2020;Gramatneusiedl <30731>;3636,625
+2020;Hainburg a.d. Donau <30710>;6928,5
+2020;Haslau-Maria Ellend <30711>;2024,125
+2020;Himberg <30732>;7509,25
+2020;Hof am Leithaberge <30713>;1560,5
+2020;Höflein <30712>;1243,25
+2020;Hundsheim <30715>;633,25
+2020;Klein-Neusiedl <30733>;925,5
+2020;Lanzendorf <30734>;1912,625
+2020;Leopoldsdorf <30735>;5241,5
+2020;Mannersdorf am Leithagebirge <30716>;4119,75
+2020;Maria-Lanzendorf <30736>;2162,125
+2020;Moosbrunn <30737>;1765,625
+2020;Petronell-Carnuntum <30718>;1265,75
+2020;Prellenkirchen <30719>;1622
+2020;Rauchenwarth <30738>;769,125
+2020;Rohrau <30721>;1623,375
+2020;Scharndorf <30722>;1184,75
+2020;Schwadorf <30739>;2208,25
+2020;Schwechat <30740>;19987,375
+2020;Sommerein <30724>;2070,375
+2020;Trautmannsdorf an der Leitha <30726>;2986,625
+2020;Wolfsthal <30728>;1158,5
+2020;Zwölfaxing <30741>;1748
+2021;Allhartsberg <30501>;2176,5
+2021;Amstetten <30502>;23630,5
+2021;Ardagger <30503>;3560,125
+2021;Aschbach-Markt <30504>;3775,25
+2021;Behamberg <30506>;3478,625
+2021;Biberbach <30507>;2291,375
+2021;Ennsdorf <30508>;3134,75
+2021;Ernsthofen <30509>;2280,75
+2021;Ertl <30510>;1245,75
+2021;Euratsfeld <30511>;2693,875
+2021;Ferschnitz <30512>;1827,875
+2021;Haag <30514>;5660,5
+2021;Haidershofen <30515>;3704,375
+2021;Hollenstein an der Ybbs <30516>;1671,5
+2021;Kematen an der Ybbs <30517>;2663,625
+2021;Neuhofen an der Ybbs <30520>;3022,25
+2021;Neustadtl an der Donau <30521>;2155
+2021;Oed-Oehling <30522>;2018,25
+2021;Opponitz <30524>;878,5
+2021;St. Georgen am Reith <30526>;538,375
+2021;St. Georgen am Ybbsfelde <30527>;2900,375
+2021;St. Pantaleon-Erla <30529>;2654,625
+2021;St. Peter in der Au <30530>;5191,875
+2021;St. Valentin <30531>;9347,375
+2021;Seitenstetten <30532>;3434,75
+2021;Sonntagberg <30533>;3737,25
+2021;Strengberg <30534>;2121,875
+2021;Viehdorf <30536>;1356,875
+2021;Wallsee-Sindelburg <30538>;2177
+2021;Weistrach <30539>;2276,25
+2021;Winklarn <30541>;1838,75
+2021;Wolfsbach <30542>;2098,625
+2021;Ybbsitz <30543>;3371,5
+2021;Zeillern <30544>;1891,625
+2021;Alland <30601>;2623,375
+2021;Altenmarkt an der Triesting <30602>;2101,125
+2021;Bad Vöslau <30603>;12336
+2021;Baden <30604>;25750,5
+2021;Berndorf <30605>;9036,75
+2021;Blumau-Neurißhof <30646>;1907,75
+2021;Ebreichsdorf <30607>;11499,25
+2021;Enzesfeld-Lindabrunn <30608>;4211,375
+2021;Furth an der Triesting <30609>;864,375
+2021;Günselsdorf <30612>;1708,75
+2021;Heiligenkreuz <30613>;1526,375
+2021;Hernstein <30614>;1560,125
+2021;Hirtenberg <30615>;2577,5
+2021;Klausen-Leopoldsdorf <30616>;1707,75
+2021;Kottingbrunn <30618>;7336,125
+2021;Leobersdorf <30620>;5006
+2021;Mitterndorf an der Fischa <30621>;2997,5
+2021;Oberwaltersdorf <30623>;4913,625
+2021;Pfaffstätten <30625>;3554,125
+2021;Pottendorf <30626>;7415,875
+2021;Pottenstein <30627>;2892,5
+2021;Reisenberg <30629>;1735,875
+2021;Schönau an der Triesting <30631>;2122,125
+2021;Seibersdorf <30633>;1550,5
+2021;Sooß <30635>;1031,375
+2021;Tattendorf <30636>;1439,375
+2021;Teesdorf <30637>;1795,5
+2021;Traiskirchen <30639>;18730,875
+2021;Trumau <30641>;3735,125
+2021;Weissenbach an der Triesting <30645>;1736,875
+2021;Aderklaa <30801>;197,75
+2021;Andlersdorf <30802>;160,625
+2021;Angern an der March <30803>;3452,75
+2021;Auersthal <30804>;1948,5
+2021;Bad Pirawarth <30805>;1784,875
+2021;Baumgarten ^<30806>;-
+2021;Deutsch-Wagram <30808>;9101,75
+2021;Drösing <30810>;1095,75
+2021;Dürnkrut <30811>;2266,5
+2021;Ebenthal <30812>;900,5
+2021;Eckartsau <30813>;1339,375
+2021;Engelhartstetten <30814>;2106,375
+2021;Gänserndorf <30817>;11893,5
+2021;Glinzendorf <30819>;341
+2021;Groß-Enzersdorf <30821>;11782,375
+2021;Großhofen <30822>;105
+2021;Groß-Schweinbarth <30824>;1313,75
+2021;Haringsee <30825>;1184,5
+2021;Hauskirchen <30826>;1289,75
+2021;Hohenau an der March <30827>;2750,5
+2021;Hohenruppersdorf <30828>;944
+2021;Jedenspeigen <30829>;1115,375
+2021;Lassee <30830>;2973,625
+2021;Leopoldsdorf im Marchfeld <30831>;2895,625
+2021;Mannsdorf an der Donau <30834>;381,25
+2021;Marchegg <30835>;2999,375
+2021;Markgrafneusiedl <30836>;901,375
+2021;Matzen-Raggendorf <30838>;2783,625
+2021;Neusiedl an der Zaya <30841>;1230,625
+2021;Obersiebenbrunn <30842>;1755,125
+2021;Orth an der Donau <30844>;2177,5
+2021;Palterndorf-Dobermannsdorf <30845>;1357,375
+2021;Parbasdorf <30846>;169,5
+2021;Prottes <30848>;1454,5
+2021;Raasdorf <30849>;667,125
+2021;Ringelsdorf-Niederabsdorf <30850>;1251,875
+2021;Schönkirchen-Reyersdorf <30852>;1998,875
+2021;Spannberg <30854>;989,5
+2021;Strasshof an der Nordbahn <30856>;11233
+2021;Sulz im Weinviertel <30857>;1228,25
+2021;Untersiebenbrunn <30858>;1782,375
+2021;Velm-Götzendorf <30859>;767,875
+2021;Weiden an der March <30865>;988
+2021;Weikendorf <30860>;2045,5
+2021;Zistersdorf <30863>;5382,625
+2021;Zwerndorf ^<30864>;-
+2021;Amaliendorf-Aalfang <30902>;1093,25
+2021;Bad Großpertholz <30910>;1297,75
+2021;Brand-Nagelberg <30903>;1469
+2021;Eggern <30904>;681,375
+2021;Eisgarn <30906>;685,375
+2021;Gmünd <30908>;5226,25
+2021;Großdietmanns <30909>;2193
+2021;Großschönau <30912>;1227,125
+2021;Haugschlag <30915>;477,375
+2021;Heidenreichstein <30916>;3874,25
+2021;Hirschbach <30917>;580,625
+2021;Hoheneich <30920>;1393,625
+2021;Kirchberg am Walde <30921>;1294,375
+2021;Litschau <30925>;2165,75
+2021;Moorbad Harbach <30913>;721,875
+2021;Reingers <30929>;621,5
+2021;St. Martin <30932>;1062,625
+2021;Schrems <30935>;5338
+2021;Seyfrieds ^<30936>;-
+2021;Unserfrau-Altweitra <30939>;994,625
+2021;Waldenstein <30940>;1174,75
+2021;Weitra <30942>;2627
+2021;Wolfsegg ^<30944>;-
+2021;Alberndorf im Pulkautal <31001>;737,25
+2021;Göllersdorf <31008>;3113,5
+2021;Grabern <31009>;1729,875
+2021;Guntersdorf <31014>;1147,75
+2021;Hadres <31015>;1726,25
+2021;Hardegg <31016>;1310,375
+2021;Haugsdorf <31018>;1598,125
+2021;Heldenberg <31019>;1417,5
+2021;Hofern ^<31020>;-
+2021;Hohenwarth-Mühlbach a.M. <31021>;1323
+2021;Hollabrunn <31022>;12010
+2021;Mailberg <31025>;570,625
+2021;Maissau <31026>;1956
+2021;Nappersdorf-Kammersdorf <31028>;1192,375
+2021;Niederfladnitz ^<31029>;-
+2021;Pernersdorf <31033>;1045,25
+2021;Pulkau <31035>;1505
+2021;Ravelsbach <31036>;1624,375
+2021;Retz <31037>;4270,75
+2021;Retzbach <31038>;1008,75
+2021;Schrattenthal <31041>;894,625
+2021;Seefeld-Kadolz <31042>;983
+2021;Sitzendorf an der Schmida <31043>;2153
+2021;Wullersdorf <31051>;2386,375
+2021;Zellerndorf <31052>;2422,375
+2021;Ziersdorf <31053>;3374,375
+2021;Au am Leithaberge <30701>;946
+2021;Bad Deutsch-Altenburg <30702>;1933
+2021;Berg <30703>;931,5
+2021;Bruck an der Leitha <30704>;8164,125
+2021;Ebergassing <30729>;4013,25
+2021;Enzersdorf an der Fischa <30706>;3466,125
+2021;Fischamend <30730>;5602,875
+2021;Göttlesbrunn-Arbesthal <30708>;1442,375
+2021;Götzendorf an der Leitha <30709>;2173,375
+2021;Gramatneusiedl <30731>;3664,25
+2021;Hainburg a.d. Donau <30710>;6945,625
+2021;Haslau-Maria Ellend <30711>;2016,125
+2021;Himberg <30732>;7711,625
+2021;Hof am Leithaberge <30713>;1592,125
+2021;Höflein <30712>;1218,5
+2021;Hundsheim <30715>;637,625
+2021;Klein-Neusiedl <30733>;962,875
+2021;Lanzendorf <30734>;1898,75
+2021;Leopoldsdorf <30735>;5252,25
+2021;Mannersdorf am Leithagebirge <30716>;4129
+2021;Maria-Lanzendorf <30736>;2161,625
+2021;Moosbrunn <30737>;1790,5
+2021;Petronell-Carnuntum <30718>;1273
+2021;Prellenkirchen <30719>;1646,5
+2021;Rauchenwarth <30738>;778,25
+2021;Rohrau <30721>;1646
+2021;Scharndorf <30722>;1214,5
+2021;Schwadorf <30739>;2241,25
+2021;Schwechat <30740>;20533,5
+2021;Sommerein <30724>;2130,375
+2021;Trautmannsdorf an der Leitha <30726>;2983,125
+2021;Wolfsthal <30728>;1184,125
+2021;Zwölfaxing <30741>;1724,25
+2022;Allhartsberg <30501>;2216
+2022;Amstetten <30502>;23834,125
+2022;Ardagger <30503>;3610,375
+2022;Aschbach-Markt <30504>;3802,875
+2022;Behamberg <30506>;3501,625
+2022;Biberbach <30507>;2318,25
+2022;Ennsdorf <30508>;3208,25
+2022;Ernsthofen <30509>;2305,875
+2022;Ertl <30510>;1247,5
+2022;Euratsfeld <30511>;2724
+2022;Ferschnitz <30512>;1837,875
+2022;Haag <30514>;5734,375
+2022;Haidershofen <30515>;3711,625
+2022;Hollenstein an der Ybbs <30516>;1690
+2022;Kematen an der Ybbs <30517>;2734
+2022;Neuhofen an der Ybbs <30520>;3066,875
+2022;Neustadtl an der Donau <30521>;2173,5
+2022;Oed-Oehling <30522>;2057,25
+2022;Opponitz <30524>;879,875
+2022;St. Georgen am Reith <30526>;536,375
+2022;St. Georgen am Ybbsfelde <30527>;2867,25
+2022;St. Pantaleon-Erla <30529>;2678,875
+2022;St. Peter in der Au <30530>;5161,875
+2022;St. Valentin <30531>;9370,125
+2022;Seitenstetten <30532>;3428,5
+2022;Sonntagberg <30533>;3699
+2022;Strengberg <30534>;2131,5
+2022;Viehdorf <30536>;1362
+2022;Wallsee-Sindelburg <30538>;2174,75
+2022;Weistrach <30539>;2325,75
+2022;Winklarn <30541>;1844,375
+2022;Wolfsbach <30542>;2161,75
+2022;Ybbsitz <30543>;3351,5
+2022;Zeillern <30544>;1913,875
+2022;Alland <30601>;2641,5
+2022;Altenmarkt an der Triesting <30602>;2191,375
+2022;Bad Vöslau <30603>;12433,75
+2022;Baden <30604>;25994,75
+2022;Berndorf <30605>;8965,25
+2022;Blumau-Neurißhof <30646>;1931,75
+2022;Ebreichsdorf <30607>;11776,25
+2022;Enzesfeld-Lindabrunn <30608>;4216,25
+2022;Furth an der Triesting <30609>;890,625
+2022;Günselsdorf <30612>;1742,75
+2022;Heiligenkreuz <30613>;1577,625
+2022;Hernstein <30614>;1553,875
+2022;Hirtenberg <30615>;2589,5
+2022;Klausen-Leopoldsdorf <30616>;1689,75
+2022;Kottingbrunn <30618>;7445,5
+2022;Leobersdorf <30620>;5249,875
+2022;Mitterndorf an der Fischa <30621>;3058
+2022;Oberwaltersdorf <30623>;4990,5
+2022;Pfaffstätten <30625>;3522,875
+2022;Pottendorf <30626>;7496,25
+2022;Pottenstein <30627>;2932,25
+2022;Reisenberg <30629>;1759,125
+2022;Schönau an der Triesting <30631>;2109,25
+2022;Seibersdorf <30633>;1561,125
+2022;Sooß <30635>;1024,125
+2022;Tattendorf <30636>;1433,75
+2022;Teesdorf <30637>;1786
+2022;Traiskirchen <30639>;18898,875
+2022;Trumau <30641>;3735,25
+2022;Weissenbach an der Triesting <30645>;1768,25
+2022;Aderklaa <30801>;219
+2022;Andlersdorf <30802>;164,5
+2022;Angern an der March <30803>;3453,375
+2022;Auersthal <30804>;1971,375
+2022;Bad Pirawarth <30805>;1793,5
+2022;Baumgarten ^<30806>;-
+2022;Deutsch-Wagram <30808>;9155,5
+2022;Drösing <30810>;1107,375
+2022;Dürnkrut <30811>;2267,625
+2022;Ebenthal <30812>;930,5
+2022;Eckartsau <30813>;1343,625
+2022;Engelhartstetten <30814>;2159,75
+2022;Gänserndorf <30817>;12000
+2022;Glinzendorf <30819>;348,875
+2022;Groß-Enzersdorf <30821>;11907,5
+2022;Großhofen <30822>;101,75
+2022;Groß-Schweinbarth <30824>;1333,625
+2022;Haringsee <30825>;1176,875
+2022;Hauskirchen <30826>;1298,25
+2022;Hohenau an der March <30827>;2778,5
+2022;Hohenruppersdorf <30828>;946,5
+2022;Jedenspeigen <30829>;1110,625
+2022;Lassee <30830>;2987,625
+2022;Leopoldsdorf im Marchfeld <30831>;2946
+2022;Mannsdorf an der Donau <30834>;365,75
+2022;Marchegg <30835>;3093
+2022;Markgrafneusiedl <30836>;901,375
+2022;Matzen-Raggendorf <30838>;2836,875
+2022;Neusiedl an der Zaya <30841>;1240,125
+2022;Obersiebenbrunn <30842>;1779,375
+2022;Orth an der Donau <30844>;2177,25
+2022;Palterndorf-Dobermannsdorf <30845>;1363,25
+2022;Parbasdorf <30846>;173,875
+2022;Prottes <30848>;1452,125
+2022;Raasdorf <30849>;709,5
+2022;Ringelsdorf-Niederabsdorf <30850>;1284,875
+2022;Schönkirchen-Reyersdorf <30852>;2003
+2022;Spannberg <30854>;988,625
+2022;Strasshof an der Nordbahn <30856>;11602,375
+2022;Sulz im Weinviertel <30857>;1239,5
+2022;Untersiebenbrunn <30858>;1785,625
+2022;Velm-Götzendorf <30859>;777,125
+2022;Weiden an der March <30865>;1012,125
+2022;Weikendorf <30860>;2034,75
+2022;Zistersdorf <30863>;5437,5
+2022;Zwerndorf ^<30864>;-
+2022;Amaliendorf-Aalfang <30902>;1116,75
+2022;Bad Großpertholz <30910>;1305,75
+2022;Brand-Nagelberg <30903>;1461,5
+2022;Eggern <30904>;682,375
+2022;Eisgarn <30906>;703,625
+2022;Gmünd <30908>;5188,875
+2022;Großdietmanns <30909>;2172,5
+2022;Großschönau <30912>;1235,625
+2022;Haugschlag <30915>;489,125
+2022;Heidenreichstein <30916>;3843,375
+2022;Hirschbach <30917>;580,25
+2022;Hoheneich <30920>;1402,25
+2022;Kirchberg am Walde <30921>;1271,375
+2022;Litschau <30925>;2137,625
+2022;Moorbad Harbach <30913>;716
+2022;Reingers <30929>;619,25
+2022;St. Martin <30932>;1060
+2022;Schrems <30935>;5314,875
+2022;Seyfrieds ^<30936>;-
+2022;Unserfrau-Altweitra <30939>;1000,25
+2022;Waldenstein <30940>;1180,875
+2022;Weitra <30942>;2604,25
+2022;Wolfsegg ^<30944>;-
+2022;Alberndorf im Pulkautal <31001>;728,125
+2022;Göllersdorf <31008>;3189,125
+2022;Grabern <31009>;1740,25
+2022;Guntersdorf <31014>;1165
+2022;Hadres <31015>;1746,75
+2022;Hardegg <31016>;1309,125
+2022;Haugsdorf <31018>;1601,125
+2022;Heldenberg <31019>;1450,375
+2022;Hofern ^<31020>;-
+2022;Hohenwarth-Mühlbach a.M. <31021>;1310,625
+2022;Hollabrunn <31022>;12192,5
+2022;Mailberg <31025>;562,75
+2022;Maissau <31026>;1959,75
+2022;Nappersdorf-Kammersdorf <31028>;1187,875
+2022;Niederfladnitz ^<31029>;-
+2022;Pernersdorf <31033>;1073,5
+2022;Pulkau <31035>;1517,625
+2022;Ravelsbach <31036>;1636,125
+2022;Retz <31037>;4288,125
+2022;Retzbach <31038>;1008
+2022;Schrattenthal <31041>;891,5
+2022;Seefeld-Kadolz <31042>;965,625
+2022;Sitzendorf an der Schmida <31043>;2158
+2022;Wullersdorf <31051>;2425,875
+2022;Zellerndorf <31052>;2411,5
+2022;Ziersdorf <31053>;3399,5
+2022;Au am Leithaberge <30701>;962,875
+2022;Bad Deutsch-Altenburg <30702>;1975,625
+2022;Berg <30703>;976
+2022;Bruck an der Leitha <30704>;8280,625
+2022;Ebergassing <30729>;4091,25
+2022;Enzersdorf an der Fischa <30706>;3526,875
+2022;Fischamend <30730>;5651,125
+2022;Göttlesbrunn-Arbesthal <30708>;1465,125
+2022;Götzendorf an der Leitha <30709>;2188,75
+2022;Gramatneusiedl <30731>;3703,375
+2022;Hainburg a.d. Donau <30710>;6924,75
+2022;Haslau-Maria Ellend <30711>;2007,375
+2022;Himberg <30732>;7914,25
+2022;Hof am Leithaberge <30713>;1626,25
+2022;Höflein <30712>;1213,875
+2022;Hundsheim <30715>;637
+2022;Klein-Neusiedl <30733>;973,875
+2022;Lanzendorf <30734>;1931,875
+2022;Leopoldsdorf <30735>;5381,25
+2022;Mannersdorf am Leithagebirge <30716>;4195,625
+2022;Maria-Lanzendorf <30736>;2225,25
+2022;Moosbrunn <30737>;1802,125
+2022;Petronell-Carnuntum <30718>;1275,125
+2022;Prellenkirchen <30719>;1670,375
+2022;Rauchenwarth <30738>;809,75
+2022;Rohrau <30721>;1665
+2022;Scharndorf <30722>;1238,375
+2022;Schwadorf <30739>;2278,75
+2022;Schwechat <30740>;20939,125
+2022;Sommerein <30724>;2234,75
+2022;Trautmannsdorf an der Leitha <30726>;2969,625
+2022;Wolfsthal <30728>;1222
+2022;Zwölfaxing <30741>;1691,25
+2023;Allhartsberg <30501>;2239
+2023;Amstetten <30502>;23941,875
+2023;Ardagger <30503>;3604
+2023;Aschbach-Markt <30504>;3802,875
+2023;Behamberg <30506>;3468
+2023;Biberbach <30507>;2337,375
+2023;Ennsdorf <30508>;3271,125
+2023;Ernsthofen <30509>;2302,875
+2023;Ertl <30510>;1251,375
+2023;Euratsfeld <30511>;2769,625
+2023;Ferschnitz <30512>;1864,75
+2023;Haag <30514>;5805,375
+2023;Haidershofen <30515>;3716,5
+2023;Hollenstein an der Ybbs <30516>;1693,375
+2023;Kematen an der Ybbs <30517>;2740,375
+2023;Neuhofen an der Ybbs <30520>;3063,5
+2023;Neustadtl an der Donau <30521>;2171,75
+2023;Oed-Oehling <30522>;2116,5
+2023;Opponitz <30524>;869
+2023;St. Georgen am Reith <30526>;534,75
+2023;St. Georgen am Ybbsfelde <30527>;2858,625
+2023;St. Pantaleon-Erla <30529>;2715,75
+2023;St. Peter in der Au <30530>;5141
+2023;St. Valentin <30531>;9372,125
+2023;Seitenstetten <30532>;3399,25
+2023;Sonntagberg <30533>;3695,375
+2023;Strengberg <30534>;2150
+2023;Viehdorf <30536>;1376,375
+2023;Wallsee-Sindelburg <30538>;2202,125
+2023;Weistrach <30539>;2387,75
+2023;Winklarn <30541>;1841
+2023;Wolfsbach <30542>;2219,625
+2023;Ybbsitz <30543>;3358,75
+2023;Zeillern <30544>;1914,875
+2023;Alland <30601>;2659,875
+2023;Altenmarkt an der Triesting <30602>;2201,375
+2023;Bad Vöslau <30603>;12427,5
+2023;Baden <30604>;25928,75
+2023;Berndorf <30605>;8903
+2023;Blumau-Neurißhof <30646>;1932,625
+2023;Ebreichsdorf <30607>;11916,5
+2023;Enzesfeld-Lindabrunn <30608>;4249,125
+2023;Furth an der Triesting <30609>;882,125
+2023;Günselsdorf <30612>;1738,125
+2023;Heiligenkreuz <30613>;1619,5
+2023;Hernstein <30614>;1578,125
+2023;Hirtenberg <30615>;2649,25
+2023;Klausen-Leopoldsdorf <30616>;1680,625
+2023;Kottingbrunn <30618>;7503,5
+2023;Leobersdorf <30620>;5284,5
+2023;Mitterndorf an der Fischa <30621>;3075,625
+2023;Oberwaltersdorf <30623>;5107,375
+2023;Pfaffstätten <30625>;3498,875
+2023;Pottendorf <30626>;7582
+2023;Pottenstein <30627>;2985,25
+2023;Reisenberg <30629>;1773,75
+2023;Schönau an der Triesting <30631>;2121
+2023;Seibersdorf <30633>;1577,375
+2023;Sooß <30635>;1054,875
+2023;Tattendorf <30636>;1432
+2023;Teesdorf <30637>;1872,25
+2023;Traiskirchen <30639>;19037,375
+2023;Trumau <30641>;3752,375
+2023;Weissenbach an der Triesting <30645>;1723,75
+2023;Aderklaa <30801>;231,5
+2023;Andlersdorf <30802>;181,75
+2023;Angern an der March <30803>;3496
+2023;Auersthal <30804>;1993,125
+2023;Bad Pirawarth <30805>;1768,125
+2023;Baumgarten ^<30806>;-
+2023;Deutsch-Wagram <30808>;9206,375
+2023;Drösing <30810>;1131,5
+2023;Dürnkrut <30811>;2239
+2023;Ebenthal <30812>;917,875
+2023;Eckartsau <30813>;1331,25
+2023;Engelhartstetten <30814>;2192
+2023;Gänserndorf <30817>;12081,375
+2023;Glinzendorf <30819>;356,375
+2023;Groß-Enzersdorf <30821>;12056,875
+2023;Großhofen <30822>;102,25
+2023;Groß-Schweinbarth <30824>;1348,5
+2023;Haringsee <30825>;1170,875
+2023;Hauskirchen <30826>;1297,25
+2023;Hohenau an der March <30827>;2792,5
+2023;Hohenruppersdorf <30828>;949,875
+2023;Jedenspeigen <30829>;1124,625
+2023;Lassee <30830>;3015,125
+2023;Leopoldsdorf im Marchfeld <30831>;2984,5
+2023;Mannsdorf an der Donau <30834>;359,125
+2023;Marchegg <30835>;3097,125
+2023;Markgrafneusiedl <30836>;908,125
+2023;Matzen-Raggendorf <30838>;2905,75
+2023;Neusiedl an der Zaya <30841>;1246,5
+2023;Obersiebenbrunn <30842>;1763,375
+2023;Orth an der Donau <30844>;2179,75
+2023;Palterndorf-Dobermannsdorf <30845>;1346,125
+2023;Parbasdorf <30846>;169,875
+2023;Prottes <30848>;1454,25
+2023;Raasdorf <30849>;729,625
+2023;Ringelsdorf-Niederabsdorf <30850>;1274,875
+2023;Schönkirchen-Reyersdorf <30852>;2004,5
+2023;Spannberg <30854>;980,625
+2023;Strasshof an der Nordbahn <30856>;11851,75
+2023;Sulz im Weinviertel <30857>;1238,5
+2023;Untersiebenbrunn <30858>;1780,125
+2023;Velm-Götzendorf <30859>;774
+2023;Weiden an der March <30865>;1017,875
+2023;Weikendorf <30860>;2056,25
+2023;Zistersdorf <30863>;5449,375
+2023;Zwerndorf ^<30864>;-
+2023;Amaliendorf-Aalfang <30902>;1109,625
+2023;Bad Großpertholz <30910>;1298,25
+2023;Brand-Nagelberg <30903>;1449,75
+2023;Eggern <30904>;682,25
+2023;Eisgarn <30906>;710,25
+2023;Gmünd <30908>;5154,875
+2023;Großdietmanns <30909>;2178,25
+2023;Großschönau <30912>;1223,875
+2023;Haugschlag <30915>;483
+2023;Heidenreichstein <30916>;3773
+2023;Hirschbach <30917>;583,75
+2023;Hoheneich <30920>;1391,75
+2023;Kirchberg am Walde <30921>;1275,75
+2023;Litschau <30925>;2122,125
+2023;Moorbad Harbach <30913>;705,25
+2023;Reingers <30929>;608,25
+2023;St. Martin <30932>;1059,75
+2023;Schrems <30935>;5271,25
+2023;Seyfrieds ^<30936>;-
+2023;Unserfrau-Altweitra <30939>;986
+2023;Waldenstein <30940>;1179,5
+2023;Weitra <30942>;2594
+2023;Wolfsegg ^<30944>;-
+2023;Alberndorf im Pulkautal <31001>;714,25
+2023;Göllersdorf <31008>;3231,625
+2023;Grabern <31009>;1732,25
+2023;Guntersdorf <31014>;1173,875
+2023;Hadres <31015>;1746,25
+2023;Hardegg <31016>;1301,5
+2023;Haugsdorf <31018>;1596,375
+2023;Heldenberg <31019>;1480
+2023;Hofern ^<31020>;-
+2023;Hohenwarth-Mühlbach a.M. <31021>;1326,25
+2023;Hollabrunn <31022>;12297,125
+2023;Mailberg <31025>;554,625
+2023;Maissau <31026>;1957
+2023;Nappersdorf-Kammersdorf <31028>;1193
+2023;Niederfladnitz ^<31029>;-
+2023;Pernersdorf <31033>;1068,625
+2023;Pulkau <31035>;1493,625
+2023;Ravelsbach <31036>;1644,875
+2023;Retz <31037>;4265,75
+2023;Retzbach <31038>;995
+2023;Schrattenthal <31041>;892,125
+2023;Seefeld-Kadolz <31042>;946,5
+2023;Sitzendorf an der Schmida <31043>;2180
+2023;Wullersdorf <31051>;2440,125
+2023;Zellerndorf <31052>;2420,875
+2023;Ziersdorf <31053>;3379,875
+2023;Au am Leithaberge <30701>;958,875
+2023;Bad Deutsch-Altenburg <30702>;1985,75
+2023;Berg <30703>;980,5
+2023;Bruck an der Leitha <30704>;8476,875
+2023;Ebergassing <30729>;4214,375
+2023;Enzersdorf an der Fischa <30706>;3596,375
+2023;Fischamend <30730>;5704,75
+2023;Göttlesbrunn-Arbesthal <30708>;1471,125
+2023;Götzendorf an der Leitha <30709>;2230,875
+2023;Gramatneusiedl <30731>;3685,125
+2023;Hainburg a.d. Donau <30710>;7006,375
+2023;Haslau-Maria Ellend <30711>;2019
+2023;Himberg <30732>;8089,5
+2023;Hof am Leithaberge <30713>;1659,625
+2023;Höflein <30712>;1219,125
+2023;Hundsheim <30715>;659,5
+2023;Klein-Neusiedl <30733>;977,375
+2023;Lanzendorf <30734>;1942,25
+2023;Leopoldsdorf <30735>;5449,5
+2023;Mannersdorf am Leithagebirge <30716>;4209,875
+2023;Maria-Lanzendorf <30736>;2247,625
+2023;Moosbrunn <30737>;1812,25
+2023;Petronell-Carnuntum <30718>;1277,25
+2023;Prellenkirchen <30719>;1683,875
+2023;Rauchenwarth <30738>;817,5
+2023;Rohrau <30721>;1667,375
+2023;Scharndorf <30722>;1237,5
+2023;Schwadorf <30739>;2301,75
+2023;Schwechat <30740>;21200,125
+2023;Sommerein <30724>;2245,125
+2023;Trautmannsdorf an der Leitha <30726>;2959,125
+2023;Wolfsthal <30728>;1248,375
+2023;Zwölfaxing <30741>;1685,5
+2024;Allhartsberg <30501>;2242,75
+2024;Amstetten <30502>;23995,125
+2024;Ardagger <30503>;3621,5
+2024;Aschbach-Markt <30504>;3801,625
+2024;Behamberg <30506>;3459,125
+2024;Biberbach <30507>;2339,5
+2024;Ennsdorf <30508>;3293,25
+2024;Ernsthofen <30509>;2299,375
+2024;Ertl <30510>;1255
+2024;Euratsfeld <30511>;2784,375
+2024;Ferschnitz <30512>;1870,875
+2024;Haag <30514>;5836,875
+2024;Haidershofen <30515>;3713,875
+2024;Hollenstein an der Ybbs <30516>;1698
+2024;Kematen an der Ybbs <30517>;2711,5
+2024;Neuhofen an der Ybbs <30520>;3084,625
+2024;Neustadtl an der Donau <30521>;2167,75
+2024;Oed-Oehling <30522>;2158
+2024;Opponitz <30524>;876,5
+2024;St. Georgen am Reith <30526>;525,375
+2024;St. Georgen am Ybbsfelde <30527>;2815,125
+2024;St. Pantaleon-Erla <30529>;2716,625
+2024;St. Peter in der Au <30530>;5132,625
+2024;St. Valentin <30531>;9361,625
+2024;Seitenstetten <30532>;3359
+2024;Sonntagberg <30533>;3656,875
+2024;Strengberg <30534>;2205,125
+2024;Viehdorf <30536>;1365,625
+2024;Wallsee-Sindelburg <30538>;2205,75
+2024;Weistrach <30539>;2448,375
+2024;Winklarn <30541>;1854,875
+2024;Wolfsbach <30542>;2232,375
+2024;Ybbsitz <30543>;3357,25
+2024;Zeillern <30544>;1934
+2024;Alland <30601>;2687,25
+2024;Altenmarkt an der Triesting <30602>;2167,75
+2024;Bad Vöslau <30603>;12489,5
+2024;Baden <30604>;25928,25
+2024;Berndorf <30605>;8947,375
+2024;Blumau-Neurißhof <30646>;1942,5
+2024;Ebreichsdorf <30607>;11990,875
+2024;Enzesfeld-Lindabrunn <30608>;4318,5
+2024;Furth an der Triesting <30609>;865,75
+2024;Günselsdorf <30612>;1735
+2024;Heiligenkreuz <30613>;1607,375
+2024;Hernstein <30614>;1567,625
+2024;Hirtenberg <30615>;2626,625
+2024;Klausen-Leopoldsdorf <30616>;1673
+2024;Kottingbrunn <30618>;7487,625
+2024;Leobersdorf <30620>;5305,875
+2024;Mitterndorf an der Fischa <30621>;3119,125
+2024;Oberwaltersdorf <30623>;5236
+2024;Pfaffstätten <30625>;3501
+2024;Pottendorf <30626>;7706,625
+2024;Pottenstein <30627>;2963
+2024;Reisenberg <30629>;1760,125
+2024;Schönau an der Triesting <30631>;2128,125
+2024;Seibersdorf <30633>;1600,625
+2024;Sooß <30635>;1065
+2024;Tattendorf <30636>;1447,625
+2024;Teesdorf <30637>;1894,75
+2024;Traiskirchen <30639>;18952,75
+2024;Trumau <30641>;3729,25
+2024;Weissenbach an der Triesting <30645>;1680
+2024;Aderklaa <30801>;235,25
+2024;Andlersdorf <30802>;164,375
+2024;Angern an der March <30803>;3518,375
+2024;Auersthal <30804>;2011,75
+2024;Bad Pirawarth <30805>;1745,875
+2024;Baumgarten ^<30806>;-
+2024;Deutsch-Wagram <30808>;9250,25
+2024;Drösing <30810>;1131
+2024;Dürnkrut <30811>;2243,875
+2024;Ebenthal <30812>;901,125
+2024;Eckartsau <30813>;1342,375
+2024;Engelhartstetten <30814>;2186
+2024;Gänserndorf <30817>;12219
+2024;Glinzendorf <30819>;359,375
+2024;Groß-Enzersdorf <30821>;12085,75
+2024;Großhofen <30822>;100,25
+2024;Groß-Schweinbarth <30824>;1368,125
+2024;Haringsee <30825>;1159,125
+2024;Hauskirchen <30826>;1292,375
+2024;Hohenau an der March <30827>;2759,875
+2024;Hohenruppersdorf <30828>;963
+2024;Jedenspeigen <30829>;1129,875
+2024;Lassee <30830>;3021,375
+2024;Leopoldsdorf im Marchfeld <30831>;3032,125
+2024;Mannsdorf an der Donau <30834>;346,875
+2024;Marchegg <30835>;3112,125
+2024;Markgrafneusiedl <30836>;907,25
+2024;Matzen-Raggendorf <30838>;2980,875
+2024;Neusiedl an der Zaya <30841>;1221,125
+2024;Obersiebenbrunn <30842>;1758,25
+2024;Orth an der Donau <30844>;2227,5
+2024;Palterndorf-Dobermannsdorf <30845>;1318,5
+2024;Parbasdorf <30846>;170,5
+2024;Prottes <30848>;1451
+2024;Raasdorf <30849>;723
+2024;Ringelsdorf-Niederabsdorf <30850>;1276,625
+2024;Schönkirchen-Reyersdorf <30852>;2009,25
+2024;Spannberg <30854>;985,625
+2024;Strasshof an der Nordbahn <30856>;12125
+2024;Sulz im Weinviertel <30857>;1249,25
+2024;Untersiebenbrunn <30858>;1802,75
+2024;Velm-Götzendorf <30859>;782
+2024;Weiden an der March <30865>;1003
+2024;Weikendorf <30860>;2069,25
+2024;Zistersdorf <30863>;5477,125
+2024;Zwerndorf ^<30864>;-
+2024;Amaliendorf-Aalfang <30902>;1097,5
+2024;Bad Großpertholz <30910>;1286,625
+2024;Brand-Nagelberg <30903>;1443,5
+2024;Eggern <30904>;667,75
+2024;Eisgarn <30906>;702,875
+2024;Gmünd <30908>;5136
+2024;Großdietmanns <30909>;2173,5
+2024;Großschönau <30912>;1214
+2024;Haugschlag <30915>;478,625
+2024;Heidenreichstein <30916>;3740,75
+2024;Hirschbach <30917>;574
+2024;Hoheneich <30920>;1362,25
+2024;Kirchberg am Walde <30921>;1262,625
+2024;Litschau <30925>;2091,375
+2024;Moorbad Harbach <30913>;686,75
+2024;Reingers <30929>;611,25
+2024;St. Martin <30932>;1068,75
+2024;Schrems <30935>;5276,625
+2024;Seyfrieds ^<30936>;-
+2024;Unserfrau-Altweitra <30939>;985
+2024;Waldenstein <30940>;1179,125
+2024;Weitra <30942>;2577,5
+2024;Wolfsegg ^<30944>;-
+2024;Alberndorf im Pulkautal <31001>;708,875
+2024;Göllersdorf <31008>;3217,5
+2024;Grabern <31009>;1734,875
+2024;Guntersdorf <31014>;1164,75
+2024;Hadres <31015>;1721,5
+2024;Hardegg <31016>;1298
+2024;Haugsdorf <31018>;1602,125
+2024;Heldenberg <31019>;1476
+2024;Hofern ^<31020>;-
+2024;Hohenwarth-Mühlbach a.M. <31021>;1341
+2024;Hollabrunn <31022>;12433,625
+2024;Mailberg <31025>;552
+2024;Maissau <31026>;1956,625
+2024;Nappersdorf-Kammersdorf <31028>;1198,375
+2024;Niederfladnitz ^<31029>;-
+2024;Pernersdorf <31033>;1065,5
+2024;Pulkau <31035>;1466,5
+2024;Ravelsbach <31036>;1655
+2024;Retz <31037>;4223
+2024;Retzbach <31038>;986,125
+2024;Schrattenthal <31041>;885,5
+2024;Seefeld-Kadolz <31042>;945,375
+2024;Sitzendorf an der Schmida <31043>;2202,5
+2024;Wullersdorf <31051>;2439,75
+2024;Zellerndorf <31052>;2395,375
+2024;Ziersdorf <31053>;3367,5
+2024;Au am Leithaberge <30701>;949,125
+2024;Bad Deutsch-Altenburg <30702>;1980,75
+2024;Berg <30703>;980
+2024;Bruck an der Leitha <30704>;8614,375
+2024;Ebergassing <30729>;4345,375
+2024;Enzersdorf an der Fischa <30706>;3624,625
+2024;Fischamend <30730>;5731
+2024;Göttlesbrunn-Arbesthal <30708>;1473
+2024;Götzendorf an der Leitha <30709>;2224,25
+2024;Gramatneusiedl <30731>;3685,875
+2024;Hainburg a.d. Donau <30710>;7020,125
+2024;Haslau-Maria Ellend <30711>;2026
+2024;Himberg <30732>;8268,5
+2024;Hof am Leithaberge <30713>;1677
+2024;Höflein <30712>;1227
+2024;Hundsheim <30715>;665
+2024;Klein-Neusiedl <30733>;937
+2024;Lanzendorf <30734>;1954,125
+2024;Leopoldsdorf <30735>;5538,625
+2024;Mannersdorf am Leithagebirge <30716>;4236,75
+2024;Maria-Lanzendorf <30736>;2250
+2024;Moosbrunn <30737>;1802,875
+2024;Petronell-Carnuntum <30718>;1265,75
+2024;Prellenkirchen <30719>;1700,625
+2024;Rauchenwarth <30738>;802
+2024;Rohrau <30721>;1665,25
+2024;Scharndorf <30722>;1234,625
+2024;Schwadorf <30739>;2340,125
+2024;Schwechat <30740>;21227,75
+2024;Sommerein <30724>;2244,25
+2024;Trautmannsdorf an der Leitha <30726>;2934,875
+2024;Wolfsthal <30728>;1249,75
+2024;Zwölfaxing <30741>;1678,5
+;;
+;;
+Beschreibung;;
+STATcube – Statistische Datenbank von STATISTIK AUSTRIA;;
+.) Datenprovenienz: Seit 2002 beruht die Statistik des Bevölkerungsstandes auf den quartalsweise vom Zentralen Melderegister (ZMR) übermittelten Hauptwohnsitzmeldungen. Zur Wohnbevölkerung zählen Personen mit einer (den Stichtag einschließenden) Aufenthaltsdauer (Hauptwohnsitzmeldung) von mindestens 90 Tagen. Die Bevölkerung im Jahresdurchschnitt wird aus den Bevölkerungsständen zu Quartalsbeginn berechnet, wobei sie sich aus dem arithmetischen Mittel der vier Quartalsdurchschnitte ergibt. Die Formel zur Berechnung der Jahresdurchschnittsbevölkerung lautet: Jahresdurchschnitt = (Bevölkerungsstand zum 1.Jänner + 2 mal Bevölkerungsstand zum 1.April + 2 mal Bevölkerungsstand zum 1.Juli + 2 mal Bevölkerungsstand zum 1.Oktober + Bevölkerungsstand zum 1.Jänner des Folgejahres) gebrochen durch 8. => Aufgrund dieser Berechnungsmethode ergeben sich auch nicht-ganzzahlige Werte für die Jahresdurchschnittsbevölkerung mit bis zu drei Nachkommastellen. Weitere Metadaten: https://www.statistik.at/fileadmin/shared/QM/Standarddokumentationen/B_1/std_b_bevoelkerungsstand.pdf .) Aktualisierung: Jährlich Ende Mai/Anfang Juni für den Bevölkerungsstand zu Beginn des laufenden Jahres. Letzte Aktualisierung des Würfels: [26.05.2025] .) Bearbeitungsnachweis: Direktion Bevölkerung - Demographie Für allgemeine Anfragen: Tel.: +43 1 711 28-7070 Bei Spezialfragen wenden Sie sich bitte schriftlich an demographie@statistik.gv.at;;
+Die Ausprägungen dieses Gliederungskriteriums enthalten neben dem Namen der Gemeinde auch - in gebrochener Klammer - deren fünfstellige Kennzahl. Ein '^' bei der Kennzahl bedeutet, dass die entsprechende Ausprägung im gegenwärtigen Gliederungsstand des Kriteriums nicht aktuell ist, aus Rücksicht auf ältere Daten jedoch mitgeführt werden muss.;;
+Mit 1.1.1972 wurden von der ehemaligen Gemeinde St.Corona am Schöpfl (Kennziffer: 30630) Gebietsteile eingegliedert. Infolge dieser Änderung vergrößerte sich die Einwohnerzahl um 280 (59.3% bezogen auf den ursprünglichen Stand). Neuer Einwohnerstand: 1730, bezogen auf die Volkszählung 1971.;;
+Die Gemeinde Blumau-Neurißhof war immer Teil der Gemeinde Steinfelden. Im Zuge der Wiedererrichtung der vom 1.1.1972 bis 31.12.1987 aufgelösten und der Gemeinde Steinfelden (Kennziffer 30612, Ausprägungsnummer 306) eingegliederten Gemeinden Tattendorf (Kennziffer 30636, Ausprägungsnr. 2355) und Teesdorf (Kennziffer 30637, Ausprägungsnummer 2356) mit 1.1. 1988 wurde auch sie selbständig.;;
+Die Gemeinden Blumau-Neurißhof (Kennziffer 30646, Ausprägungsnr.2357), Tattendorf (Kennziffer 30636, Ausprägungsnr.2355) und Teesdorf (Kenn- ziffer 30637, Ausprägungsnr.2356), erlangten mit 1.1.1988 ihre Selb- ständigkeit. Der Name des verbleigenden Teiles der Gemeinde Steinfelden wurde auf Günselsdorf geändert.;;
+Mit 1.1.1972 wurden von der ehemaligen Gemeinde St.Corona am Schöpfl (Kennziffer: 30630) Gebietsteile eingegliedert. Infolge dieser Änderung vergrößerte sich die Einwohnerzahl um 115 (10.5% bezogen auf den ursprünglichen Stand). Neuer Einwohnerstand: 1215, bezogen auf die Volkszählung 1971.;;
+Die Gemeinde Tattendorf war in der Zeit vom 1.1.1972 bis 31.12.1987 aufgelöst und der Gemeinde Steinfelden (Kennziffer 30612, Ausprägungs- nummer 306) eingegliedert. Mit 1.1.1988 wurde sie wieder selbständig.;;
+Die Gemeinde Teesdorf war in der Zeit vom 1.1.1972 bis 31.12.1987 auf- gelöst und der Gemeinde Steinfelden (Kennziffer 30612, Ausprägungsnummer 306) eingegliedert. Mit 1.1.1988 wurde sie wieder selbständig.;;
+"Die Gemeinde Baumgarten an der March wurde mit 1.1.1975 aufgelöst und in die Gemeinde Weiden an der March (Code: 374; Kennziffer: 30865) eingegliedert.";;
+Die Gemeinde Velm-Götzendorf (Kennziffer 30859, Ausprägungsnummer 2367) erlangten mit 1.1.1990 ihre Selbständigkeit.;;
+Die Gemeinde Velm war in der Zeit vom 1.1.1972 bis 31.12.1989 aufgelöst und der Gemeinde Spannberg (Kennziffer 30854, Ausprägungsnummer 382) eingegliedert. Mit 1.1.1990 wurde sie wieder selbständig. Die ebenfalls 1972 Spannberg eingegliederte ehemalige Gemeinde Götzen- dorf kam mit 1.1.1990 zur neuen Gemeinde Velm-Götzendorf.;;
+"Die Gemeinde Zwerndorf wurde mit 1.1.1975 aufgelöst und in die Gemeinde Weiden an der March (Code: 374; Kennziffer: 30865) eingegliedert.";;
+Mit 1.1.1972 wurden von der ehemaligen Gemeinde Rohrbach (Kennziffer: 30931) Gebietsteile eingegliedert. Infolge dieser Änderung vergrößerte sich die Einwohnerzahl um 197 (4.5% bezogen auf den ursprünglichen Stand). Neuer Einwohnerstand: 5077, bezogen auf die Volkszählung 1971.;;
+Die Gemeinde Hirschbach war in der Zeit vom 1.1.1972 bis 31.12.1984 aufgelöst und der Gemeinde Kirchberg am Walde (Kennziffer 30921, Aus- prägungsnr.401) eingegliedert. Mit 1.1.1985 wurde sie wieder selbständig.;;
+Die Gemeinde Hirschbach (Kennziffer 30917, Ausprägungsnr.2352), welche mit 1.1.1972 in die Gemeinde Kirchberg am Walde eingegliedert worden war, erlangte mit 1.1.1985 wieder ihre Selbständigkeit.;;
+"Die Gemeinde Seyfrieds wurde mit 1.1.1975 aufgelöst und in die Gemeinde Heidenreichstein (Code: 399; Kennziffer: 30916) eingegliedert.";;
+"Die Gemeinde Wolfsegg wurde mit 1.1.1975 aufgelöst und in die Gemeinde Heidenreichstein (Code: 399; Kennziffer: 30916) eingegliedert.";;
+"Die Gemeinde Alberndorf im Pulkautal wurde mit 1.1.1975 aufgelöst und in die Gemeinde Haugsdorf (Code: 417; Kennziffer: 31018) eingegliedert; mit 14.7.1977 wurde sie wieder selbständig. Aus technischen Gründen bleiben jedoch deren Daten aus folgenden Erhebungen der Gemeinde Haugsdorf zugeordnet: Land- und forstwirtschaftliche Betriebszählung 1970 Arbeitsstättenzählung 1973 Tierische Produktion bis 1976 natürliche Bevölkerungsbewegung bis 1976 Wohnbaustatistik bis 1976";;
+"Die Gemeinde Alberndorf im Pulkautal (Code: 411; Kennziffer: 31001) welche mit 1.1.1975 in die Gemeinde Haugsdorf eingegliedert wurde, erlangte mit 14.7.1977 wieder ihre Selbständigkeit. Aus technischen Gründen bleiben jedoch deren Daten aus folgenden Erhebungen der Gemeinde Haugsdorf zugeordnet: Land- und forstwirtschaftliche Betriebszählung 1970 Arbeitsstättenzählung 1973 Tierische Produktion bis 1976 natürliche Bevölkerungsbewegung bis 1976 Wohnbaustatistik bis 1976";;
+"Die Gemeinde Hofern wurde mit 1.1.1975 aufgelöst und in die Gemeinde Retz (Code: 429; Kennziffer: 31037) eingegliedert.";;
+"Die Gemeinde Niederfladnitz wurde mit 1.1.1975 aufgelöst und in die Gemeinde Hardegg (Code: 416; Kennziffer: 31016) eingegliedert.";;
+Die Gemeinde Berg war in der Zeit vom 1.1.1973 bis 31.12.1996 aufgelöst und der Gemeinde Wolfsthal-Berg (Kennziffer 30728, Ausprägungsnr. 343) eingegliedert. Mit 1.1.1997 wurde sie wieder selbständig.;;
+bis 31.12.2016 GKZ 32401 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32402 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32405 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32406 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32407 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32409 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32410 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32411 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32413 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32417 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32418 Pol.Bez. Wien Umgebung;;
+bis 31.12.2016 GKZ 32419 Pol.Bez. Wien Umgebung;;
+Die Gemeinde Berg (Kennziffer 30703, Ausprägungsnummer 2408) erlangte mit 1.1.1997 wieder ihre Selbständigkeit.;;
+bis 31.12.2016 GKZ 32424 Pol.Bez. Wien Umgebung;;
