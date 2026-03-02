@@ -130,7 +130,6 @@ mig_typ <- mig_typ %>%
 ```
 
 ```{r}
-
 p_mig <- ggplot(mig_typ %>% filter(variable == "mig_rate"), aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
   geom_line(linewidth = 1)+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
