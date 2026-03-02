@@ -109,7 +109,8 @@ ggplot(dta_typ, aes(x = as.factor(jahr), y = pop_index, group = typ, color = typ
   labs(y = "Bevölkerungsindex (2002=100)",
        x = NULL,
        color = NULL,
-       title = "Bevölkerungsentwicklung nach Gemeindetyp; \n Tirol 2002-2023 (2002 = 100%)") 
+       title = "Bevölkerungsentwicklung nach Gemeindetyp; \n Tirol 2002-2023 (2002 = 100%)",
+       caption = "Quelle: Statistik Austria") 
 
 
 #eeaf58
@@ -156,7 +157,8 @@ ggplot(mig_typ, aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
     labs(y = "Rate pro 1000 EW",
        x = NULL,
        color = NULL,
-       title = "Bevölkerungsdynamik; Tirol 2002-2023") 
+       title = "Bevölkerungsdynamik; Tirol 2002-2023",
+       caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur") 
 ```
 
 ### 3.5. Bevölkerungspyramide
@@ -192,7 +194,8 @@ ggplot(pyramid, aes(x=pop_pyramid, y=alter, fill=typ)) +
   labs(x="Bevölkerung",
        y="Altersgruppe",
        fill="",
-       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2025")+
+       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2025",
+       caption = "Quelle: Statistik Austria")+
   facet_grid(.~jahr)+
   theme_bw()+
   theme(legend.position = "bottom")+
