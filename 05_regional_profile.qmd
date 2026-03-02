@@ -127,88 +127,36 @@ mig_typ <- mig_typ %>%
                names_to = "variable",
                values_to = "value") %>% 
   drop_na()
+
+## Recoding mig_typ$variable into mig_typ$variable_rec
+mig_typ$variable <- mig_typ$variable %>%
+  fct_recode(
+    "Aussenwanderung" = "au_rate",
+    "Binnenwanderung" = "bi_rate",
+    "Gesamtmigration" = "mig_rate",
+    "Natürliche Bevölkerungsveränderung" = "nat_rate"
+  )
 ```
 
 ```{r}
-p_mig <- ggplot(mig_typ %>% filter(variable == "mig_rate"), aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
+ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
   geom_line(linewidth = 1)+
-  geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
+  facet_wrap(variable~.)+
+    geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
   scale_color_manual(
     values = c("Urbaner Raum" = "#b35e6b",
                "Suburbaner Raum" = "#eeaf58",
                "Regionalzentren" = "#eeec85",
                "Ländlicher Raum" = "#84b870"))+
   theme_bw()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
         legend.position = "right",
         legend.direction = "vertical",
         plot.title = element_text(hjust = 0.5))+
     labs(y = "Rate pro 1000 EW",
        x = NULL,
        color = NULL,
-       title = "Gesamtmigrationsrate; Tirol 2003-2023") 
-
-p_bi <- ggplot(mig_typ %>% filter(variable == "bi_rate"), aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
-  geom_line(linewidth = 1)+
-  geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
-  scale_color_manual(
-    values = c("Urbaner Raum" = "#b35e6b",
-               "Suburbaner Raum" = "#eeaf58",
-               "Regionalzentren" = "#eeec85",
-               "Ländlicher Raum" = "#84b870"))+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "right",
-        legend.direction = "vertical",
-        plot.title = element_text(hjust = 0.5))+
-    labs(y = "Rate pro 1000 EW",
-       x = NULL,
-       color = NULL,
-       title = "Binnenmigrationsrate; Tirol 2003-2023") 
-
-p_au <- ggplot(mig_typ %>% filter(variable == "au_rate"), aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
-  geom_line(linewidth = 1)+
-  geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
-  scale_color_manual(
-    values = c("Urbaner Raum" = "#b35e6b",
-               "Suburbaner Raum" = "#eeaf58",
-               "Regionalzentren" = "#eeec85",
-               "Ländlicher Raum" = "#84b870"))+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "right",
-        legend.direction = "vertical",
-        plot.title = element_text(hjust = 0.5))+
-    labs(y = "Rate pro 1000 EW",
-       x = NULL,
-       color = NULL,
-       title = "Aussenwanderungsrate; Tirol 2003-2023") 
-
-p_nat <- ggplot(mig_typ %>% filter(variable == "nat_rate"), aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
-  geom_line(linewidth = 1)+
-  geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
-  scale_color_manual(
-    values = c("Urbaner Raum" = "#b35e6b",
-               "Suburbaner Raum" = "#eeaf58",
-               "Regionalzentren" = "#eeec85",
-               "Ländlicher Raum" = "#84b870"))+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        legend.position = "right",
-        legend.direction = "vertical",
-        plot.title = element_text(hjust = 0.5))+
-    labs(y = "Rate pro 1000 EW",
-       x = NULL,
-       color = NULL,
-       title = "Natürliche Bevölkerungsbewegung; Tirol 2003-2023") 
-```
-
-```{r}
-library(patchwork)
-
-(p_mig + p_bi + p_au + p_nat) +
-  plot_layout(guides = "collect") &
-  theme(legend.position = "right")
+       title = "Bevölkerungsdynamik; Tirol 2003-2023") 
 ```
 
 ### 3.4. Bevölkerungspyramide
