@@ -1,7 +1,8 @@
 library(tidyverse)
 
+getwd()
 
-bi_moves <- read.csv2("data/OGDEXT_BINNENWAND_1.csv", header = FALSE)
+bi_moves <- read.csv2("C:/Users/fwindhager/001_PROJECTS/002_CURB/001_DATA/OGDEXT_BINNENWAND_1.csv", header = FALSE)
 
 names(bi_moves)
 
@@ -32,7 +33,7 @@ bi_moves <- bi_moves %>%
   filter(!kennz_origin == kennz_dest) %>% 
   ungroup() #Gruppierung aufheben
 
-#bi_dta_comp1 <- complete(bi_moves, jahr, kennz_origin, kennz_dest, fill = list(n_sum = 0))
+bi_dta_comp1 <- complete(bi_moves, jahr, kennz_origin, kennz_dest, fill = list(n_sum = 0))
 
 bi_zu_1 <- bi_dta_comp1 %>% 
   group_by(jahr, kennz_dest) %>% 
@@ -53,12 +54,12 @@ bi_dta_1 <- complete(bi_dta_1, jahr, gemnr, fill = list(n_sum = 0))
 which(is.na(bi_dta_1), arr.ind = TRUE)
 
 anyNA(bi_dta_1)
-write.csv(bi_dta_1, "data/Binnenwanderungen.csv", row.names = FALSE)
+#write.csv(bi_dta_1, "data/Binnenwanderungen.csv", row.names = FALSE)
 
 # Aussenwanderungen
 
-au_moves <- read.csv2("data/OGD_bevwan020_AUSSENWAND_201.csv")
-au_moves2 <- read.csv2("data/OGD_bevwan020_AUSSENWAND_202.csv")
+au_moves <- read.csv2("C:/Users/fwindhager/001_PROJECTS/002_CURB/001_DATA/OGD_bevwan020_AUSSENWAND_201.csv")
+au_moves2 <- read.csv2("C:/Users/fwindhager/001_PROJECTS/002_CURB/001_DATA/OGD_bevwan020_AUSSENWAND_202.csv")
 
 au_moves <- rbind(au_moves, au_moves2)
 
@@ -86,12 +87,7 @@ agr_au_zu <- complete(agr_au_zu, jahr, gemnr, fill = list(n_sum = 0))
 
 anyNA(au_moves)
 
-
-write.csv(agr_au_zu, "data/Aussenwanderungen.csv", row.names = FALSE)
-
-
-moves <- read.csv("data/Wanderungsdaten.csv") %>% 
-  select(-bi_zu, -bi_weg)
+#write.csv(agr_au_zu, "data/Aussenwanderungen.csv", row.names = FALSE)
 
 moves_new <- read.csv("data/Aussenwanderungen.csv") %>%  filter(jahr != 2024)
 bi_dta_1 <- read.csv("data/Binnenwanderungen.csv") 
@@ -99,50 +95,9 @@ bi_dta_1 <- read.csv("data/Binnenwanderungen.csv")
 moves_new <- left_join(bi_dta_1, moves_new, by = c("jahr", "gemnr"))
 moves_new[is.na(moves_new)] <- 0
 
+#write.csv(moves_new, "data/Wanderungsdaten.csv", row.names = FALSE)
+
+
 anyNA(moves_new)
 which(is.na(moves_new), arr.ind = TRUE)
 colSums(is.na(moves_new))
-
-
-
-
-
-
-
-
-# moves bi_dta_1 comparison
-
-moves <- read.csv("data/Wanderungsdaten.csv") %>% 
-  select(-bi_zu, -bi_weg)
-bi_dta_1 <- read.csv("data/Binnenwanderungen.csv") 
-names(moves)
-anyNA(moves)
-anyNA(bi_dta_1)
-
-length(unique(bi_dta_1$gemnr))
-length(unique(moves$gemnr))
-
-moves$gemnr <- as.character(moves$gemnr)
-bi_dta_1$gemnr <- as.character(bi_dta_1$gemnr)
-
-
-moves <- left_join(moves, bi_dta_1, by = c("gemnr", "jahr")) %>% 
-  select(-3, -4) %>% 
-  rename(bi_zu = bi_zu.y,
-         bi_weg = bi_weg.y) %>% 
-  select(gemnr, jahr, bi_zu, bi_weg, au_zu, au_weg)
-
-#moves <- complete(moves, jahr, gemnr, fill = list(n_sum = 0))
-anyNA(moves)
-colSums(is.na(moves))
-which(is.na(moves), arr.ind = TRUE)
-
-df_na <- moves %>%
-  filter(if_any(everything(), is.na))
-
-unique(df_na$gemnr)
-# Missing 70812  70815 70825 10423 70602 70837 70819 30846 31842 70823
-
-write.csv2(moves, "data/Wanderungsdaten2.csv", row.names = FALSE)
-
-

@@ -15,7 +15,7 @@ library(tidyverse)
 pop_tirol <- read.csv("data/Bevölkerungsdaten.csv") %>% 
   filter(str_sub(gemnr, 1, 1) == "7")
 pop_tirol_yearmean <- read.csv2("data/Bevölkerung_Jahresdurchschnitt_Tirol.csv")
-moves <- read.csv2("data/Wanderungsdaten2.csv")
+moves <- read.csv("data/Wanderungsdaten.csv")
 
 
 

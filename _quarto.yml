@@ -14,6 +14,7 @@ website:
       - 02_data_manipulation.qmd
       - 03_sequenzanalyse.qmd
       - 04_mapping.qmd
+      - 05_pop_pyramid.qmd
 
 format:
   html:

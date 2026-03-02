@@ -1,0 +1,51 @@
+---
+title: "Bevölkerungspyramide"
+---
+
+```{r}
+#| include: false
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+```{r}
+dta <- read.csv("data/Bevölkerungspyramide.csv")
+```
+
+```{r}
+
+## Reordering dta$typ
+dta$typ <- dta$typ %>%
+  fct_relevel(
+    "Städte", "Suburbaner Raum", "Regionalzentren", "Ländlicher Raum"
+  )
+
+# Poppyramid
+
+pyramid <- dta %>%
+  mutate(pop_pyramid = ifelse(geschl=="männlich", -n, n))
+
+pyramid <- pyramid %>%
+  mutate(alter=fct_inorder(alter))
+
+ggplot(pyramid, aes(x=pop_pyramid, y=alter, fill=typ)) + 
+  geom_col() +
+  scale_fill_manual(
+    values = c("Städte" = "#b35e6b",
+               "Suburbaner Raum" = "#f5ca82",
+               "Regionalzentren" = "#fdf453",
+               "Ländlicher Raum" = "#84b870"))+
+  scale_x_continuous(labels=abs) +
+  geom_vline(xintercept=0, color="black") +
+  labs(x="Bevölkerung",
+       y="Altersgruppe",
+       fill="",
+       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2025")+
+  facet_grid(.~jahr)+
+  theme_bw()+
+  theme(legend.position = "bottom")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  annotate(geom="text", x=-15300, y=20, label="Männer", size=5) +
+  annotate(geom="text", x=15300, y=20, label="Frauen", size=5) 
+```

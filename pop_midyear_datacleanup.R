@@ -48,8 +48,6 @@ dta <- dta %>%
 length(unique(dta$gemnr))
 
 
-df$variable[df$variable == "old"] <- "new"
-
 # Gemeinden Änderungen
 
 gemchange <- read.csv2("data/pop_midyear/gemchange.csv") %>%
@@ -95,3 +93,6 @@ gemchange <- gemchange %>%
 gemchange$gemnr_neu <- as.character(gemchange$gemnr_neu)
 dta <- left_join(dta, gemchange, by = c("gemnr" = "gemnr_neu"))
 
+
+
+## PROBLEM MIT GEMEINDEÄNDERUNGEN NICHT GELÖST!!!

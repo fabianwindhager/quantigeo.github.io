@@ -9,6 +9,7 @@ title: "Skript 2 - Daten Import, Manipulation & Diagramme"
 #| message: false
 #| warning: false
 library(tidyverse)
+options(digits = 2)
 ```
 
 Im Kurs "Quantitative Geographien" arbeiten wir mit `.csv` und `.shp` files.
@@ -64,7 +65,7 @@ pop_2002 <- pop %>%
 ```
 
 | Logical Operators |                                                         |
-|-----------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | `==`              | *ist gleich* (Beachte das doppelte Gleichheitszeichen!) |
 | `!=`              | *ist ungleich*                                          |
 | `&`               | *UND* (Beide/Alle Bedingungen müssen erfüllt sein)      |
@@ -106,19 +107,19 @@ Wir joinen die beiden Datensätze anhand der Variablen `gemnr` und `jahr`.
 Der Code verbindet die beiden Tabellen `pop` und `moves` anhand der Spalten (`by`) `gemnr` und `jahr`, sodass alle Daten aus `pop` beibehalten und die passenden Werte aus `moves` ergänzt werden.
 
 ```{r}
-dta <- left_join(pop, moves, by = c("gemnr", "jahr"))
+gem_dta <- left_join(pop, moves, by = c("gemnr", "jahr"))
 ```
 
 Die erste Zahl der Gemeindekennziffern ("`gemnr`") gibt das betreffende Bundesland an. Alle Gemeindekennziffern die mit "`7`" beginnen, sind demnach Tiroler Gemeinden.
 
 ```{r}
-dta <- dta %>%
+gem_dta <- gem_dta %>%
   mutate(bld = str_sub(gemnr, 1, 1))
 
 # Wir ersetzen NAs mit 0 (Manche Gemeinden erfahren keine Zu- oder Abwanderung in einzelnen Jahren)
-dta[is.na(dta)] <- 0
+gem_dta[is.na(gem_dta)] <- 0
 
-write.csv(dta, "data/Gemeindedaten.csv", row.names = FALSE)
+#write.csv(dta, "data/Gemeindedaten.csv", row.names = FALSE)
 ```
 
 Nun haben wir einen Datensatz mit dem wir weitere Berechnungen anstellen können!
@@ -130,7 +131,8 @@ Nun haben wir einen Datensatz mit dem wir weitere Berechnungen anstellen können
 Hier berechnen wir Gesamtbevölkerungszahlen und Migrationssalden (Innen- und Aussenwanderungen) für jedes Bundesland, in dem wir die Gemeindezahlen zusammenfassen.
 
 ```{r}
-bld_dta <- dta %>% 
+
+bld_dta <- gem_dta %>% 
   group_by(bld, jahr) %>% 
   summarise(pop_tot = sum(pop),
             bi_saldo_tot = sum(bi_saldo),
@@ -176,13 +178,13 @@ Wir berechnen je eine neue Spalte (`mutate`) mit den:
 
     Sieht man sich die demographische Gesamtrechnung an:
 
-    $$ \Delta \text{Bevölkerungsveränderung} = \underbrace{\text{natürliche Veränderung}}_{\text{Geburten - Sterbefälle}} + \underbrace{\text{Binnenwanderungssaldo}}_{\text{Zu- minus Fortzüge innerhalb des Landes}} + \underbrace{\text{Außenwanderungssaldo}}_{\text{Zu- minus Fortzüge über die Staatsgrenze}} $$
+    $$ \Delta \text{Bevölkerungsveränderung} = \underbrace{\text{natürliche Veränderung}}_{\text{Geburten - Sterbefälle}} + \underbrace{\text{Binnenwanderungssaldo}}_{\text{Zu- minus Fortzüge über Gemeindegrenzen}} + \underbrace{\text{Außenwanderungssaldo}}_{\text{Zu- minus Fortzüge über die Staatsgrenze}} $$
 
     müssten wir theoretisch die natürliche Bevölkerungsveränderung mit $\text{Bevölkerungsveränderung} - \text{Gesamtmigrationssaldo}$. berechnen können.
 
     **ABER ACHTUNG:**
 
-    Die auf diese Art berechneten natürlichen Bevölkerungszahlen können von offiziellen Statistiken abweichen, weil unsere Bevölkerungsstände zum Stichtag 1.1. erfasst werden, während Migrationsdaten über das Jahr verteilt für den Referenzzeitraum erhoben werden!
+    Die auf diese Art berechneten natürlichen Bevölkerungszahlen können von offiziellen Statistiken abweichen, weil die Statistik Austria statistische Korrekturen verwendet
 
 Die Funktion **`lag()`** verschiebt die Werte einer Variable um eine Position nach unten, sodass man den vorherigen Wert einer Beobachtung mit dem aktuellen vergleichen kann (z. B. für Zeitreihen, Differenzen oder eben das Berechnen von **relativen Veränderungen**).
 
@@ -195,7 +197,8 @@ bld_dta <- bld_dta %>%
          au_rate = (au_saldo_tot / pop_tot) * 1000,
          mig_saldo = au_saldo_tot + bi_saldo_tot,
          mig_rate = (mig_saldo / pop_tot) * 1000,
-         nat_change = (pop_tot - lag(pop_tot) - lag(mig_saldo))) %>% 
+         nat_change = pop_diff - lag(mig_saldo),
+         nat_rate = (nat_change / pop_tot)* 1000) %>% 
   ungroup()
 ```
 
@@ -247,6 +250,7 @@ ggplot(data = pop_tirol, aes(x = as.factor(jahr), y = pop_rate))+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   labs(x = " ", y = "Bevölkerungsveränderung in %", title = "Bevölkerungsveränderungrate in %; Tirol 2003-2023")
+
 ```
 
 Mit `geom_col()` erstellen wir einen Bar-Chart. Mit `theme_classic()` können wir das Thema des Plots ändern.
@@ -300,12 +304,12 @@ bld_dta$bld <- bld_dta$bld %>%
   )
 
 rates_all <- bld_dta %>% 
-  select(jahr, bld, bi_rate, au_rate, mig_rate)
+  select(jahr, bld, bi_rate, au_rate, mig_rate, nat_rate)
 ```
 
 ```{r}
 rates_all <- rates_all %>% 
-  pivot_longer(cols = c(bi_rate, au_rate, mig_rate),
+  pivot_longer(cols = c(bi_rate, au_rate, mig_rate, nat_rate),
                names_to = "variable",
                values_to = "value")  
 ```
@@ -317,8 +321,9 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   scale_color_manual(
   values = c("au_rate" = "dodgerblue",  
              "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen"),
-  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate")
+             "mig_rate" = "forestgreen",
+             "nat_rate" = "magenta"),
+  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", col = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
@@ -330,14 +335,13 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   scale_color_manual(
   values = c("au_rate" = "dodgerblue",  
              "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen"), 
-  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate")
+             "mig_rate" = "forestgreen",
+             "nat_rate" = "magenta"),
+  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", col = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
     theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-
 
 
 ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, fill = variable, group = variable))+
@@ -346,8 +350,9 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   scale_fill_manual(
   values = c("au_rate" = "dodgerblue",  
              "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen"), 
-  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate")
+             "mig_rate" = "forestgreen",
+             "nat_rate" = "magenta"),
+  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", fill = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
@@ -359,8 +364,9 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   scale_fill_manual(
   values = c("au_rate" = "dodgerblue",  
              "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen"), 
-  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate")
+             "mig_rate" = "forestgreen",
+             "nat_rate" = "magenta"),
+  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", fill = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
@@ -371,30 +377,21 @@ Mit `facet_wrap()` oder `facet_grid()` können wir diese Darstellung auch für a
 
 ```{r}
 ggplot(data = rates_all %>% filter(variable != "mig_rate"),
-       aes(x = as.factor(jahr), y = value, fill = variable, group = variable))+
-  geom_col()+
+       aes(x = as.factor(jahr), y = value, color = variable, group = variable))+
+  geom_line(linewidth = 1)+
   #theme_classic()+
-  scale_fill_manual(
+  scale_color_manual(
     values = c("au_rate" = "dodgerblue",  
-               "bi_rate" = "firebrick"),
-    labels = c("Aussenwanderungsrate", "Binnenwanderungsrate")
+               "bi_rate" = "firebrick",
+               "nat_rate" = "magenta"),
+    labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Natürliche Bevölkerungsveränderung")
   )+
   facet_wrap(bld~.)+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
-  labs(y = "Rate pro 1000 EW", x = " ", fill = " ",
+  labs(y = "Rate pro 1000 EW", x = " ", color = " ",
        title = "Migrationsstatistik Österreichischer Bundesländer, 2003-2023",
-       caption = "Quelle: Statistik Austria")+
+       caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur")+
+    theme_bw()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
 
-### 2.9. Raumtypologien
-
-Die Urban-Rural-Typologie der Statistik Austria ist eine räumliche Klassifikation, die Gemeinden bzw. Regionen anhand von Kriterien wie Bevölkerungsdichte, strukturellen Merkmalen und Erreichbarkeit in städtische, intermediäre und ländliche Raumtypen einteilt, um statistische Analysen zu ermöglichen.
-
-Die Urban-Rural Typologie der Statistik Austria kann im STATAtlas heruntergeladen werden: [https://www.statistik.at/atlas/?mapid=topo_regionale_gliederung_oesterreich](#0)
-
-```{r}
-typ <- read.csv2("data/003_gliederungen_nach_städtischen_und_ländlichen_gebieten(1).csv")
-
-head(typ)
 ```
