@@ -94,7 +94,7 @@ dta_typ <- dta_typ %>%
 ```{r}
 ggplot(dta_typ, aes(x = as.factor(jahr), y = pop_index, group = typ, color = typ))+
   geom_line(linewidth = 1) +
-  geom_point() +
+  geom_point(size = 1.5) +
   geom_hline(yintercept = 100, col = "black", linetype = "dashed", size = 1)+
   scale_color_manual(
     values = c("Urbaner Raum" = "#b35e6b",
@@ -139,7 +139,7 @@ mig_typ$variable <- mig_typ$variable %>%
 ```
 
 ```{r}
-ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
+ggplot(mig_typ, aes(x = as.factor(jahr), y = value, group = typ, color = typ))+
   geom_line(linewidth = 1)+
   facet_wrap(variable~.)+
     geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
@@ -156,10 +156,10 @@ ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
     labs(y = "Rate pro 1000 EW",
        x = NULL,
        color = NULL,
-       title = "Bevölkerungsdynamik; Tirol 2003-2023") 
+       title = "Bevölkerungsdynamik; Tirol 2002-2023") 
 ```
 
-### 3.4. Bevölkerungspyramide
+### 3.5. Bevölkerungspyramide
 
 ```{r}
 dta_pyramid <- read.csv("data/Bevölkerungspyramide.csv")
