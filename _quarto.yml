@@ -12,9 +12,9 @@ website:
         text: Intro
       - 01_basics.qmd
       - 02_data_manipulation.qmd
+      - 05_regional_profile.qmd
       - 03_sequenzanalyse.qmd
       - 04_mapping.qmd
-      - 05_regional_profile.qmd
 
 
 format:
