@@ -24,5 +24,11 @@ format:
     css: styles.css
     logo: images/logo.jpg
     toc: true
+    execute:
+      echo: true
+      warning: false
+      message: false
+      fig-width: 6       # default width in inches
+      fig-height: 4      # default height in inches
 
 
