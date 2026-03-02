@@ -1,5 +1,5 @@
 ---
-title: "Bevölkerungspyramide"
+title: "Skript 5: Bevölkerungspyramide"
 ---
 
 ```{r}
