@@ -29,7 +29,7 @@ format:
       echo: true
       warning: false
       message: false
-      fig-width: 8       # default width in inches
-      fig-height: 6      # default height in inches
+      fig-width: 10       # default width in inches
+      fig-height: 8      # default height in inches
 
 
