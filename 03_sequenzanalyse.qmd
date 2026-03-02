@@ -1,5 +1,5 @@
 ---
-title: "Skript 3 - Sequenzanalyse"
+title: "Skript 4 - Sequenzanalyse"
 ---
 
 ```{r}
@@ -83,7 +83,7 @@ seq <- seq_dta %>%
               values_from = rate_quartile)
 
 seq <- left_join(seq, typ, by = "gemnr")
-seq$Wert[is.na(seq$Wert)] <- "101"
+seq$typ[is.na(seq$typ)] <- "101"
 ```
 
 Der folgende Code erstellt eine **Sequenzanalyse** für die Spalten 3 bis 21 im Datensatz `seq`, die beispielsweise jährliche Veränderungen oder Ratings abbilden. Zunächst werden die Zustände der Sequenzen definiert: `seq.scode` kodiert sie intern als `"HG"`, `"G"`, `"D"` und `"HD"`, während `seq.alphabet` und `seq.labels` für die **lesbaren Bezeichnungen** sorgen („stark positiv“ bis „stark negativ“). Mit `seqdef()` werden die Daten als Sequenzen vorbereitet, inklusive Farben für die Visualisierung (`seq.cpal1`), sodass jeder Zustand konsistent dargestellt wird.
@@ -112,9 +112,9 @@ seqlegend(seq.df)
 
 seqiplot(seq.df, border=NA, idxs= 1:2114)
 seqdplot(seq.df, main = "Sequence distribution plot", border=T) 
-seqiplot(seq.df, border=NA, group = seq$Wert, idxs= 1:2114)
-seqdplot(seq.df, main = "Sequence distribution plot", group = seq$Wert, border=T) 
-seqfplot(seq.df, main = "Sequence frequency plot", group = seq$Wert, border=T) 
+seqiplot(seq.df, border=NA, group = seq$typ, idxs= 1:2114)
+seqdplot(seq.df, main = "Sequence distribution plot", group = seq$typ, border=T) 
+seqfplot(seq.df, main = "Sequence frequency plot", group = seq$typ, border=T) 
 ```
 
 ### 3.4. Berechnung von Distanzmaßen mit Optimal Matching

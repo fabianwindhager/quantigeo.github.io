@@ -18,7 +18,7 @@ dta <- read.csv("data/Bevölkerungspyramide.csv")
 ## Reordering dta$typ
 dta$typ <- dta$typ %>%
   fct_relevel(
-    "Städte", "Suburbaner Raum", "Regionalzentren", "Ländlicher Raum"
+    "Urbaner Raum", "Suburbaner Raum", "Regionalzentren", "Ländlicher Raum"
   )
 
 # Poppyramid
@@ -32,7 +32,7 @@ pyramid <- pyramid %>%
 ggplot(pyramid, aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
-    values = c("Städte" = "#b35e6b",
+    values = c("Urbaner Raum" = "#b35e6b",
                "Suburbaner Raum" = "#f5ca82",
                "Regionalzentren" = "#fdf453",
                "Ländlicher Raum" = "#84b870"))+

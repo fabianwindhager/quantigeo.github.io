@@ -62,9 +62,9 @@ typ <- left_join(typ, typ2, by = "gemnr")
 typ$typ <- typ$typ %>%
   as.character() %>%
   fct_recode(
-    "Städte" = "101",
-    "Städte" = "102",
-    "Städte" = "103",
+    "Urbaner Raum" = "101",
+    "Urbaner Raum" = "102",
+    "Urbaner Raum" = "103",
     "Regionalzentren" = "210",
     "Regionalzentren" = "220",
     "Suburbaner Raum" = "310",
@@ -108,7 +108,7 @@ pyramid <- pyramid %>%
 ggplot(pyramid, aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
-    values = c("Städte" = "#b35e6b",
+    values = c("Urbaner Raum" = "#b35e6b",
                "Suburbaner Raum" = "#f5ca82",
                "Regionalzentren" = "#fdf453",
                "Ländlicher Raum" = "#84b870"))+

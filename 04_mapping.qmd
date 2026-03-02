@@ -1,5 +1,5 @@
 ---
-title: "Skript 4 - Räumliche Daten & Kartographie"
+title: "Skript 5 - Räumliche Daten & Kartographie"
 editor: visual
 ---
 
@@ -37,11 +37,11 @@ shp$g_id <- as.integer(shp$g_id)
 map <- left_join(seq, shp, by = c("gemnr" = "g_id")) %>% 
   st_as_sf()
 
-map$Wert <- as.factor(map$Wert)
+map$typ <- as.factor(map$typ)
 map$cluster.dhd <- as.factor(map$cluster.dhd)
 
 ## Recoding map$Wert into map$typ
-map$typ <- map$Wert %>%
+map$typ <- map$typ %>%
   fct_recode(
     "Urbane Großzentren" = "101",
     "Urbane Mittelzentren" = "102",

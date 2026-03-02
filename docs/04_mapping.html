@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Skript 4 - Räumliche Daten &amp; Kartographie – Quantitative Geographie: Mobile Gesellschaft</title>
+<title>Skript 5 - Räumliche Daten &amp; Kartographie – Quantitative Geographie: Mobile Gesellschaft</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04_mapping.html">Skript 4 - Räumliche Daten &amp; Kartographie</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04_mapping.html">Skript 5 - Räumliche Daten &amp; Kartographie</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -161,20 +161,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./05_regional_profile.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Skript 3 - Regionsprofil</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./03_sequenzanalyse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Skript 3 - Sequenzanalyse</span></a>
+ <span class="menu-text">Skript 4 - Sequenzanalyse</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./04_mapping.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Skript 4 - Räumliche Daten &amp; Kartographie</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./06_pop_pyramid.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Skript 5: Bevölkerungspyramide</span></a>
+ <span class="menu-text">Skript 5 - Räumliche Daten &amp; Kartographie</span></a>
   </div>
 </li>
     </ul>
@@ -190,7 +190,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Skript 4 - Räumliche Daten &amp; Kartographie</h1>
+<h1 class="title">Skript 5 - Räumliche Daten &amp; Kartographie</h1>
 </div>
 
 
@@ -237,11 +237,11 @@ Projected CRS: MGI / Austria Lambert
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>map <span class="ot">&lt;-</span> <span class="fu">left_join</span>(seq, shp, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"gemnr"</span> <span class="ot">=</span> <span class="st">"g_id"</span>)) <span class="sc">%&gt;%</span> </span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">st_as_sf</span>()</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>map<span class="sc">$</span>Wert <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(map<span class="sc">$</span>Wert)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>map<span class="sc">$</span>typ <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(map<span class="sc">$</span>typ)</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>map<span class="sc">$</span>cluster.dhd <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(map<span class="sc">$</span>cluster.dhd)</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="do">## Recoding map$Wert into map$typ</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>map<span class="sc">$</span>typ <span class="ot">&lt;-</span> map<span class="sc">$</span>Wert <span class="sc">%&gt;%</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>map<span class="sc">$</span>typ <span class="ot">&lt;-</span> map<span class="sc">$</span>typ <span class="sc">%&gt;%</span></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fct_recode</span>(</span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Urbane Großzentren"</span> <span class="ot">=</span> <span class="st">"101"</span>,</span>
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Urbane Mittelzentren"</span> <span class="ot">=</span> <span class="st">"102"</span>,</span>

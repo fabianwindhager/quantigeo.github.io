@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Skript 3 - Sequenzanalyse – Quantitative Geographie: Mobile Gesellschaft</title>
+<title>Skript 4 - Sequenzanalyse – Quantitative Geographie: Mobile Gesellschaft</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03_sequenzanalyse.html">Skript 3 - Sequenzanalyse</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03_sequenzanalyse.html">Skript 4 - Sequenzanalyse</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -161,20 +161,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./05_regional_profile.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Skript 3 - Regionsprofil</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./03_sequenzanalyse.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Skript 3 - Sequenzanalyse</span></a>
+ <span class="menu-text">Skript 4 - Sequenzanalyse</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./04_mapping.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Skript 4 - Räumliche Daten &amp; Kartographie</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./06_pop_pyramid.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Skript 5: Bevölkerungspyramide</span></a>
+ <span class="menu-text">Skript 5 - Räumliche Daten &amp; Kartographie</span></a>
   </div>
 </li>
     </ul>
@@ -201,7 +201,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Skript 3 - Sequenzanalyse</h1>
+<h1 class="title">Skript 4 - Sequenzanalyse</h1>
 </div>
 
 
@@ -286,7 +286,7 @@ stark negativ       negativ       positiv stark positiv
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>              <span class="at">values_from =</span> rate_quartile)</span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>seq <span class="ot">&lt;-</span> <span class="fu">left_join</span>(seq, typ, <span class="at">by =</span> <span class="st">"gemnr"</span>)</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>Wert[<span class="fu">is.na</span>(seq<span class="sc">$</span>Wert)] <span class="ot">&lt;-</span> <span class="st">"101"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>typ[<span class="fu">is.na</span>(seq<span class="sc">$</span>typ)] <span class="ot">&lt;-</span> <span class="st">"101"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Der folgende Code erstellt eine <strong>Sequenzanalyse</strong> für die Spalten 3 bis 21 im Datensatz <code>seq</code>, die beispielsweise jährliche Veränderungen oder Ratings abbilden. Zunächst werden die Zustände der Sequenzen definiert: <code>seq.scode</code> kodiert sie intern als <code>"HG"</code>, <code>"G"</code>, <code>"D"</code> und <code>"HD"</code>, während <code>seq.alphabet</code> und <code>seq.labels</code> für die <strong>lesbaren Bezeichnungen</strong> sorgen („stark positiv“ bis „stark negativ“). Mit <code>seqdef()</code> werden die Daten als Sequenzen vorbereitet, inklusive Farben für die Visualisierung (<code>seq.cpal1</code>), sodass jeder Zustand konsistent dargestellt wird.</p>
 <p>Anschließend erlaubt der Code eine <strong>erste Exploration der Sequenzen</strong>: <code>seqstatl()</code> zeigt die Häufigkeit der Zustände über die Zeit, <code>print()</code> und <code>summary()</code> geben Übersicht über die Sequenzen einzelner Gemeinden und deren statistische Zusammenfassung, und <code>seqlegend()</code> erzeugt eine <strong>Legende</strong>, die die Farben den Zuständen zuordnet. So können Studierende schnell sehen, wie sich Zustände über die Zeit verteilen und Muster in den Sequenzen erkennen.</p>
@@ -352,7 +352,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> seq<span class="sc">$</span>Wert, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> seq<span class="sc">$</span>typ, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -360,7 +360,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>Wert, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>typ, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -368,7 +368,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>Wert, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>typ, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
