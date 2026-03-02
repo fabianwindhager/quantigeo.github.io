@@ -392,6 +392,7 @@ ggplot(data = rates_all %>% filter(variable != "mig_rate"),
        title = "Migrationsstatistik Österreichischer Bundesländer, 2003-2023",
        caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur")+
     theme_bw()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom")
 
 ```

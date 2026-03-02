@@ -201,8 +201,11 @@ window.Quarto = {
   </div>
 </li>
         <li class="sidebar-item">
- <span class="menu-text">05_pop_pyramid.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./06_pop_pyramid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Skript 5: Bevölkerungspyramide</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -761,7 +764,8 @@ argument.</code></pre>
 <span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Migrationsstatistik Österreichischer Bundesländer, 2003-2023"</span>,</span>
 <span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Quelle: Statistik Austria;</span><span class="sc">\n</span><span class="st"> Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur"</span>)<span class="sc">+</span></span>
 <span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
-<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Warning: Removed 9 rows containing missing values or values outside the scale range
 (`geom_line()`).</code></pre>
