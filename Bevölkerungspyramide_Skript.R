@@ -35,7 +35,7 @@ dta <- dta %>%
   rename(gemnr = nr) %>% 
   select(jahr, gemnr, gemname, geschl, alter, n)
 
-
+s
 # Gemtypen
 
 typ <- read.csv2("data/003_gliederungen_nach_städtischen_und_ländlichen_gebieten(1).csv")

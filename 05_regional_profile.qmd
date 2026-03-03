@@ -141,7 +141,7 @@ mig_typ$variable <- mig_typ$variable %>%
 
 ```{r}
 ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
-  geom_line(linewidth = 1)+
+  geom_line()+
   facet_wrap(variable~.)+
     geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
   scale_color_manual(
