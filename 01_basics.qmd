@@ -48,7 +48,7 @@ my_ages + 2
 
 ### 1.6. Datentypen
 
-R muss wissen, um welche Art von Daten es sich handelt. Zum Beispiel können nur mit numerischen Variablen (double, integer) Mathematische Berechnungen durchgeführt werden. Mit einer Character-Variable führen Berechnungen zu einem Error.
+R muss wissen, um welche Art von Daten es sich handelt. So können beispielsweise nur mit numerischen Variablen (double, integer) mathematische Berechnungen durchgeführt werden. Mit einer Character-Variable führen Berechnungen dagegen zu einem Fehler.
 
 | Typ             | Beschreibung                 | Beispiel        |
 |:----------------|------------------------------|-----------------|
@@ -66,7 +66,7 @@ class(my_names)
 
 ### 1.7. Dataframes
 
-Dies ist die "Excel-Tabelle" von R. Ein Datenrahmen ist zweidimensional: Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % der Datenanalysen statt.
+Dies ist die „Excel-Tabelle” von R. Ein Datenrahmen ist zweidimensional und besteht aus Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % aller Datenanalysen statt.
 
 | id  | name | score |
 |:---:|:----:|:-----:|
@@ -82,7 +82,7 @@ df <- data.frame(id = c(1,2,3,4,5),
                  score = c(90, 75, 80, 84, 95) )
 ```
 
-Der Dollarzeichen-Operator \$ wird verwendet, um eine einzelne Spalte aus einem Datenrahmen auszuwählen. "df\$score" bedeutet also: „Gehe zum Datenrahmen „df“ UND wähle die Spalte „score“ aus.
+Der Dollarzeichen-Operator `$` wird verwendet, um eine einzelne Spalte aus einem Datenrahmen ("Dataframe") auszuwählen. "`df$score`" bedeutet also: „Gehe zum Datenrahmen „df“ UND wähle die Spalte „score“ aus.
 
 Mit der Funktion `mean()` können wir Mittelwerte von Vektoren berechnen.
 
@@ -91,7 +91,7 @@ df$score
 mean(df$score)
 ```
 
-Benutze str() um eine Zusammenfassung des dataframes auszugeben.
+Benutze `str()` um eine Zusammenfassung eines Dataframes auszugeben.
 
 ```{r}
 str(df)
@@ -99,17 +99,17 @@ str(df)
 
 ### 1.8. Packages
 
-Packages sind Tools (oder kleine "Software") die in R für bestimmte Anwendungen geschrieben worden sind. Zum Beispiel wird das Package "ggplot" häufig für Visualisierungen verwendet. Das wichtigste Package-Bundle ist "tidyverse".
+Packages sind Tools (oder kleine „Softwareprogramme“), die in der Programmiersprache R für bestimmte Anwendungen geschrieben wurden. Das Package „ggplot” wird beispielsweise häufig für Visualisierungen verwendet. Das wichtigste Package-Bundle ist „tidyverse”.
 
-Generell können wir Pakete mit `install.packages()` installieren. Um ein bereits installiertes Paket zu laden und in unserem Skript verwenden zu können benutzen wir `library()`.
+Generell können wir Pakete mit der Funktion `install.packages()` installieren. Um ein bereits installiertes Paket zu laden und in unserem Skript verwenden zu können, benutzen wir die Funktion `library()`.
 
 ```{r}
 #install.packages("tidyverse") 
 library(tidyverse)
+
+# Hinweis: Bei Error "Kein package namens..." -> vergessen das Package mit library() zu laden.
 ```
 
 Das Tidyverse ist eine Sammlung aufeinander abgestimmter R-Pakete, die eine einheitliche und leicht verständliche Grammatik zum Importieren, Aufräumen, Transformieren und Visualisieren von Daten bereitstellen (im Gegensatz zu base-R).
 
-Bei Error "Kein package namens..." -\> vergessen das Package mit `library()` zu laden.
-
-Beispiele für wichtige und häufig verwendete Packages aus dem Tidyverse-Bundle sind `ggplot` (Visualisierung) `dplyr` (Data Manipulation, filter, select, summarize), `tidyr` (data reshaping) oder `readr` (schneller daten import)
+Beispiele für wichtige und häufig verwendete Pakete aus dem Tidyverse-Bundle sind „`ggplot`” (Visualisierung), „`dplyr`” (Datenmanipulation, Filterung, Auswahl, Zusammenfassung), „`tidyr`” (Datenumwandlung) oder „`readr`” (schneller Datenexport).

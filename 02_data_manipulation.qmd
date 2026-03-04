@@ -12,16 +12,15 @@ library(tidyverse)
 options(digits = 2)
 ```
 
-Im Kurs "Quantitative Geographien" arbeiten wir mit `.csv` und `.shp` files.
+Im R-Teil des Kurses „Quantitative Geographien” arbeiten wir mit hauptsächlich mit CSV-Dateien.
 
-Zuerst importieren wir einen Datensatz mit den jährlichen Bevölkerungszahlen zu Jahresbeginn (zum Stichtag 1.1.) von 2002-2023. (bereitgestellt auf Lernplattform)
+Je nach Dateiformat verwenden wir unterschiedliche Pakete zum importieren von Daten. Für .csv Dateien verwenden wir die Funktion `read.csv()`.
+
+Zunächst importieren wir einen Datensatz mit den jährlichen Bevölkerungszahlen zum Stichtag 1. Januar von 2002 bis 2023 und einen Datensatz mit Zu- und Abwanderungszahlen auf Gemeindebene. Beide Datensätze sind auf der OLAT-Kurswebsite zum Download bereitgestellt.
 
 ```{r}
 # Import Bevölkerungsdaten
 pop <- read.csv("data/Bevölkerungsdaten.csv")
-
-# Import Bevölkerungsdaten Tirol im Jahresdurchschnitt
-pop_tirol_yearmean <- read.csv2("data/Bevölkerung_Jahresdurchschnitt_Tirol.csv")
 
 # Import Wanderungsdaten
 moves <- read.csv("data/Wanderungsdaten.csv")
@@ -30,6 +29,9 @@ moves <- read.csv("data/Wanderungsdaten.csv")
 Um einen ersten Überblick über die Datensätze zu erhalten, können wir die Funktionen `head()` und `str()` verwenden.
 
 ```{r}
+
+# ?head -> schreiben wir vor einer Funktion ein Fragezeichen können wir uns im unteren rechten Quadraten von RStudio die Funktionsbeschreibung einblenden lassen!
+
 head(pop)
 str(pop)
 names(pop)
@@ -65,7 +67,7 @@ pop_2002 <- pop %>%
 ```
 
 | Logical Operators |                                                         |
-|-------------------------|-----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | `==`              | *ist gleich* (Beachte das doppelte Gleichheitszeichen!) |
 | `!=`              | *ist ungleich*                                          |
 | `&`               | *UND* (Beide/Alle Bedingungen müssen erfüllt sein)      |
@@ -98,8 +100,9 @@ moves <- moves %>%
 Da wir in sowohl in "`moves`" als auch in "`pop`" die gleichen Gemeindekennziffern haben, können wir die beiden dataframes vereinigen (oder "joinen"). Zuvor müssen wir allerdings die Jahre 2024 und 2025 aus dem "pop" datensatz entfernen.
 
 ```{r}
-pop <- pop %>% 
-  filter(!jahr %in% c(2024, 2025))
+
+pop <- pop %>% filter(!jahr %in% c(2024, 2025))
+
 ```
 
 Wir joinen die beiden Datensätze anhand der Variablen `gemnr` und `jahr`.

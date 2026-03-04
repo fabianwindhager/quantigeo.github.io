@@ -27,7 +27,7 @@ Mit `left_join()` fügen wir die Wanderungsdaten zu den Bevölkerungsdaten hinzu
 dta <- left_join(pop_tirol, moves, by = c("jahr", "gemnr"))
 ```
 
-### 3.2.  Raumtypologien
+### 3.2. Raumtypologien
 
 Die Urban-Rural-Typologie der Statistik Austria ist eine räumliche Klassifikation, die Gemeinden bzw. Regionen anhand von Kriterien wie Bevölkerungsdichte, strukturellen Merkmalen und Erreichbarkeit in städtische, intermediäre und ländliche Raumtypen einteilt, um statistische Analysen zu ermöglichen.
 
@@ -157,7 +157,7 @@ ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
     labs(y = "Rate pro 1000 EW",
        x = NULL,
        color = NULL,
-       title = "Bevölkerungsdynamik; Tirol 2002-2023",
+       title = "Komponenten der Bevölkerungsentwicklung; Tirol 2002-2023",
        caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur") 
 ```
 

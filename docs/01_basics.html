@@ -75,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a689babd61779e5d778a0244ec54c99c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a35d343c8bdbcb87d3b82ed68e48a46c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -265,7 +265,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="datentypen" class="level3">
 <h3 class="anchored" data-anchor-id="datentypen">1.6. Datentypen</h3>
-<p>R muss wissen, um welche Art von Daten es sich handelt. Zum Beispiel können nur mit numerischen Variablen (double, integer) Mathematische Berechnungen durchgeführt werden. Mit einer Character-Variable führen Berechnungen zu einem Error.</p>
+<p>R muss wissen, um welche Art von Daten es sich handelt. So können beispielsweise nur mit numerischen Variablen (double, integer) mathematische Berechnungen durchgeführt werden. Mit einer Character-Variable führen Berechnungen dagegen zu einem Fehler.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -316,7 +316,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="dataframes" class="level3">
 <h3 class="anchored" data-anchor-id="dataframes">1.7. Dataframes</h3>
-<p>Dies ist die “Excel-Tabelle” von R. Ein Datenrahmen ist zweidimensional: Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % der Datenanalysen statt.</p>
+<p>Dies ist die „Excel-Tabelle” von R. Ein Datenrahmen ist zweidimensional und besteht aus Zeilen (Beobachtungen) und Spalten (Variablen). Hier finden 99 % aller Datenanalysen statt.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -358,7 +358,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>, <span class="st">"D"</span>, <span class="st">"E"</span>),   </span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">score =</span> <span class="fu">c</span>(<span class="dv">90</span>, <span class="dv">75</span>, <span class="dv">80</span>, <span class="dv">84</span>, <span class="dv">95</span>) )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>Der Dollarzeichen-Operator $ wird verwendet, um eine einzelne Spalte aus einem Datenrahmen auszuwählen. “df$score” bedeutet also: „Gehe zum Datenrahmen „df“ UND wähle die Spalte „score“ aus.</p>
+<p>Der Dollarzeichen-Operator <code>$</code> wird verwendet, um eine einzelne Spalte aus einem Datenrahmen (“Dataframe”) auszuwählen. “<code>df$score</code>” bedeutet also: „Gehe zum Datenrahmen „df“ UND wähle die Spalte „score“ aus.</p>
 <p>Mit der Funktion <code>mean()</code> können wir Mittelwerte von Vektoren berechnen.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>score </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -370,7 +370,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>[1] 84.8</code></pre>
 </div>
 </div>
-<p>Benutze str() um eine Zusammenfassung des dataframes auszugeben.</p>
+<p>Benutze <code>str()</code> um eine Zusammenfassung eines Dataframes auszugeben.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -383,15 +383,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="packages" class="level3">
 <h3 class="anchored" data-anchor-id="packages">1.8. Packages</h3>
-<p>Packages sind Tools (oder kleine “Software”) die in R für bestimmte Anwendungen geschrieben worden sind. Zum Beispiel wird das Package “ggplot” häufig für Visualisierungen verwendet. Das wichtigste Package-Bundle ist “tidyverse”.</p>
-<p>Generell können wir Pakete mit <code>install.packages()</code> installieren. Um ein bereits installiertes Paket zu laden und in unserem Skript verwenden zu können benutzen wir <code>library()</code>.</p>
+<p>Packages sind Tools (oder kleine „Softwareprogramme“), die in der Programmiersprache R für bestimmte Anwendungen geschrieben wurden. Das Package „ggplot” wird beispielsweise häufig für Visualisierungen verwendet. Das wichtigste Package-Bundle ist „tidyverse”.</p>
+<p>Generell können wir Pakete mit der Funktion <code>install.packages()</code> installieren. Um ein bereits installiertes Paket zu laden und in unserem Skript verwenden zu können, benutzen wir die Funktion <code>library()</code>.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages("tidyverse") </span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Hinweis: Bei Error "Kein package namens..." -&gt; vergessen das Package mit library() zu laden.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Das Tidyverse ist eine Sammlung aufeinander abgestimmter R-Pakete, die eine einheitliche und leicht verständliche Grammatik zum Importieren, Aufräumen, Transformieren und Visualisieren von Daten bereitstellen (im Gegensatz zu base-R).</p>
-<p>Bei Error “Kein package namens…” -&gt; vergessen das Package mit <code>library()</code> zu laden.</p>
-<p>Beispiele für wichtige und häufig verwendete Packages aus dem Tidyverse-Bundle sind <code>ggplot</code> (Visualisierung) <code>dplyr</code> (Data Manipulation, filter, select, summarize), <code>tidyr</code> (data reshaping) oder <code>readr</code> (schneller daten import)</p>
+<p>Beispiele für wichtige und häufig verwendete Pakete aus dem Tidyverse-Bundle sind „<code>ggplot</code>” (Visualisierung), „<code>dplyr</code>” (Datenmanipulation, Filterung, Auswahl, Zusammenfassung), „<code>tidyr</code>” (Datenumwandlung) oder „<code>readr</code>” (schneller Datenexport).</p>
 
 
 </section>

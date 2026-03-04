@@ -35,7 +35,7 @@ dta <- dta %>%
   rename(gemnr = nr) %>% 
   select(jahr, gemnr, gemname, geschl, alter, n)
 
-s
+
 # Gemtypen
 
 typ <- read.csv2("data/003_gliederungen_nach_städtischen_und_ländlichen_gebieten(1).csv")
@@ -47,8 +47,6 @@ typ2$gemnr <- as.character(typ2$gemnr)
 
 
 typ <- typ %>% 
-  rename(gemname = Name,
-         typ = Wert) %>% 
   select(-gemname)
 
 typ2 <- typ2 %>% 
@@ -146,3 +144,55 @@ ggplot(pyramid, aes(x=pop_pyramid, y=alter, fill=typ2)) +
   annotate(geom="text", x=-15300, y=20, label="Männer", size=5) +
   annotate(geom="text", x=15300, y=20, label="Frauen", size=5) 
 
+
+
+# Dependency Ratio
+# (dependents/working-age pop) *100
+# working age = 15-64
+
+names(dta)
+
+dep <- dta %>% 
+  group_by(jahr, gemnr, gemname, alter, typ, typ2) %>% 
+  summarise(n = sum(n)) %>% 
+  ungroup()
+
+
+## Recoding dep$alter into dep$alter_rec
+dep$depend <- dep$alter %>%
+  fct_recode(
+    "dependent" = "10 bis 14 Jahre",
+    "dependent" = "100 Jahre und älter",
+    "working" = "15 bis 19 Jahre",
+    "working" = "20 bis 24 Jahre",
+    "working" = "25 bis 29 Jahre",
+    "working" = "30 bis 34 Jahre",
+    "working" = "35 bis 39 Jahre",
+    "working" = "40 bis 44 Jahre",
+    "working" = "45 bis 49 Jahre",
+    "dependent" = "5 bis 9 Jahre",
+    "working" = "50 bis 54 Jahre",
+    "working" = "55 bis 59 Jahre",
+    "working" = "60 bis 64 Jahre",
+    "dependent" = "65 bis 69 Jahre",
+    "dependent" = "70 bis 74 Jahre",
+    "dependent" = "75 bis 79 Jahre",
+    "dependent" = "80 bis 84 Jahre",
+    "dependent" = "85 bis 89 Jahre",
+    "dependent" = "90 bis 94 Jahre",
+    "dependent" = "95 bis 99 Jahre",
+    "dependent" = "bis 4 Jahre"
+  )
+
+
+dep1 <- dep %>% 
+  group_by(jahr, gemnr, typ, depend) %>% 
+  summarise(n = sum(n)) %>% 
+  pivot_wider(names_from = depend,
+              values_from = n) %>% 
+  ungroup() %>% 
+  mutate(dep_ratio = (dependent/working) * 100)
+
+ggplot(dep1, aes(x = as.factor(jahr), y = dep_ratio, group = jahr))+
+  geom_boxplot()+
+  facet_wrap(typ~.)

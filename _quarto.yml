@@ -20,7 +20,7 @@ website:
 format:
   html:
     theme:
-      - zephyr
+      - cosmo
       - brand
     css: styles.css
     logo: images/logo.jpg
