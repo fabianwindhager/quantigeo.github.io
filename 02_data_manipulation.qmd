@@ -381,7 +381,7 @@ Mit `facet_wrap()` oder `facet_grid()` können wir diese Darstellung auch für a
 ```{r}
 ggplot(data = rates_all %>% filter(variable != "mig_rate"),
        aes(x = as.factor(jahr), y = value, color = variable, group = variable))+
-  geom_line(linewidth = 1)+
+  geom_line()+
   #theme_classic()+
   scale_color_manual(
     values = c("au_rate" = "dodgerblue",  
