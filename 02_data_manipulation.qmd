@@ -332,20 +332,6 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   labs(y = "Rate pro 1000 EW", x = " ", col = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
     theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 
-ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, col = variable, group = variable))+
-  geom_smooth(linewidth = 1, se= F, span = 0.3)+
-  theme_classic()+
-  scale_color_manual(
-  values = c("au_rate" = "#386CB0",  
-             "bi_rate" = "#F0027F",   
-             "mig_rate" = "#BF5B17",
-             "nat_rate" = "#7FC97F"),
-  labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
-)+
-  geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
-  labs(y = "Rate pro 1000 EW", x = " ", col = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
-    theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
 
 ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, fill = variable, group = variable))+
   geom_col()+
@@ -372,7 +358,7 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
-  labs(y = "Rate pro 1000 EW", x = " ", fill = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
+  labs(y = "Rate pro 1000 EW", x = " ", fill = " ", title = "Komponenten der Bevölkerungsentwicklung Tirol, 2002-2023", caption = "Quelle: Statistik Austria")+
     theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
