@@ -242,14 +242,14 @@ ggplot(data = pop_tirol, aes(x = jahr, y = pop_rate))+
 
 # mit "fill" können wir die Farbe der Balken ändern (auch mit Farbcodes möglich!)
 ggplot(data = pop_tirol, aes(x = jahr, y = pop_rate))+ 
-  geom_col(fill = "dodgerblue")+
+  geom_col(fill = "#F0027F")+
   theme_classic()+
   labs(x = " ", y = "Bevölkerungsveränderung in %")
 
 # Mittels zb. as.factor() können wir in ggplot den Datentyp angeben, ohne den ursprünglichen Dataframe zu ändern.
 # Mit theme() können wir jedes Element des Diagramms ansteuern und verändern
 ggplot(data = pop_tirol, aes(x = as.factor(jahr), y = pop_rate))+ 
-  geom_col(fill = "firebrick")+
+  geom_col(fill = "#386CB0")+
   theme_classic()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   labs(x = " ", y = "Bevölkerungsveränderung in %", title = "Bevölkerungsveränderungrate in %; Tirol 2003-2023")
@@ -322,10 +322,10 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   geom_line(linewidth = 1)+
   theme_classic()+
   scale_color_manual(
-  values = c("au_rate" = "dodgerblue",  
-             "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen",
-             "nat_rate" = "magenta"),
+  values = c("au_rate" = "#386CB0",  
+             "bi_rate" = "#F0027F",   
+             "mig_rate" = "#BF5B17",
+             "nat_rate" = "#7FC97F"),
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
@@ -336,10 +336,10 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   geom_smooth(linewidth = 1, se= F, span = 0.3)+
   theme_classic()+
   scale_color_manual(
-  values = c("au_rate" = "dodgerblue",  
-             "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen",
-             "nat_rate" = "magenta"),
+  values = c("au_rate" = "#386CB0",  
+             "bi_rate" = "#F0027F",   
+             "mig_rate" = "#BF5B17",
+             "nat_rate" = "#7FC97F"),
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
@@ -351,10 +351,10 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   geom_col()+
   theme_classic()+
   scale_fill_manual(
-  values = c("au_rate" = "dodgerblue",  
-             "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen",
-             "nat_rate" = "magenta"),
+  values = c("au_rate" = "#386CB0",  
+             "bi_rate" = "#F0027F",   
+             "mig_rate" = "#BF5B17",
+             "nat_rate" = "#7FC97F"),
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
@@ -365,10 +365,10 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   geom_col(position = "dodge")+
   theme_classic()+
   scale_fill_manual(
-  values = c("au_rate" = "dodgerblue",  
-             "bi_rate" = "firebrick",   
-             "mig_rate" = "forestgreen",
-             "nat_rate" = "magenta"),
+  values = c("au_rate" = "#386CB0",  
+             "bi_rate" = "#F0027F",   
+             "mig_rate" = "#BF5B17",
+             "nat_rate" = "#7FC97F"),
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
@@ -384,15 +384,15 @@ ggplot(data = rates_all %>% filter(variable != "mig_rate"),
   geom_line()+
   #theme_classic()+
   scale_color_manual(
-    values = c("au_rate" = "dodgerblue",  
-               "bi_rate" = "firebrick",
-               "nat_rate" = "magenta"),
+    values = c("au_rate" = "#386CB0",  
+               "bi_rate" = "#F0027F",
+               "nat_rate" = "#7FC97F"),
     labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Natürliche Bevölkerungsveränderung")
   )+
   facet_wrap(bld~.)+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", color = " ",
-       title = "Migrationsstatistik Österreichischer Bundesländer, 2003-2023",
+       title = "Komponenten der Bevölkerungsentwicklung Österreichischer Bundesländer, 2002-2023",
        caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur")+
     theme_bw()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
