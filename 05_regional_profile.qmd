@@ -261,7 +261,7 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   labs(x="Bevölkerung",
        y="Altersgruppe",
        fill="",
-       title = "Bevölkerungspyramide Niederösterreich nach Raumtyp 2002/2023",
+       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2023",
        caption = "Quelle: Statistik Austria")+
   facet_grid(.~jahr)+
   theme_bw()+
@@ -284,7 +284,7 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   labs(x="Bevölkerung",
        y="Altersgruppe",
        fill="",
-       title = "Bevölkerungspyramide Niederösterreich nach Raumtyp 2002/2023",
+       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2023",
        caption = "Quelle: Statistik Austria")+
   facet_grid(typ~jahr)+
   theme_bw()+
