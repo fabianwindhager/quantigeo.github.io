@@ -10,7 +10,7 @@ library(tidyverse)
 options(scipen = 999)
 ```
 
-### 3.1. Daten Import
+### 3.1. Daten Import & Bereinigung
 
 Für die Erstellung eines demographischen Regionsprofiles importieren wir Bevölkerungsdaten und Wanderungsdaten. Mit `filter()` wählen wir aus dem Datensatz nur die Tiroler Gemeinden aus.
 
@@ -161,45 +161,135 @@ ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
        caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur") 
 ```
 
-### 3.5. Bevölkerungspyramide
+### 3.5. Bevölkerungspyramide nach Raumtyp
+
+Um eine Bevölkerungspyramide nach Raumtyp zu erstellen, importieren wir Bevölkerungsdaten für Österreich aus dem Open Data Portal der Statistik Austria ([https://data.statistik.gv.at/web/](#0)). Die Daten sind in einem Datenbankformat der Statistik Austria gespeichert. Für unsere Analyse müssen wir die Daten daher für unsere Zwecke bereinigen.
 
 ```{r}
-dta_pyramid <- read.csv("data/Bevölkerungspyramide.csv")
+pop_2002 <- read.csv2("data/OGD_bevstandjbab2002_BevStand_2002.csv")
+pop_2012 <- read.csv2("data/OGD_bevstandjbab2002_BevStand_2012.csv")
+pop_2023 <- read.csv2("data/OGD_bevstandjbab2002_BevStand_2023.csv")
+```
+
+Mit `rbind()` verbinden wir die separaten Datensätze zu einem Dataframe.
+
+```{r}
+pop_pyramid <- rbind(pop_2002,
+                     pop_2012,
+                     pop_2023)
+
+head(pop_pyramid)
+```
+
+Zunächst ändern wir die Spaltennamen. Mit `rename()` ändern wir die Namen nach Position (Spaltennummer) im Datensatz. Danach passen wir die Werte für unsere Zwecke an. Mit `mutate()` und Funktionen aus dem Paket "`stringr`" können wir die Werte im Datensatz recodieren. `str_sub()` beispielsweise extrahiert oder ersetzt **Teilstrings an bestimmten Positionen** innerhalb eines Strings, z. B. von Zeichen X bis Y oder in unserem Fall die letzten -4 Zeichen der Zeichenkette. `str_remove()` entfernt eine vordefinierte Zeichenkette.
+
+```{r}
+pop_pyramid <- pop_pyramid %>% 
+  rename(jahr = 1,
+         geschl = 2,
+         gemnr = 3,
+         alter = 4,
+         n = 5) %>% 
+  mutate(jahr = str_sub(jahr, -4),
+         geschl = str_sub(geschl, -1),
+         gemnr = str_sub(gemnr, -5),
+         alter = str_remove(alter, "GALTEJ112-"))
+
+pop_pyramid$alter[pop_pyramid$alter == "GALT5J100-21"] <- "21" # Ein Wert folgt nicht dem Pattern. Wir ersetzen diesen Wert manuell.
+unique(pop_pyramid$alter)
+anyNA(pop_pyramid)
+colSums(is.na(pop_pyramid))
+```
+
+Da wir Bevölkerungspyramiden nach Raumtyp haben wollen, joinen wir die Raumtypologie der Statistik Austria mit dem Bevölkerungsdatensatz anhand der Gemeindenummern und vereinfachen diese mit `fct_recode()`, so dass wir 3 Raumtypen erhalten.
+
+```{r}
+typ <- typ %>% 
+  select(-gemname)
+typ$gemnr <- as.character(typ$gemnr)
+pop_pyramid <- left_join(pop_pyramid, typ, by = "gemnr")
+pop_pyramid$typ[is.na(pop_pyramid$typ)] <- 101
+colSums(is.na(pop_pyramid))
+## Recoding pop_pyramid$typ
+pop_pyramid$typ <- pop_pyramid$typ |>
+  as.character() |>
+  fct_recode(
+    "Urbaner Raum" = "101",
+    "Urbaner Raum" = "102",
+    "Urbaner Raum" = "103",
+    "Suburban- / Periurbaner Raum" = "210",
+    "Suburban- / Periurbaner Raum" = "220",
+    "Suburban- / Periurbaner Raum" = "310",
+    "Suburban- / Periurbaner Raum" = "320",
+    "Suburban- / Periurbaner Raum" = "330",
+    "Ländlicher Raum" = "410",
+    "Ländlicher Raum" = "420",
+    "Ländlicher Raum" = "430"
+  )
+```
+
+Damit Männer und Frauen auf der x-Achse gespiegelt dargestellt werden können werden die Bevölkerungszahlen der Männer negativ kodiert. `ifelse()` ist eine Vektorfunktion mit der wir für jede Zeile die Bedingung `geschl == "1"` überprüfen. Wenn der Wert TRUE ist (also eine 1 in der Zeile vorkommt) wird die Bevölkerungszahl negativ gemacht (-n). Mit `fct_inorder()` ändern wir die Reihenfolge der Altersgruppen, damit die Altersgruppen korrekt von oben nach unten angezeigt werden.
+
+```{r}
+pop_pyramid <- pop_pyramid %>%
+  mutate(pop_pyramid = ifelse(geschl=="1", -n, n))
+
+pop_pyramid <- pop_pyramid %>%
+  mutate(alter=fct_inorder(alter))
+```
+
+Wir erstellen eine neue Spalte, in die wir die Bundesländerziffer aus den Gemeindenummern extrahieren. Danach erstellen wir einen neuen Dataframe mit den Bevölkerungszahlen für Tirol.
+
+```{r}
+pop_pyramid <- pop_pyramid %>% 
+  mutate(bld = str_sub(gemnr, 1, 1))
+
+pop_pyramid_tirol <- pop_pyramid %>% 
+  filter(bld == 7)
 ```
 
 ```{r}
-## Reordering dta$typ
-dta_pyramid$typ <- dta_pyramid$typ %>%
-  fct_relevel(
-    "Urbaner Raum", "Suburbaner Raum", "Regionalzentren", "Ländlicher Raum"
-  )
-
-# Poppyramid
-
-pyramid <- dta_pyramid %>%
-  mutate(pop_pyramid = ifelse(geschl=="männlich", -n, n))
-
-pyramid <- pyramid %>%
-  mutate(alter=fct_inorder(alter))
-
-ggplot(pyramid, aes(x=pop_pyramid, y=alter, fill=typ)) + 
+ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
-               "Suburbaner Raum" = "#f5ca82",
-               "Regionalzentren" = "#fdf453",
+               "Suburban- / Periurbaner Raum" = "#fdf453",
                "Ländlicher Raum" = "#84b870"))+
+  scale_y_discrete(breaks = seq(0, 100, 10))+
   scale_x_continuous(labels=abs) +
   geom_vline(xintercept=0, color="black") +
   labs(x="Bevölkerung",
        y="Altersgruppe",
        fill="",
-       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2025",
+       title = "Bevölkerungspyramide Niederösterreich nach Raumtyp 2002/2023",
        caption = "Quelle: Statistik Austria")+
   facet_grid(.~jahr)+
   theme_bw()+
   theme(legend.position = "bottom")+
   theme(plot.title = element_text(hjust = 0.5))+
-  annotate(geom="text", x=-15300, y=20, label="Männer", size=5) +
-  annotate(geom="text", x=15300, y=20, label="Frauen", size=5) 
+  annotate(geom="text", x=-2800, y=95, label="Männer", size=3) +
+  annotate(geom="text", x=2800, y=95, label="Frauen", size=3) 
+```
+
+```{r}
+ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
+  geom_col() +
+  scale_fill_manual(
+    values = c("Urbaner Raum" = "#b35e6b",
+               "Suburban- / Periurbaner Raum" = "#fdf453",
+               "Ländlicher Raum" = "#84b870"))+
+  scale_y_discrete(breaks = seq(0, 100, 10))+
+  scale_x_continuous(labels=abs) +
+  geom_vline(xintercept=0, color="black") +
+  labs(x="Bevölkerung",
+       y="Altersgruppe",
+       fill="",
+       title = "Bevölkerungspyramide Niederösterreich nach Raumtyp 2002/2023",
+       caption = "Quelle: Statistik Austria")+
+  facet_grid(typ~jahr)+
+  theme_bw()+
+  theme(legend.position = "bottom")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  annotate(geom="text", x=-2800, y=95, label="Männer", size=3) +
+  annotate(geom="text", x=2800, y=95, label="Frauen", size=3) 
 ```

@@ -157,7 +157,7 @@ seqdplot(seq.df, main = "Sequence distribution plot", group = groups.om, border=
 seqfplot(seq.df, main = "Sequence frequency plot", group = groups.om, border=T) 
 ```
 
-### 3.6. Bonus: Dynamic Hamming Distance
+### 3.6. Dynamic Hamming Distance
 
 ```{r}
 #| fig-width: 12
