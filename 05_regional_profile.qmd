@@ -253,7 +253,7 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
-               "Suburban- / Periurbaner Raum" = "#fdf453",
+               "Suburban- / Periurbaner Raum" = "#eeaf58",
                "Ländlicher Raum" = "#84b870"))+
   scale_y_discrete(breaks = seq(0, 100, 10))+
   scale_x_continuous(labels=abs) +
@@ -276,7 +276,7 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
-               "Suburban- / Periurbaner Raum" = "#fdf453",
+               "Suburban- / Periurbaner Raum" = "#eeaf58",
                "Ländlicher Raum" = "#84b870"))+
   scale_y_discrete(breaks = seq(0, 100, 10))+
   scale_x_continuous(labels=abs) +
