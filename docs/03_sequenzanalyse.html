@@ -116,8 +116,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo2.jpg" alt="" class="navbar-logo light-content">
-    <img src="./images/logo2.jpg" alt="" class="navbar-logo dark-content">
+    <img src="./images/logo.jpg" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.jpg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Quantitative Geographie: Mobile Gesellschaft</span>
@@ -368,30 +368,9 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> seq<span class="sc">$</span>typ, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid figure-img" width="1152"></p>
-</figure>
-</div>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>typ, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-4.png" class="img-fluid figure-img" width="1152"></p>
-</figure>
-</div>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> seq<span class="sc">$</span>typ, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="03_sequenzanalyse_files/figure-html/unnamed-chunk-6-5.png" class="img-fluid figure-img" width="1152"></p>
-</figure>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#seqiplot(seq.df, border=NA, group = seq$typ, idxs= 1:2114)</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co">#seqdplot(seq.df, main = "Sequence distribution plot", group = seq$typ, border=T) </span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co">#seqfplot(seq.df, main = "Sequence frequency plot", group = seq$typ, border=T) </span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="berechnung-von-distanzmaßen-mit-optimal-matching" class="level3">
@@ -406,8 +385,8 @@ stark negativ       negativ       positiv stark positiv
 <p>Jede Operation wird mit einer <strong>Kostenfunktion</strong> versehen, sodass Sequenzen, die ähnlich verlaufen, <strong>geringere Gesamtkosten</strong> haben. Die resultierende Distanzmatrix kann anschließend für <strong>Clusteranalysen</strong>, <strong>Multidimensionale Skalierung (MDS)</strong> oder <strong>Visualisierung von Sequenzmustern</strong> verwendet werden.</p>
 <p><strong>OM quantifiziert, wie „nah“ zwei zeitliche Abläufe beieinanderliegen</strong>, und erlaubt so die Analyse von typischen Mustern und Abweichungen in Sequenzdaten.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>costs <span class="ot">&lt;-</span> <span class="fu">seqcost</span>(seq.df, <span class="at">method =</span> <span class="st">"INDELSLOG"</span>)</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>dist.om <span class="ot">&lt;-</span> <span class="fu">seqdist</span>(seq.df, <span class="at">method =</span> <span class="st">"OM"</span>, <span class="at">indel =</span> costs<span class="sc">$</span>indel, <span class="at">sm =</span> costs<span class="sc">$</span>sm)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>costs <span class="ot">&lt;-</span> <span class="fu">seqcost</span>(seq.df, <span class="at">method =</span> <span class="st">"INDELSLOG"</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>dist.om <span class="ot">&lt;-</span> <span class="fu">seqdist</span>(seq.df, <span class="at">method =</span> <span class="st">"OM"</span>, <span class="at">indel =</span> costs<span class="sc">$</span>indel, <span class="at">sm =</span> costs<span class="sc">$</span>sm)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="clustering" class="level3">
@@ -416,10 +395,10 @@ stark negativ       negativ       positiv stark positiv
 <p><strong>Ward’s Methode</strong> ist eine spezielle Form des <strong>hierarchischen Clustering</strong>. Sie arbeitet nach dem Prinzip, dass in jedem Schritt die beiden Cluster zusammengeführt werden, deren <strong>Zusammenfassung die geringste Zunahme der Gesamtsumme der quadrierten Abweichungen (Within-Cluster-Variance)</strong> verursacht. Anders gesagt: Ward sucht immer die Kombination, die die <strong>homogensten Gruppen</strong> erzeugt.</p>
 <p>Tendenziell erzeugt dieser Clustering-Algorithmus <strong>ähnlich große und kompakte Cluster</strong>, was die Interpretation von Gruppenmustern erleichtert.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>wardcluster_OM <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">as.dist</span>(dist.om), <span class="at">method =</span> <span class="st">"ward.D"</span>)</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">6</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>groups.om <span class="ot">&lt;-</span> <span class="fu">cutree</span>(wardcluster_OM, <span class="at">k =</span> k)</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> groups.om, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>wardcluster_OM <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">as.dist</span>(dist.om), <span class="at">method =</span> <span class="st">"ward.D"</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">6</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>groups.om <span class="ot">&lt;-</span> <span class="fu">cutree</span>(wardcluster_OM, <span class="at">k =</span> k)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> groups.om, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -427,7 +406,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> groups.om, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> groups.om, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -435,7 +414,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> groups.om, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> groups.om, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -448,16 +427,16 @@ stark negativ       negativ       positiv stark positiv
 <section id="dynamic-hamming-distance" class="level3">
 <h3 class="anchored" data-anchor-id="dynamic-hamming-distance">3.6. Dynamic Hamming Distance</h3>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#?seqdist</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>costs <span class="ot">&lt;-</span> <span class="fu">seqcost</span>(seq.df, <span class="at">method =</span> <span class="st">"INDELSLOG"</span>)</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>dist.dhd <span class="ot">&lt;-</span> <span class="fu">seqdist</span>(seq.df, <span class="at">method =</span> <span class="st">"DHD"</span>, <span class="at">indel =</span> costs<span class="sc">$</span>indel)</span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>wardcluster_DHD <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">as.dist</span>(dist.dhd), <span class="at">method =</span> <span class="st">"ward.D"</span>)</span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">6</span></span>
-<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>groups.dhd <span class="ot">&lt;-</span> <span class="fu">cutree</span>(wardcluster_DHD, <span class="at">k =</span> k)</span>
-<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> groups.dhd, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#?seqdist</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>costs <span class="ot">&lt;-</span> <span class="fu">seqcost</span>(seq.df, <span class="at">method =</span> <span class="st">"INDELSLOG"</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>dist.dhd <span class="ot">&lt;-</span> <span class="fu">seqdist</span>(seq.df, <span class="at">method =</span> <span class="st">"DHD"</span>, <span class="at">indel =</span> costs<span class="sc">$</span>indel)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>wardcluster_DHD <span class="ot">&lt;-</span> <span class="fu">hclust</span>(<span class="fu">as.dist</span>(dist.dhd), <span class="at">method =</span> <span class="st">"ward.D"</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="dv">6</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>groups.dhd <span class="ot">&lt;-</span> <span class="fu">cutree</span>(wardcluster_DHD, <span class="at">k =</span> k)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="fu">seqiplot</span>(seq.df, <span class="at">border=</span><span class="cn">NA</span>, <span class="at">group =</span> groups.dhd, <span class="at">idxs=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">2114</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -465,7 +444,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> groups.dhd, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqdplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence distribution plot"</span>, <span class="at">group =</span> groups.dhd, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -473,7 +452,7 @@ stark negativ       negativ       positiv stark positiv
 </figure>
 </div>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> groups.dhd, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seqfplot</span>(seq.df, <span class="at">main =</span> <span class="st">"Sequence frequency plot"</span>, <span class="at">group =</span> groups.dhd, <span class="at">border=</span>T) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -483,10 +462,10 @@ stark negativ       negativ       positiv stark positiv
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>cluster.om <span class="ot">&lt;-</span> <span class="fu">factor</span>(groups.om)</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>cluster.dhd <span class="ot">&lt;-</span> <span class="fu">factor</span>(groups.dhd)</span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(seq, <span class="st">"data/Sequenzdaten.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>cluster.om <span class="ot">&lt;-</span> <span class="fu">factor</span>(groups.om)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>seq<span class="sc">$</span>cluster.dhd <span class="ot">&lt;-</span> <span class="fu">factor</span>(groups.dhd)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(seq, <span class="st">"data/Sequenzdaten.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 

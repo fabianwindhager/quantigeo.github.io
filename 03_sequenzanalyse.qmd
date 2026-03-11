@@ -112,9 +112,9 @@ seqlegend(seq.df)
 
 seqiplot(seq.df, border=NA, idxs= 1:2114)
 seqdplot(seq.df, main = "Sequence distribution plot", border=T) 
-seqiplot(seq.df, border=NA, group = seq$typ, idxs= 1:2114)
-seqdplot(seq.df, main = "Sequence distribution plot", group = seq$typ, border=T) 
-seqfplot(seq.df, main = "Sequence frequency plot", group = seq$typ, border=T) 
+#seqiplot(seq.df, border=NA, group = seq$typ, idxs= 1:2114)
+#seqdplot(seq.df, main = "Sequence distribution plot", group = seq$typ, border=T) 
+#seqfplot(seq.df, main = "Sequence frequency plot", group = seq$typ, border=T) 
 ```
 
 ### 3.4. Berechnung von Distanzmaßen mit Optimal Matching
