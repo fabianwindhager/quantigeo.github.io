@@ -343,7 +343,7 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
 
 ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, fill = variable, group = variable))+
   geom_col()+
-  theme_classic()+
+  theme_bw()+
   scale_fill_manual(
   values = c("au_rate" = "lightgray",  
              "bi_rate" = "dimgray",   
