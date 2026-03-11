@@ -257,9 +257,8 @@ window.Quarto = {
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Bevölkerungsdaten</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pop <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Bevölkerungsdaten.csv"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Wanderungsdaten</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>moves <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Wanderungsdaten.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Wanderungsdaten</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>moves <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Wanderungsdaten.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Um einen ersten Überblick über die Datensätze zu erhalten, können wir die Funktionen <code>head()</code> und <code>str()</code> verwenden.</p>
 <div class="cell">
@@ -337,8 +336,8 @@ window.Quarto = {
 </div>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 75%">
+<col style="width: 27%">
+<col style="width: 72%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -454,15 +453,15 @@ window.Quarto = {
 <!-- -->
 <ol start="2" type="1">
 <li><p><strong>Binnenwanderungsrate</strong></p>
-<p>Die Binnenwanderungsrate berechnet sich als <span class="math display">\[\frac{\text{Binnenwanderungssaldo}}{\text{Bevölkerungsstand}} \times 1000\]</span>.</p>
+<p>Die Binnenwanderungsrate berechnet sich als <span class="math display">\[\frac{\text{Binnenwanderungssaldo}}{\text{Bevölkerung im Jahresdurchschnitt}} \times 1000\]</span>.</p>
 <p>Die Rate gibt an, wie viele Personen pro 1.000 Einwohner:innen durch Binnenmigration gewonnen oder verloren werden</p></li>
 <li><p><strong>Aussenwanderungsrate</strong></p>
-<p>Die Außenwanderungsrate berechnet sich als <span class="math display">\[\frac{\text{Außenwanderungssaldo}}{\text{Bevölkerungsstand}} \times 1000\]</span>.</p>
+<p>Die Außenwanderungsrate berechnet sich als <span class="math display">\[\frac{\text{Außenwanderungssaldo}}{\text{Bevölkerung im Jahresdurchschnitt}} \times 1000\]</span>.</p>
 <p>Die Außenwanderungsrate zeigt, wie viele Personen pro 1.000 Einwohner:innen durch Zu- und Wegzüge über die Staatsgrenze hinweg gewonnen oder verloren werden.</p></li>
 <li><p><strong>Gesamtmigrationsbilanz</strong></p>
 <p>Die Gesamtmigrationsbilanz berechnet sich als <span class="math display">\[\text{Binnenwanderungssaldo} + \text{Außenwanderungssaldo}\]</span>.</p>
 <p>Die Gesamtmigrationsbilanz zeigt den gesamten Bevölkerungsgewinn oder -verlust einer Region durch alle Wanderungsbewegungen.</p>
-<p>Die Gesamtmigrationsrate berechnet sich analog zu den anderen Migrationsraten als <span class="math display">\[\frac{\text{Gesamtmigrationssaldo}}{\text{Bevölkerungsstand}} \times 1000\]</span>.</p></li>
+<p>Die Gesamtmigrationsrate berechnet sich analog zu den anderen Migrationsraten als <span class="math display">\[\frac{\text{Gesamtmigrationssaldo}}{\text{Bevölkerung im Jahresdurchschnitt}} \times 1000\]</span>.</p></li>
 <li><p><strong>Natürliche Bevölkerungsveränderung</strong></p>
 <p>Sieht man sich die demographische Gesamtrechnung an:</p>
 <p><span class="math display">\[ \Delta \text{Bevölkerungsveränderung} = \underbrace{\text{natürliche Veränderung}}_{\text{Geburten - Sterbefälle}} + \underbrace{\text{Binnenwanderungssaldo}}_{\text{Zu- minus Fortzüge über Gemeindegrenzen}} + \underbrace{\text{Außenwanderungssaldo}}_{\text{Zu- minus Fortzüge über die Staatsgrenze}} \]</span></p>

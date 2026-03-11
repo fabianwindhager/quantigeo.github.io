@@ -272,6 +272,8 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
 ```
 
 ```{r}
+#| fig-width: 12
+#| fig-height: 10
 ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
@@ -290,6 +292,6 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   theme_bw()+
   theme(legend.position = "bottom")+
   theme(plot.title = element_text(hjust = 0.5))+
-  annotate(geom="text", x=-2800, y=95, label="Männer", size=3) +
-  annotate(geom="text", x=2800, y=95, label="Frauen", size=3) 
+  annotate(geom="text", x=-2500, y=95, label="Männer", size=3) +
+  annotate(geom="text", x=2500, y=95, label="Frauen", size=3) 
 ```

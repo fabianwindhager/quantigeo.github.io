@@ -21,7 +21,6 @@ Zunächst importieren wir einen Datensatz mit den jährlichen Bevölkerungszahle
 ```{r}
 # Import Bevölkerungsdaten
 pop <- read.csv("data/Bevölkerungsdaten.csv")
-
 # Import Wanderungsdaten
 moves <- read.csv("data/Wanderungsdaten.csv")
 ```
@@ -67,7 +66,7 @@ pop_2002 <- pop %>%
 ```
 
 | Logical Operators |                                                         |
-|-------------------|---------------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | `==`              | *ist gleich* (Beachte das doppelte Gleichheitszeichen!) |
 | `!=`              | *ist ungleich*                                          |
 | `&`               | *UND* (Beide/Alle Bedingungen müssen erfüllt sein)      |
@@ -159,13 +158,13 @@ Wir berechnen je eine neue Spalte (`mutate`) mit den:
 
 2.  **Binnenwanderungsrate**
 
-    Die Binnenwanderungsrate berechnet sich als $$\frac{\text{Binnenwanderungssaldo}}{\text{Bevölkerungsstand}} \times 1000$$.
+    Die Binnenwanderungsrate berechnet sich als $$\frac{\text{Binnenwanderungssaldo}}{\text{Bevölkerung im Jahresdurchschnitt}} \times 1000$$.
 
     Die Rate gibt an, wie viele Personen pro 1.000 Einwohner:innen durch Binnenmigration gewonnen oder verloren werden
 
 3.  **Aussenwanderungsrate**
 
-    Die Außenwanderungsrate berechnet sich als $$\frac{\text{Außenwanderungssaldo}}{\text{Bevölkerungsstand}} \times 1000$$.
+    Die Außenwanderungsrate berechnet sich als $$\frac{\text{Außenwanderungssaldo}}{\text{Bevölkerung im Jahresdurchschnitt}} \times 1000$$.
 
     Die Außenwanderungsrate zeigt, wie viele Personen pro 1.000 Einwohner:innen durch Zu- und Wegzüge über die Staatsgrenze hinweg gewonnen oder verloren werden.
 
@@ -175,7 +174,7 @@ Wir berechnen je eine neue Spalte (`mutate`) mit den:
 
     Die Gesamtmigrationsbilanz zeigt den gesamten Bevölkerungsgewinn oder -verlust einer Region durch alle Wanderungsbewegungen.
 
-    Die Gesamtmigrationsrate berechnet sich analog zu den anderen Migrationsraten als $$\frac{\text{Gesamtmigrationssaldo}}{\text{Bevölkerungsstand}} \times 1000$$.
+    Die Gesamtmigrationsrate berechnet sich analog zu den anderen Migrationsraten als $$\frac{\text{Gesamtmigrationssaldo}}{\text{Bevölkerung im Jahresdurchschnitt}} \times 1000$$.
 
 5.  **Natürliche Bevölkerungsveränderung**
 
@@ -192,6 +191,7 @@ Wir berechnen je eine neue Spalte (`mutate`) mit den:
 Die Funktion **`lag()`** verschiebt die Werte einer Variable um eine Position nach unten, sodass man den vorherigen Wert einer Beobachtung mit dem aktuellen vergleichen kann (z. B. für Zeitreihen, Differenzen oder eben das Berechnen von **relativen Veränderungen**).
 
 ```{r}
+
 bld_dta <- bld_dta %>% 
   group_by(bld) %>% 
   mutate(pop_diff = pop_tot - lag(pop_tot),
