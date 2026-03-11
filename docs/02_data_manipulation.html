@@ -585,7 +585,7 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
@@ -596,7 +596,7 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-2.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-2.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
@@ -607,7 +607,7 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-3.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-3.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
@@ -618,7 +618,7 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-4.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-14-4.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
@@ -670,12 +670,12 @@ window.Quarto = {
 <span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Aussenwanderungsrate"</span>, <span class="st">"Binnenwanderungsrate"</span>, <span class="st">"Gesamtwanderungsrate"</span>, <span class="st">"Natürliche Bevölkerungsveränderung"</span>)</span>
 <span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>)<span class="sc">+</span></span>
 <span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="st">"grey"</span>, <span class="at">linetype =</span> <span class="st">"solid"</span>, <span class="at">alpha =</span> <span class="fl">0.6</span>)<span class="sc">+</span></span>
-<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Rate pro 1000 EW"</span>, <span class="at">x =</span> <span class="st">" "</span>, <span class="at">col =</span> <span class="st">" "</span>, <span class="at">title =</span> <span class="st">"Migrationsstatistik Tirol, 2003-2023"</span>, <span class="at">caption =</span> <span class="st">"Quelle: Statistik Austria"</span>)<span class="sc">+</span></span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Rate pro 1000 EW"</span>, <span class="at">x =</span> <span class="st">" "</span>, <span class="at">linetype =</span> <span class="st">" "</span>, <span class="at">title =</span> <span class="st">"Migrationsstatistik Tirol, 2003-2023"</span>, <span class="at">caption =</span> <span class="st">"Quelle: Statistik Austria"</span>)<span class="sc">+</span></span>
 <span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))  </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
@@ -683,10 +683,10 @@ window.Quarto = {
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
 <span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
 <span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(</span>
-<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"au_rate"</span> <span class="ot">=</span> <span class="st">"#386CB0"</span>,  </span>
-<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>             <span class="st">"bi_rate"</span> <span class="ot">=</span> <span class="st">"#F0027F"</span>,   </span>
-<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>             <span class="st">"mig_rate"</span> <span class="ot">=</span> <span class="st">"#BF5B17"</span>,</span>
-<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>             <span class="st">"nat_rate"</span> <span class="ot">=</span> <span class="st">"#7FC97F"</span>),</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"au_rate"</span> <span class="ot">=</span> <span class="st">"lightgray"</span>,  </span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>             <span class="st">"bi_rate"</span> <span class="ot">=</span> <span class="st">"dimgray"</span>,   </span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>             <span class="st">"mig_rate"</span> <span class="ot">=</span> <span class="st">"black"</span>,</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a>             <span class="st">"nat_rate"</span> <span class="ot">=</span> <span class="st">"darkgrey"</span>),</span>
 <span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Aussenwanderungsrate"</span>, <span class="st">"Binnenwanderungsrate"</span>, <span class="st">"Gesamtwanderungsrate"</span>, <span class="st">"Natürliche Bevölkerungsveränderung"</span>)</span>
 <span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a>)<span class="sc">+</span></span>
 <span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="st">"black"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>)<span class="sc">+</span></span>
@@ -695,18 +695,18 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-17-2.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-17-2.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> rates_all <span class="sc">%&gt;%</span> <span class="fu">filter</span>(bld <span class="sc">==</span> <span class="st">"Tirol"</span>), <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.factor</span>(jahr), <span class="at">y =</span> value, <span class="at">fill =</span> variable, <span class="at">group =</span> variable))<span class="sc">+</span></span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">position =</span> <span class="st">"dodge"</span>)<span class="sc">+</span></span>
-<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
 <span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(</span>
-<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"au_rate"</span> <span class="ot">=</span> <span class="st">"#386CB0"</span>,  </span>
-<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>             <span class="st">"bi_rate"</span> <span class="ot">=</span> <span class="st">"#F0027F"</span>,   </span>
-<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>             <span class="st">"mig_rate"</span> <span class="ot">=</span> <span class="st">"#BF5B17"</span>,</span>
-<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>             <span class="st">"nat_rate"</span> <span class="ot">=</span> <span class="st">"#7FC97F"</span>),</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"au_rate"</span> <span class="ot">=</span> <span class="st">"lightgray"</span>,  </span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>             <span class="st">"bi_rate"</span> <span class="ot">=</span> <span class="st">"dimgray"</span>,   </span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>             <span class="st">"mig_rate"</span> <span class="ot">=</span> <span class="st">"black"</span>,</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>             <span class="st">"nat_rate"</span> <span class="ot">=</span> <span class="st">"darkgrey"</span>),</span>
 <span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Aussenwanderungsrate"</span>, <span class="st">"Binnenwanderungsrate"</span>, <span class="st">"Gesamtwanderungsrate"</span>, <span class="st">"Natürliche Bevölkerungsveränderung"</span>)</span>
 <span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>)<span class="sc">+</span></span>
 <span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="st">"black"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>)<span class="sc">+</span></span>
@@ -715,7 +715,7 @@ window.Quarto = {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-17-3.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-17-3.png" class="img-fluid figure-img" width="576"></p>
 </figure>
 </div>
 </div>
@@ -725,7 +725,7 @@ window.Quarto = {
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> rates_all <span class="sc">%&gt;%</span> <span class="fu">filter</span>(variable <span class="sc">!=</span> <span class="st">"mig_rate"</span>),</span>
 <span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.factor</span>(jahr), <span class="at">y =</span> value, <span class="at">group =</span> variable, <span class="at">linetype =</span> variable))<span class="sc">+</span></span>
 <span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>()<span class="sc">+</span></span>
-<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>  <span class="co">#theme_classic()+</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
 <span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(</span>
 <span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">values =</span> <span class="fu">c</span>(</span>
 <span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>      <span class="st">"au_rate"</span> <span class="ot">=</span> <span class="st">"dashed"</span>,</span>
@@ -735,17 +735,16 @@ window.Quarto = {
 <span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Aussenwanderungsrate"</span>, <span class="st">"Binnenwanderungsrate"</span>, <span class="st">"Natürliche Bevölkerungsveränderung"</span>)</span>
 <span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
 <span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(bld<span class="sc">~</span>.)<span class="sc">+</span></span>
-<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="st">"grey"</span>, <span class="at">linetype =</span> <span class="st">"solid"</span>)<span class="sc">+</span></span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">col =</span> <span class="st">"grey"</span>, <span class="at">linetype =</span> <span class="st">"solid"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>)<span class="sc">+</span></span>
 <span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Rate pro 1000 EW"</span>, <span class="at">x =</span> <span class="st">" "</span>, <span class="at">color =</span> <span class="st">" "</span>,</span>
 <span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Komponenten der Bevölkerungsentwicklung Österreichischer Bundesländer, 2002-2023"</span>,</span>
 <span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Quelle: Statistik Austria;</span><span class="sc">\n</span><span class="st"> Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur"</span>)<span class="sc">+</span></span>
-<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
-<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
-<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="768"></p>
+<p><img src="02_data_manipulation_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
