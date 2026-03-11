@@ -318,14 +318,16 @@ rates_all <- rates_all %>%
 ```
 
 ```{r}
-ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, col = variable, group = variable))+
+ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, linetype = variable, group = variable))+
   geom_line(linewidth = 1)+
   theme_classic()+
-  scale_color_manual(
-  values = c("au_rate" = "#386CB0",  
-             "bi_rate" = "#F0027F",   
-             "mig_rate" = "#BF5B17",
-             "nat_rate" = "#7FC97F"),
+  scale_linetype_manual(
+    values = c(
+      "au_rate" = "dashed",
+      "bi_rate" = "dotted",
+      "mig_rate" = "solid",
+      "nat_rate" = "twodash"
+    ),
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
@@ -366,13 +368,15 @@ Mit `facet_wrap()` oder `facet_grid()` können wir diese Darstellung auch für a
 
 ```{r}
 ggplot(data = rates_all %>% filter(variable != "mig_rate"),
-       aes(x = as.factor(jahr), y = value, color = variable, group = variable))+
+       aes(x = as.factor(jahr), y = value, group = variable, linetype = variable))+
   geom_line()+
   #theme_classic()+
-  scale_color_manual(
-    values = c("au_rate" = "#386CB0",  
-               "bi_rate" = "#F0027F",
-               "nat_rate" = "#7FC97F"),
+  scale_linetype_manual(
+    values = c(
+      "au_rate" = "dashed",
+      "bi_rate" = "dotted",
+      "nat_rate" = "solid"
+    ),
     labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Natürliche Bevölkerungsveränderung")
   )+
   facet_wrap(bld~.)+

@@ -20,7 +20,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - default
       - brand
     css: styles.css
     logo: images/logo.jpg
