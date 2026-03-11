@@ -2,7 +2,7 @@
 title: "Quantitative Geographie: Mobile Gesellschaft"
 ---
 
-# Willkommen zum Kurs “Quantitative Geographie” (Universität Innsbruck SoSe 2026).
+# Willkommen zum Kurs “Quantitative Geographie” (Universität Innsbruck, SoSe 2026).
 
 Auf dieser Website finden sie das Kursmaterial zu den R-Inhalten.
 

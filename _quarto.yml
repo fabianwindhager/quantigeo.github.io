@@ -5,7 +5,7 @@ project:
 website:
   title: "Quantitative Geographie: Mobile Gesellschaft"
   navbar: 
-    logo: images/logo.jpg
+    logo: images/logo2.jpg
   sidebar:
     style: docked
     search: true
