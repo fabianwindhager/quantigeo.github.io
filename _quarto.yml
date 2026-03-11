@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Quantitative Geographie: Mobile Gesellschaft"
+  navbar: 
+    logo: images/logo.jpg
   sidebar:
     style: docked
     search: true
@@ -20,10 +22,9 @@ website:
 format:
   html:
     theme:
-      - default
+      - flatly
       - brand
     css: styles.css
-    logo: images/logo.jpg
     toc: true
     execute:
       echo: true
