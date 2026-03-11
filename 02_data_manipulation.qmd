@@ -180,7 +180,7 @@ Wir berechnen je eine neue Spalte (`mutate`) mit den:
 
     Sieht man sich die demographische Gesamtrechnung an:
 
-    $ \Delta \text{Bevölkerungsveränderung} = \underbrace{\text{natürliche Veränderung}}_{\text{Geburten - Sterbefälle}} + \underbrace{\text{Binnenwanderungssaldo}}_{\text{Zu- minus Fortzüge über Gemeindegrenzen}} + \underbrace{\text{Außenwanderungssaldo}}_{\text{Zu- minus Fortzüge über die Staatsgrenze}} $
+    $$ \Delta \text{Bevölkerungsveränderung} = \underbrace{\text{natürliche Veränderung}}_{\text{Geburten - Sterbefälle}} + \underbrace{\text{Binnenwanderungssaldo}}_{\text{Zu- minus Fortzüge über Gemeindegrenzen}} + \underbrace{\text{Außenwanderungssaldo}}_{\text{Zu- minus Fortzüge über die Staatsgrenze}} $$
 
     müssten wir theoretisch die natürliche Bevölkerungsveränderung mit $\text{Bevölkerungsveränderung} - \text{Gesamtmigrationssaldo}$. berechnen können.
 
@@ -222,6 +222,8 @@ Die 3 wesentlichen Schichten:
 Mit `geom_line()` erstellen wir einen Line-Chart.
 
 ```{r}
+#| fig-width: 6
+#| fig-height: 4
 pop_tirol <- bld_dta %>% 
   filter(bld == 7) %>% 
   drop_na()
