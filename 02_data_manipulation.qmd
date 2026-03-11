@@ -337,8 +337,8 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
   labels = c("Aussenwanderungsrate", "Binnenwanderungsrate", "Gesamtwanderungsrate", "Natürliche Bevölkerungsveränderung")
 )+
   geom_hline(yintercept = 0, col = "grey", linetype = "solid", alpha = 0.6)+
-  labs(y = "Rate pro 1000 EW", x = " ", linetype = " ", title = "Migrationsstatistik Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
-    theme(axis.text.x = element_text(angle = 45, hjust = 1))  
+  labs(y = "Rate pro 1000 EW", x = " ", linetype = " ", title = "Komponenten der Bevölkerungsentwicklung Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7))  
 
 
 ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, fill = variable, group = variable))+
@@ -353,7 +353,7 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", fill = " ", title = "Komponenten der Bevölkerungsentwicklung Tirol, 2003-2023", caption = "Quelle: Statistik Austria")+
-    theme(axis.text.x = element_text(angle = 45, hjust = 1)) # Diese Darstellung ist fehlerhaft, warum?
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7)) # Diese Darstellung ist fehlerhaft, warum?
 
 ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y = value, fill = variable, group = variable))+
   geom_col(position = "dodge")+
@@ -367,7 +367,7 @@ ggplot(data = rates_all %>% filter(bld == "Tirol"), aes(x = as.factor(jahr), y =
 )+
   geom_hline(yintercept = 0, col = "black", linetype = "dashed")+
   labs(y = "Rate pro 1000 EW", x = " ", fill = " ", title = "Komponenten der Bevölkerungsentwicklung Tirol, 2002-2023", caption = "Quelle: Statistik Austria")+
-    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7))
 ```
 
 Mit `facet_wrap()` oder `facet_grid()` können wir diese Darstellung auch für alle Bundesländer in einem Plot vergleichend darstellen.
@@ -392,7 +392,7 @@ ggplot(data = rates_all %>% filter(variable != "mig_rate"),
   labs(y = "Rate pro 1000 EW", x = " ", color = " ",
        title = "Komponenten der Bevölkerungsentwicklung Österreichischer Bundesländer, 2002-2023",
        caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur")+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 7),
         legend.position = "bottom")
 
 ```
