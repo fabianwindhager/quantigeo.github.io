@@ -14,6 +14,7 @@ website:
         text: Intro
       - 01_basics.qmd
       - 02_data_manipulation.qmd
+      - 05_regional_profile
 
 format:
   html:
