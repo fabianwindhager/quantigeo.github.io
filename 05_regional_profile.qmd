@@ -7,7 +7,9 @@ title: "Skript 3 - Regionsprofil"
 #| message: false
 #| warning: false
 library(tidyverse)
-options(scipen = 999)
+library(sf)
+library(mapview)
+options(scipen = 999, digits = 3)
 ```
 
 ### 3.1. Daten Import & Bereinigung
@@ -62,16 +64,108 @@ dta$typ <- dta$typ %>%
 anyNA(dta)
 ```
 
-### 3.3. Berechnungen für Gemeindetypologien
+### 3.3. Berechnungen für Gemeindetypologien 1
 
-Wie bereits in Skript 2 berechnen wir relevante demografische Indizes.
+Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene.
 
 ```{r}
-dta <- dta %>% 
-  mutate(bi_saldo = bi_zu - bi_weg,
-         au_saldo = au_zu - au_weg)
 
+df_agg_02_12 <- dta %>%
+  filter(jahr >= 2002, jahr <= 2012) %>%
+  group_by(gemnr) %>%
+  summarise(
+    bi_zu  = sum(bi_zu, na.rm = TRUE),
+    bi_weg = sum(bi_weg, na.rm = TRUE),
+    bi_saldo = bi_zu - bi_weg,
+    au_zu  = sum(au_zu, na.rm = TRUE),
+    au_weg = sum(au_weg, na.rm = TRUE),
+    au_saldo = au_zu - au_weg,
+    total_zu  = bi_zu + au_zu,
+    total_weg = bi_weg + au_weg,
+    total_saldo = total_zu - total_weg,
+    pop_start = pop[jahr == min(jahr)],
+    pop_end   = pop[jahr == max(jahr)],
+    bi_rate = ((bi_saldo) / pop_end) * 1000,
+    au_rate = ((au_saldo) / pop_end) * 1000,
+    total_rate = (total_saldo / pop_end) * 1000,
+    pop_change_rate = ((pop_end - pop_start) / pop_start) * 100,
+    nat_saldo = (pop_end - pop_start) - total_saldo,
+    nat_rate = (nat_saldo / pop_start) * 1000, 
+    .groups = "drop"
+  ) %>% 
+  mutate(decade = "2002-2012")
+
+df_agg_13_23 <- dta %>%
+  filter(jahr >= 2013, jahr <= 2023) %>%
+  group_by(gemnr) %>%
+  summarise(
+    bi_zu  = sum(bi_zu, na.rm = TRUE),
+    bi_weg = sum(bi_weg, na.rm = TRUE),
+    bi_saldo = bi_zu - bi_weg,
+    au_zu  = sum(au_zu, na.rm = TRUE),
+    au_weg = sum(au_weg, na.rm = TRUE),
+    au_saldo = au_zu - au_weg,
+    total_zu  = bi_zu + au_zu,
+    total_weg = bi_weg + au_weg,
+    total_saldo = total_zu - total_weg,
+    pop_start = pop[jahr == min(jahr)],
+    pop_end   = pop[jahr == max(jahr)],
+    bi_rate = ((bi_saldo) / pop_end) * 1000,
+    au_rate = ((au_saldo) / pop_end) * 1000,
+    total_rate = (total_saldo / pop_end) * 1000,
+    pop_change_rate = ((pop_end - pop_start) / pop_start) * 100,
+    nat_saldo = (pop_end - pop_start) - total_saldo,
+    nat_rate = (nat_saldo / pop_start) * 1000, 
+    .groups = "drop"
+  ) %>% 
+  mutate(decade = "2013-2023")
+
+df_agg <- rbind(df_agg_02_12, df_agg_13_23)
+df_agg <- left_join(df_agg, typ, by = "gemnr")
+```
+
+```{r}
+## Recoding typ$typ into typ$typ_rec
+df_agg$typ <- df_agg$typ %>%
+  as.character() %>%
+  fct_recode(
+    "Urbaner Raum" = "101",
+    "Urbaner Raum" = "102",
+    "Urbaner Raum" = "103",
+    "Regionalzentren" = "210",
+    "Regionalzentren" = "220",
+    "Suburbaner Raum" = "310",
+    "Suburbaner Raum" = "320",
+    "Suburbaner Raum" = "330",
+    "Ländlicher Raum" = "410",
+    "Ländlicher Raum" = "420",
+    "Ländlicher Raum" = "430"
+  )
+
+#install.packages("table1")
+library(table1)
+label(df_agg$bi_saldo) <- "Binnenwanderungssaldo"
+label(df_agg$au_saldo) <- "Aussenwanderungssaldo"
+label(df_agg$total_saldo) <- "Gesamtmigrationssaldo"
+label(df_agg$pop_change_rate) <- "Bevölkerungsveränderungsrate"
+label(df_agg$bi_rate) <- "Binnenwanderungsrate"
+label(df_agg$au_rate) <- "Aussenwanderungsrate"
+label(df_agg$total_rate) <- "Gesamtmigrationsrate"
+label(df_agg$nat_rate) <- "Natürliche Bevölkerunsveränderungsrate"
+
+
+```
+
+```{r}
+table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
+```
+
+### 3.3. Berechnungen für Gemeindetypologien 2
+
+```{r}
 dta_typ <- dta %>% 
+  mutate(bi_saldo = bi_zu - bi_weg,
+         au_saldo = au_zu - au_weg) %>% 
   group_by(jahr, typ) %>% 
   summarise(pop = sum(pop),
             bi_saldo = sum(bi_saldo),
@@ -92,9 +186,9 @@ dta_typ <- dta_typ %>%
 ```
 
 ```{r}
-ggplot(dta_typ, aes(x = as.factor(jahr), y = pop_index, group = typ, color = typ))+
-  geom_line(linewidth = 1) +
-  geom_point(size = 1.5) +
+p1 <- ggplot(dta_typ, aes(x = as.factor(jahr), y = pop_index, group = typ, color = typ))+
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 1) +
   geom_hline(yintercept = 100, col = "black", linetype = "dashed", size = 1)+
   scale_color_manual(
     values = c("Urbaner Raum" = "#b35e6b",
@@ -112,6 +206,7 @@ ggplot(dta_typ, aes(x = as.factor(jahr), y = pop_index, group = typ, color = typ
        title = "Bevölkerungsentwicklung nach Gemeindetyp; \n Tirol 2002-2023 (2002 = 100%)",
        caption = "Quelle: Statistik Austria") 
 
+p1
 
 #eeaf58
 #fdf453 
@@ -140,7 +235,7 @@ mig_typ$variable <- mig_typ$variable %>%
 ```
 
 ```{r}
-ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
+p2 <- ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
   geom_line()+
   facet_wrap(variable~.)+
     geom_hline(yintercept = 0, col = "black", linetype = "dashed", size = 0.7)+
@@ -159,6 +254,8 @@ ggplot(mig_typ, aes(x = jahr, y = value, group = typ, color = typ))+
        color = NULL,
        title = "Komponenten der Bevölkerungsentwicklung; Tirol 2002-2023",
        caption = "Quelle: Statistik Austria;\n Anm: Natürliche Bevölkerungsveränderung ohne statistische Korrektur") 
+
+p2
 ```
 
 ### 3.5. Bevölkerungspyramide nach Raumtyp
@@ -217,11 +314,11 @@ pop_pyramid$typ <- pop_pyramid$typ |>
     "Urbaner Raum" = "101",
     "Urbaner Raum" = "102",
     "Urbaner Raum" = "103",
-    "Suburban- / Periurbaner Raum" = "210",
-    "Suburban- / Periurbaner Raum" = "220",
-    "Suburban- / Periurbaner Raum" = "310",
-    "Suburban- / Periurbaner Raum" = "320",
-    "Suburban- / Periurbaner Raum" = "330",
+    "Suburbaner Raum / Regionalzentren" = "210",
+    "Suburbaner Raum / Regionalzentren" = "220",
+    "Suburbaner Raum / Regionalzentren" = "310",
+    "Suburbaner Raum / Regionalzentren" = "320",
+    "Suburbaner Raum / Regionalzentren" = "330",
     "Ländlicher Raum" = "410",
     "Ländlicher Raum" = "420",
     "Ländlicher Raum" = "430"
@@ -253,7 +350,7 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
-               "Suburban- / Periurbaner Raum" = "#eeaf58",
+               "Suburbaner Raum / Regionalzentren" = "#eeaf58",
                "Ländlicher Raum" = "#84b870"))+
   scale_y_discrete(breaks = seq(0, 100, 10))+
   scale_x_continuous(labels=abs) +
@@ -274,11 +371,11 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
 ```{r}
 #| fig-width: 12
 #| fig-height: 10
-ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
+p3 <- ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
-               "Suburban- / Periurbaner Raum" = "#eeaf58",
+               "Suburbaner Raum / Regionalzentren" = "#eeaf58",
                "Ländlicher Raum" = "#84b870"))+
   scale_y_discrete(breaks = seq(0, 100, 10))+
   scale_x_continuous(labels=abs) +
@@ -299,4 +396,55 @@ ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   )+
   annotate(geom="text", x=-1500, y=92, label="Männer", size=3) +
   annotate(geom="text", x=1500, y=92, label="Frauen", size=3) 
+
+
+```
+
+```{r}
+library(patchwork)
+
+
+p2 <- p2 + theme(legend.position = "none") + labs(title = " ")
+p3 <- p3 + labs(caption = NULL)
+p1 <- p1 + labs(caption = NULL, title = " ")
+
+
+p3 + p1 / p2
+```
+
+```{r}
+shp <- read_sf("data/OGDEXT_GEM_1_STATISTIK_AUSTRIA_20250101/STATISTIK_AUSTRIA_GEM_20250101.shp")   
+head(shp) # in der Spalte geometry sind die Koordinaten (Punkte, Polygone, Linien) für jede Gemeinde in Österreich gespeichert
+
+shp <- shp %>% 
+  filter(str_sub(g_id, 1, 1) == "7") %>% 
+  left_join(typ, by = c("g_id" = "gemnr"))
+
+head(shp)
+
+shp$typ <- shp$typ %>%
+  as.character() %>%
+  fct_recode(
+    "Urbaner Raum" = "101",
+    "Urbaner Raum" = "102",
+    "Urbaner Raum" = "103",
+    "Regionalzentren" = "210",
+    "Regionalzentren" = "220",
+    "Suburbaner Raum" = "310",
+    "Suburbaner Raum" = "320",
+    "Suburbaner Raum" = "330",
+    "Ländlicher Raum" = "410",
+    "Ländlicher Raum" = "420",
+    "Ländlicher Raum" = "430"
+  )
+map_typ <- ggplot(data = shp) +
+  geom_sf(aes(fill = typ), color = NA) +
+  scale_fill_manual(
+    values = c("Urbaner Raum" = "#b35e6b",
+               "Suburbaner Raum" = "#eeaf58",
+               "Regionalzentren" = "#e0df70",
+               "Ländlicher Raum" = "#84b870"))+
+  theme_classic()
+
+map_typ
 ```
