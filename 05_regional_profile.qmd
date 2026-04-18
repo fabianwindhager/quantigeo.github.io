@@ -156,7 +156,46 @@ label(df_agg$nat_rate) <- "Natürliche Bevölkerunsveränderungsrate"
 
 ```
 
+## Deskriptive Statistik: Mittelwert, Median und Standardabweichung
+
+Der **Mittelwert** ist ein Maß für die zentrale Tendenz einer Verteilung. Er gibt den durchschnittlichen Wert aller Beobachtungen an und ist empfindlich gegenüber Ausreißern.
+
+$$
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+
+Der **Median** ist der mittlere Wert einer sortierten Verteilung. Er teilt die Daten in zwei gleich große Hälften und ist robust gegenüber Ausreißern.
+
+$$
+\tilde{x} =
+\begin{cases}
+x_{\frac{n+1}{2}}, & \text{wenn } n \text{ ungerade ist} \\
+\frac{x_{\frac{n}{2}} + x_{\frac{n}{2}+1}}{2}, & \text{wenn } n \text{ gerade ist}
+\end{cases}
+$$
+
+Die **Standardabweichung** misst die Streuung der Werte um den Mittelwert. Sie beschreibt, wie stark die Beobachtungen im Durchschnitt vom Mittelwert abweichen.
+
+$$
+s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+$$
+
 ```{r}
+#| include: false
+x <- runif(10)
+x
+# Mittelwert
+sum(x)/length(x)
+mean(x)
+# Median
+median(x)
+# Standardabweichung
+sd(x)
+```
+
+```{r}
+#| fig-width: 8
+#| fig-height: 6
 table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
 ```
 
@@ -397,7 +436,7 @@ p3 <- ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   annotate(geom="text", x=-1500, y=92, label="Männer", size=3) +
   annotate(geom="text", x=1500, y=92, label="Frauen", size=3) 
 
-
+p3
 ```
 
 ```{r}
@@ -409,7 +448,7 @@ p3 <- p3 + labs(caption = NULL)
 p1 <- p1 + labs(caption = NULL, title = " ")
 
 
-p3 + p1 / p2
+# p3 + p1 / p2
 ```
 
 ```{r}
