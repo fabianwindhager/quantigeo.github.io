@@ -144,9 +144,6 @@ df_agg$typ <- df_agg$typ %>%
 
 #install.packages("table1")
 library(table1)
-label(df_agg$bi_saldo) <- "Binnenwanderungssaldo"
-label(df_agg$au_saldo) <- "Aussenwanderungssaldo"
-label(df_agg$total_saldo) <- "Gesamtmigrationssaldo"
 label(df_agg$pop_change_rate) <- "Bevölkerungsveränderungsrate"
 label(df_agg$bi_rate) <- "Binnenwanderungsrate"
 label(df_agg$au_rate) <- "Aussenwanderungsrate"
@@ -197,6 +194,16 @@ sd(x)
 #| fig-width: 8
 #| fig-height: 6
 table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
+```
+
+```{r}
+ggplot(df_agg, aes(x = pop_change_rate, group = typ))+
+  geom_density()+
+  geom_vline(xintercept = 0, linetype = "dashed")+
+  facet_grid(typ~decade)+
+  theme_bw()
+
+
 ```
 
 ### 3.5. Berechnungen für aggregierte Gemeindetypen
@@ -450,7 +457,8 @@ p3 <- p3 + labs(caption = NULL)
 p1 <- p1 + labs(caption = NULL, title = " ")
 
 
-# p3 + p1 / p2
+p3 + p1 / p2
+
 ```
 
 ### 3.9. Übersichtskarte
@@ -479,7 +487,7 @@ shp$typ <- shp$typ %>%
     "Ländlicher Raum" = "430"
   )
 map_typ <- ggplot(data = shp) +
-  geom_sf(aes(fill = typ), color = NA) +
+  geom_sf(aes(fill = typ), color = "black") +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
                "Suburbaner Raum" = "#eeaf58",
