@@ -191,19 +191,23 @@ sd(x)
 ```
 
 ```{r}
-#| fig-width: 8
-#| fig-height: 6
 table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
 ```
 
 ```{r}
+#| fig-width: 6
+#| fig-height: 4
 ggplot(df_agg, aes(x = pop_change_rate, group = typ))+
   geom_density()+
   geom_vline(xintercept = 0, linetype = "dashed")+
   facet_grid(typ~decade)+
   theme_bw()
 
-
+ggplot(df_agg, aes(x = total_rate, group = typ))+
+  geom_density()+
+  geom_vline(xintercept = 0, linetype = "dashed")+
+  facet_grid(typ~decade)+
+  theme_bw()
 ```
 
 ### 3.5. Berechnungen für aggregierte Gemeindetypen
@@ -457,7 +461,7 @@ p3 <- p3 + labs(caption = NULL)
 p1 <- p1 + labs(caption = NULL, title = " ")
 
 
-p3 + p1 / p2
+# p3 + p1 / p2
 
 ```
 
