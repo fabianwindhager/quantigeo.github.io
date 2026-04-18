@@ -64,7 +64,7 @@ dta$typ <- dta$typ %>%
 anyNA(dta)
 ```
 
-### 3.3. Berechnungen für Gemeindetypologien 1
+### 3.3. Berechnungen auf Gemeindeebene nach Raumtypologie
 
 Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene.
 
@@ -158,7 +158,7 @@ label(df_agg$nat_rate) <- "Natürliche Bevölkerunsveränderungsrate"
 
 ### 3.4. Deskriptive Statistik: Mittelwert, Median und Standardabweichung
 
-Der **Mittelwert** ist ein Maß für die zentrale Tendenz einer Verteilung. Er gibt den durchschnittlichen Wert aller Beobachtungen an und ist empfindlich gegenüber Ausreißern.
+Der **Mittelwert** ist ein Maß für die zentrale Tendenz einer Verteilung. Er gibt den durchschnittlichen Wert aller Beobachtungen an und ist empfindlich gegenüber Ausreißern. Er berechnet sich aus der Summe aller beobachteten Werte geteilt durch deren Anzahl.
 
 $$
 \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
@@ -199,7 +199,7 @@ sd(x)
 table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
 ```
 
-### 3.5. Berechnungen für Gemeindetypologien 2
+### 3.5. Berechnungen für aggregierte Gemeindetypen
 
 ```{r}
 dta_typ <- dta %>% 

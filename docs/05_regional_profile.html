@@ -230,9 +230,9 @@ window.Quarto = {
   <ul>
   <li><a href="#daten-import-bereinigung" id="toc-daten-import-bereinigung" class="nav-link active" data-scroll-target="#daten-import-bereinigung">3.1. Daten Import &amp; Bereinigung</a></li>
   <li><a href="#raumtypologien" id="toc-raumtypologien" class="nav-link" data-scroll-target="#raumtypologien">3.2. Raumtypologien</a></li>
-  <li><a href="#berechnungen-für-gemeindetypologien-1" id="toc-berechnungen-für-gemeindetypologien-1" class="nav-link" data-scroll-target="#berechnungen-für-gemeindetypologien-1">3.3. Berechnungen für Gemeindetypologien 1</a></li>
+  <li><a href="#berechnungen-auf-gemeindeebene-nach-raumtypologie" id="toc-berechnungen-auf-gemeindeebene-nach-raumtypologie" class="nav-link" data-scroll-target="#berechnungen-auf-gemeindeebene-nach-raumtypologie">3.3. Berechnungen auf Gemeindeebene nach Raumtypologie</a></li>
   <li><a href="#deskriptive-statistik-mittelwert-median-und-standardabweichung" id="toc-deskriptive-statistik-mittelwert-median-und-standardabweichung" class="nav-link" data-scroll-target="#deskriptive-statistik-mittelwert-median-und-standardabweichung">3.4. Deskriptive Statistik: Mittelwert, Median und Standardabweichung</a></li>
-  <li><a href="#berechnungen-für-gemeindetypologien-2" id="toc-berechnungen-für-gemeindetypologien-2" class="nav-link" data-scroll-target="#berechnungen-für-gemeindetypologien-2">3.5. Berechnungen für Gemeindetypologien 2</a></li>
+  <li><a href="#berechnungen-für-aggregierte-gemeindetypen" id="toc-berechnungen-für-aggregierte-gemeindetypen" class="nav-link" data-scroll-target="#berechnungen-für-aggregierte-gemeindetypen">3.5. Berechnungen für aggregierte Gemeindetypen</a></li>
   <li><a href="#diagramm-bevölkerungsdynamik" id="toc-diagramm-bevölkerungsdynamik" class="nav-link" data-scroll-target="#diagramm-bevölkerungsdynamik">3.6. Diagramm Bevölkerungsdynamik</a></li>
   <li><a href="#bevölkerungspyramide-nach-raumtyp" id="toc-bevölkerungspyramide-nach-raumtyp" class="nav-link" data-scroll-target="#bevölkerungspyramide-nach-raumtyp">3.7. Bevölkerungspyramide nach Raumtyp</a></li>
   <li><a href="#kombinierte-darstellung-mit-patchwork" id="toc-kombinierte-darstellung-mit-patchwork" class="nav-link" data-scroll-target="#kombinierte-darstellung-mit-patchwork">3.8. Kombinierte Darstellung mit Patchwork</a></li>
@@ -310,8 +310,8 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="berechnungen-für-gemeindetypologien-1" class="level3">
-<h3 class="anchored" data-anchor-id="berechnungen-für-gemeindetypologien-1">3.3. Berechnungen für Gemeindetypologien 1</h3>
+<section id="berechnungen-auf-gemeindeebene-nach-raumtypologie" class="level3">
+<h3 class="anchored" data-anchor-id="berechnungen-auf-gemeindeebene-nach-raumtypologie">3.3. Berechnungen auf Gemeindeebene nach Raumtypologie</h3>
 <p>Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_agg_02_12 <span class="ot">&lt;-</span> dta <span class="sc">%&gt;%</span></span>
@@ -399,7 +399,7 @@ window.Quarto = {
 </section>
 <section id="deskriptive-statistik-mittelwert-median-und-standardabweichung" class="level3">
 <h3 class="anchored" data-anchor-id="deskriptive-statistik-mittelwert-median-und-standardabweichung">3.4. Deskriptive Statistik: Mittelwert, Median und Standardabweichung</h3>
-<p>Der <strong>Mittelwert</strong> ist ein Maß für die zentrale Tendenz einer Verteilung. Er gibt den durchschnittlichen Wert aller Beobachtungen an und ist empfindlich gegenüber Ausreißern.</p>
+<p>Der <strong>Mittelwert</strong> ist ein Maß für die zentrale Tendenz einer Verteilung. Er gibt den durchschnittlichen Wert aller Beobachtungen an und ist empfindlich gegenüber Ausreißern. Er berechnet sich aus der Summe aller beobachteten Werte geteilt durch deren Anzahl.</p>
 <p><span class="math display">\[
 \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
 \]</span></p>
@@ -679,8 +679,8 @@ Overall
 </div>
 </div>
 </section>
-<section id="berechnungen-für-gemeindetypologien-2" class="level3">
-<h3 class="anchored" data-anchor-id="berechnungen-für-gemeindetypologien-2">3.5. Berechnungen für Gemeindetypologien 2</h3>
+<section id="berechnungen-für-aggregierte-gemeindetypen" class="level3">
+<h3 class="anchored" data-anchor-id="berechnungen-für-aggregierte-gemeindetypen">3.5. Berechnungen für aggregierte Gemeindetypen</h3>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dta_typ <span class="ot">&lt;-</span> dta <span class="sc">%&gt;%</span> </span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">bi_saldo =</span> bi_zu <span class="sc">-</span> bi_weg,</span>
