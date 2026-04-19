@@ -171,43 +171,48 @@ x_{\frac{n+1}{2}}, & \text{wenn } n \text{ ungerade ist} \\
 \end{cases}
 $$
 
-Die **Standardabweichung** misst die Streuung der Werte um den Mittelwert. Sie beschreibt, wie stark die Beobachtungen im Durchschnitt vom Mittelwert abweichen.
+Die **Standardabweichung** misst die Streuung der Werte um den Mittelwert. Sie beschreibt, wie stark die Beobachtungen im Durchschnitt vom Mittelwert abweichen. Die Standardabweichung ist nicht robust gegenüber Ausreißern, da diese die Streuung überproportional erhöhen.
 
 $$
 s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
 $$
 
 ```{r}
-#| include: false
-x <- runif(10)
-x
-# Mittelwert
-sum(x)/length(x)
-mean(x)
-# Median
-median(x)
-# Standardabweichung
-sd(x)
-```
-
-```{r}
 table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
 ```
 
 ```{r}
-#| fig-width: 6
-#| fig-height: 4
-ggplot(df_agg, aes(x = pop_change_rate, group = typ))+
-  geom_density()+
+#| fig-width: 10
+#| fig-height: 8
+
+d1 <- ggplot(df_agg, aes(x = pop_change_rate, group = decade, fill = decade))+
+  geom_density(alpha = 0.5)+
   geom_vline(xintercept = 0, linetype = "dashed")+
-  facet_grid(typ~decade)+
+  facet_grid(typ~.)+
   theme_bw()
 
-ggplot(df_agg, aes(x = total_rate, group = typ))+
-  geom_density()+
+d2 <- ggplot(df_agg, aes(x = bi_rate, group = decade, fill = decade))+
+  geom_density(alpha = 0.5)+
   geom_vline(xintercept = 0, linetype = "dashed")+
-  facet_grid(typ~decade)+
+  facet_grid(typ~.)+
   theme_bw()
+
+d3 <- ggplot(df_agg, aes(x = au_rate, group = decade, fill = decade))+
+  geom_density(alpha = 0.5)+
+  geom_vline(xintercept = 0, linetype = "dashed")+
+  facet_grid(typ~.)+
+  theme_bw()
+
+d4 <- ggplot(df_agg, aes(x = total_rate, group = decade, fill = decade))+
+  geom_density(alpha = 0.5)+
+  geom_vline(xintercept = 0, linetype = "dashed")+
+  facet_grid(typ~.)+
+  theme_bw()
+
+library(patchwork)
+(d1 + d2) / (d3 + d4)+
+plot_layout(guides = "collect") &
+  theme(legend.position = "bottom")
 ```
 
 ### 3.5. Berechnungen für aggregierte Gemeindetypen
