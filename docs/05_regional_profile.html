@@ -233,7 +233,7 @@ window.Quarto = {
   <li><a href="#berechnungen-auf-gemeindeebene-nach-raumtypologie" id="toc-berechnungen-auf-gemeindeebene-nach-raumtypologie" class="nav-link" data-scroll-target="#berechnungen-auf-gemeindeebene-nach-raumtypologie">3.3. Berechnungen auf Gemeindeebene nach Raumtypologie</a></li>
   <li><a href="#deskriptive-statistik-mittelwert-median-und-standardabweichung" id="toc-deskriptive-statistik-mittelwert-median-und-standardabweichung" class="nav-link" data-scroll-target="#deskriptive-statistik-mittelwert-median-und-standardabweichung">3.4. Deskriptive Statistik: Mittelwert, Median und Standardabweichung</a></li>
   <li><a href="#berechnungen-für-aggregierte-gemeindetypen" id="toc-berechnungen-für-aggregierte-gemeindetypen" class="nav-link" data-scroll-target="#berechnungen-für-aggregierte-gemeindetypen">3.5. Berechnungen für aggregierte Gemeindetypen</a></li>
-  <li><a href="#diagramm-bevölkerungsdynamik" id="toc-diagramm-bevölkerungsdynamik" class="nav-link" data-scroll-target="#diagramm-bevölkerungsdynamik">3.6. Diagramm Bevölkerungsdynamik</a></li>
+  <li><a href="#komponenten-der-bevölkerungsentwicklung" id="toc-komponenten-der-bevölkerungsentwicklung" class="nav-link" data-scroll-target="#komponenten-der-bevölkerungsentwicklung">3.6. Komponenten der Bevölkerungsentwicklung</a></li>
   <li><a href="#bevölkerungspyramide-nach-raumtyp" id="toc-bevölkerungspyramide-nach-raumtyp" class="nav-link" data-scroll-target="#bevölkerungspyramide-nach-raumtyp">3.7. Bevölkerungspyramide nach Raumtyp</a></li>
   <li><a href="#kombinierte-darstellung-mit-patchwork" id="toc-kombinierte-darstellung-mit-patchwork" class="nav-link" data-scroll-target="#kombinierte-darstellung-mit-patchwork">3.8. Kombinierte Darstellung mit Patchwork</a></li>
   <li><a href="#übersichtskarte" id="toc-übersichtskarte" class="nav-link" data-scroll-target="#übersichtskarte">3.9. Übersichtskarte</a></li>
@@ -312,7 +312,7 @@ window.Quarto = {
 </section>
 <section id="berechnungen-auf-gemeindeebene-nach-raumtypologie" class="level3">
 <h3 class="anchored" data-anchor-id="berechnungen-auf-gemeindeebene-nach-raumtypologie">3.3. Berechnungen auf Gemeindeebene nach Raumtypologie</h3>
-<p>Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene.</p>
+<p>Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene. Wir führen dabei eine Zeitagreggation für die Perioden 2002-2012 und 2013-2023 durch um die Analyse langfristiger Raumentwicklungstrends zu ermöglichen.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_agg_02_12 <span class="ot">&lt;-</span> dta <span class="sc">%&gt;%</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(jahr <span class="sc">&gt;=</span> <span class="dv">2002</span>, jahr <span class="sc">&lt;=</span> <span class="dv">2012</span>) <span class="sc">%&gt;%</span></span>
@@ -387,11 +387,10 @@ window.Quarto = {
 <span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages("table1")</span></span>
 <span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(table1)</span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>pop_change_rate) <span class="ot">&lt;-</span> <span class="st">"Bevölkerungsveränderungsrate"</span></span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>bi_rate) <span class="ot">&lt;-</span> <span class="st">"Binnenwanderungsrate"</span></span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>au_rate) <span class="ot">&lt;-</span> <span class="st">"Aussenwanderungsrate"</span></span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>total_rate) <span class="ot">&lt;-</span> <span class="st">"Gesamtmigrationsrate"</span></span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>nat_rate) <span class="ot">&lt;-</span> <span class="st">"Natürliche Bevölkerunsveränderungsrate"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>pop_change_rate) <span class="ot">&lt;-</span> <span class="st">"Bevölkerungsveränderungsrate (%)"</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>bi_rate) <span class="ot">&lt;-</span> <span class="st">"Binnenwanderungsrate (pro 1000 EW)"</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>au_rate) <span class="ot">&lt;-</span> <span class="st">"Aussenwanderungsrate (pro 1000 EW)"</span></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="fu">label</span>(df_agg<span class="sc">$</span>total_rate) <span class="ot">&lt;-</span> <span class="st">"Gesamtmigrationsrate (pro 1000 EW)"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="deskriptive-statistik-mittelwert-median-und-standardabweichung" class="level3">
@@ -413,7 +412,7 @@ x_{\frac{n+1}{2}}, &amp; \text{wenn } n \text{ ungerade ist} \\
 s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
 \]</span></p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table1</span>(<span class="sc">~</span> pop_change_rate <span class="sc">+</span> bi_rate <span class="sc">+</span> au_rate <span class="sc">+</span> total_rate <span class="sc">+</span> nat_rate <span class="sc">|</span> typ<span class="sc">*</span>decade, <span class="at">data=</span>df_agg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table1</span>(<span class="sc">~</span> pop_change_rate <span class="sc">+</span> bi_rate <span class="sc">+</span> au_rate <span class="sc">+</span> total_rate <span class="sc">|</span> typ<span class="sc">*</span>decade, <span class="at">data=</span>df_agg)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div class="Rtable1">
 <table class="Rtable1 caption-top table table-sm table-striped small">
@@ -475,7 +474,7 @@ Overall
 </thead>
 <tbody>
 <tr class="odd">
-<td class="rowlabel firstrow"><span class="varlabel">Bevölkerungsveränderungsrate</span></td>
+<td class="rowlabel firstrow"><span class="varlabel">Bevölkerungsveränderungsrate (%)</span></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
@@ -514,7 +513,7 @@ Overall
 <td class="lastrow">6.50 [-31.4, 43.6]</td>
 </tr>
 <tr class="even">
-<td class="rowlabel firstrow"><span class="varlabel">Binnenwanderungsrate</span></td>
+<td class="rowlabel firstrow"><span class="varlabel">Binnenwanderungsrate (pro 1000 EW)</span></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
@@ -553,7 +552,7 @@ Overall
 <td class="lastrow">-19.1 [-475, 933]</td>
 </tr>
 <tr class="odd">
-<td class="rowlabel firstrow"><span class="varlabel">Aussenwanderungsrate</span></td>
+<td class="rowlabel firstrow"><span class="varlabel">Aussenwanderungsrate (pro 1000 EW)</span></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
@@ -592,7 +591,7 @@ Overall
 <td class="lastrow">40.9 [-37.9, 363]</td>
 </tr>
 <tr class="even">
-<td class="rowlabel firstrow"><span class="varlabel">Gesamtmigrationsrate</span></td>
+<td class="rowlabel firstrow"><span class="varlabel">Gesamtmigrationsrate (pro 1000 EW)</span></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
 <td class="firstrow"></td>
@@ -630,45 +629,6 @@ Overall
 <td class="lastrow">-3.92 [-187, 643]</td>
 <td class="lastrow">31.5 [-390, 975]</td>
 </tr>
-<tr class="odd">
-<td class="rowlabel firstrow"><span class="varlabel">Natürliche Bevölkerunsveränderungsrate</span></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-<td class="firstrow"></td>
-</tr>
-<tr class="even">
-<td class="rowlabel">Mean (SD)</td>
-<td>24.6 (49.2)</td>
-<td>13.8 (51.6)</td>
-<td>26.6 (39.3)</td>
-<td>-3.51 (33.7)</td>
-<td>29.8 (87.1)</td>
-<td>22.4 (128)</td>
-<td>39.8 (39.4)</td>
-<td>24.0 (40.9)</td>
-<td>34.6 (56.1)</td>
-<td>21.2 (73.2)</td>
-</tr>
-<tr class="odd">
-<td class="rowlabel lastrow">Median [Min, Max]</td>
-<td class="lastrow">33.0 [-219, 102]</td>
-<td class="lastrow">18.2 [-248, 80.2]</td>
-<td class="lastrow">27.0 [-41.3, 74.5]</td>
-<td class="lastrow">-2.35 [-52.6, 53.9]</td>
-<td class="lastrow">41.1 [-639, 102]</td>
-<td class="lastrow">44.4 [-969, 109]</td>
-<td class="lastrow">43.6 [-124, 241]</td>
-<td class="lastrow">24.9 [-130, 103]</td>
-<td class="lastrow">40.5 [-639, 241]</td>
-<td class="lastrow">27.3 [-969, 109]</td>
-</tr>
 </tbody>
 </table>
 
@@ -703,7 +663,8 @@ Overall
 <span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
 <span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>(d1 <span class="sc">+</span> d2) <span class="sc">/</span> (d3 <span class="sc">+</span> d4)<span class="sc">+</span></span>
 <span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_layout</span>(<span class="at">guides =</span> <span class="st">"collect"</span>) <span class="sc">&amp;</span></span>
-<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">&amp;</span></span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">fill =</span> <span class="st">" "</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -770,8 +731,8 @@ Overall
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co">#fdf453 </span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="diagramm-bevölkerungsdynamik" class="level3">
-<h3 class="anchored" data-anchor-id="diagramm-bevölkerungsdynamik">3.6. Diagramm Bevölkerungsdynamik</h3>
+<section id="komponenten-der-bevölkerungsentwicklung" class="level3">
+<h3 class="anchored" data-anchor-id="komponenten-der-bevölkerungsentwicklung">3.6. Komponenten der Bevölkerungsentwicklung</h3>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>mig_typ <span class="ot">&lt;-</span> dta_typ <span class="sc">%&gt;%</span> </span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(jahr, typ, bi_rate, au_rate, mig_rate, nat_rate)</span>
@@ -973,20 +934,19 @@ Overall
 <span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span><span class="st">"Bevölkerung"</span>,</span>
 <span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span><span class="st">"Alter"</span>,</span>
 <span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill=</span><span class="st">""</span>,</span>
-<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Bevölkerungspyramide Tirol nach Raumtyp 2002/2023"</span>,</span>
-<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Quelle: Statistik Austria"</span>)<span class="sc">+</span></span>
-<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(jahr<span class="sc">~</span>typ)<span class="sc">+</span></span>
-<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
-<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)<span class="sc">+</span></span>
-<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>))<span class="sc">+</span></span>
-<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">7</span>),</span>
-<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">7</span>)</span>
-<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
-<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom=</span><span class="st">"text"</span>, <span class="at">x=</span><span class="sc">-</span><span class="dv">1500</span>, <span class="at">y=</span><span class="dv">92</span>, <span class="at">label=</span><span class="st">"Männer"</span>, <span class="at">size=</span><span class="dv">3</span>) <span class="sc">+</span></span>
-<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom=</span><span class="st">"text"</span>, <span class="at">x=</span><span class="dv">1500</span>, <span class="at">y=</span><span class="dv">92</span>, <span class="at">label=</span><span class="st">"Frauen"</span>, <span class="at">size=</span><span class="dv">3</span>) </span>
-<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a>p4</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">"Bevölkerungspyramide Tirol nach Raumtyp 2002/2023"</span>)<span class="sc">+</span></span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(jahr<span class="sc">~</span>typ)<span class="sc">+</span></span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()<span class="sc">+</span></span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)<span class="sc">+</span></span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>))<span class="sc">+</span></span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">7</span>),</span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">7</span>)</span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom=</span><span class="st">"text"</span>, <span class="at">x=</span><span class="sc">-</span><span class="dv">1500</span>, <span class="at">y=</span><span class="dv">92</span>, <span class="at">label=</span><span class="st">"Männer"</span>, <span class="at">size=</span><span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom=</span><span class="st">"text"</span>, <span class="at">x=</span><span class="dv">1500</span>, <span class="at">y=</span><span class="dv">92</span>, <span class="at">label=</span><span class="st">"Frauen"</span>, <span class="at">size=</span><span class="dv">3</span>) </span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a>p4</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1007,7 +967,14 @@ Overall
 <span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>p1 <span class="ot">&lt;-</span> p1 <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">caption =</span> <span class="cn">NULL</span>, <span class="at">title =</span> <span class="st">" "</span>)</span>
 <span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="co"># p4 + p1 / p2</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a> p4 <span class="sc">+</span> p1 <span class="sc">/</span> p2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="05_regional_profile_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
 </div>
 </section>
 <section id="übersichtskarte" class="level3">

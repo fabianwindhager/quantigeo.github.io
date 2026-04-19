@@ -66,7 +66,7 @@ anyNA(dta)
 
 ### 3.3. Berechnungen auf Gemeindeebene nach Raumtypologie
 
-Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene.
+Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene. Wir führen dabei eine Zeitagreggation für die Perioden 2002-2012 und 2013-2023 durch um die Analyse langfristiger Raumentwicklungstrends zu ermöglichen.
 
 ```{r}
 
@@ -144,11 +144,11 @@ df_agg$typ <- df_agg$typ %>%
 
 #install.packages("table1")
 library(table1)
-label(df_agg$pop_change_rate) <- "Bevölkerungsveränderungsrate"
-label(df_agg$bi_rate) <- "Binnenwanderungsrate"
-label(df_agg$au_rate) <- "Aussenwanderungsrate"
-label(df_agg$total_rate) <- "Gesamtmigrationsrate"
-label(df_agg$nat_rate) <- "Natürliche Bevölkerunsveränderungsrate"
+label(df_agg$pop_change_rate) <- "Bevölkerungsveränderungsrate (%)"
+label(df_agg$bi_rate) <- "Binnenwanderungsrate (pro 1000 EW)"
+label(df_agg$au_rate) <- "Aussenwanderungsrate (pro 1000 EW)"
+label(df_agg$total_rate) <- "Gesamtmigrationsrate (pro 1000 EW)"
+
 
 
 ```
@@ -178,7 +178,7 @@ s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
 $$
 
 ```{r}
-table1(~ pop_change_rate + bi_rate + au_rate + total_rate + nat_rate | typ*decade, data=df_agg)
+table1(~ pop_change_rate + bi_rate + au_rate + total_rate | typ*decade, data=df_agg)
 ```
 
 ```{r}
@@ -212,7 +212,8 @@ d4 <- ggplot(df_agg, aes(x = total_rate, group = decade, fill = decade))+
 library(patchwork)
 (d1 + d2) / (d3 + d4)+
 plot_layout(guides = "collect") &
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom") &
+  labs(fill = " ")
 ```
 
 ### 3.5. Berechnungen für aggregierte Gemeindetypen
@@ -267,7 +268,7 @@ p1
 #fdf453 
 ```
 
-### 3.6. Diagramm Bevölkerungsdynamik
+### 3.6. Komponenten der Bevölkerungsentwicklung
 
 ```{r}
 mig_typ <- dta_typ %>% 
@@ -441,8 +442,7 @@ p4 <- ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
   labs(x="Bevölkerung",
        y="Alter",
        fill="",
-       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2023",
-       caption = "Quelle: Statistik Austria")+
+       title = "Bevölkerungspyramide Tirol nach Raumtyp 2002/2023")+
   facet_grid(jahr~typ)+
   theme_bw()+
   theme(legend.position = "bottom")+
@@ -468,7 +468,7 @@ p3 <- p3 + labs(caption = NULL)
 p1 <- p1 + labs(caption = NULL, title = " ")
 
 
-# p4 + p1 / p2
+ p4 + p1 / p2
 
 ```
 
