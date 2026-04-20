@@ -327,17 +327,15 @@ pop_2023 <- read.csv2("data/OGD_bevstandjbab2002_BevStand_2023.csv")
 Mit `rbind()` verbinden wir die separaten Datensätze zu einem Dataframe.
 
 ```{r}
-pop_pyramid <- rbind(pop_2002,
+pop_age <- rbind(pop_2002,
                      pop_2012,
                      pop_2023)
-
-head(pop_pyramid)
 ```
 
 Zunächst ändern wir die Spaltennamen. Mit `rename()` ändern wir die Namen nach Position (Spaltennummer) im Datensatz. Danach passen wir die Werte für unsere Zwecke an. Mit `mutate()` und Funktionen aus dem Paket "`stringr`" können wir die Werte im Datensatz recodieren. `str_sub()` beispielsweise extrahiert oder ersetzt **Teilstrings an bestimmten Positionen** innerhalb eines Strings, z. B. von Zeichen X bis Y oder in unserem Fall die letzten -4 Zeichen der Zeichenkette. `str_remove()` entfernt eine vordefinierte Zeichenkette.
 
 ```{r}
-pop_pyramid <- pop_pyramid %>% 
+pop_age <- pop_age %>% 
   rename(jahr = 1,
          geschl = 2,
          gemnr = 3,
@@ -348,10 +346,10 @@ pop_pyramid <- pop_pyramid %>%
          gemnr = str_sub(gemnr, -5),
          alter = str_remove(alter, "GALTEJ112-"))
 
-pop_pyramid$alter[pop_pyramid$alter == "GALT5J100-21"] <- "21" # Ein Wert folgt nicht dem Pattern. Wir ersetzen diesen Wert manuell.
-unique(pop_pyramid$alter)
-anyNA(pop_pyramid)
-colSums(is.na(pop_pyramid))
+pop_age$alter[pop_age$alter == "GALT5J100-21"] <- "21" # Ein Wert folgt nicht dem Pattern. Wir ersetzen diesen Wert manuell.
+unique(pop_age$alter)
+anyNA(pop_age)
+colSums(is.na(pop_age))
 ```
 
 Da wir Bevölkerungspyramiden nach Raumtyp haben wollen, joinen wir die Raumtypologie der Statistik Austria mit dem Bevölkerungsdatensatz anhand der Gemeindenummern und vereinfachen diese mit `fct_recode()`, so dass wir 3 Raumtypen erhalten.
@@ -360,11 +358,11 @@ Da wir Bevölkerungspyramiden nach Raumtyp haben wollen, joinen wir die Raumtypo
 typ <- typ %>% 
   select(-gemname)
 typ$gemnr <- as.character(typ$gemnr)
-pop_pyramid <- left_join(pop_pyramid, typ, by = "gemnr")
-pop_pyramid$typ[is.na(pop_pyramid$typ)] <- 101
-colSums(is.na(pop_pyramid))
+pop_age <- left_join(pop_age, typ, by = "gemnr")
+pop_age$typ[is.na(pop_age$typ)] <- 101
+colSums(is.na(pop_age))
 ## Recoding pop_pyramid$typ
-pop_pyramid$typ <- pop_pyramid$typ |>
+pop_age$typ <- pop_age$typ |>
   as.character() |>
   fct_recode(
     "Urbaner Raum" = "101",
@@ -384,7 +382,7 @@ pop_pyramid$typ <- pop_pyramid$typ |>
 Damit Männer und Frauen auf der x-Achse gespiegelt dargestellt werden können werden die Bevölkerungszahlen der Männer negativ kodiert. `ifelse()` ist eine Vektorfunktion mit der wir für jede Zeile die Bedingung `geschl == "1"` überprüfen. Wenn der Wert TRUE ist (also eine 1 in der Zeile vorkommt) wird die Bevölkerungszahl negativ gemacht (-n). Mit `fct_inorder()` ändern wir die Reihenfolge der Altersgruppen, damit die Altersgruppen korrekt von oben nach unten angezeigt werden.
 
 ```{r}
-pop_pyramid <- pop_pyramid %>%
+pop_pyramid <- pop_age %>%
   mutate(pop_pyramid = ifelse(geschl=="1", -n, n))
 
 pop_pyramid <- pop_pyramid %>%
@@ -396,13 +394,10 @@ Wir erstellen eine neue Spalte, in die wir die Bundesländerziffer aus den Gemei
 ```{r}
 pop_pyramid <- pop_pyramid %>% 
   mutate(bld = str_sub(gemnr, 1, 1))
-
-pop_pyramid_tirol <- pop_pyramid %>% 
-  filter(bld == 7)
 ```
 
 ```{r}
-p3 <- ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
+p3 <- ggplot(pop_pyramid %>% filter(bld == "7"), aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
@@ -429,7 +424,7 @@ p3
 ```{r}
 #| fig-width: 12
 #| fig-height: 10
-p4 <- ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) + 
+p4 <- ggplot(pop_pyramid %>% filter(bld == "7"), aes(x=pop_pyramid, y=alter, fill=typ)) + 
   geom_col() +
   scale_fill_manual(
     values = c("Urbaner Raum" = "#b35e6b",
@@ -457,10 +452,117 @@ p4 <- ggplot(pop_pyramid_tirol, aes(x=pop_pyramid, y=alter, fill=typ)) +
 p4
 ```
 
-### 3.8. Kombinierte Darstellung mit Patchwork
+### 3.8. Demographische Anteile & Quotienten
+
+Zur Beschreibung der Bevölkerungsstruktur werden sowohl **Anteile an der Gesamtbevölkerung** als auch **Abhängigkeitsquotienten** verwendet.
+
+-   **Anteile** beschreiben die Struktur der Gesamtbevölkerung. Der Anteil einer Altersgruppe an der Gesamtbevölkerung wird wie folgt berechnet:
+
+$$
+\text{Anteil der 0–14-Jährigen} = \frac{P_{0-14}}{P_{\text{gesamt}}} \times 100
+$$
+
+$$
+\text{Anteil der 65+ Bevölkerung} = \frac{P_{65+}}{P_{\text{gesamt}}} \times 100
+$$
+
+-   **Quotienten** messen die demographische „Belastung“ der Erwerbsbevölkerung, Die Quotienten beziehen sich auf die erwerbsfähige Bevölkerung (15–64 Jahre).
+
+$$
+\text{Jugendquotient} = \frac{P_{0-14}}{P_{15-64}} \times 100
+$$
+
+$$
+\text{Altersquotient} = \frac{P_{65+}}{P_{15-64}} \times 100
+$$
+
+$$
+\text{Dependency Ratio} = \frac{P_{0-14} + P_{65+}}{P_{15-64}} \times 100
+$$
 
 ```{r}
+head(pop_age)
+
+pop_age_typ <- pop_age %>% 
+  mutate(age_cat = case_when(alter %in% c(0:14) ~ "0-14j",
+                             alter %in% c(15:64) ~ "15-64j",
+                             alter > 64 ~ "65+",
+                             alter == 100 ~ "65+")) %>% 
+  ungroup() %>% 
+  group_by(jahr, gemnr, typ, age_cat) %>% 
+  summarise(n = sum(n), .groups = "drop")
+
+colSums(is.na(pop_age))
+```
+
+```{r}
+pop_q <- pop_age_typ %>% 
+  pivot_wider(
+    names_from = age_cat,
+    values_from = n,
+    values_fill = 0
+  )
+
+pop_q <- pop_q %>% 
+  mutate(
+    pop_tot = `0-14j` + `15-64j` + `65+`,
+    anteil_jung = (`0-14j` / pop_tot) * 100,
+    anteil_alt = (`65+` / pop_tot) * 100,
+    q_jugend = (`0-14j` / `15-64j`) * 100,
+    q_alter = (`65+` / `15-64j`) * 100,
+    dep_ratio = ((`0-14j` + `65+`) / `15-64j`) * 100
+  )
+
+
 library(patchwork)
+
+bld = "7"
+
+p_anteil_jung <- ggplot(pop_q %>% filter(str_sub(gemnr, 1,1) == bld), aes(x = jahr, y = anteil_jung, fill = typ))+
+  geom_boxplot()+
+  labs(x = " ", y = "Anteil 0–14 Jahre")
+
+p_anteil_alt <- ggplot(pop_q %>% filter(str_sub(gemnr, 1,1) == bld), aes(x = jahr, y = anteil_alt, fill = typ))+
+  geom_boxplot()+
+  labs(x = " ", y = "Anteil 65+ Jahre")
+
+p_jugend <- ggplot(pop_q %>% filter(str_sub(gemnr, 1,1) == bld), aes(x = jahr, y = q_jugend, fill = typ))+
+  geom_boxplot()+
+  labs(x = " ", y = "Jugendquotient")
+
+p_alter <- ggplot(pop_q %>% filter(str_sub(gemnr, 1,1) == bld), aes(x = jahr, y = q_alter, fill = typ))+
+  geom_boxplot()+
+  labs(x = " ", y = "Altersquotient")
+
+p_dep <- ggplot(pop_q %>% filter(str_sub(gemnr, 1,1) == bld), aes(x = jahr, y = dep_ratio, fill = typ))+
+  geom_boxplot()+
+  labs(x = " ", y = "Abhängigkeitsquote")
+
+((p_anteil_jung + p_anteil_alt) / (p_jugend + p_alter + p_dep))+
+  plot_layout(guides = "collect")&
+  theme_bw()&
+  theme(legend.position = "bottom")&
+  plot_annotation(
+    title = "Jugend-, Alters- und Abhängigkeitsquotienten im Vergleich"
+  )&
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold")
+  )
+```
+
+```{r}
+label(pop_q$anteil_jung) <- "Anteil 0–14 Jahre"
+label(pop_q$anteil_alt) <- "Anteil 65+ Jahre"
+label(pop_q$q_jugend) <- "Jugendquotient"
+label(pop_q$q_alter) <- "Altersquotient"
+label(pop_q$dep_ratio) <- "Abhängigkeitsquote"
+
+table1(~ anteil_jung + anteil_alt + q_jugend + q_alter + dep_ratio | typ*jahr, data=pop_q %>% filter(str_sub(gemnr, 1,1) == bld))
+```
+
+### 3.9. Kombinierte Darstellung mit Patchwork
+
+```{r}
 
 
 p2 <- p2 + theme(legend.position = "none") + labs(title = " ")
@@ -472,7 +574,7 @@ p1 <- p1 + labs(caption = NULL, title = " ")
 
 ```
 
-### 3.9. Übersichtskarte
+### 3.10. Übersichtskarte
 
 ```{r}
 shp <- read_sf("data/OGDEXT_GEM_1_STATISTIK_AUSTRIA_20250101/STATISTIK_AUSTRIA_GEM_20250101.shp")   
