@@ -608,5 +608,5 @@ map_typ <- ggplot(data = shp) +
                "Ländlicher Raum" = "#84b870"))+
   theme_classic()
 
-map_typ
+# map_typ
 ```
