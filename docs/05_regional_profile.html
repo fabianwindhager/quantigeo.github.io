@@ -265,14 +265,14 @@ window.Quarto = {
 
 <section id="daten-import-bereinigung" class="level3">
 <h3 class="anchored" data-anchor-id="daten-import-bereinigung">3.1. Daten Import &amp; Bereinigung</h3>
-<p>Für die Erstellung eines demographischen Regionsprofiles importieren wir Bevölkerungsdaten und Wanderungsdaten. Mit <code>filter()</code> wählen wir aus dem Datensatz nur die Tiroler Gemeinden aus.</p>
+<p>Für die Erstellung eines demographischen Regionsprofiles importieren wir Bevölkerungsstände und Wanderungsdaten. Mit <code>filter()</code> wählen wir aus dem Datensatz nur die Tiroler Gemeinden aus.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pop_tirol <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Bevölkerungsdaten.csv"</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_sub</span>(gemnr, <span class="dv">1</span>, <span class="dv">1</span>) <span class="sc">==</span> <span class="st">"7"</span> <span class="sc">&amp;</span> <span class="sc">!</span>jahr <span class="sc">%in%</span> <span class="fu">c</span>(<span class="dv">2024</span>,<span class="dv">2025</span>))</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>moves <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/Wanderungsdaten.csv"</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">str_sub</span>(gemnr, <span class="dv">1</span>, <span class="dv">1</span>) <span class="sc">==</span> <span class="st">"7"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>Mit <code>left_join()</code> fügen wir die Wanderungsdaten zu den Bevölkerungsdaten hinzu, um einen Datensatz zu erhalten.</p>
+<p>Mit <code>left_join()</code> verbinden wir beide Datensätze.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dta <span class="ot">&lt;-</span> <span class="fu">left_join</span>(pop_tirol, moves, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"jahr"</span>, <span class="st">"gemnr"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
@@ -284,7 +284,7 @@ window.Quarto = {
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>typ <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"data/003_gliederungen_nach_städtischen_und_ländlichen_gebieten(1).csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>Wir joinen die Raumtypen anhand der Gemeindenummern (gemnr) mit unserem Datensatz.</p>
+<p>Wir joinen die Raumtypen anhand der Gemeindenummern (<code>gemnr</code>) mit unserem Datensatz.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>dta <span class="ot">&lt;-</span> <span class="fu">left_join</span>(dta, typ, <span class="at">by =</span> <span class="st">"gemnr"</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -313,7 +313,7 @@ window.Quarto = {
 </section>
 <section id="berechnungen-auf-gemeindeebene-nach-raumtypologie" class="level3">
 <h3 class="anchored" data-anchor-id="berechnungen-auf-gemeindeebene-nach-raumtypologie">3.3. Berechnungen auf Gemeindeebene nach Raumtypologie</h3>
-<p>Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene. Wir führen dabei eine Zeitagreggation für die Perioden 2002-2012 und 2013-2023 durch um die Analyse langfristiger Raumentwicklungstrends zu ermöglichen.</p>
+<p>Wie bereits in Skript 2 berechnen wir relevante demografische Indizes auf Gemeindeebene. Wir führen dabei eine Zeitagreggation für die Perioden 2002-2012 und 2013-2023 durch, um die Analyse langfristiger Raumentwicklungstrends zu ermöglichen.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_agg_02_12 <span class="ot">&lt;-</span> dta <span class="sc">%&gt;%</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(jahr <span class="sc">&gt;=</span> <span class="dv">2002</span>, jahr <span class="sc">&lt;=</span> <span class="dv">2012</span>) <span class="sc">%&gt;%</span></span>
@@ -786,7 +786,7 @@ Overall
 </section>
 <section id="bevölkerungspyramide-nach-raumtyp" class="level3">
 <h3 class="anchored" data-anchor-id="bevölkerungspyramide-nach-raumtyp">3.7. Bevölkerungspyramide nach Raumtyp</h3>
-<p>Um eine Bevölkerungspyramide nach Raumtyp zu erstellen, importieren wir Bevölkerungsdaten für Österreich aus dem Open Data Portal der Statistik Austria (<a href="#0">https://data.statistik.gv.at/web/</a>). Die Daten sind in einem Datenbankformat der Statistik Austria gespeichert. Für unsere Analyse müssen wir die Daten daher für unsere Zwecke bereinigen.</p>
+<p>Um eine Bevölkerungspyramide nach Raumtyp zu erstellen, importieren wir Bevölkerungsdaten mit Altersvariable für Österreich aus dem Open Data Portal der Statistik Austria (<a href="#0">https://data.statistik.gv.at/web/</a>). Die Daten sind in einem Datenbankformat der Statistik Austria gespeichert. Für unsere Analyse müssen wir die Daten daher für unsere Zwecke bereinigen.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>pop_2002 <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"data/OGD_bevstandjbab2002_BevStand_2002.csv"</span>)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>pop_2012 <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"data/OGD_bevstandjbab2002_BevStand_2012.csv"</span>)</span>
@@ -947,7 +947,7 @@ Overall
 <h3 class="anchored" data-anchor-id="demographische-anteile-quotienten">3.8. Demographische Anteile &amp; Quotienten</h3>
 <p>Zur Beschreibung der Bevölkerungsstruktur werden sowohl <strong>Anteile an der Gesamtbevölkerung</strong> als auch <strong>Abhängigkeitsquotienten</strong> verwendet.</p>
 <ul>
-<li><strong>Anteile</strong> beschreiben die Struktur der Gesamtbevölkerung. Der Anteil einer Altersgruppe an der Gesamtbevölkerung wird wie folgt berechnet:</li>
+<li><strong>Anteile</strong> beschreiben die Struktur der Gesamtbevölkerung. Der Anteil einer Altersgruppe an der Gesamtbevölkerung ergibt einen Prozentwert und wird wie folgt berechnet:</li>
 </ul>
 <p><span class="math display">\[
 \text{Anteil der 0–14-Jährigen} = \frac{P_{0-14}}{P_{\text{gesamt}}} \times 100
@@ -956,7 +956,7 @@ Overall
 \text{Anteil der 65+ Bevölkerung} = \frac{P_{65+}}{P_{\text{gesamt}}} \times 100
 \]</span></p>
 <ul>
-<li><strong>Quotienten</strong> messen die demographische „Belastung“ der Erwerbsbevölkerung, Die Quotienten beziehen sich auf die erwerbsfähige Bevölkerung (15–64 Jahre).</li>
+<li><strong>Quotienten</strong> messen die demographische „Belastung“ der Erwerbsbevölkerung, Die Quotienten beziehen sich auf die erwerbsfähige Bevölkerung (15–64 Jahre) und werden interpretiert als “auf 100 Erwerbstätige kommen x Personen die nicht Teil der erwerbsfähigen Bevölkerung sind.”.</li>
 </ul>
 <p><span class="math display">\[
 \text{Jugendquotient} = \frac{P_{0-14}}{P_{15-64}} \times 100
